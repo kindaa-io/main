@@ -31,7 +31,15 @@ if voyage_match:
     if re.search(r'\d{2,}', cand) and cand != bl_number and 'VOY' not in cand.upper():
         voyage_number = cand
 
-if not voyage_number:
+has_vessel_context = re.search(r'\bvessel\b|\bvoy', cleaned_raw_text, re.IGNORECASE)
+
+if not voyage_number and has_vessel_context:
+    # Only look for a fallback voyage code in documents that actually mention a
+    # vessel/voyage at all. Without this gate the fallback pattern (digits +
+    # 1-2 trailing letters) also matches unrelated dimension/measurement text
+    # like "H37CM" or "T47CM" in a plain packing list, producing a fake voyage
+    # number for a document that isn't even a bill of lading.
+    #
     # Prefix is letters only (e.g. "GT" in "GT611W"), not [A-Z0-9]*: an unbounded
     # alnum prefix lets this match deep inside long all-digit numbers (VAT numbers,
     # container/HS-code digit runs) by treating their leading digits as "prefix",
