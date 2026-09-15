@@ -32,7 +32,11 @@ if voyage_match:
         voyage_number = cand
 
 if not voyage_number:
-    fallback_match = re.findall(r'\b[A-Z0-9]*\d{2,4}[A-Z]{1,2}\b', cleaned_raw_text)
+    # Prefix is letters only (e.g. "GT" in "GT611W"), not [A-Z0-9]*: an unbounded
+    # alnum prefix lets this match deep inside long all-digit numbers (VAT numbers,
+    # container/HS-code digit runs) by treating their leading digits as "prefix",
+    # producing false positives when no real voyage code is present in the text.
+    fallback_match = re.findall(r'\b[A-Z]{0,4}\d{2,4}[A-Z]{1,2}\b', cleaned_raw_text)
     for cand in fallback_match:
         if cand != bl_number and not cand.startswith(('BW', 'BS', 'GX', 'RAS', 'SFS')):
             voyage_number = cand
