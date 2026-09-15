@@ -60,7 +60,18 @@ vessel_name = None
 # of the real "Vessel" label that immediately precedes the actual ship name.
 vessel_search_text = re.sub(r'Laden\s+on\s+Board\s+the\s+Vessel\s*', '', cleaned_raw_text, flags=re.IGNORECASE)
 
-vessel_matches = re.finditer(r'\b(?:Ocean\s+vessel|Vessel)\b[\s\r\n:]*(.*)', vessel_search_text, re.IGNORECASE | re.DOTALL)
+# Require what follows the label to look like actual label content (an uppercase
+# letter or digit -- ship names and adjacent labels like "Voy-No." are always
+# capitalized in these flattened forms), not lowercase prose. This catches generic
+# mid-sentence uses of the word "vessel" in boilerplate/legal text (e.g. "...if the
+# vessel operator delays...", "...loss of or damage to the vessel's cargo...") that
+# the "Laden on Board the Vessel" strip above doesn't cover. The (?-i:...) forces
+# case-sensitive matching for just this check despite the overall IGNORECASE flag.
+vessel_matches = re.finditer(
+    r'\b(?:Ocean\s+vessel|Vessel)\b(?=[\s\r\n:]*(?:(?-i:[A-Z0-9])|$))[\s\r\n:]*(.*)',
+    vessel_search_text,
+    re.IGNORECASE | re.DOTALL
+)
 
 for match in vessel_matches:
     following_text = match.group(1)
