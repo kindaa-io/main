@@ -53,7 +53,14 @@ if not voyage_number and has_vessel_context:
 # 3. Extract Vessel Name
 vessel_name = None
 
-vessel_matches = re.finditer(r'\b(?:Ocean\s+vessel|Vessel)\b[\s\r\n:]*(.*)', cleaned_raw_text, re.IGNORECASE | re.DOTALL)
+# Strip this fixed carrier-boilerplate phrase before searching: it always contains
+# the word "Vessel" itself (e.g. "...Stamp and Signature Laden on Board the Vessel
+# Vessel MSC REEF Port of loading SHANGHAI..."), and since it's the *first* "Vessel"
+# occurrence in the document, the search below would otherwise anchor on it instead
+# of the real "Vessel" label that immediately precedes the actual ship name.
+vessel_search_text = re.sub(r'Laden\s+on\s+Board\s+the\s+Vessel\s*', '', cleaned_raw_text, flags=re.IGNORECASE)
+
+vessel_matches = re.finditer(r'\b(?:Ocean\s+vessel|Vessel)\b[\s\r\n:]*(.*)', vessel_search_text, re.IGNORECASE | re.DOTALL)
 
 for match in vessel_matches:
     following_text = match.group(1)
@@ -67,16 +74,29 @@ for match in vessel_matches:
 
         # Strip structural header labels attached to line start or inline
         cleaned_line = re.sub(r'^(?:Voy-No\.?|Voy\.?\s*No\.?|Ocean\s+Vessel|Vessel|Port\s+of\s+loading)\s*:?\s*', '', cleaned_line, flags=re.IGNORECASE).strip()
-        # count=1: BOLs often repeat "Port of loading" later (e.g. in a "Laden on
-        # Board" recap block). Without count=1 this strips everything up to the
-        # *last* occurrence, eating the vessel name in between.
-        cleaned_line = re.sub(r'.*?Port\s+of\s+loading\s*', '', cleaned_line, count=1, flags=re.IGNORECASE).strip()
+        # Anchored to the start only (no leading ".*?"): some BOLs stack labels
+        # with no value in between ("Vessel Voy-No. Port of loading LUDWIGSHAFEN
+        # EXPRESS..."), where this correctly skips the "Port of loading" label
+        # that comes right after "Voy-No.". Others put the vessel value directly
+        # after "Vessel" and only mention "Port of loading" later, as the *next*
+        # field's label ("Vessel MSC REEF Port of loading SHANGHAI..."); a
+        # search-and-strip (rather than start-anchored) would incorrectly eat
+        # that real vessel name too, since there is no value between it and the
+        # first "Port of loading" it can find.
+        cleaned_line = re.sub(r'^Port\s+of\s+loading\s*', '', cleaned_line, flags=re.IGNORECASE).strip()
 
         # Handle voyage codes concatenated or spaced at the end (e.g., "LUDWIGSHAFEN EXPRESS V.048W" -> "LUDWIGSHAFEN EXPRESS",
         # or fully concatenated "MSC IVAV.GT611W" -> "MSC IVA"). The dot after "V" must be
         # required here too, otherwise this truncates at the first stray "V" inside the
         # vessel name itself (e.g. cutting "MSC IVA" down to "MSC I").
         cleaned_line = re.sub(r'\s*V\.\s*[A-Z0-9]+.*$', '', cleaned_line, flags=re.IGNORECASE).strip()
+
+        # Cut off at the *next* field's "Port of loading" label, for the layout where
+        # the vessel value sits directly after "Vessel" with no voyage code attached
+        # (e.g. "Vessel MSC REEF Port of loading SHANGHAI..." -> "MSC REEF"). Safe to
+        # apply unconditionally here: any leading "Port of loading" label was already
+        # stripped above, so a remaining occurrence can only be this later field.
+        cleaned_line = re.sub(r'\s*Port\s+of\s+loading\b.*$', '', cleaned_line, flags=re.IGNORECASE).strip()
 
         # Remove explicit port destinations attached at the end
         cleaned_line = re.sub(r'\s+(?:SHANGHAI|NINGBO|ASHDOD|QINGDAO|XIAMEN|SHEADOU)(?:,CHINA|,ISRAEL)?$', '', cleaned_line, flags=re.IGNORECASE).strip()
