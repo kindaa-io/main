@@ -135,21 +135,28 @@ if file_name:
             if not part:
                 continue
 
-            prefix_match = re.match(r'^([A-Z]{2,})(\d{2,}(?:\.\d+)?)$', part, re.IGNORECASE)
-            bare_num_match = re.match(r'^\d{2,}(?:\.\d+)?$', part)
+            # Order numbers are taken without the "." and anything after it, whether that's
+            # a numeric sub-item ("BW234.43" -> "BW234") or garbage OCR trailing text
+            # ("BW234.ASDDSF" -> "BW234") -- only the part before the first dot is kept.
+            base = part.split('.', 1)[0]
+            if not base:
+                continue
+
+            prefix_match = re.match(r'^([A-Z]{2,})(\d{2,})$', base, re.IGNORECASE)
+            bare_num_match = re.match(r'^\d{2,}$', base)
             # A prefix can also appear as its own standalone token (e.g. "... RAS 344 65.6 ...",
             # where "RAS" sets the prefix for the bare numbers that follow it), not just fused
             # to the first number like "BW234". Without this branch such a token is silently
             # dropped and later bare numbers keep inheriting the previous prefix.
-            bare_prefix_match = re.match(r'^[A-Z]{2,}$', part, re.IGNORECASE)
+            bare_prefix_match = re.match(r'^[A-Z]{2,}$', base, re.IGNORECASE)
 
             if prefix_match:
                 current_prefix = prefix_match.group(1).upper()
-                order_codes.append(part.upper())
+                order_codes.append(base.upper())
             elif bare_num_match and current_prefix:
-                order_codes.append(f"{current_prefix}{part}")
+                order_codes.append(f"{current_prefix}{base}")
             elif bare_prefix_match:
-                current_prefix = part.upper()
+                current_prefix = base.upper()
 
 unique_order_codes = list(dict.fromkeys(order_codes))
 
