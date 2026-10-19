@@ -1,0 +1,416 @@
+{
+  "before": {
+    "taken_at": 1792413271.427284,
+    "products": [],
+    "transactions": [],
+    "stock_updates": []
+  },
+  "actions": [
+    {
+      "t": 1.7,
+      "create_item": "ZZ-TEST-A",
+      "column_values": {
+        "numbers03": "0",
+        "dup__of_low_stock_level__1": "10",
+        "numbers7": "0",
+        "numbers4__1": "5"
+      },
+      "result": {
+        "id": "13324709672",
+        "name": "ZZ-TEST-A"
+      }
+    },
+    {
+      "t": 2.5,
+      "create_item": "ZZ-TEST-B",
+      "column_values": {
+        "numbers03": "0",
+        "dup__of_low_stock_level__1": "10",
+        "numbers7": "0",
+        "numbers4__1": "5"
+      },
+      "result": {
+        "id": "13324637022",
+        "name": "ZZ-TEST-B"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "t": 5.6,
+      "event": "initial",
+      "state": {
+        "ZZ-TEST-A#13324709672.updated_at": "2026-10-19T12:34:33Z",
+        "ZZ-TEST-A#13324709672.state": "active",
+        "ZZ-TEST-A#13324709672.group": "MDF",
+        "ZZ-TEST-A#13324709672.subitems": null,
+        "ZZ-TEST-A#13324709672.dropdown_mm6d98he": null,
+        "ZZ-TEST-A#13324709672.status__1": null,
+        "ZZ-TEST-A#13324709672.status1": "Material",
+        "ZZ-TEST-A#13324709672.numbers03": "0",
+        "ZZ-TEST-A#13324709672.dup__of_low_stock_level__1": "10",
+        "ZZ-TEST-A#13324709672.numbers4__1": "5",
+        "ZZ-TEST-A#13324709672.numbers0__1": "",
+        "ZZ-TEST-A#13324709672.connect_boards6__1": "",
+        "ZZ-TEST-A#13324709672.mirror__1": "",
+        "ZZ-TEST-A#13324709672.last_updated5": "2026-10-19 12:34:33 UTC",
+        "ZZ-TEST-A#13324709672.numbers7": "0",
+        "ZZ-TEST-A#13324709672.text_mm6d82fr": "",
+        "ZZ-TEST-A#13324709672.text_mm6dbve4": "",
+        "ZZ-TEST-A#13324709672.board_relation_mm6d6eh0": "",
+        "ZZ-TEST-B#13324637022.updated_at": "2026-10-19T12:34:35Z",
+        "ZZ-TEST-B#13324637022.state": "active",
+        "ZZ-TEST-B#13324637022.group": "MDF",
+        "ZZ-TEST-B#13324637022.subitems": null,
+        "ZZ-TEST-B#13324637022.dropdown_mm6d98he": null,
+        "ZZ-TEST-B#13324637022.status__1": null,
+        "ZZ-TEST-B#13324637022.status1": "Material",
+        "ZZ-TEST-B#13324637022.numbers03": "0",
+        "ZZ-TEST-B#13324637022.dup__of_low_stock_level__1": "10",
+        "ZZ-TEST-B#13324637022.numbers4__1": "5",
+        "ZZ-TEST-B#13324637022.numbers0__1": "",
+        "ZZ-TEST-B#13324637022.connect_boards6__1": "",
+        "ZZ-TEST-B#13324637022.mirror__1": "",
+        "ZZ-TEST-B#13324637022.last_updated5": "2026-10-19 12:34:35 UTC",
+        "ZZ-TEST-B#13324637022.numbers7": "0",
+        "ZZ-TEST-B#13324637022.text_mm6d82fr": "",
+        "ZZ-TEST-B#13324637022.text_mm6dbve4": "",
+        "ZZ-TEST-B#13324637022.board_relation_mm6d6eh0": ""
+      }
+    },
+    {
+      "t": 13.4,
+      "changes": {
+        "ZZ-TEST-A#13324709672.updated_at": {
+          "from": "2026-10-19T12:34:33Z",
+          "to": "2026-10-19T12:34:40Z"
+        },
+        "ZZ-TEST-A#13324709672.status__1": {
+          "from": null,
+          "to": "Out Of Stock"
+        },
+        "ZZ-TEST-A#13324709672.numbers0__1": {
+          "from": "",
+          "to": "0"
+        },
+        "ZZ-TEST-A#13324709672.last_updated5": {
+          "from": "2026-10-19 12:34:33 UTC",
+          "to": "2026-10-19 12:34:40 UTC"
+        },
+        "ZZ-TEST-B#13324637022.updated_at": {
+          "from": "2026-10-19T12:34:35Z",
+          "to": "2026-10-19T12:34:40Z"
+        },
+        "ZZ-TEST-B#13324637022.status__1": {
+          "from": null,
+          "to": "Out Of Stock"
+        },
+        "ZZ-TEST-B#13324637022.numbers0__1": {
+          "from": "",
+          "to": "0"
+        },
+        "ZZ-TEST-B#13324637022.last_updated5": {
+          "from": "2026-10-19 12:34:35 UTC",
+          "to": "2026-10-19 12:34:40 UTC"
+        }
+      }
+    },
+    {
+      "t": 183.0,
+      "event": "end"
+    }
+  ],
+  "after": {
+    "taken_at": 1792413455.9599738,
+    "products": [
+      {
+        "id": "13324709672",
+        "name": "ZZ-TEST-A",
+        "state": "active",
+        "created_at": "2026-10-19T12:34:33Z",
+        "updated_at": "2026-10-19T12:34:40Z",
+        "group": {
+          "id": "topics",
+          "title": "MDF"
+        },
+        "creator": {
+          "id": "103186497",
+          "name": "Kindaa support"
+        },
+        "column_values": [
+          {
+            "id": "subitems",
+            "type": "subtasks",
+            "text": null,
+            "value": null
+          },
+          {
+            "id": "dropdown_mm6d98he",
+            "type": "dropdown",
+            "text": null,
+            "value": null
+          },
+          {
+            "id": "status__1",
+            "type": "status",
+            "text": "Out Of Stock",
+            "value": "{\"index\":2,\"changed_at\":\"2026-10-19T12:34:39.534Z\"}"
+          },
+          {
+            "id": "status1",
+            "type": "status",
+            "text": "Material",
+            "value": null
+          },
+          {
+            "id": "numbers03",
+            "type": "numbers",
+            "text": "0",
+            "value": "\"0\""
+          },
+          {
+            "id": "dup__of_low_stock_level__1",
+            "type": "numbers",
+            "text": "10",
+            "value": "\"10\""
+          },
+          {
+            "id": "numbers4__1",
+            "type": "numbers",
+            "text": "5",
+            "value": "\"5\""
+          },
+          {
+            "id": "numbers0__1",
+            "type": "numbers",
+            "text": "0",
+            "value": "\"0\""
+          },
+          {
+            "id": "connect_boards6__1",
+            "type": "board_relation",
+            "text": null,
+            "value": null,
+            "linked_item_ids": []
+          },
+          {
+            "id": "mirror__1",
+            "type": "mirror",
+            "text": null,
+            "value": null,
+            "display_value": ""
+          },
+          {
+            "id": "last_updated5",
+            "type": "last_updated",
+            "text": "2026-10-19 12:34:40 UTC",
+            "value": "{\"updated_at\":\"2026-10-19T12:34:40Z\",\"updater_id\":\"102616219\"}"
+          },
+          {
+            "id": "numbers7",
+            "type": "numbers",
+            "text": "0",
+            "value": "\"0\""
+          },
+          {
+            "id": "text_mm6d82fr",
+            "type": "text",
+            "text": "",
+            "value": null
+          },
+          {
+            "id": "text_mm6dbve4",
+            "type": "text",
+            "text": "",
+            "value": null
+          },
+          {
+            "id": "board_relation_mm6d6eh0",
+            "type": "board_relation",
+            "text": null,
+            "value": null,
+            "linked_item_ids": []
+          }
+        ]
+      },
+      {
+        "id": "13324637022",
+        "name": "ZZ-TEST-B",
+        "state": "active",
+        "created_at": "2026-10-19T12:34:35Z",
+        "updated_at": "2026-10-19T12:34:40Z",
+        "group": {
+          "id": "topics",
+          "title": "MDF"
+        },
+        "creator": {
+          "id": "103186497",
+          "name": "Kindaa support"
+        },
+        "column_values": [
+          {
+            "id": "subitems",
+            "type": "subtasks",
+            "text": null,
+            "value": null
+          },
+          {
+            "id": "dropdown_mm6d98he",
+            "type": "dropdown",
+            "text": null,
+            "value": null
+          },
+          {
+            "id": "status__1",
+            "type": "status",
+            "text": "Out Of Stock",
+            "value": "{\"index\":2,\"changed_at\":\"2026-10-19T12:34:39.398Z\"}"
+          },
+          {
+            "id": "status1",
+            "type": "status",
+            "text": "Material",
+            "value": null
+          },
+          {
+            "id": "numbers03",
+            "type": "numbers",
+            "text": "0",
+            "value": "\"0\""
+          },
+          {
+            "id": "dup__of_low_stock_level__1",
+            "type": "numbers",
+            "text": "10",
+            "value": "\"10\""
+          },
+          {
+            "id": "numbers4__1",
+            "type": "numbers",
+            "text": "5",
+            "value": "\"5\""
+          },
+          {
+            "id": "numbers0__1",
+            "type": "numbers",
+            "text": "0",
+            "value": "\"0\""
+          },
+          {
+            "id": "connect_boards6__1",
+            "type": "board_relation",
+            "text": null,
+            "value": null,
+            "linked_item_ids": []
+          },
+          {
+            "id": "mirror__1",
+            "type": "mirror",
+            "text": null,
+            "value": null,
+            "display_value": ""
+          },
+          {
+            "id": "last_updated5",
+            "type": "last_updated",
+            "text": "2026-10-19 12:34:40 UTC",
+            "value": "{\"updated_at\":\"2026-10-19T12:34:40Z\",\"updater_id\":\"102616219\"}"
+          },
+          {
+            "id": "numbers7",
+            "type": "numbers",
+            "text": "0",
+            "value": "\"0\""
+          },
+          {
+            "id": "text_mm6d82fr",
+            "type": "text",
+            "text": "",
+            "value": null
+          },
+          {
+            "id": "text_mm6dbve4",
+            "type": "text",
+            "text": "",
+            "value": null
+          },
+          {
+            "id": "board_relation_mm6d6eh0",
+            "type": "board_relation",
+            "text": null,
+            "value": null,
+            "linked_item_ids": []
+          }
+        ]
+      }
+    ],
+    "transactions": [],
+    "stock_updates": []
+  },
+  "column_map": {
+    "Name": {
+      "id": "name",
+      "type": "name"
+    },
+    "Subitems": {
+      "id": "subitems",
+      "type": "subtasks"
+    },
+    "Size": {
+      "id": "dropdown_mm6d98he",
+      "type": "dropdown"
+    },
+    "Stock Status": {
+      "id": "status__1",
+      "type": "status"
+    },
+    "Product Category": {
+      "id": "status1",
+      "type": "status"
+    },
+    "Current Quantity": {
+      "id": "numbers03",
+      "type": "numbers"
+    },
+    "Minimum Level": {
+      "id": "dup__of_low_stock_level__1",
+      "type": "numbers"
+    },
+    "Price per unit": {
+      "id": "numbers4__1",
+      "type": "numbers"
+    },
+    "Stock Value": {
+      "id": "numbers0__1",
+      "type": "numbers"
+    },
+    "Transactions": {
+      "id": "connect_boards6__1",
+      "type": "board_relation"
+    },
+    "Current Quantity Mirror": {
+      "id": "mirror__1",
+      "type": "mirror"
+    },
+    "Last Updated": {
+      "id": "last_updated5",
+      "type": "last_updated"
+    },
+    "Out of stock level": {
+      "id": "numbers7",
+      "type": "numbers"
+    },
+    "Supplier": {
+      "id": "text_mm6d82fr",
+      "type": "text"
+    },
+    "Supplier Part #": {
+      "id": "text_mm6dbve4",
+      "type": "text"
+    },
+    "Connect boards": {
+      "id": "board_relation_mm6d6eh0",
+      "type": "board_relation"
+    }
+  }
+}
