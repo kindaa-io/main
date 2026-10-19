@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "monday-ricco-cabinetry": {
+      "type": "http",
+      "url": "https://mcp.monday.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MONDAY_RICCO_TOKEN}"
+      }
+    }
+  }
+}
