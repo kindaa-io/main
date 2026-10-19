@@ -1,0 +1,19 @@
+{
+  "_comment": "Board IDs auto-discovered read-only on 2026-10-19 in account 'Ricco cabinetry' (34799434), workspace 'Project Manager' (15462830). This appears to be the CLIENT PRODUCTION workspace - no sandbox install was found. Confirm or replace with sandbox IDs before any write. 'confirmed_by_user' must be true before monday.py allows any mutation.",
+  "environment": "UNCONFIRMED (looks like production)",
+  "confirmed_by_user": false,
+  "account_id": "34799434",
+  "boards": {
+    "Products": "18427258253",
+    "Products Subitems (Kits)": "18427258269",
+    "Transactions": "18427258255",
+    "Transactions Subitems": "18427258278",
+    "Stock Updates": "18427258261",
+    "Stock Updates Subitems": "18427258274",
+    "Warehouse": "18427258257",
+    "Inventory Administration": "18427258254",
+    "Getting Started": "18427258252"
+  },
+  "test_prefix": "ZZ-TEST-",
+  "allowed_test_products": ["ZZ-TEST-A", "ZZ-TEST-B"]
+}
