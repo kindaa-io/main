@@ -1,0 +1,1315 @@
+{
+ "summary": {
+  "Admission": {
+   "flag_col": "color_mm66cssh",
+   "level_col": "opp_admission_level",
+   "counts": {
+    "Not Sold": 1166,
+    "Low (Yes, no level)": 67
+   }
+  },
+  "Ongoing Course Support": {
+   "flag_col": "boolean_mm88cbqy",
+   "level_col": "opp_support_level",
+   "counts": {
+    "Low (empty level)": 1233
+   }
+  },
+  "Customer Management": {
+   "flag_col": "opp_customer_mgmt",
+   "level_col": "color_mm88m6bm",
+   "counts": {
+    "Low (empty level)": 1233
+   }
+  }
+ },
+ "rows": [
+  {
+   "service": "Admission",
+   "item_id": "12913781810",
+   "item": "Dell foundation- Neshota",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913781822",
+   "item": "schusterman-Beatzmi- Tech Troop",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913774478",
+   "item": "Palestinian Internship Program - Fullstack Oct 23",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913729495",
+   "item": "AgroTech Program for Ministry of Agriculture",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913750299",
+   "item": "Strauss Food Entrepreneurship",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913727139",
+   "item": "Inbal - Power Skills Academy (Pilot Workshops)",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913800025",
+   "item": "Hayozma + Negev Talent - Tech Onboarding",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913759987",
+   "item": "WOO (Bonim Atid) - 2026 Expansion",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913715658",
+   "item": "preTech - Keren Rashi",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788980",
+   "item": "Atufot - UI UX (south)",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788792",
+   "item": "Pretech - Tveria",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788082",
+   "item": "Wolf Seminar - Personal Career interviews",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913768098",
+   "item": "Colman - Semester B (24)",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913758968",
+   "item": "Joint Ashalim - AI",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913758969",
+   "item": "Yeruham - Intro to AI",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913789016",
+   "item": "IDF WOO - Program",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913718239",
+   "item": "Carmella Jacoby- AI + Career Workshops",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913770578",
+   "item": "Ofakim Muni - Pretech + CCNA",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913782025",
+   "item": "JAFI - CCNA Karmiel",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913758975",
+   "item": "Appleseeds/Salesforce - CRM",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788781",
+   "item": "Hizdamnut - SF Admin",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913789821",
+   "item": "Sapir College - Devops & Project Management",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913786210",
+   "item": "Kav Mashve 23-24 - Arabs reskill to Recruitment *2",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913762923",
+   "item": "No code Training for IDF",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913715594",
+   "item": "Israel Roads - No Code Workshop",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913762928",
+   "item": "Earnix - Presentation Plus for Developers - 2 workshops",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913770580",
+   "item": "MDClone - Presentation Plus",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788084",
+   "item": "Jewish Agency - Project Mng",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913786218",
+   "item": "TikTok - Rising Stars Germany",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913727134",
+   "item": "Merit spread-Tmura (Riskified) Neshota mil wives",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913780936",
+   "item": "Maccabi - Data & Technology cohort (3.0)",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913780439",
+   "item": "PMI - Power BI",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913780481",
+   "item": "Discount - 2023",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913780859",
+   "item": "Leumi - Product Management",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913780863",
+   "item": "East Negev Tender - Pilot Cohort",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913780026",
+   "item": "Maccabi - Upskill training for data analysis",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788569",
+   "item": "Joint+Labor - Data Leaders no 2",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913761037",
+   "item": "Playtika - Story Visu Bingo Blitz",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913761039",
+   "item": "Max - Reskill",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913761041",
+   "item": "Joint - Excel",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913761133",
+   "item": "Google Africa - Shopping/Accelherate",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913714486",
+   "item": "Yotpo - Java Spring",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913714488",
+   "item": "Appleseeds - QA+Data",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913714489",
+   "item": "Labor +Joint(Axioma) - Power BI",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913714562",
+   "item": "AppsFlyer - UA Academy",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913729498",
+   "item": "Playtika - Economy Excel",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913729499",
+   "item": "Seminar Python Bootcamp (Israel Tik)",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913729500",
+   "item": "Assured Allies - Viso & Story/Presentation +",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913774477",
+   "item": "Moon Active - SQL",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913774483",
+   "item": "WeR1 - Digital Marketing Training",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913768097",
+   "item": "Playtika - Design Thinking Slotomania",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913715654",
+   "item": "Rashi Bedarka (W2W) - Data",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913715655",
+   "item": "Place IL - Cohort 3",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913715657",
+   "item": "Outbrain - Visualization & Storytelling Workshop",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913715661",
+   "item": "BASF - 2024 Power BI Training",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913726908",
+   "item": "Maccabi - Story+Visu",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913774095",
+   "item": "Maccabi Critical Thinking",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913774098",
+   "item": "Joint Excel - #2",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913760181",
+   "item": "Leumi - Product Management for All",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913760182",
+   "item": "MEGO - 15 Hours R&D Workshops",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913760183",
+   "item": "MeGo2 - React & Python Workshops",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913760186",
+   "item": "Joint - DigiBasta War",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913760187",
+   "item": "Tel Aviv Muni - Mapping emergency innovation initiatives",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913750643",
+   "item": "Itworks Frontend 2nd round",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913750645",
+   "item": "Pagaya - Python for Kids",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913750646",
+   "item": "Joint & Ministry of Tourism - Online outreach workshops for guides",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913750648",
+   "item": "AppsFlyer - Data Visu & Story Workshop",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788957",
+   "item": "IIA - Bedouin Program - Matching",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788958",
+   "item": "Product Mng - Leumi Seniors",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788962",
+   "item": "Wix - Shopping IL (Website Build)",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788963",
+   "item": "Jerusalem Muni - Preparation for technological interviews",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788974",
+   "item": "MeGo - Full Stack Training + Project",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788975",
+   "item": "Playtika - Empl Upskill",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788976",
+   "item": "Ministry of Labor - Python for beginners",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913685171",
+   "item": "Old Seminar Jerusalem - Python Bootcamp N.02",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913685177",
+   "item": "MeGo - Java Training",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913718165",
+   "item": "Hayozma South - Account Mng",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913718171",
+   "item": "HaYozma - Data (Center)",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913718172",
+   "item": "Joint Elka - Halamas (Product)",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913718173",
+   "item": "Discount - Product Management",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788091",
+   "item": "Monday - Excel for Finance Employees",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913789020",
+   "item": "Negev Talent - 2nd cohort - Sales Training",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913790005",
+   "item": "Lev Institute - Advanced Full Stack Bootcamp",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913770215",
+   "item": "Pretech (Rashi) with Tnufa Project",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913770219",
+   "item": "Digital Marketing for IDF",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913770576",
+   "item": "Beer Sheva Muni - Data Analyst Reskill",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913770577",
+   "item": "Pretech Pilot - Livuy",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913770579",
+   "item": "AWS DeepRacer/Creative Hut Workshops",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913770582",
+   "item": "PreTech- Rayan Beatzmi",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913754359",
+   "item": "Pretech - Rayan Alfanar (North)",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913754361",
+   "item": "Place IL - 5th Cohort",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788774",
+   "item": "Sapir College - Data training in Economy degree",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788779",
+   "item": "Discount - Reskill",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788780",
+   "item": "Tech Troop- Aharai",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788782",
+   "item": "Axiom - Muni",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788785",
+   "item": "Monday - Excel Extension",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913727133",
+   "item": "JFNA Matching to Tech Troop",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913727136",
+   "item": "Hayozma - Lamerhak BI",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913719618",
+   "item": "Haimash/IDF - Digital Marketing (PPC & AI) - Cohort 2",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913757816",
+   "item": "Pais (Shopping New Version)",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913757821",
+   "item": "Jewish Agency - Project 2nd Cohort",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913757824",
+   "item": "Inbal - Data Literacy",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913757839",
+   "item": "Hayozma/Tnufa  - Reskill Course",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913740788",
+   "item": "Negev Talent - SMB's training",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913730528",
+   "item": "Russion veterans- Finnance workshops",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913730529",
+   "item": "Kinneret College - AI for Reservists",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913781811",
+   "item": "Neshota- The day after fund- upskill 2025 q4",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913781824",
+   "item": "Tnufa/Ofek - Data Analyst",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913781827",
+   "item": "Alfanar - Pretech 2 groups",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913750306",
+   "item": "Tnufa/Ofek- Pretech",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913750313",
+   "item": "AI Workshops for Miluim- Employment Service & Malam",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913759988",
+   "item": "JAFI - Project Mng Feb 26",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913761450",
+   "item": "Pretech - Lotus Al-fanar",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913685474",
+   "item": "255- Hostages families",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913685478",
+   "item": "JLM - Pretech 2 Groups",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913685479",
+   "item": "Colman - 2nd Semester 25-26",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913718499",
+   "item": "JAFI - Project Mng Ibim",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913786649",
+   "item": "Pretech - with Achva College",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913786653",
+   "item": "Beshvil HaZafon - Pais + Walla",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913786655",
+   "item": "Pretech Negev Talent",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913782028",
+   "item": "WOO Extension - 2 Financial Workshops",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913782050",
+   "item": "CET (מט\"ח) - AI Upskill Workshops",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913782051",
+   "item": "Inbal - Data Accelerators New",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913782053",
+   "item": "I4Valley - AI for Developers",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913782055",
+   "item": "Beshvil Hatzafon - Pais+Ruah HaGalil",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "13111633987",
+   "item": "Momentum- released soldiers workshops",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913786647",
+   "item": "Beatzmi & Shusterman - Budget Extension",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913786022",
+   "item": "IIA + I4Valley",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913786030",
+   "item": "Sherut Taasuka - Short Courses",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788284",
+   "item": "Beatzmi Pretech - 5 Group Gap Year",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12934892750",
+   "item": "Forsatech- Tech Trainings",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913740790",
+   "item": "WZO - AI for Employees",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913759986",
+   "item": "Government Matching for DellFoundation- Israeli Employment Services",
+   "stage": "Closed Won",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913786666",
+   "item": "Achva College - Vibe Coding",
+   "stage": "Closed Won",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913769042",
+   "item": "Matrix Defence - No Code Workshop",
+   "stage": "Closed Lost",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913781820",
+   "item": "Hayozma - CCNA",
+   "stage": "Closed Lost",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913780431",
+   "item": "ItWorks & IIA - Data Analysis Women 4 (5/23)",
+   "stage": "Closed Lost",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913788740",
+   "item": "AWS Restart Matching",
+   "stage": "Closed Lost",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913714559",
+   "item": "PMO - DDDM for Managers",
+   "stage": "Closed Lost",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913729496",
+   "item": "Sigma - Data Program",
+   "stage": "Closed Lost",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913762924",
+   "item": "Veriest - Critical Thinking",
+   "stage": "Closed Lost",
+   "flag": "No",
+   "level": "(empty)",
+   "proposed": "Not Sold"
+  },
+  {
+   "service": "Admission",
+   "item_id": "12913790004",
+   "item": "Wolf Seminar - Devops Bootcamp",
+   "stage": "Closed Lost",
+   "flag": "Yes",
+   "level": "(empty)",
+   "proposed": "Low (Yes, no level)"
+  },
+  {
+   "service": "Customer Management",
+   "item_id": "12913782069",
+   "item": "Employment Services- From Tech to Factories pilot",
+   "stage": "Price Offer & Tenders Sent",
+   "flag": "checked",
+   "level": "(empty)",
+   "proposed": "Low (empty level)"
+  }
+ ]
+}

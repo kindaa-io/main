@@ -1,0 +1,2620 @@
+{
+  "_meta": {
+    "generated": "2026-10-21",
+    "workspace": 13463480,
+    "source": "Prompt 0 live scan (read-only, monday GraphQL API 2025-04)",
+    "boards": {
+      "18390568735": "Opportunity",
+      "18390568739": "Line items",
+      "18433874513": "Catalog",
+      "18403700733": "Cohorts",
+      "18390568732": "Projects",
+      "18390568736": "Accounts"
+    },
+    "make_dependents": "NOT CHECKED (Make MCP not connected; Make API returned 401)",
+    "conventions": {
+      "li_months": "holds Training WEEKS",
+      "li_cohort_months": "holds Training Weeks × Quantity",
+      "opp_cohort_months": "Σ weeks, not months",
+      "li_total_hours": "is the LS-hours mirror (of cat_ls_hours), NOT total training hours",
+      "co_months": "Training MONTHS (to be replaced by weeks mirror)"
+    }
+  },
+  "pricing_parameters": {
+    "__board__": {
+      "id": null,
+      "title": "⚙️ Pricing Parameters",
+      "type": "board",
+      "action": "CREATE",
+      "notes": "No board with this name (or Cost Rates) exists in workspace 13463480."
+    },
+    "prm_status": {
+      "id": null,
+      "title": "Status",
+      "type": "status",
+      "action": "CREATE",
+      "notes": "Active / Archived"
+    },
+    "prm_effective": {
+      "id": null,
+      "title": "Effective Date",
+      "type": "date",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_setup_pm": {
+      "id": null,
+      "title": "prm_setup_pm",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_setup_ops": {
+      "id": null,
+      "title": "prm_setup_ops",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_adm_lo_pm": {
+      "id": null,
+      "title": "prm_adm_lo_pm",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_adm_lo_ops": {
+      "id": null,
+      "title": "prm_adm_lo_ops",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_adm_hi_pm": {
+      "id": null,
+      "title": "prm_adm_hi_pm",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_adm_hi_ops": {
+      "id": null,
+      "title": "prm_adm_hi_ops",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_mkt_lo_pm": {
+      "id": null,
+      "title": "prm_mkt_lo_pm",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_mkt_lo_ops": {
+      "id": null,
+      "title": "prm_mkt_lo_ops",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_mkt_hi_pm": {
+      "id": null,
+      "title": "prm_mkt_hi_pm",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_mkt_hi_ops": {
+      "id": null,
+      "title": "prm_mkt_hi_ops",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_ong_lo_pm_m": {
+      "id": null,
+      "title": "prm_ong_lo_pm_m",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_ong_lo_ops_m": {
+      "id": null,
+      "title": "prm_ong_lo_ops_m",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_ong_hi_pm_m": {
+      "id": null,
+      "title": "prm_ong_hi_pm_m",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_ong_hi_ops_m": {
+      "id": null,
+      "title": "prm_ong_hi_ops_m",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_cm_lo_pm_m": {
+      "id": null,
+      "title": "prm_cm_lo_pm_m",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_cm_lo_ops_m": {
+      "id": null,
+      "title": "prm_cm_lo_ops_m",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_cm_hi_pm_m": {
+      "id": null,
+      "title": "prm_cm_hi_pm_m",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_cm_hi_ops_m": {
+      "id": null,
+      "title": "prm_cm_hi_ops_m",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_wk_per_month": {
+      "id": null,
+      "title": "prm_wk_per_month",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_ev_lo_pm": {
+      "id": null,
+      "title": "prm_ev_lo_pm",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_ev_lo_ops": {
+      "id": null,
+      "title": "prm_ev_lo_ops",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_ev_hi_pm": {
+      "id": null,
+      "title": "prm_ev_hi_pm",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_ev_hi_ops": {
+      "id": null,
+      "title": "prm_ev_hi_ops",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_car_adm": {
+      "id": null,
+      "title": "prm_car_adm",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_car_ws": {
+      "id": null,
+      "title": "prm_car_ws",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_car_sup": {
+      "id": null,
+      "title": "prm_car_sup",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_car_wk": {
+      "id": null,
+      "title": "prm_car_wk",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_auto": {
+      "id": null,
+      "title": "prm_auto",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_des_tpl": {
+      "id": null,
+      "title": "prm_des_tpl",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_des_brand": {
+      "id": null,
+      "title": "prm_des_brand",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_des_web_lo": {
+      "id": null,
+      "title": "prm_des_web_lo",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_des_web_hi": {
+      "id": null,
+      "title": "prm_des_web_hi",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_des_adm": {
+      "id": null,
+      "title": "prm_des_adm",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_ls_per_cohort": {
+      "id": null,
+      "title": "prm_ls_per_cohort",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_dev_live_ls": {
+      "id": null,
+      "title": "prm_dev_live_ls",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_dev_live_exp": {
+      "id": null,
+      "title": "prm_dev_live_exp",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_dev_self_ls": {
+      "id": null,
+      "title": "prm_dev_self_ls",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "prm_dev_self_exp": {
+      "id": null,
+      "title": "prm_dev_self_exp",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": ""
+    }
+  },
+  "18390568735": {
+    "op_prm_version": {
+      "id": null,
+      "title": "⚙️Pricing Version",
+      "type": "board_relation",
+      "action": "CREATE",
+      "notes": "Target board does not exist yet (Phase 1)."
+    },
+    "opm_setup_pm": {
+      "id": null,
+      "title": "⚙️prm_setup_pm",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_setup_ops": {
+      "id": null,
+      "title": "⚙️prm_setup_ops",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_adm_lo_pm": {
+      "id": null,
+      "title": "⚙️prm_adm_lo_pm",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_adm_lo_ops": {
+      "id": null,
+      "title": "⚙️prm_adm_lo_ops",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_adm_hi_pm": {
+      "id": null,
+      "title": "⚙️prm_adm_hi_pm",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_adm_hi_ops": {
+      "id": null,
+      "title": "⚙️prm_adm_hi_ops",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_mkt_lo_pm": {
+      "id": null,
+      "title": "⚙️prm_mkt_lo_pm",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_mkt_lo_ops": {
+      "id": null,
+      "title": "⚙️prm_mkt_lo_ops",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_mkt_hi_pm": {
+      "id": null,
+      "title": "⚙️prm_mkt_hi_pm",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_mkt_hi_ops": {
+      "id": null,
+      "title": "⚙️prm_mkt_hi_ops",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_ong_lo_pm_m": {
+      "id": null,
+      "title": "⚙️prm_ong_lo_pm_m",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_ong_lo_ops_m": {
+      "id": null,
+      "title": "⚙️prm_ong_lo_ops_m",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_ong_hi_pm_m": {
+      "id": null,
+      "title": "⚙️prm_ong_hi_pm_m",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_ong_hi_ops_m": {
+      "id": null,
+      "title": "⚙️prm_ong_hi_ops_m",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_cm_lo_pm_m": {
+      "id": null,
+      "title": "⚙️prm_cm_lo_pm_m",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_cm_lo_ops_m": {
+      "id": null,
+      "title": "⚙️prm_cm_lo_ops_m",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_cm_hi_pm_m": {
+      "id": null,
+      "title": "⚙️prm_cm_hi_pm_m",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_cm_hi_ops_m": {
+      "id": null,
+      "title": "⚙️prm_cm_hi_ops_m",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_wk_per_month": {
+      "id": null,
+      "title": "⚙️prm_wk_per_month",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_ev_lo_pm": {
+      "id": null,
+      "title": "⚙️prm_ev_lo_pm",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_ev_lo_ops": {
+      "id": null,
+      "title": "⚙️prm_ev_lo_ops",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_ev_hi_pm": {
+      "id": null,
+      "title": "⚙️prm_ev_hi_pm",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_ev_hi_ops": {
+      "id": null,
+      "title": "⚙️prm_ev_hi_ops",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_car_adm": {
+      "id": null,
+      "title": "⚙️prm_car_adm",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_car_ws": {
+      "id": null,
+      "title": "⚙️prm_car_ws",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_car_sup": {
+      "id": null,
+      "title": "⚙️prm_car_sup",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_car_wk": {
+      "id": null,
+      "title": "⚙️prm_car_wk",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_auto": {
+      "id": null,
+      "title": "⚙️prm_auto",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_des_tpl": {
+      "id": null,
+      "title": "⚙️prm_des_tpl",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_des_brand": {
+      "id": null,
+      "title": "⚙️prm_des_brand",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_des_web_lo": {
+      "id": null,
+      "title": "⚙️prm_des_web_lo",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_des_web_hi": {
+      "id": null,
+      "title": "⚙️prm_des_web_hi",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_des_adm": {
+      "id": null,
+      "title": "⚙️prm_des_adm",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_ls_per_cohort": {
+      "id": null,
+      "title": "⚙️prm_ls_per_cohort",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_dev_live_ls": {
+      "id": null,
+      "title": "⚙️prm_dev_live_ls",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_dev_live_exp": {
+      "id": null,
+      "title": "⚙️prm_dev_live_exp",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_dev_self_ls": {
+      "id": null,
+      "title": "⚙️prm_dev_self_ls",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "opm_dev_self_exp": {
+      "id": null,
+      "title": "⚙️prm_dev_self_exp",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via op_prm_version"
+    },
+    "op_admission": {
+      "id": "color_mm66cssh",
+      "title": "Screening/Admission?",
+      "type": "status",
+      "action": "REPURPOSE",
+      "notes": "DECIDED 21-Oct: add a NEW label 'Not Sold' (new index). Keep 'No' (idx 0) and 'Yes' (idx 1) unchanged; no merge, no data migration. Formula logic: Not Sold if this column = 'Not Sold' (assumed also 'No'); else High if opp_admission_level = High; else Low if opp_admission_level = Low, or if this column = 'Yes' with no level; else (both empty) Not Sold.",
+      "pack_action": "REPURPOSE (Not Sold / Low Touch / High Touch)",
+      "live_title": "Screening/Admission?",
+      "live_type": "status",
+      "nonempty": 142,
+      "real_nonempty": 142,
+      "dependents": [],
+      "labels": {
+        "0": "No",
+        "1": "Yes"
+      }
+    },
+    "op_admission_level": {
+      "id": "opp_admission_level",
+      "title": "Admission Level",
+      "type": "status",
+      "action": "KEEP",
+      "notes": "DECIDED 21-Oct: KEEP. This is the level source for Admission (Low/High). Empty on all 1,233 items.",
+      "pack_action": "DELETE after migration",
+      "live_title": "Admission Level",
+      "live_type": "status",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "labels": {
+        "0": "Low",
+        "1": "High"
+      }
+    },
+    "op_marketing": {
+      "id": "color_mm66x3y2",
+      "title": "Marketing?",
+      "type": "status",
+      "action": "KEEP",
+      "notes": "DECIDED 21-Oct: Marketing is captured by the budget column only. This status is not changed.",
+      "pack_action": "REPURPOSE",
+      "live_title": "Marketing?",
+      "live_type": "status",
+      "nonempty": 142,
+      "real_nonempty": 142,
+      "dependents": [],
+      "labels": {
+        "0": "No",
+        "1": "Yes"
+      }
+    },
+    "op_mkt_budget": {
+      "id": "opp_mkt_budget",
+      "title": "Marketing Budget (₪)",
+      "type": "numbers",
+      "action": "KEEP",
+      "notes": "DECIDED 21-Oct: the only Marketing input. Mirrored by Projects prj_mkt_budget.",
+      "pack_action": "(not in pack)",
+      "live_title": "Marketing Budget (₪)",
+      "live_type": "numbers",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [
+        "Projects:prj_mkt_budget (Marketing Budget (₪), mirror)"
+      ]
+    },
+    "op_mkt_level": {
+      "id": "opp_mkt_level",
+      "title": "Marketing Level",
+      "type": "status",
+      "action": "KEEP",
+      "notes": "DECIDED 21-Oct: KEEP (not deleted). OPEN: whether Marketing setup hours (prm_mkt_*) still apply and read this level, or are dropped because Marketing = budget only.",
+      "pack_action": "DELETE after migration",
+      "live_title": "Marketing Level",
+      "live_type": "status",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "labels": {
+        "0": "Low",
+        "1": "High"
+      }
+    },
+    "op_ongoing": {
+      "id": "opp_support_level",
+      "title": "Ongoing Course Support",
+      "type": "status",
+      "action": "REPURPOSE",
+      "notes": "Found by title 'Ongoing Course Support Level' (custom ID opp_support_level), labels {0:Low,1:High}. Add NEW label 'Not Sold'. Formulas read this column: Low/High = sold, Not Sold = 0, empty = Low (decision 21-Oct). The checkbox boolean_mm88cbqy is kept but not read.",
+      "live_title": "Ongoing Course Support Level",
+      "live_type": "status",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "labels": {
+        "0": "Low",
+        "1": "High"
+      }
+    },
+    "op_cust_mgmt": {
+      "id": "color_mm88m6bm",
+      "title": "Customer Management",
+      "type": "status",
+      "action": "REPURPOSE",
+      "notes": "Labels {0:Low,1:High}. Add NEW label 'Not Sold'. Formulas read this column: Low/High = sold, Not Sold = 0, empty = Low. The checkbox opp_customer_mgmt is kept but not read.",
+      "live_title": "Customer Management Level",
+      "live_type": "status",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "labels": {
+        "0": "Low",
+        "1": "High"
+      }
+    },
+    "op_website": {
+      "id": null,
+      "title": "Website Build",
+      "type": "status",
+      "action": "CREATE",
+      "notes": "No website column found on Opportunity.",
+      "pack_action": "VERIFY / CREATE"
+    },
+    "op_branding": {
+      "id": "opp_branding_setup",
+      "title": "Branding",
+      "type": "checkbox",
+      "action": "KEEP",
+      "notes": "Existing 'Branding Setup' is a CHECKBOX, so per pack: don't convert, formula reads the checkbox. Optional RENAME to 'Branding'. Separate status opp_branding_level (Low/High) is not in the target schema (D2) -> see unmatched list.",
+      "pack_action": "VERIFY (repurpose if status)",
+      "live_title": "Branding Setup",
+      "live_type": "checkbox",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": []
+    },
+    "op_event_level": {
+      "id": "opp_event_level",
+      "title": "Event Level",
+      "type": "status",
+      "action": "KEEP",
+      "notes": "Labels {0:Low,1:High}",
+      "pack_action": "VERIFY / KEEP",
+      "live_title": "Event Level",
+      "live_type": "status",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "labels": {
+        "0": "Low",
+        "1": "High"
+      }
+    },
+    "op_events_n": {
+      "id": "opp_events",
+      "title": "Number of Events",
+      "type": "numbers",
+      "action": "KEEP",
+      "notes": "",
+      "pack_action": "VERIFY / KEEP",
+      "live_title": "Number of Events",
+      "live_type": "numbers",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": []
+    },
+    "op_learning_manual": {
+      "id": "opp_learning_manual",
+      "title": "Learning Hours – Manual",
+      "type": "numbers",
+      "action": "KEEP",
+      "notes": "",
+      "pack_action": "VERIFY / KEEP",
+      "live_title": "Learning Hours – Manual",
+      "live_type": "numbers",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": []
+    },
+    "op_dev_live": {
+      "id": "opp_cd_live_hours",
+      "title": "Content Dev Hours – Live",
+      "type": "numbers",
+      "action": "RENAME",
+      "notes": "Found: 'RR Content Dev – Live Hours'.",
+      "pack_action": "CREATE (unless found)",
+      "live_title": "RR Content Dev – Live Hours",
+      "live_type": "numbers",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": []
+    },
+    "op_dev_self": {
+      "id": "opp_cd_self_hours",
+      "title": "Content Dev Hours – Self",
+      "type": "numbers",
+      "action": "RENAME",
+      "notes": "Found: 'RR Content Dev – Self Hours'.",
+      "pack_action": "CREATE (unless found)",
+      "live_title": "RR Content Dev – Self Hours",
+      "live_type": "numbers",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": []
+    },
+    "op_cm_weeks": {
+      "id": null,
+      "title": "Customer Mgmt Weeks",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": "",
+      "pack_action": "CREATE (pending Q1)"
+    },
+    "op_margin": {
+      "id": "opp_margin",
+      "title": "Margin %",
+      "type": "numbers",
+      "action": "KEEP",
+      "notes": "Unit %. Description already says 'Default 40'.",
+      "live_title": "Margin %",
+      "live_type": "numbers",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [
+        "Projects:prj_margin (Margin %, mirror)"
+      ]
+    },
+    "op_r_pm_cohort": {
+      "id": null,
+      "title": "⚙️PM / Cohort",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_r_ops_cohort": {
+      "id": null,
+      "title": "⚙️OPS / Cohort",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_r_pm_week": {
+      "id": null,
+      "title": "⚙️PM / Week",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_r_ops_week": {
+      "id": null,
+      "title": "⚙️OPS / Week",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_r_car_cohort": {
+      "id": null,
+      "title": "⚙️Career / Cohort",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_r_car_week": {
+      "id": null,
+      "title": "⚙️Career / Week",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_r_auto_cohort": {
+      "id": null,
+      "title": "⚙️Automation / Cohort",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_r_des_cohort": {
+      "id": null,
+      "title": "⚙️Design / Cohort",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_r_ls_per_cohort": {
+      "id": null,
+      "title": "⚙️LS / Cohort",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "opp_cohorts": {
+      "id": "opp_cohorts",
+      "title": "Number of Cohorts",
+      "type": "mirror",
+      "action": "KEEP",
+      "notes": "Σ li_qty via subitems",
+      "live_title": "Number of Cohorts",
+      "live_type": "mirror",
+      "nonempty": 1,
+      "real_nonempty": 1,
+      "dependents": [
+        "Projects:lookup_mm8825n1 (Number of Sold Cohorts, mirror)"
+      ],
+      "mirror_of": {
+        "18390568739": [
+          "li_qty"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "opp_li_ready": {
+      "id": "opp_li_ready",
+      "title": "⚙️Line Items Ready",
+      "type": "mirror",
+      "action": "KEEP",
+      "notes": "Σ li_ready (li_ready returns 1/0, not ✅).",
+      "live_title": "⚙️Line Items Ready",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "li_ready"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "opp_verticals": {
+      "id": "opp_verticals",
+      "title": "Verticals",
+      "type": "mirror",
+      "action": "KEEP",
+      "notes": "",
+      "live_title": "Verticals",
+      "live_type": "mirror",
+      "nonempty": 1,
+      "real_nonempty": 1,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "li_vertical"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "opp_expert_hours": {
+      "id": "opp_expert_hours",
+      "title": "Total Expert Hours",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Currently Σ li_expert_hours, which is itself a MIRROR (old version, to be deleted). Must be re-pointed to the new li_expert Number column before the old mirror is deleted.",
+      "pack_action": "KEEP",
+      "live_title": "Total Expert Hours",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "li_expert_hours"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "opp_participants": {
+      "id": "opp_participants",
+      "title": "Total Participants",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Currently Σ li_participants -> re-point to li_part_t.",
+      "live_title": "Total Participants",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [
+        "Projects:lookup_mm88t3m5 (Total Participents, mirror)"
+      ],
+      "mirror_of": {
+        "18390568739": [
+          "li_participants"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "opp_cohort_months": {
+      "id": "opp_cohort_months",
+      "title": "Total Training Weeks",
+      "type": "mirror",
+      "action": "RENAME",
+      "notes": "Currently Σ li_cohort_months, whose formula is already {li_months}*{li_qty} (weeks × qty). If li_weeks_t = li_cohort_months (see line items) no re-point is needed: rename only. ID keeps 'months' in its name but holds weeks.",
+      "pack_action": "RENAME + re-point",
+      "live_title": "Total Cohort-Months",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "li_cohort_months"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "lookup_mm88cm47": {
+      "id": "lookup_mm88cm47",
+      "title": "Σ LS Hours",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Currently Σ li_total_hours (= mirror of cat_ls_hours). Re-point to li_ls_line.",
+      "pack_action": "REPURPOSE (re-point)",
+      "live_title": "Learning Services Hours",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "li_total_hours"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "op_sum_pm": {
+      "id": "lookup_mm89667w",
+      "title": "Σ line PM total",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Placeholder Σ mirror already exists (lookup_mm89667w) summing a line-item placeholder formula that is '0'. Proposed: re-point to li_pm_t instead of creating a new column. Needs approval (deviates from pack).",
+      "pack_action": "CREATE",
+      "live_title": "PM",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "formula_mm89hfy4"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "op_sum_ops": {
+      "id": "lookup_mm89s51s",
+      "title": "Σ line OPS total",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Placeholder Σ mirror already exists (lookup_mm89s51s) summing a line-item placeholder formula that is '0'. Proposed: re-point to li_ops_t instead of creating a new column. Needs approval (deviates from pack).",
+      "pack_action": "CREATE",
+      "live_title": "OPS",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "formula_mm89qcd4"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "op_sum_car": {
+      "id": "lookup_mm89k0tq",
+      "title": "Σ line CAR total",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Placeholder Σ mirror already exists (lookup_mm89k0tq) summing a line-item placeholder formula that is '0'. Proposed: re-point to li_car_t instead of creating a new column. Needs approval (deviates from pack).",
+      "pack_action": "CREATE",
+      "live_title": "Career",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "formula_mm89b2z4"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "op_sum_auto": {
+      "id": "lookup_mm89ydqn",
+      "title": "Σ line AUTO total",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Placeholder Σ mirror already exists (lookup_mm89ydqn) summing a line-item placeholder formula that is '0'. Proposed: re-point to li_auto_t instead of creating a new column. Needs approval (deviates from pack).",
+      "pack_action": "CREATE",
+      "live_title": "Automation",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "formula_mm897s4c"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "op_sum_des": {
+      "id": "lookup_mm89qv7b",
+      "title": "Σ line DES total",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Placeholder Σ mirror already exists (lookup_mm89qv7b) summing a line-item placeholder formula that is '0'. Proposed: re-point to li_des_t instead of creating a new column. Needs approval (deviates from pack).",
+      "pack_action": "CREATE",
+      "live_title": "Design",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "formula_mm89fxr7"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "op_sum_bo": {
+      "id": null,
+      "title": "Σ line BO total",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_sum_live": {
+      "id": null,
+      "title": "Σ line LIVE total",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_sum_self": {
+      "id": null,
+      "title": "Σ line SELF total",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_sum_trn": {
+      "id": null,
+      "title": "Σ line TRN total",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_ev_pm": {
+      "id": null,
+      "title": "op_ev_pm",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_ev_ops": {
+      "id": null,
+      "title": "op_ev_ops",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_cm_pm": {
+      "id": null,
+      "title": "op_cm_pm",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_cm_ops": {
+      "id": null,
+      "title": "op_cm_ops",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_tot_pm": {
+      "id": null,
+      "title": "op_tot_pm",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": "Confirmed: the D1 formulas never existed (Projects mirrors point to non-existent opp_pm_hours_b, opp_ops_hours_b, opp_ls_hours_b, <opp_career_total>, …)."
+    },
+    "op_tot_ops": {
+      "id": null,
+      "title": "op_tot_ops",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": "Confirmed: the D1 formulas never existed (Projects mirrors point to non-existent opp_pm_hours_b, opp_ops_hours_b, opp_ls_hours_b, <opp_career_total>, …)."
+    },
+    "op_tot_learning": {
+      "id": null,
+      "title": "op_tot_learning",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": "Confirmed: the D1 formulas never existed (Projects mirrors point to non-existent opp_pm_hours_b, opp_ops_hours_b, opp_ls_hours_b, <opp_career_total>, …)."
+    },
+    "op_tot_expert": {
+      "id": null,
+      "title": "op_tot_expert",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": "Confirmed: the D1 formulas never existed (Projects mirrors point to non-existent opp_pm_hours_b, opp_ops_hours_b, opp_ls_hours_b, <opp_career_total>, …)."
+    },
+    "op_tot_career": {
+      "id": null,
+      "title": "op_tot_career",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": "Confirmed: the D1 formulas never existed (Projects mirrors point to non-existent opp_pm_hours_b, opp_ops_hours_b, opp_ls_hours_b, <opp_career_total>, …)."
+    },
+    "op_tot_auto": {
+      "id": null,
+      "title": "op_tot_auto",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": "Confirmed: the D1 formulas never existed (Projects mirrors point to non-existent opp_pm_hours_b, opp_ops_hours_b, opp_ls_hours_b, <opp_career_total>, …)."
+    },
+    "op_tot_design": {
+      "id": null,
+      "title": "op_tot_design",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": "Confirmed: the D1 formulas never existed (Projects mirrors point to non-existent opp_pm_hours_b, opp_ops_hours_b, opp_ls_hours_b, <opp_career_total>, …)."
+    },
+    "op_n_cohorts": {
+      "id": null,
+      "title": "⚙️# Cohorts",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "op_n_participants": {
+      "id": null,
+      "title": "⚙️# Participants",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "line_items_count": {
+      "id": null,
+      "title": "⚙️Line Items Count",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "formula_mm884cg8 does not exist on any board in the workspace. Nothing counts line items today. M3's gate ('every li_ready = ✅') needs a count to compare against Σ li_ready. Note: a formula can't count subitems; needs a Σ mirror of a constant-1 formula on the line item. DECIDED 21-Oct: create it as a Σ mirror of line-item li_one (formula = 1).",
+      "pack_action": "RENAME formula_mm884cg8"
+    },
+    "i_approve": {
+      "id": null,
+      "title": "I approve",
+      "type": "status",
+      "action": "NOT FOUND",
+      "notes": "color_mm885xtx does not exist. Nothing to delete.",
+      "pack_action": "DELETE color_mm885xtx"
+    },
+    "opp_ls_level_old": {
+      "id": "color_mm886byb",
+      "title": "Learning Services Level",
+      "type": "status",
+      "action": "DELETE",
+      "notes": "APPROVED 21-Oct. Level lives in Catalog. Empty, no column dependents.",
+      "live_title": "Learning Services Level",
+      "live_type": "status",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "labels": {
+        "0": "Low",
+        "1": "High"
+      }
+    },
+    "opp_ongoing_checkbox": {
+      "id": "boolean_mm88cbqy",
+      "title": "Ongoing Course Support",
+      "type": "checkbox",
+      "action": "KEEP",
+      "notes": "DECIDED 21-Oct: KEEP. Not read by formulas. Empty on all items.",
+      "pack_action": "DELETE",
+      "live_title": "Ongoing Course Support",
+      "live_type": "checkbox",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": []
+    },
+    "opp_customer_mgmt_checkbox": {
+      "id": "opp_customer_mgmt",
+      "title": "Customer Management",
+      "type": "checkbox",
+      "action": "KEEP",
+      "notes": "DECIDED 21-Oct: KEEP. Not read by formulas.",
+      "pack_action": "(not in pack)",
+      "live_title": "Customer Management",
+      "live_type": "checkbox",
+      "nonempty": 1,
+      "real_nonempty": 1,
+      "dependents": []
+    },
+    "opp_branding_level": {
+      "id": "opp_branding_level",
+      "title": "Branding Level",
+      "type": "status",
+      "action": "KEEP",
+      "notes": "DECIDED 21-Oct: KEEP. Not read by formulas (D2: Branding is single option via opp_branding_setup).",
+      "pack_action": "(not in pack)",
+      "live_title": "Branding Level",
+      "live_type": "status",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "labels": {
+        "0": "Low",
+        "1": "High"
+      }
+    },
+    "nofar_pricelist_sum": {
+      "id": "lookup_mm896pxy",
+      "title": "Price List",
+      "type": "mirror",
+      "action": "LEAVE",
+      "notes": "Σ of line-item placeholder formula_mm89j9nx ('0'). Leave for Nofar.",
+      "pack_action": "Nofar",
+      "live_title": "Price List",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "formula_mm89j9nx"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "nofar_cogs_sum": {
+      "id": "lookup_mm893200",
+      "title": "COGS",
+      "type": "mirror",
+      "action": "LEAVE",
+      "notes": "Σ of line-item placeholder formula_mm898xd6 ('0'). Leave for Nofar.",
+      "pack_action": "Nofar",
+      "live_title": "COGS",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "formula_mm898xd6"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    },
+    "opp_learning_sum_placeholder": {
+      "id": "lookup_mm894g60",
+      "title": "Learning",
+      "type": "mirror",
+      "action": "DELETE",
+      "notes": "DECIDED 21-Oct: DELETE. Σ of placeholder formula_mm89sm5r; duplicates lookup_mm88cm47 once that is re-pointed to li_ls_line. Empty, no dependents. Delete AFTER formula_mm89sm5r is repurposed (it is this mirror's source).",
+      "pack_action": "(not in pack)",
+      "live_title": "Learning",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "formula_mm89sm5r"
+        ]
+      },
+      "via": [
+        "subitems"
+      ]
+    }
+  },
+  "18390568739": {
+    "li_catalog": {
+      "id": "li_catalog_item",
+      "title": "Catalog Item",
+      "type": "board_relation",
+      "action": "KEEP",
+      "notes": "Custom ID differs from spec (li_catalog_item).",
+      "live_title": "Catalog Item",
+      "live_type": "board_relation",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Subitems of Opportunity:li_ls_level (Learning Services Level, mirror relation)",
+        "Subitems of Opportunity:li_live_hours (Live Training Hours, mirror relation)",
+        "Subitems of Opportunity:li_self_hours (Self Training Hours, mirror relation)",
+        "Subitems of Opportunity:li_bo_hours (NUMBERS Back Office Hours, mirror relation)",
+        "Subitems of Opportunity:li_expert_hours (NUMBERS Content Expert Hours, mirror relation)",
+        "Subitems of Opportunity:li_total_hours (NUMBERS Learning Service Hours, mirror relation)",
+        "Subitems of Opportunity:li_content_status (Content Status, mirror relation)",
+        "Subitems of Opportunity:li_vertical (Vertical, mirror relation)"
+      ]
+    },
+    "li_parent": {
+      "id": "li_parent_opp",
+      "title": "⚙️Parent Opportunity",
+      "type": "board_relation",
+      "action": "KEEP",
+      "notes": "Custom ID li_parent_opp. Connect -> Opportunity, single item. Empty on the only line item (M2 not live).",
+      "pack_action": "KEEP/VERIFY",
+      "live_title": "⚙️Parent Opportunity",
+      "live_type": "board_relation",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": []
+    },
+    "li_quantity": {
+      "id": "li_qty",
+      "title": "Quantity (# cohorts)",
+      "type": "numbers",
+      "action": "KEEP",
+      "notes": "Custom ID li_qty; live title 'Quantity (Cohorts)'.",
+      "live_title": "Quantity (Cohorts)",
+      "live_type": "numbers",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Cohorts:lookup_mm88v28p (Cohort Count (Opportunity), mirror)",
+        "Subitems of Opportunity:li_cohort_months (Cohort-Weeks Total, formula)",
+        "Subitems of Opportunity:li_check (Line Item Check, formula)",
+        "Opportunity:opp_cohorts (Number of Cohorts, mirror)"
+      ]
+    },
+    "li_participants": {
+      "id": "li_participants",
+      "title": "Participants / Cohort",
+      "type": "numbers",
+      "action": "RENAME",
+      "notes": "",
+      "pack_action": "KEEP (rename)",
+      "live_title": "Participants",
+      "live_type": "numbers",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [
+        "Subitems of Opportunity:li_check (Line Item Check, formula)",
+        "Opportunity:opp_participants (Total Participants, mirror)"
+      ]
+    },
+    "li_rate": {
+      "id": "li_rate",
+      "title": "Training Hour Rate",
+      "type": "numbers",
+      "action": "KEEP",
+      "notes": "Live title 'Training Hour Rate (₪)', ₪ unit. Catalog source (numeric_mm7tp9h8) is empty on all 34 products.",
+      "live_title": "Training Hour Rate (₪)",
+      "live_type": "numbers",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": []
+    },
+    "li_weeks": {
+      "id": "li_months",
+      "title": "Training Weeks",
+      "type": "numbers",
+      "action": "RENAME",
+      "notes": "Live title is already 'CATALOG Training Weeks' (weeks), so only the 'CATALOG ' prefix goes. The only line item has no value: nothing to clear or convert. ID li_months holds WEEKS.",
+      "pack_action": "REPURPOSE 'Training Months'",
+      "live_title": "CATALOG Training Weeks",
+      "live_type": "numbers",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [
+        "Subitems of Opportunity:li_cohort_months (Cohort-Weeks Total, formula)",
+        "Subitems of Opportunity:li_check (Line Item Check, formula)"
+      ]
+    },
+    "li_pweeks": {
+      "id": null,
+      "title": "Placement Support Weeks",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": "No spare Number column on the board: the 4 number columns are all in use.",
+      "pack_action": "CREATE (or repurpose empty number)"
+    },
+    "li_placement": {
+      "id": "li_placements",
+      "title": "Includes Placement",
+      "type": "checkbox",
+      "action": "KEEP",
+      "notes": "Custom ID li_placements; title 'Includes Placements'.",
+      "live_title": "Includes Placements",
+      "live_type": "checkbox",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": []
+    },
+    "li_placement_pct": {
+      "id": null,
+      "title": "Placement %",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": "DOES NOT EXIST on line items. Must be created (Cohorts mirror depends on it).",
+      "pack_action": "KEEP"
+    },
+    "li_ls_level": {
+      "id": "li_ls_level",
+      "title": "Learning Services Level",
+      "type": "mirror",
+      "action": "KEEP",
+      "notes": "Mirror of cat_ls_level. Catalog value is empty for all 34 products.",
+      "live_title": "Learning Services Level",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18433874513": [
+          "cat_ls_level"
+        ]
+      },
+      "via": [
+        "li_catalog_item"
+      ]
+    },
+    "li_live": {
+      "id": "li_live_hours",
+      "title": "Live Training Hours",
+      "type": "mirror",
+      "action": "KEEP",
+      "notes": "Mirror of Catalog numeric_mm7tv0sp.",
+      "live_title": "Live Training Hours",
+      "live_type": "mirror",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18433874513": [
+          "numeric_mm7tv0sp"
+        ]
+      },
+      "via": [
+        "li_catalog_item"
+      ]
+    },
+    "li_self": {
+      "id": "li_self_hours",
+      "title": "Self Training Hours",
+      "type": "mirror",
+      "action": "KEEP",
+      "notes": "Mirror of Catalog numeric_mm7t38zg.",
+      "live_title": "Self Training Hours",
+      "live_type": "mirror",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18433874513": [
+          "numeric_mm7t38zg"
+        ]
+      },
+      "via": [
+        "li_catalog_item"
+      ]
+    },
+    "li_vertical": {
+      "id": "li_vertical",
+      "title": "Vertical",
+      "type": "mirror",
+      "action": "KEEP",
+      "notes": "",
+      "live_title": "Vertical",
+      "live_type": "mirror",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:opp_verticals (Verticals, mirror)"
+      ],
+      "mirror_of": {
+        "18433874513": [
+          "color_mm7tmzwg"
+        ]
+      },
+      "via": [
+        "li_catalog_item"
+      ]
+    },
+    "li_content_status": {
+      "id": "li_content_status",
+      "title": "Content Status",
+      "type": "mirror",
+      "action": "KEEP",
+      "notes": "",
+      "live_title": "Content Status",
+      "live_type": "mirror",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18433874513": [
+          "color_mm7tdr8h"
+        ]
+      },
+      "via": [
+        "li_catalog_item"
+      ]
+    },
+    "li_total_hours": {
+      "id": null,
+      "title": "Total Training Hours / Cohort",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "MISMATCH: the column with ID li_total_hours is a mirror of cat_ls_hours (title 'NUMBERS Learning Service Hours'). It is the LS mirror, not total training hours. No Live+Self total mirror exists. Create a mirror of Catalog numeric_mm7thk2x 'Total Hours (Live & Self)'.",
+      "pack_action": "RENAME li_total_hours"
+    },
+    "li_ls_base": {
+      "id": null,
+      "title": "LS Base Hours",
+      "type": "numbers",
+      "action": "CONVERT",
+      "notes": "The source is li_total_hours (there is no li_ls_hours). Still a MIRROR (of cat_ls_hours), not converted to Number. Data to copy: 1 item, empty value.",
+      "pack_action": "CONVERT from li_ls_hours (or RENAME)"
+    },
+    "li_expert": {
+      "id": null,
+      "title": "Content Expert Hours",
+      "type": "numbers",
+      "action": "CONVERT",
+      "notes": "li_expert_hours is still a MIRROR (of cat_expert_hours). Data: empty.",
+      "pack_action": "CONVERT from li_expert_hours (or RENAME)"
+    },
+    "li_bo": {
+      "id": null,
+      "title": "Back Office Hours / Cohort",
+      "type": "numbers",
+      "action": "CONVERT",
+      "notes": "The source ID is li_bo_hours (there is no li_backoffice). Still a MIRROR (of Catalog numeric_mm7t4zmq, which is empty on all 34 products). Data: empty.",
+      "pack_action": "CONVERT from li_backoffice (or RENAME)"
+    },
+    "li_r_pm_cohort": {
+      "id": null,
+      "title": "⚙️ mirror op_r_pm_cohort",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via li_parent_opp"
+    },
+    "li_r_ops_cohort": {
+      "id": null,
+      "title": "⚙️ mirror op_r_ops_cohort",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via li_parent_opp"
+    },
+    "li_r_pm_week": {
+      "id": null,
+      "title": "⚙️ mirror op_r_pm_week",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via li_parent_opp"
+    },
+    "li_r_ops_week": {
+      "id": null,
+      "title": "⚙️ mirror op_r_ops_week",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via li_parent_opp"
+    },
+    "li_r_car_cohort": {
+      "id": null,
+      "title": "⚙️ mirror op_r_car_cohort",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via li_parent_opp"
+    },
+    "li_r_car_week": {
+      "id": null,
+      "title": "⚙️ mirror op_r_car_week",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via li_parent_opp"
+    },
+    "li_r_auto_cohort": {
+      "id": null,
+      "title": "⚙️ mirror op_r_auto_cohort",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via li_parent_opp"
+    },
+    "li_r_des_cohort": {
+      "id": null,
+      "title": "⚙️ mirror op_r_des_cohort",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via li_parent_opp"
+    },
+    "li_r_ls_per_cohort": {
+      "id": null,
+      "title": "⚙️ mirror op_r_ls_per_cohort",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "via li_parent_opp"
+    },
+    "li_pm_c": {
+      "id": null,
+      "title": "PM Hours / Cohort",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "li_ops_c": {
+      "id": null,
+      "title": "OPS Hours / Cohort",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "li_car_c": {
+      "id": null,
+      "title": "Career Hours / Cohort",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "li_ls_line": {
+      "id": "formula_mm89sm5r",
+      "title": "LS Hours (line)",
+      "type": "formula",
+      "action": "REPURPOSE",
+      "notes": "Placeholder formula 'Learning' = '0' exists; proposed reuse. Needs approval (deviates from pack).",
+      "pack_action": "CREATE",
+      "live_title": "Learning",
+      "live_type": "formula",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:lookup_mm894g60 (Learning, mirror)"
+      ],
+      "formula": "0"
+    },
+    "li_weeks_t": {
+      "id": "li_cohort_months",
+      "title": "Total Training Weeks",
+      "type": "formula",
+      "action": "RENAME",
+      "notes": "Live title 'Cohort-Weeks Total'. Formula is already {li_months}*{li_qty}, i.e. Training Weeks × Quantity, so only a rename is needed. Referenced by opp_cohort_months.",
+      "pack_action": "REPURPOSE 'Cohort Months' (rename + new formula)",
+      "live_title": "Cohort-Weeks Total",
+      "live_type": "formula",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:opp_cohort_months (Total Cohort-Months, mirror)"
+      ],
+      "formula": "{li_months}*{li_qty}"
+    },
+    "li_part_t": {
+      "id": null,
+      "title": "Total Participants",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "li_live_t": {
+      "id": null,
+      "title": "Total Live Hours",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "li_self_t": {
+      "id": null,
+      "title": "Total Self Hours",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "li_trn_t": {
+      "id": null,
+      "title": "Total Training Hours",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "li_bo_t": {
+      "id": null,
+      "title": "Total Back Office Hours",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": ""
+    },
+    "li_pm_t": {
+      "id": "formula_mm89hfy4",
+      "title": "PM Hours Total",
+      "type": "formula",
+      "action": "REPURPOSE",
+      "notes": "Placeholder formula 'PM' = '0' already exists and is summed by Opportunity lookup_mm89667w. Proposed: update its formula instead of creating a new column. Needs approval (deviates from pack).",
+      "pack_action": "CREATE",
+      "live_title": "PM",
+      "live_type": "formula",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:lookup_mm89667w (PM, mirror)"
+      ],
+      "formula": "0"
+    },
+    "li_ops_t": {
+      "id": "formula_mm89qcd4",
+      "title": "OPS Hours Total",
+      "type": "formula",
+      "action": "REPURPOSE",
+      "notes": "Placeholder formula 'OPS' = '0' already exists and is summed by Opportunity lookup_mm89s51s. Proposed: update its formula instead of creating a new column. Needs approval (deviates from pack).",
+      "pack_action": "CREATE",
+      "live_title": "OPS",
+      "live_type": "formula",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:lookup_mm89s51s (OPS, mirror)"
+      ],
+      "formula": "0"
+    },
+    "li_car_t": {
+      "id": "formula_mm89b2z4",
+      "title": "Career Hours Total",
+      "type": "formula",
+      "action": "REPURPOSE",
+      "notes": "Placeholder formula 'Career' = '0' already exists and is summed by Opportunity lookup_mm89k0tq. Proposed: update its formula instead of creating a new column. Needs approval (deviates from pack).",
+      "pack_action": "CREATE",
+      "live_title": "Career",
+      "live_type": "formula",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:lookup_mm89k0tq (Career, mirror)"
+      ],
+      "formula": "0"
+    },
+    "li_auto_t": {
+      "id": "formula_mm897s4c",
+      "title": "Automation Hours Total",
+      "type": "formula",
+      "action": "REPURPOSE",
+      "notes": "Placeholder formula 'Automation' = '0' already exists and is summed by Opportunity lookup_mm89ydqn. Proposed: update its formula instead of creating a new column. Needs approval (deviates from pack).",
+      "pack_action": "CREATE",
+      "live_title": "Automation",
+      "live_type": "formula",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:lookup_mm89ydqn (Automation, mirror)"
+      ],
+      "formula": "0"
+    },
+    "li_des_t": {
+      "id": "formula_mm89fxr7",
+      "title": "Design Hours Total",
+      "type": "formula",
+      "action": "REPURPOSE",
+      "notes": "Placeholder formula 'Design' = '0' already exists and is summed by Opportunity lookup_mm89qv7b. Proposed: update its formula instead of creating a new column. Needs approval (deviates from pack).",
+      "pack_action": "CREATE",
+      "live_title": "Design",
+      "live_type": "formula",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:lookup_mm89qv7b (Design, mirror)"
+      ],
+      "formula": "0"
+    },
+    "li_ready": {
+      "id": "li_ready",
+      "title": "⚙️Line Item Ready",
+      "type": "formula",
+      "action": "UPDATE",
+      "notes": "Live: IF({li_check}=\"Complete\",1,0). Returns 1/0. Depends on helper li_check (not in pack), which checks only qty, participants and months. Either update both or inline li_check.",
+      "pack_action": "UPDATE formula",
+      "live_title": "⚙️Line Item Ready",
+      "live_type": "formula",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:opp_li_ready (⚙️Line Items Ready, mirror)"
+      ],
+      "formula": "IF({li_check}=\"Complete\",1,0)"
+    },
+    "li_check": {
+      "id": "li_check",
+      "title": "Line Item Check",
+      "type": "formula",
+      "action": "UPDATE",
+      "notes": "APPROVED 21-Oct: update together with li_ready. Its 'Missing: …' text feeds M3's owner notification.",
+      "pack_action": "(not in pack)",
+      "live_title": "Line Item Check",
+      "live_type": "formula",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Subitems of Opportunity:li_ready (⚙️Line Item Ready, formula)"
+      ],
+      "formula": "IF(AND({li_qty}>0,{li_participants}>0,{li_months}>0),\"Complete\",CONCATENATE(\"Missing: \",IF({li_qty}>0,\"\",\"Quantity \"),IF({li_participants}>0,\"\",\"Participants \"),IF({li_months}>0,\"\",\"Months\")))"
+    },
+    "li_one": {
+      "id": null,
+      "title": "⚙️Line Item Counter",
+      "type": "formula",
+      "action": "CREATE",
+      "notes": "DECIDED 21-Oct: formula = 1; summed by Opportunity ⚙️Line Items Count for the M3 gate (Σ li_ready = count).",
+      "pack_action": "(not in pack)"
+    },
+    "subitem_defaults": {
+      "id": null,
+      "title": "Owner / Status / Date",
+      "type": "-",
+      "action": "NOT FOUND",
+      "notes": "The board has no default Owner/Status/Date columns. Nothing to delete.",
+      "pack_action": "DELETE candidates"
+    },
+    "old_ls_mirror": {
+      "id": "li_total_hours",
+      "title": "NUMBERS Learning Service Hours",
+      "type": "mirror",
+      "action": "DELETE",
+      "notes": "Old LS mirror. Dependent: Opportunity lookup_mm88cm47 (Σ). Re-point it first.",
+      "pack_action": "DELETE after CONVERT",
+      "live_title": "NUMBERS Learning Service Hours",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:lookup_mm88cm47 (Learning Services Hours, mirror)"
+      ],
+      "mirror_of": {
+        "18433874513": [
+          "cat_ls_hours"
+        ]
+      },
+      "via": [
+        "li_catalog_item"
+      ]
+    },
+    "old_expert_mirror": {
+      "id": "li_expert_hours",
+      "title": "NUMBERS Content Expert Hours",
+      "type": "mirror",
+      "action": "DELETE",
+      "notes": "Dependent: Opportunity opp_expert_hours (Σ). Re-point it first.",
+      "pack_action": "DELETE after CONVERT",
+      "live_title": "NUMBERS Content Expert Hours",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:opp_expert_hours (Total Expert Hours, mirror)"
+      ],
+      "mirror_of": {
+        "18433874513": [
+          "cat_expert_hours"
+        ]
+      },
+      "via": [
+        "li_catalog_item"
+      ]
+    },
+    "old_bo_mirror": {
+      "id": "li_bo_hours",
+      "title": "NUMBERS Back Office Hours",
+      "type": "mirror",
+      "action": "DELETE",
+      "notes": "No column dependents.",
+      "pack_action": "DELETE after CONVERT",
+      "live_title": "NUMBERS Back Office Hours",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18433874513": [
+          "numeric_mm7t4zmq"
+        ]
+      },
+      "via": [
+        "li_catalog_item"
+      ]
+    },
+    "nofar_pricelist": {
+      "id": "formula_mm89j9nx",
+      "title": "Price List",
+      "type": "formula",
+      "action": "LEAVE",
+      "notes": "Placeholder '0'.",
+      "pack_action": "Nofar",
+      "live_title": "Price List",
+      "live_type": "formula",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:lookup_mm896pxy (Price List, mirror)"
+      ],
+      "formula": "0"
+    },
+    "nofar_cogs": {
+      "id": "formula_mm898xd6",
+      "title": "COGS",
+      "type": "formula",
+      "action": "LEAVE",
+      "notes": "Placeholder '0'.",
+      "pack_action": "Nofar",
+      "live_title": "COGS",
+      "live_type": "formula",
+      "nonempty": 1,
+      "real_nonempty": 0,
+      "dependents": [
+        "Opportunity:lookup_mm893200 (COGS, mirror)"
+      ],
+      "formula": "0"
+    }
+  },
+  "18433874513": {
+    "cat_ls_hours": {
+      "id": "cat_ls_hours",
+      "title": "LS Base Hours",
+      "type": "formula",
+      "action": "REPURPOSE",
+      "notes": "It's a FORMULA: IF({cat_ls_level}=\"High\",58,IF(…=\"Low\",34,0)), not a Number. Nofar can't type values into it. Changing to 28/4 = editing the formula (same type, allowed). Per-product values would need CONVERT to Number. All 34 products show 0 because cat_ls_level is empty.",
+      "pack_action": "REPURPOSE (rename; values 28/4)",
+      "live_title": "Learning Services Hours",
+      "live_type": "formula",
+      "nonempty": 34,
+      "real_nonempty": 34,
+      "dependents": [
+        "Subitems of Opportunity:li_total_hours (NUMBERS Learning Service Hours, mirror)"
+      ],
+      "formula": "IF({cat_ls_level}=\"High\",58,IF({cat_ls_level}=\"Low\",34,0))"
+    },
+    "cat_expert_hours": {
+      "id": "cat_expert_hours",
+      "title": "Content Expert Hours",
+      "type": "formula",
+      "action": "KEEP",
+      "notes": "Formula IF(High,9,0): matches D4.",
+      "live_title": "Content Expert Hours",
+      "live_type": "formula",
+      "nonempty": 34,
+      "real_nonempty": 34,
+      "dependents": [
+        "Subitems of Opportunity:li_expert_hours (NUMBERS Content Expert Hours, mirror)"
+      ],
+      "formula": "IF({cat_ls_level}=\"High\",9,0)"
+    },
+    "cat_ls_level": {
+      "id": "cat_ls_level",
+      "title": "Learning Services Level",
+      "type": "status",
+      "action": "KEEP",
+      "notes": "EMPTY on all 34 products. Description still says 34/58 (update when values change).",
+      "live_title": "Learning Services Level",
+      "live_type": "status",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [
+        "Catalog:cat_ls_hours (Learning Services Hours, formula)",
+        "Catalog:cat_expert_hours (Content Expert Hours, formula)",
+        "Cohorts:co_ls_level (Learning Services Level, mirror)",
+        "Subitems of Opportunity:li_ls_level (Learning Services Level, mirror)"
+      ],
+      "labels": {
+        "0": "Low",
+        "1": "High"
+      }
+    },
+    "cat_training_weeks": {
+      "id": null,
+      "title": "Training Weeks",
+      "type": "numbers",
+      "action": "CREATE",
+      "notes": "DECIDED 21-Oct: new editable Number column on Catalog; M2 copies it into line-item li_months (editable). No Months column exists. The unfinished 'Training week # (Formula)' formula_mm8adqz8 (empty formula) and the empty 'Classes per week' / 'Hours per class' columns are left as they are.",
+      "pack_action": "VERIFY / repurpose Months / CREATE"
+    },
+    "cat_rate": {
+      "id": "numeric_mm7tp9h8",
+      "title": "מחיר שעתי מומלץ- LIVE (Training Hour Rate)",
+      "type": "numbers",
+      "action": "KEEP",
+      "notes": "Empty on ALL 34 products.",
+      "pack_action": "KEEP; Nofar fills",
+      "live_title": "מחיר שעתי מומלץ- LIVE",
+      "live_type": "numbers",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": []
+    },
+    "cat_bo": {
+      "id": "numeric_mm7t4zmq",
+      "title": "Back office H",
+      "type": "numbers",
+      "action": "KEEP",
+      "notes": "Source for li_bo. Empty on ALL 34 products.",
+      "pack_action": "(implied)",
+      "live_title": "Back office H",
+      "live_type": "numbers",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [
+        "Subitems of Opportunity:li_bo_hours (NUMBERS Back Office Hours, mirror)"
+      ]
+    },
+    "cat_total_hours": {
+      "id": "numeric_mm7thk2x",
+      "title": "Total Hours (Live & Self)",
+      "type": "numbers",
+      "action": "KEEP",
+      "notes": "Source for the Total Training Hours mirrors (line items and Cohorts). A NUMBER, not a formula: equals Live + Self in the current data.",
+      "pack_action": "(implied)",
+      "live_title": "Total Hours (Live & Self)",
+      "live_type": "numbers",
+      "nonempty": 34,
+      "real_nonempty": 34,
+      "dependents": []
+    },
+    "cat_pm_hours": {
+      "id": null,
+      "title": "PM Hours",
+      "type": "numbers",
+      "action": "NOT FOUND",
+      "notes": "Does not exist. Nothing to delete.",
+      "pack_action": "DELETE numeric_mm882ygh"
+    },
+    "cat_pm_hours_dup": {
+      "id": null,
+      "title": "Dup. of PM Hours",
+      "type": "numbers",
+      "action": "NOT FOUND",
+      "notes": "Does not exist. Nothing to delete.",
+      "pack_action": "DELETE numeric_mm88zbdm"
+    },
+    "cat_consulting": {
+      "id": "numeric_mm7tw5ja",
+      "title": "Consulting",
+      "type": "numbers",
+      "action": "LEAVE",
+      "notes": "Values 0 or 15. 'Training hours- total' (numeric_mm7t4es2) = Live + Consulting.",
+      "pack_action": "VERIFY: flag, don't touch",
+      "live_title": "Consulting",
+      "live_type": "numbers",
+      "nonempty": 34,
+      "real_nonempty": 34,
+      "dependents": []
+    }
+  },
+  "18403700733": {
+    "co_source_li": {
+      "id": "board_relation_mm88gj2b",
+      "title": "Source Line Item ID",
+      "type": "board_relation",
+      "action": "KEEP",
+      "notes": "",
+      "live_title": "Source Line Item ID",
+      "live_type": "board_relation",
+      "nonempty": null,
+      "real_nonempty": 0,
+      "dependents": [
+        "Cohorts:lookup_mm88v28p (Cohort Count (Opportunity), mirror relation)"
+      ]
+    },
+    "co_catalog_item": {
+      "id": "co_catalog_item",
+      "title": "Catalog Item",
+      "type": "board_relation",
+      "action": "KEEP",
+      "notes": "",
+      "live_title": "Catalog Item",
+      "live_type": "board_relation",
+      "nonempty": null,
+      "real_nonempty": 0,
+      "dependents": [
+        "Cohorts:co_ls_level (Learning Services Level, mirror relation)"
+      ]
+    },
+    "co_ls_level": {
+      "id": "co_ls_level",
+      "title": "Learning Services Level",
+      "type": "mirror",
+      "action": "KEEP",
+      "notes": "",
+      "live_title": "Learning Services Level",
+      "live_type": "mirror",
+      "nonempty": null,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18433874513": [
+          "cat_ls_level"
+        ]
+      },
+      "via": [
+        "co_catalog_item"
+      ]
+    },
+    "co_months": {
+      "id": "co_months",
+      "title": "Training Months",
+      "type": "numbers",
+      "action": "DELETE",
+      "notes": "APPROVED 21-Oct, CONDITIONAL: data NOT COUNTED (Cohorts scan stopped at the user's request). Count + backup before deleting; if it holds real data, stop and report.",
+      "pack_action": "DELETE after (unless real data)",
+      "live_title": "Training Months",
+      "live_type": "numbers",
+      "nonempty": null,
+      "real_nonempty": 0,
+      "dependents": []
+    },
+    "co_count_opp": {
+      "id": "lookup_mm88v28p",
+      "title": "Cohort Count (Opportunity)",
+      "type": "mirror",
+      "action": "KEEP",
+      "notes": "Mirror of li_qty via the Source Line Item. Not in the pack.",
+      "pack_action": "(not in pack)",
+      "live_title": "Cohort Count (Opportunity)",
+      "live_type": "mirror",
+      "nonempty": null,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568739": [
+          "li_qty"
+        ]
+      },
+      "via": [
+        "board_relation_mm88gj2b"
+      ]
+    },
+    "co_rate": {
+      "id": null,
+      "title": "Training Hour Rate",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of li_rate via board_relation_mm88gj2b."
+    },
+    "co_weeks": {
+      "id": null,
+      "title": "Training Weeks",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of li_weeks via board_relation_mm88gj2b."
+    },
+    "co_participants": {
+      "id": null,
+      "title": "Participants",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of li_participants via board_relation_mm88gj2b."
+    },
+    "co_placement": {
+      "id": null,
+      "title": "Includes Placement",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of li_placement via board_relation_mm88gj2b."
+    },
+    "co_placement_pct": {
+      "id": null,
+      "title": "Placement %",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of li_placement_pct via board_relation_mm88gj2b."
+    },
+    "co_pweeks": {
+      "id": null,
+      "title": "Placement Support Weeks",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of li_pweeks via board_relation_mm88gj2b."
+    },
+    "co_bo": {
+      "id": null,
+      "title": "Back Office Hours",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of li_bo via board_relation_mm88gj2b."
+    },
+    "co_expert": {
+      "id": null,
+      "title": "Content Expert Hours",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of li_expert via board_relation_mm88gj2b."
+    },
+    "co_pm": {
+      "id": null,
+      "title": "PM Hours (planned)",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of li_pm_c via board_relation_mm88gj2b."
+    },
+    "co_ops": {
+      "id": null,
+      "title": "OPS Hours (planned)",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of li_ops_c via board_relation_mm88gj2b."
+    },
+    "co_car": {
+      "id": null,
+      "title": "Career Hours (planned)",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of li_car_c via board_relation_mm88gj2b."
+    },
+    "co_live": {
+      "id": null,
+      "title": "Live Training Hours",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of Catalog via co_catalog_item."
+    },
+    "co_self": {
+      "id": null,
+      "title": "Self Training Hours",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of Catalog via co_catalog_item."
+    },
+    "co_trn": {
+      "id": null,
+      "title": "Total Training Hours",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "Mirror of Catalog via co_catalog_item."
+    }
+  },
+  "18390568732": {
+    "prj_pm_hours": {
+      "id": "prj_pm_hours",
+      "title": "Total PM Hours",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Broken: displays a non-existent Opportunity column. Re-point to op_tot_pm.",
+      "pack_action": "REPURPOSE (re-point)",
+      "live_title": "Total PM Hours",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "opp_pm_hours_b"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    },
+    "prj_ops_hours": {
+      "id": "prj_ops_hours",
+      "title": "Total OPS Hours",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Broken: displays a non-existent Opportunity column. Re-point to op_tot_ops.",
+      "pack_action": "REPURPOSE (re-point)",
+      "live_title": "Total OPS Hours",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "opp_ops_hours_b"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    },
+    "prj_learning_hours": {
+      "id": "prj_learning_hours",
+      "title": "Total Learning Hours",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Broken: displays a non-existent Opportunity column. Re-point to op_tot_learning.",
+      "pack_action": "REPURPOSE (re-point)",
+      "live_title": "Total Learning Hours",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "opp_ls_hours_b"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    },
+    "prj_career_hours": {
+      "id": "prj_career_hours",
+      "title": "Career Hours",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Broken: displays a non-existent Opportunity column. Re-point to op_tot_career.",
+      "pack_action": "REPURPOSE (re-point)",
+      "live_title": "Career Hours",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "<opp_career_total>"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    },
+    "prj_auto_hours": {
+      "id": "prj_auto_hours",
+      "title": "Automation Hours",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Broken: displays a non-existent Opportunity column. Re-point to op_tot_auto.",
+      "pack_action": "REPURPOSE (re-point)",
+      "live_title": "Automation Hours",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "<opp_automation_total>"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    },
+    "prj_design_hours": {
+      "id": "prj_design_hours",
+      "title": "Design Hours",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "Broken: displays a non-existent Opportunity column. Re-point to op_tot_design.",
+      "pack_action": "REPURPOSE (re-point)",
+      "live_title": "Design Hours",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "<opp_design_total>"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    },
+    "prj_pricelist": {
+      "id": "prj_pricelist",
+      "title": "Price List (₪)",
+      "type": "mirror",
+      "action": "LEAVE",
+      "notes": "Broken: displays a non-existent Opportunity column. Leave until Nofar's Opportunity Price List / COGS columns exist, then re-point.",
+      "pack_action": "re-point after Nofar builds Price List / COGS",
+      "live_title": "Price List (₪)",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "<opp_pricelist_total>"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    },
+    "prj_cogs": {
+      "id": "prj_cogs",
+      "title": "COGS (₪)",
+      "type": "mirror",
+      "action": "LEAVE",
+      "notes": "Broken: displays a non-existent Opportunity column. Leave until Nofar's Opportunity Price List / COGS columns exist, then re-point.",
+      "pack_action": "re-point after Nofar builds Price List / COGS",
+      "live_title": "COGS (₪)",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "<opp_cogs_total>"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    },
+    "prj_contract_value": {
+      "id": "prj_deal_amount",
+      "title": "Total Contract Value",
+      "type": "mirror",
+      "action": "RENAME",
+      "notes": "ALREADY EXISTS: 'Deal Amount' = Σ deal_value via board_relation_mm7y54c8. Rename instead of creating.",
+      "pack_action": "CREATE",
+      "live_title": "Deal Amount",
+      "live_type": "mirror",
+      "nonempty": 474,
+      "real_nonempty": 474,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "deal_value"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    },
+    "prj_n_cohorts": {
+      "id": "lookup_mm8825n1",
+      "title": "Number of Cohorts",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "ALREADY EXISTS: 'Number of Sold Cohorts' = Σ opp_cohorts, a mirror of a mirror. Re-point to op_n_cohorts.",
+      "pack_action": "CREATE",
+      "live_title": "Number of Sold Cohorts",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "opp_cohorts"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    },
+    "prj_n_participants": {
+      "id": "lookup_mm88t3m5",
+      "title": "Total Participants",
+      "type": "mirror",
+      "action": "REPURPOSE",
+      "notes": "ALREADY EXISTS: 'Total Participents' (typo) = Σ opp_participants, a mirror of a mirror. Re-point to op_n_participants and fix the typo.",
+      "pack_action": "CREATE",
+      "live_title": "Total Participents",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "opp_participants"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    },
+    "prj_expert": {
+      "id": null,
+      "title": "Total Expert Hours",
+      "type": "mirror",
+      "action": "CREATE",
+      "notes": "DECIDED 21-Oct: create. Σ op_tot_expert via board_relation_mm7y54c8.",
+      "pack_action": "Optional"
+    },
+    "prj_margin": {
+      "id": "prj_margin",
+      "title": "Margin %",
+      "type": "mirror",
+      "action": "KEEP",
+      "notes": "Average of opp_margin.",
+      "pack_action": "(not in pack)",
+      "live_title": "Margin %",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "opp_margin"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    },
+    "prj_mkt_budget": {
+      "id": "prj_mkt_budget",
+      "title": "Marketing Budget (₪)",
+      "type": "mirror",
+      "action": "KEEP",
+      "notes": "Σ opp_mkt_budget.",
+      "pack_action": "(not in pack)",
+      "live_title": "Marketing Budget (₪)",
+      "live_type": "mirror",
+      "nonempty": 0,
+      "real_nonempty": 0,
+      "dependents": [],
+      "mirror_of": {
+        "18390568735": [
+          "opp_mkt_budget"
+        ]
+      },
+      "via": [
+        "board_relation_mm7y54c8"
+      ]
+    }
+  }
+}
