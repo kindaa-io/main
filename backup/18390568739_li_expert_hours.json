@@ -1,0 +1,46 @@
+{
+ "board": 18390568739,
+ "column": "li_expert_hours",
+ "settings": {
+  "id": "li_expert_hours",
+  "title": "NUMBERS Content Expert Hours",
+  "type": "mirror",
+  "revision": "6bd80099e1f370aa16b66ece1f080c00",
+  "settings": {
+   "relation_column": {
+    "li_catalog_item": true
+   },
+   "displayed_linked_columns": [
+    {
+     "board_id": "18433874513",
+     "column_ids": [
+      "cat_expert_hours"
+     ]
+    }
+   ]
+  }
+ },
+ "rows": [
+  {
+   "item_id": "13349331448",
+   "name": ".",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13349455069",
+   "name": "TEST Line A",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13349515700",
+   "name": "TEST Line B",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  }
+ ]
+}

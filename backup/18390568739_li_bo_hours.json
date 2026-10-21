@@ -1,0 +1,46 @@
+{
+ "board": 18390568739,
+ "column": "li_bo_hours",
+ "settings": {
+  "id": "li_bo_hours",
+  "title": "NUMBERS Back Office Hours",
+  "type": "mirror",
+  "revision": "b2f8982e9fb8bccad7f6e9be48f4fd97",
+  "settings": {
+   "relation_column": {
+    "li_catalog_item": true
+   },
+   "displayed_linked_columns": [
+    {
+     "board_id": "18433874513",
+     "column_ids": [
+      "numeric_mm7t4zmq"
+     ]
+    }
+   ]
+  }
+ },
+ "rows": [
+  {
+   "item_id": "13349331448",
+   "name": ".",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13349455069",
+   "name": "TEST Line A",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13349515700",
+   "name": "TEST Line B",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  }
+ ]
+}

@@ -29,23 +29,167 @@
         "phase": 2,
         "date": "2026-10-21",
         "result": "Opportunity inputs + 38 mirrors created; formula-over-mirror gate = 26 on TEST KINDAA; views 'new columns'/'modified columns' created"
+      },
+      {
+        "phase": 3,
+        "date": "2026-10-21",
+        "result": "8 rate formulas created (op_r_*); 9/9 rates = §8 on TEST KINDAA"
+      },
+      {
+        "phase": 4,
+        "date": "2026-10-21",
+        "result": "Line items: 5 numbers, li_trn_cohort, 9 li_r_* mirrors, 9 formulas created; 6 placeholders repurposed; li_check updated; 3 renames; TEST Line A 13349455069 / B 13349515700: 17/17 each"
+      },
+      {
+        "phase": 5,
+        "date": "2026-10-21",
+        "result": "Opportunity: 5 Σ mirrors, 13 formulas; opp_participants + opp_expert_hours re-pointed; 7 renames; totals = §8 (PM 203.52, OPS 361.14, Learning 91, Expert 25, Career 1372.5, Automation 32, Design 174). op_tot_learning reads lookup_mm894g60 because lookup_mm88cm47 can't be re-pointed by API"
+      },
+      {
+        "phase": 6,
+        "date": "2026-10-21",
+        "result": "Catalog: cat_ls_hours -> 'LS Base Hours' (28/4); cat_ls_level description; cat_training_weeks created"
+      },
+      {
+        "phase": 7,
+        "date": "2026-10-21",
+        "result": "Cohorts: 14 mirrors created; Projects: lookup_mm8825n1 / lookup_mm88t3m5 re-pointed + renamed, prj_deal_amount renamed, prj_expert created; 6 prj_* re-points refused by API"
+      },
+      {
+        "phase": 8,
+        "date": "2026-10-21",
+        "result": "Deleted with backup: color_mm886byb, li_bo_hours, li_expert_hours, co_months. Held: li_total_hours, lookup_mm894g60 (decision needed)"
       }
     ],
     "views": {
       "18390568735": {
         "new columns": "287762127",
         "modified columns": "287762146"
+      },
+      "18433874513": {
+        "new columns": "287770585",
+        "modified columns": "287770602"
+      },
+      "18403700733": {
+        "new columns": "287770627",
+        "modified columns": "287770641"
+      },
+      "18390568732": {
+        "new columns": "287770648",
+        "modified columns": "287770664"
       }
     },
     "api_notes": [
       "create_column 2025-04: board_relation and mirror not supported -> use 2025-10",
       "create_column 2025-04 with formula defaults stores an EMPTY formula -> set it with update_column(settings:{formula}) on 2025-10",
-      "update_status_column needs a color on every label (existing ones included)"
+      "update_status_column needs a color on every label (existing ones included)",
+      "update_column cannot re-point some existing mirrors (notices.column.settings.update.error): lookup_mm88cm47 and the 6 broken prj_* mirrors. Others (opp_participants, opp_expert_hours, lookup_mm8825n1, lookup_mm88t3m5) worked.",
+      "API returns blank display_value for subitem Σ mirrors of formula columns; formulas reading them compute correctly."
     ],
     "test_item": {
       "id": "13349045463",
       "name": "TEST KINDAA",
       "state": "linked to v1; Admission High, Marketing Low"
+    },
+    "pending_ui_repoints": [
+      {
+        "board": 18390568735,
+        "column": "lookup_mm88cm47",
+        "title": "Learning Services Hours",
+        "via": "subitems",
+        "should_show": "18390568739:formula_mm89sm5r",
+        "function": "sum",
+        "error": "API error: {\"errors\": [{\"message\": \"notices.column.settings.update.error\", \"locations\": [{\"line\": 1, \"column\": 73}], \"path\": [\"update_column\"], \"extensions\": {\""
+      },
+      {
+        "board": 18390568732,
+        "column": "prj_pm_hours",
+        "title": "Total PM Hours",
+        "via": "board_relation_mm7y54c8",
+        "should_show": "18390568735:op_tot_pm",
+        "function": "sum",
+        "error": "API error: {\"errors\": [{\"message\": \"notices.column.settings.update.error\", \"locations\": [{\"line\": 1, \"column\": 73}], \"path\": [\"update_column\"], \"extensions\": {\""
+      },
+      {
+        "board": 18390568732,
+        "column": "prj_ops_hours",
+        "title": "Total OPS Hours",
+        "via": "board_relation_mm7y54c8",
+        "should_show": "18390568735:op_tot_ops",
+        "function": "sum",
+        "error": "API error: {\"errors\": [{\"message\": \"notices.column.settings.update.error\", \"locations\": [{\"line\": 1, \"column\": 73}], \"path\": [\"update_column\"], \"extensions\": {\""
+      },
+      {
+        "board": 18390568732,
+        "column": "prj_learning_hours",
+        "title": "Total Learning Hours",
+        "via": "board_relation_mm7y54c8",
+        "should_show": "18390568735:op_tot_learning",
+        "function": "sum",
+        "error": "API error: {\"errors\": [{\"message\": \"notices.column.settings.update.error\", \"locations\": [{\"line\": 1, \"column\": 73}], \"path\": [\"update_column\"], \"extensions\": {\""
+      },
+      {
+        "board": 18390568732,
+        "column": "prj_career_hours",
+        "title": "Career Hours",
+        "via": "board_relation_mm7y54c8",
+        "should_show": "18390568735:op_tot_career",
+        "function": "sum",
+        "error": "API error: {\"errors\": [{\"message\": \"notices.column.settings.update.error\", \"locations\": [{\"line\": 1, \"column\": 73}], \"path\": [\"update_column\"], \"extensions\": {\""
+      },
+      {
+        "board": 18390568732,
+        "column": "prj_auto_hours",
+        "title": "Automation Hours",
+        "via": "board_relation_mm7y54c8",
+        "should_show": "18390568735:op_tot_auto",
+        "function": "sum",
+        "error": "API error: {\"errors\": [{\"message\": \"notices.column.settings.update.error\", \"locations\": [{\"line\": 1, \"column\": 73}], \"path\": [\"update_column\"], \"extensions\": {\""
+      },
+      {
+        "board": 18390568732,
+        "column": "prj_design_hours",
+        "title": "Design Hours",
+        "via": "board_relation_mm7y54c8",
+        "should_show": "18390568735:op_tot_design",
+        "function": "sum",
+        "error": "API error: {\"errors\": [{\"message\": \"notices.column.settings.update.error\", \"locations\": [{\"line\": 1, \"column\": 73}], \"path\": [\"update_column\"], \"extensions\": {\""
+      }
+    ],
+    "deleted": [
+      {
+        "board": "18390568735",
+        "column": "color_mm886byb",
+        "backup": "backup/18390568735_color_mm886byb.json"
+      },
+      {
+        "board": "18390568739",
+        "column": "li_bo_hours",
+        "backup": "backup/18390568739_li_bo_hours.json"
+      },
+      {
+        "board": "18390568739",
+        "column": "li_expert_hours",
+        "backup": "backup/18390568739_li_expert_hours.json"
+      },
+      {
+        "board": "18403700733",
+        "column": "co_months",
+        "backup": "backup/18403700733_co_months.json"
+      },
+      {
+        "board": "18390568735",
+        "column": "opp_branding_setup / boolean_mm88cbqy / opp_customer_mgmt",
+        "backup": null,
+        "note": "Deleted 21-Oct 17:42 UTC by the Kindaa support account OUTSIDE these scripts (activity log). All were empty."
+      }
+    ],
+    "test_data": {
+      "opportunity": "13349045463 TEST KINDAA (§8 inputs set)",
+      "line_items": [
+        "13349455069 TEST Line A",
+        "13349515700 TEST Line B"
+      ]
     }
   },
   "pricing_parameters": {

@@ -1,0 +1,2463 @@
+{
+ "board": 18403700733,
+ "column": "co_months",
+ "settings": {
+  "id": "co_months",
+  "title": "Training Months",
+  "type": "numbers",
+  "revision": "571832b75781b0da5cfd317b8d52a0c0",
+  "settings": {}
+ },
+ "rows": [
+  {
+   "item_id": "13273388555",
+   "name": "Mil Wives- AI Upgrade -2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13273414562",
+   "name": "Mil Wives- AI from Idea to Product- 2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13273420221",
+   "name": "Mil Wives- Digital Marketing - 2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13273414326",
+   "name": "Mil Wives- Project Management- 2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13273410399",
+   "name": "Mil Wives - Finance - 2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13273414290",
+   "name": "Mil Wives- Slashers- 2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13273456119",
+   "name": "Mil Wives- SMB- 2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13274385696",
+   "name": "ענבל - מאיצי דאטה Oct 2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13276179131",
+   "name": "Mil Wives  - Data Analyst - 2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13276183009",
+   "name": "Mil Wives  - Project management Reskill-2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13285346119",
+   "name": "Histadrut Zionit - AI Tools | Nov 2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13319971700",
+   "name": "Achva - Vibe Coding | Nov 2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13320400581",
+   "name": "AI Academy - Claude Expert: Workflow Automation - A28",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13320426498",
+   "name": "AI Academy - Canva AI: Visual Content Creation - A29",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13320495140",
+   "name": "וובינר - טסט 123",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13344834927",
+   "name": "Bonim Atid - Webiner Finance- Nov 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13345577984",
+   "name": "COLMAN semB 2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11971192897",
+   "name": "פריטק ארצי - 1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12148807324",
+   "name": "בשביל הצפון - #2",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12213039631",
+   "name": "AI from Idea to Product (G14)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12213057617",
+   "name": "AI SMB (G17) - M",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12213040368",
+   "name": "AI for Developers (G18)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12213040611",
+   "name": "AI for Developers (G20)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12213082232",
+   "name": "AI Upgrade (G19) - M",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12213038298",
+   "name": "AI from Idea to Product (G21)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12213079422",
+   "name": "AI Upgrade (G22)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12213053933",
+   "name": "AI SMB (G23)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12213085937",
+   "name": "AI Upgrade (G24)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12289152315",
+   "name": "AI from Idea to Product (G25) - M",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12289308260",
+   "name": "AI from Idea to Product (G26)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12290217173",
+   "name": "AI SMB (G27)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12333820760",
+   "name": "AI for Developers (G28)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12345700083",
+   "name": "AI Upgrade (G29) - M",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12345647941",
+   "name": "AI Upgrade (G30)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12345654689",
+   "name": "AI from Idea to Product (G31)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12390036690",
+   "name": "#3 מילואים לקריירה -  TechTroop",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12393616813",
+   "name": "פריטק ירושלים - כללי",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12476142817",
+   "name": "חיימ\"ש - Digital Marketing - אוקטובר 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12537312917",
+   "name": "AI Upgrade (G32)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12590231248",
+   "name": "בשביל הצפון - שיווק דיגיטלי לבעלי עסקים",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12590304209",
+   "name": "בשביל הצפון - AI לבעלי עסקים",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12590338619",
+   "name": "בשביל הצפון - אוטומציות לעסקים",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12592819626",
+   "name": "בשביל הצפון - \"ממשבר לצמיחה\" - אסטרטגיה עסקית",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12592884307",
+   "name": "בשביל הצפון- פיננסים לבעלי עסקים",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12592885323",
+   "name": "בשביל הצפון - פיתוח מוצרים ב-AI",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12592985684",
+   "name": "בשביל הצפון - קורס צמיחה עסקית ענף תיירות",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12593014382",
+   "name": "בשביל הצפון - קורס צמיחה עסקית כללי",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12592999035",
+   "name": "בשביל הצפון - הקמת עסק ויזמות עסקית",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12637161002",
+   "name": "Bonim Atid | AI UPGRADE (W1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12650686899",
+   "name": "Bonim Atid | התנהלות פיננסית (W1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12650696011",
+   "name": "Bonim Atid | השקעות ומינוף פיננסי (W2)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12659176852",
+   "name": "Bonim Atid | AI ניהול פרויקטים בשילוב (O1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12659234343",
+   "name": "Bonim Atid | ניהול קריירה וליווי תעסוקתי (O1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12659251467",
+   "name": "Bonim Atid | AI UPGRADE (O1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12659252256",
+   "name": "Bonim Atid | שיווק דיגיטלי (O2)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12660512815",
+   "name": "Bonim Atid | AI From Idea To Product (O3)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12670194528",
+   "name": "Mission AI - AI & Automation Builder- Oct 2026",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12700245007",
+   "name": "חיימ\"ש - Digital Marketing ינואר 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12700212877",
+   "name": "חיימ\"ש - Project Management - ינואר 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12712336172",
+   "name": "ליווי קריירה מחזורי אוקטובר+ נובמבר",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12721965666",
+   "name": "NO.2 Neshota Upskill 2- No code 30+ AI",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12723302746",
+   "name": "Mil Wives - Finance - Oct 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12723322659",
+   "name": "Mil Wives- AI Software Development - Oct 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12723375284",
+   "name": "Mil Wives-  AI Upgrade - Oct 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12723357134",
+   "name": "Mil Wives-  AI From Idea to Product - Sep 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12723380479",
+   "name": "Mil Wives- Project Management- Oct 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12723443150",
+   "name": "Mil Wives- Slashers- Sep 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12723485093",
+   "name": "Mil Wives -SMB - Oct 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759346551",
+   "name": "NorthStar AI",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759958064",
+   "name": "Colman",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759980796",
+   "name": "מכללה למנהל סמס' ב 2025",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759974929",
+   "name": "Monday - Power Query 2",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759977676",
+   "name": "דיסקונט",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759978136",
+   "name": "דיסקונט SQL",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759959473",
+   "name": "Monday",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759981542",
+   "name": "BASF 2025",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759991096",
+   "name": "Monday.com ISR Team",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12781819137",
+   "name": "Bonim Atid | ניהול קריירה וליווי תעסוקתי (W1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12781803140",
+   "name": "Bonim Atid | השקעות ומינוף פיננסי (W1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12781883297",
+   "name": "Bonim Atid | AI UPGRADE (W2)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12781904347",
+   "name": "Bonim Atid | התנהלות פיננסית (W2)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12781892324",
+   "name": "Bonim Atid | AI From Idea To Product (O1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12781852926",
+   "name": "Bonim Atid | התנהלות פיננסית (O1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12781889210",
+   "name": "Bonim Atid | השקעות ומינוף פיננסי (O1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12781997810",
+   "name": "Bonim Atid | AI From Idea to Product (O2)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12781895009",
+   "name": "Bonim Atid | השקעות ומינוף פיננסי (O3)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12781895753",
+   "name": "Bonim Atid | AI UPGRADE  (O4)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12783447994",
+   "name": "סלשרים חממת היזמות קבוצה C",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13004727388",
+   "name": "Aharai (TechTroop) - FS",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13004681229",
+   "name": "Aharai (TechTroop) - DATA",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13004676085",
+   "name": "Be'azmi | Reskill Data",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12841895048",
+   "name": "Negev Talent - Redbynet",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12062415211",
+   "name": "Mil Wives  - Data Analyst - Oct 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12062570424",
+   "name": "Mil Wives  - Project management",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12114920753",
+   "name": "Mission AI - AI & Automation Builder",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12453527643",
+   "name": "Jewish Agency - PM#4",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12693968741",
+   "name": "Jewish Agency - Project Mng #3",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11936871862",
+   "name": "Jewish Agency - AI-Augmented Data Analyst",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12693991401",
+   "name": "TechTroop - Project Management - Oct 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12708081916",
+   "name": "TechTroop PM (Reskil)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12723395856",
+   "name": "Mil Wives - AI& Automation Builder - Nov 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722018947",
+   "name": "Mil wives - Recruitment - Oct 25",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12723395818",
+   "name": "Mil Wives - Customer Success - Nov 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12607506929",
+   "name": "Jewish Agency - CCNA",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12987820829",
+   "name": "Negev Talent - SB0",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13004654838",
+   "name": "Bonim Atid",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12693606452",
+   "name": "NegevTalent - AI Augmented",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12515378775",
+   "name": "TechTroop Full Stack: AI Engineer - Jan. 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12795490393",
+   "name": "אופקים CCNA",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13238192540",
+   "name": "AI Academy - Claude Expert: Workflow Automation - A4",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13238206422",
+   "name": "AI Academy - Advanced Features of AI - A1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13238219573",
+   "name": "AI Academy - AI for Developers with Cursor / Claude Code - A3",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13238197750",
+   "name": "AI Academy - Advanced Features of AI - A2",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13238219565",
+   "name": "AI Academy - Research & Insights with Perplexity - A5",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264115409",
+   "name": "AI Academy - Claude Expert: Workflow Automation - A6",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264114180",
+   "name": "AI Academy - Claude Expert: Workflow Automation - A8",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264142541",
+   "name": "AI Academy - Claude Expert: Workflow Automation - A12",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264114183",
+   "name": "AI Academy - Canva AI: Visual Content Creation - A9",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264134590",
+   "name": "AI Academy - AI for Developers with Cursor / Claude Code - A7",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264132560",
+   "name": "AI Academy - Advanced Features of AI - A10",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264129345",
+   "name": "AI Academy - Research & Insights with Perplexity - A13",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264257609",
+   "name": "AI Academy - Research & Insights with Perplexity - A15",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264132861",
+   "name": "AI Academy - Claude Expert: Workflow Automation - A14",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264129313",
+   "name": "AI Academy - Canva AI: Visual Content Creation - A11",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264116067",
+   "name": "AI Academy - Advanced Features of AI - A16",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264123543",
+   "name": "AI Academy - Research & Insights with Perplexity - A17",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264116091",
+   "name": "AI Academy - AI for Developers with Cursor / Claude Code - A18",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264132806",
+   "name": "AI Academy - Claude Expert: Workflow Automation - A20",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264143051",
+   "name": "AI Academy - Canva AI: Visual Content Creation - A21",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264132949",
+   "name": "AI Academy - Canva AI: Visual Content Creation - A19",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264132775",
+   "name": "AI Academy - AI for Developers with Cursor / Claude Code - A25",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264129412",
+   "name": "AI Academy - AI for Developers with Cursor / Claude Code - A24",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264135077",
+   "name": "AI Academy - Advanced Features of AI - A23",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264132797",
+   "name": "AI Academy - Research & Insights with Perplexity - A22",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264257338",
+   "name": "AI Academy - AI for Developers with Cursor / Claude Code - A26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13264258133",
+   "name": "AI Academy - Research & Insights with Perplexity - A27",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12834067296",
+   "name": "פריטק ארצי - 2",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13274440112",
+   "name": "Pretech - אג'יאל-באר שבע- Oct 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13274519615",
+   "name": "Pretech - אג'יק-באר שבע- Oct 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13274460397",
+   "name": "Pretech - ג'סר-Oct 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13274430240",
+   "name": "Pretech - באקה אל גרביה-Nov 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13265638600",
+   "name": "Pretech-כפר קאסם-Oct 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12032800835",
+   "name": "מסלול רישיון ייעוץ השקעות (בשיתוף BDO Academy)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13301531451",
+   "name": "סלאשרים חממת היזמות D",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13319972280",
+   "name": "סדנאות AI מט\"ח",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012148622",
+   "name": "A-tech - Data Analysis #1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11810227104",
+   "name": "AI Upgrade (G1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11810168693",
+   "name": "AI Upgrade (G8)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11810168698",
+   "name": "AI Upgrade (G7)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11811767243",
+   "name": "AI from Idea to Product (G2)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11853535800",
+   "name": "AI SMB (G4)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12093353077",
+   "name": "Mil Wives - Power BI",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11853536735",
+   "name": "AI for Developers (G3)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12488050530",
+   "name": "TechTroop - הזדמנות להשתנות - מבית מסע אל האופק",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12669959802",
+   "name": "No code C",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696231238",
+   "name": "A20",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696233529",
+   "name": "A1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696124340",
+   "name": "A2",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696184331",
+   "name": "A3",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696167189",
+   "name": "A4",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696233642",
+   "name": "A5",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696167315",
+   "name": "A6",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696167451",
+   "name": "A7",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696160722",
+   "name": "A9",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696184733",
+   "name": "A8",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696184248",
+   "name": "A10",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696167319",
+   "name": "A11",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696167264",
+   "name": "A12",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696233649",
+   "name": "A13",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696233729",
+   "name": "A14",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696184252",
+   "name": "A15",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696167320",
+   "name": "A16",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696150623",
+   "name": "A17",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696184778",
+   "name": "A18",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696233607",
+   "name": "A19",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696150955",
+   "name": "A21",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696150956",
+   "name": "A22",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696279335",
+   "name": "A23",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696184256",
+   "name": "A24",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696278800",
+   "name": "A25",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696279273",
+   "name": "A26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696167341",
+   "name": "A27",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696233799",
+   "name": "A28",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696167681",
+   "name": "A29",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696167625",
+   "name": "A30",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696184477",
+   "name": "A31",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696167357",
+   "name": "A32",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696150747",
+   "name": "A33",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12696184710",
+   "name": "A34",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12708137260",
+   "name": "Project Management A",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12707981307",
+   "name": "Project Management B",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12708067108",
+   "name": "Project Management C",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12708136709",
+   "name": "Project Management D",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12708008266",
+   "name": "Project Management E",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12708137446",
+   "name": "Project Management F",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12708009032",
+   "name": "Project Management G",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12711532374",
+   "name": "power bi A",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12711515345",
+   "name": "power bi B",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12712166176",
+   "name": "No Code B",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12712153665",
+   "name": "No code D",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12719468110",
+   "name": "בונים עתיד 2025 | אלמנות ויתומים - קורס פיננסי יתומים 4 (Q2)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722061092",
+   "name": "סלשרים A",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722056941",
+   "name": "סלשרים B",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722060998",
+   "name": "Slashers Beazmi",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722163962",
+   "name": "Smb A",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722162348",
+   "name": "Smb B",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722163975",
+   "name": "Smb C",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722251324",
+   "name": "No code A",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722502541",
+   "name": "בונים עתיד 2025 | אלמנות ויתומים - ליווי וייעוץ קריירה (Q2)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759958173",
+   "name": "College of Management - sem B 2024 (AI+ פרודקט)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759936301",
+   "name": "College of Management - sem B 2024 פרודקט",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759974290",
+   "name": "Food tech 1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759941104",
+   "name": "Appleseeds - Data",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759958693",
+   "name": "A-tech - DevOps#2",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759936272",
+   "name": "Lev Academic Center",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759958702",
+   "name": "סמינר בית יעקב",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759941451",
+   "name": "A-tech - Program mgmt #3",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759981884",
+   "name": "Appleseeds - QA",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759974881",
+   "name": "Joint - Halamas",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759941897",
+   "name": "PIP",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759937345",
+   "name": "אקסיומה בני שמעון",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759981509",
+   "name": "NegevTalent  Fullstack 1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759968554",
+   "name": "Keren Rashi - Tnufa",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759959394",
+   "name": "MDClone",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759990927",
+   "name": "Appsflyer 2",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759975466",
+   "name": "Monday.com US Team",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759937591",
+   "name": "תואר הפוך בשיתוף התאחדות הסטודנטים הארצית",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12721952794",
+   "name": "שטראוס",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11811744244",
+   "name": "AI from Idea to Product (G6)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11851448134",
+   "name": "AI from Idea to Product (G13) - M",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11971703097",
+   "name": "255 - Slasher",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12719451988",
+   "name": "בונים עתיד 2025 | אלמנות ויתומים - AI 4 (Q2) העשרה",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722386374",
+   "name": "בונים עתיד 2025 | אלמנות ויתומים - דאטה B (Q1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12719470531",
+   "name": "בונים עתיד 2025 | אלמנות ויתומים - דיגיטל מרקטינג 2 DM",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12719470058",
+   "name": "בונים עתיד 2025 | אלמנות ויתומים - AI 3 (Q2)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12719434844",
+   "name": "בונים עתיד 2025 | אלמנות ויתומים - פיננסי 1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722387440",
+   "name": "בונים עתיד 2025 | אלמנות ויתומים - דאטה A (Q1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759976193",
+   "name": "בונים עתיד 2025 | היכרות עם התעשייה - יום טכנולוגי ליתומים (Q1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759958470",
+   "name": "בונים עתיד 2025 | בונים עתיד וויקס",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11851343513",
+   "name": "AI Upgrade (G9) - M",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759974950",
+   "name": "סוכנות היהודית #1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759941492",
+   "name": "היזמה AM נשים (מכללת ספיר)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759968545",
+   "name": "בדרכה",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12718180524",
+   "name": "AWS - 1st course",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12718161408",
+   "name": "AWS - 2nd course",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759976407",
+   "name": "Food Tech 2",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759940724",
+   "name": "מעארף - Data",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759951666",
+   "name": "Food Tech 3",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759951852",
+   "name": "A-tech - DevOps #4",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759936516",
+   "name": "A-tech - Data Analysis #3",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759976620",
+   "name": "A-tech - DevOps #3",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759937162",
+   "name": "מעארף - שיווק דיגיטלי",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759974716",
+   "name": "A-tech -DM#4",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759937312",
+   "name": "A-tech#2 -  Fullstack",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759937383",
+   "name": "A-tech - Program mgmt#4",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759941401",
+   "name": "A-tech - Data Analysis#4",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759975460",
+   "name": "מעארף - QA",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759975589",
+   "name": "Jerusalem Municipality - Strategy and Innovation Department",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759990837",
+   "name": "A-tech -DM #3",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759977374",
+   "name": "סיילספורס- CRM",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759951097",
+   "name": "QuantumIL",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759958420",
+   "name": "Ministry of Security - חימ\"ש",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759970250",
+   "name": "Kav Mashve  2nd cohort - Recruitment",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759949895",
+   "name": "Maccabi 1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759975146",
+   "name": "Beer Sheva Muni - Data Analyst",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759977889",
+   "name": "Kinneret College #1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759977879",
+   "name": "Discount Reskill",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12700352338",
+   "name": "דיגיטל מרקטינג - מפעל הפייס",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759937024",
+   "name": "NegevTalent  Data",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722483833",
+   "name": "CSM (Q1)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12706316953",
+   "name": "מרכז הזדמנות טבריה",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12700362988",
+   "name": "Haimash -ניהול קמפיינים ממומנים IDF #2 (מאי - הדס)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12700362612",
+   "name": "Haimash -ניהול קמפיינים ממומנים IDF #3 (יולי- נופר)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11851345795",
+   "name": "AI Upgrade (G11)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012144240",
+   "name": "AtidnaTech - Sales",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012148765",
+   "name": "AccelHERate 3-Sales",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012177318",
+   "name": "A-tech marketing, admission, IAA, partnership - 1st round",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012169713",
+   "name": "Mil wives Career change CRM (Reskill)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13014300555",
+   "name": "Maaref - Data",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13014323822",
+   "name": "Maaref - Digital Marketing",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012144688",
+   "name": "A-tech - DevOps #1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012144749",
+   "name": "A-tech - QA Automation #1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012144337",
+   "name": "AcclHERate 2-CS",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012144882",
+   "name": "AccelHERate 3-Data",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012149152",
+   "name": "AcclHERate 1-Sales",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012149113",
+   "name": "AtidnaTech - Data",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012149058",
+   "name": "AcclHERate 1- Data",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012149707",
+   "name": "AtidnaTech cohort #5 - Fullstack",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012159834",
+   "name": "AtidnaTech - Recruitment",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759981952",
+   "name": "Hayozma - Center",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012177602",
+   "name": "AcclHERate 2-Sales",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012160222",
+   "name": "AcclHERate 2-Data",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012177724",
+   "name": "AccelHERate 3-CS",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012169513",
+   "name": "AcclHERate 1-CS",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13012160320",
+   "name": "A-tech cohort #6 - Fullstack",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759975115",
+   "name": "פלייס",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759981497",
+   "name": "UX UI",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13014334225",
+   "name": "Bonim Atid | Data",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759970563",
+   "name": "Prete ch- ריאן אלפנר 2.3",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759937066",
+   "name": "Pretech | תנופה (מערכות מידע)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12718127207",
+   "name": "Pretech | בעצמי - אגי׳ק כפר קאסם",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12718180567",
+   "name": "Pretech | בעצמי - אגי׳ק דרום",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12718203998",
+   "name": "Pretech | בעצמי - מסאר",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12093358297",
+   "name": "Mil Wives - Digital Marketing",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12074802796",
+   "name": "Mil Wives - Project management  101",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12093354006",
+   "name": "Mil Wives  - AI From Idea to Product",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759941405",
+   "name": "היוזמה/למרחק",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12093472675",
+   "name": "Mil Wives  - AI Upgrade",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12093387328",
+   "name": "Mil Wives  - SMB",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12093371566",
+   "name": "Mil Wives  - Slashers",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11810141254",
+   "name": "AI Upgrade (G5) - M",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12759974496",
+   "name": "סינרגיה - פרויקט תנופה לצפון",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12718180994",
+   "name": "Sapir College - PM",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12718180323",
+   "name": "AWS - 3rd course",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12718180788",
+   "name": "AWS - 4th course",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13014257614",
+   "name": "NegevTalent - Fullstack 2",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12715974912",
+   "name": "Negev Talent - IT",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12715996761",
+   "name": "Negev Talent- QA",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12716027717",
+   "name": "Negev Talent - Cyber",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13004679587",
+   "name": "סוכנות היהודית - ניהול פרוייקטים #2",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12719314753",
+   "name": "255",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12698736939",
+   "name": "פריטק אופקים",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12698719503",
+   "name": "פריטק לוטוס",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12698522977",
+   "name": "חיימ\"ש - Customer Success - יוני 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12698477744",
+   "name": "חיימ\"ש - Project Management - יוני 26",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13258873949",
+   "name": "📋 תבנית מייל דיפולט",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13258927008",
+   "name": "טסט",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13259366440",
+   "name": "פיננסי 1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13259366688",
+   "name": "פיננסי 2",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13259360455",
+   "name": "פיננסי 3",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13259362861",
+   "name": "פיננסי 4",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13259360480",
+   "name": "פיננסי 5",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13259361834",
+   "name": "פיננסי 6",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13259361922",
+   "name": "פיננסי 7",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13272985056",
+   "name": "Gen AI A",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13273006882",
+   "name": "Gen AI B",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12706339788",
+   "name": "Pretech #1",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12706330047",
+   "name": "Pretech #2",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12706316956",
+   "name": "Pretech #3",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11853531446",
+   "name": "AI SMB (G10)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12213118115",
+   "name": "AI Upgrade (G16)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "11853514884",
+   "name": "AI from Idea to Product (G12)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13319946392",
+   "name": "Negev Talent- Sales",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12213074828",
+   "name": "AI SMB (G15)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13333718030",
+   "name": "📋 תבנית מייל דיפולט — אירועים",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13319839007",
+   "name": "Lobby Hamilion",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13345060994",
+   "name": "Negev Talent- SMBs",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13345979917",
+   "name": "ליווי קריירה | קבוצת אוקוטובר 2025",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "13345979919",
+   "name": "ליווי קריירה | קבוצת ספטמבר 2025",
+   "text": "",
+   "value": null,
+   "display_value": null
+  },
+  {
+   "item_id": "12722491237",
+   "name": "CRM (Q2)",
+   "text": "",
+   "value": null,
+   "display_value": null
+  }
+ ]
+}
