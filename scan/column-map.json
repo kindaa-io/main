@@ -24,8 +24,29 @@
         "phase": 1,
         "date": "2026-10-21",
         "result": "Pricing Parameters board 18436459887 + v1 item 13348993282 created and verified"
+      },
+      {
+        "phase": 2,
+        "date": "2026-10-21",
+        "result": "Opportunity inputs + 38 mirrors created; formula-over-mirror gate = 26 on TEST KINDAA; views 'new columns'/'modified columns' created"
       }
-    ]
+    ],
+    "views": {
+      "18390568735": {
+        "new columns": "287762127",
+        "modified columns": "287762146"
+      }
+    },
+    "api_notes": [
+      "create_column 2025-04: board_relation and mirror not supported -> use 2025-10",
+      "create_column 2025-04 with formula defaults stores an EMPTY formula -> set it with update_column(settings:{formula}) on 2025-10",
+      "update_status_column needs a color on every label (existing ones included)"
+    ],
+    "test_item": {
+      "id": "13349045463",
+      "name": "TEST KINDAA",
+      "state": "linked to v1; Admission High, Marketing Low"
+    }
   },
   "pricing_parameters": {
     "__board__": {
@@ -325,284 +346,284 @@
   },
   "18390568735": {
     "op_prm_version": {
-      "id": null,
+      "id": "op_prm_version",
       "title": "⚙️Pricing Version",
       "type": "board_relation",
-      "action": "CREATE",
-      "notes": "Target board does not exist yet (Phase 1)."
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: -> board 18436459887, single item. Created with API 2025-10 (2025-04 refuses board_relation)."
     },
     "opm_setup_pm": {
-      "id": null,
+      "id": "opm_setup_pm",
       "title": "⚙️prm_setup_pm",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_setup_ops": {
-      "id": null,
+      "id": "opm_setup_ops",
       "title": "⚙️prm_setup_ops",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_adm_lo_pm": {
-      "id": null,
+      "id": "opm_adm_lo_pm",
       "title": "⚙️prm_adm_lo_pm",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_adm_lo_ops": {
-      "id": null,
+      "id": "opm_adm_lo_ops",
       "title": "⚙️prm_adm_lo_ops",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_adm_hi_pm": {
-      "id": null,
+      "id": "opm_adm_hi_pm",
       "title": "⚙️prm_adm_hi_pm",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_adm_hi_ops": {
-      "id": null,
+      "id": "opm_adm_hi_ops",
       "title": "⚙️prm_adm_hi_ops",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_mkt_lo_pm": {
-      "id": null,
+      "id": "opm_mkt_lo_pm",
       "title": "⚙️prm_mkt_lo_pm",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_mkt_lo_ops": {
-      "id": null,
+      "id": "opm_mkt_lo_ops",
       "title": "⚙️prm_mkt_lo_ops",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_mkt_hi_pm": {
-      "id": null,
+      "id": "opm_mkt_hi_pm",
       "title": "⚙️prm_mkt_hi_pm",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_mkt_hi_ops": {
-      "id": null,
+      "id": "opm_mkt_hi_ops",
       "title": "⚙️prm_mkt_hi_ops",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_ong_lo_pm_m": {
-      "id": null,
+      "id": "opm_ong_lo_pm_m",
       "title": "⚙️prm_ong_lo_pm_m",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_ong_lo_ops_m": {
-      "id": null,
+      "id": "opm_ong_lo_ops_m",
       "title": "⚙️prm_ong_lo_ops_m",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_ong_hi_pm_m": {
-      "id": null,
+      "id": "opm_ong_hi_pm_m",
       "title": "⚙️prm_ong_hi_pm_m",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_ong_hi_ops_m": {
-      "id": null,
+      "id": "opm_ong_hi_ops_m",
       "title": "⚙️prm_ong_hi_ops_m",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_cm_lo_pm_m": {
-      "id": null,
+      "id": "opm_cm_lo_pm_m",
       "title": "⚙️prm_cm_lo_pm_m",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_cm_lo_ops_m": {
-      "id": null,
+      "id": "opm_cm_lo_ops_m",
       "title": "⚙️prm_cm_lo_ops_m",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_cm_hi_pm_m": {
-      "id": null,
+      "id": "opm_cm_hi_pm_m",
       "title": "⚙️prm_cm_hi_pm_m",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_cm_hi_ops_m": {
-      "id": null,
+      "id": "opm_cm_hi_ops_m",
       "title": "⚙️prm_cm_hi_ops_m",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_wk_per_month": {
-      "id": null,
+      "id": "opm_wk_per_month",
       "title": "⚙️prm_wk_per_month",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_ev_lo_pm": {
-      "id": null,
+      "id": "opm_ev_lo_pm",
       "title": "⚙️prm_ev_lo_pm",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_ev_lo_ops": {
-      "id": null,
+      "id": "opm_ev_lo_ops",
       "title": "⚙️prm_ev_lo_ops",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_ev_hi_pm": {
-      "id": null,
+      "id": "opm_ev_hi_pm",
       "title": "⚙️prm_ev_hi_pm",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_ev_hi_ops": {
-      "id": null,
+      "id": "opm_ev_hi_ops",
       "title": "⚙️prm_ev_hi_ops",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_car_adm": {
-      "id": null,
+      "id": "opm_car_adm",
       "title": "⚙️prm_car_adm",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_car_ws": {
-      "id": null,
+      "id": "opm_car_ws",
       "title": "⚙️prm_car_ws",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_car_sup": {
-      "id": null,
+      "id": "opm_car_sup",
       "title": "⚙️prm_car_sup",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_car_wk": {
-      "id": null,
+      "id": "opm_car_wk",
       "title": "⚙️prm_car_wk",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_auto": {
-      "id": null,
+      "id": "opm_auto",
       "title": "⚙️prm_auto",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_des_tpl": {
-      "id": null,
+      "id": "opm_des_tpl",
       "title": "⚙️prm_des_tpl",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_des_brand": {
-      "id": null,
+      "id": "opm_des_brand",
       "title": "⚙️prm_des_brand",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_des_web_lo": {
-      "id": null,
+      "id": "opm_des_web_lo",
       "title": "⚙️prm_des_web_lo",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_des_web_hi": {
-      "id": null,
+      "id": "opm_des_web_hi",
       "title": "⚙️prm_des_web_hi",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_des_adm": {
-      "id": null,
+      "id": "opm_des_adm",
       "title": "⚙️prm_des_adm",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_ls_per_cohort": {
-      "id": null,
+      "id": "opm_ls_per_cohort",
       "title": "⚙️prm_ls_per_cohort",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_dev_live_ls": {
-      "id": null,
+      "id": "opm_dev_live_ls",
       "title": "⚙️prm_dev_live_ls",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_dev_live_exp": {
-      "id": null,
+      "id": "opm_dev_live_exp",
       "title": "⚙️prm_dev_live_exp",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_dev_self_ls": {
-      "id": null,
+      "id": "opm_dev_self_ls",
       "title": "⚙️prm_dev_self_ls",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "opm_dev_self_exp": {
-      "id": null,
+      "id": "opm_dev_self_exp",
       "title": "⚙️prm_dev_self_exp",
       "type": "mirror",
-      "action": "CREATE",
-      "notes": "via op_prm_version"
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: mirror via op_prm_version (API 2025-10)."
     },
     "op_admission": {
       "id": "color_mm66cssh",
       "title": "Screening/Admission?",
       "type": "status",
-      "action": "REPURPOSE",
-      "notes": "DECIDED 21-Oct: add a NEW label 'Not Sold' (new index). Keep 'No' (idx 0) and 'Yes' (idx 1) unchanged; no merge, no data migration. Formula logic: Not Sold if this column = 'Not Sold' (or 'No': approved 21-Oct); else High if opp_admission_level = High; else Low if opp_admission_level = Low, or if this column = 'Yes' with no level; else (both empty) Not Sold.",
+      "action": "KEEP",
+      "notes": "NOT CHANGED (superseded 21-Oct): Admission now lives in opp_admission_level. Formula fallback only: level empty + this = 'Yes' -> Low.",
       "pack_action": "REPURPOSE (Not Sold / Low Touch / High Touch)",
       "live_title": "Screening/Admission?",
       "live_type": "status",
@@ -616,10 +637,10 @@
     },
     "op_admission_level": {
       "id": "opp_admission_level",
-      "title": "Admission Level",
+      "title": "Admission",
       "type": "status",
-      "action": "KEEP",
-      "notes": "DECIDED 21-Oct: KEEP. This is the level source for Admission (Low/High). Empty on all 1,233 items.",
+      "action": "REPURPOSED",
+      "notes": "Phase 2, 21-Oct: renamed 'Admission Level' -> 'Admission'; labels 0 Low / 1 High / 2 Not Sold (new, grey).",
       "pack_action": "DELETE after migration",
       "live_title": "Admission Level",
       "live_type": "status",
@@ -665,10 +686,10 @@
     },
     "op_mkt_level": {
       "id": "opp_mkt_level",
-      "title": "Marketing Level",
+      "title": "Marketing",
       "type": "status",
-      "action": "KEEP",
-      "notes": "DECIDED 21-Oct: KEEP. Drives Marketing & Branding setup hours (prm_mkt_*): High -> High rates, Low -> Low rates, empty -> 0 (not sold). Budget stays in opp_mkt_budget.",
+      "action": "REPURPOSED",
+      "notes": "Phase 2, 21-Oct: renamed -> 'Marketing'; + Not Sold (idx 2). Drives prm_mkt_* hours; budget stays in opp_mkt_budget.",
       "pack_action": "DELETE after migration",
       "live_title": "Marketing Level",
       "live_type": "status",
@@ -684,8 +705,8 @@
       "id": "opp_support_level",
       "title": "Ongoing Course Support",
       "type": "status",
-      "action": "REPURPOSE",
-      "notes": "Found by title 'Ongoing Course Support Level' (custom ID opp_support_level), labels {0:Low,1:High}. Add NEW label 'Not Sold'. Formulas read this column: Low/High = sold, Not Sold = 0, empty = Low (decision 21-Oct). The checkbox boolean_mm88cbqy is kept but not read.",
+      "action": "REPURPOSED",
+      "notes": "Phase 2, 21-Oct: renamed; + Not Sold (idx 2).",
       "live_title": "Ongoing Course Support Level",
       "live_type": "status",
       "nonempty": 0,
@@ -698,10 +719,10 @@
     },
     "op_cust_mgmt": {
       "id": "color_mm88m6bm",
-      "title": "Customer Management",
+      "title": "Customer Mgmt",
       "type": "status",
-      "action": "REPURPOSE",
-      "notes": "Labels {0:Low,1:High}. Add NEW label 'Not Sold'. Formulas read this column: Low/High = sold, Not Sold = 0, empty = Low. The checkbox opp_customer_mgmt is kept but not read.",
+      "action": "REPURPOSED",
+      "notes": "Phase 2, 21-Oct: renamed; + Not Sold (idx 2).",
       "live_title": "Customer Management Level",
       "live_type": "status",
       "nonempty": 0,
@@ -713,19 +734,19 @@
       }
     },
     "op_website": {
-      "id": null,
+      "id": "op_website",
       "title": "Website Build",
       "type": "status",
-      "action": "CREATE",
-      "notes": "No website column found on Opportunity.",
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: labels 0 Low / 1 High / 2 Not Sold (replaces the pack's N/A).",
       "pack_action": "VERIFY / CREATE"
     },
     "op_branding": {
       "id": "opp_branding_setup",
-      "title": "Branding",
+      "title": "Branding Setup (old)",
       "type": "checkbox",
-      "action": "KEEP",
-      "notes": "Existing 'Branding Setup' is a CHECKBOX, so per pack: don't convert, formula reads the checkbox. Optional RENAME to 'Branding'. Separate status opp_branding_level (Low/High) is not in the target schema (D2) -> see unmatched list.",
+      "action": "RENAMED",
+      "notes": "Phase 2, 21-Oct: kept, renamed '(old)'; not read by formulas.",
       "pack_action": "VERIFY (repurpose if status)",
       "live_title": "Branding Setup",
       "live_type": "checkbox",
@@ -735,10 +756,10 @@
     },
     "op_event_level": {
       "id": "opp_event_level",
-      "title": "Event Level",
+      "title": "Event",
       "type": "status",
-      "action": "KEEP",
-      "notes": "Labels {0:Low,1:High}",
+      "action": "REPURPOSED",
+      "notes": "Phase 2, 21-Oct: renamed -> 'Event'; + Not Sold (idx 2).",
       "pack_action": "VERIFY / KEEP",
       "live_title": "Event Level",
       "live_type": "status",
@@ -780,8 +801,8 @@
       "id": "opp_cd_live_hours",
       "title": "Content Dev Hours – Live",
       "type": "numbers",
-      "action": "RENAME",
-      "notes": "Found: 'RR Content Dev – Live Hours'.",
+      "action": "RENAMED",
+      "notes": "Phase 2, 21-Oct",
       "pack_action": "CREATE (unless found)",
       "live_title": "RR Content Dev – Live Hours",
       "live_type": "numbers",
@@ -793,8 +814,8 @@
       "id": "opp_cd_self_hours",
       "title": "Content Dev Hours – Self",
       "type": "numbers",
-      "action": "RENAME",
-      "notes": "Found: 'RR Content Dev – Self Hours'.",
+      "action": "RENAMED",
+      "notes": "Phase 2, 21-Oct",
       "pack_action": "CREATE (unless found)",
       "live_title": "RR Content Dev – Self Hours",
       "live_type": "numbers",
@@ -803,11 +824,11 @@
       "dependents": []
     },
     "op_cm_weeks": {
-      "id": null,
+      "id": "op_cm_weeks",
       "title": "Customer Mgmt Weeks",
       "type": "numbers",
-      "action": "CREATE",
-      "notes": "",
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct",
       "pack_action": "CREATE (pending Q1)"
     },
     "op_margin": {
@@ -825,11 +846,11 @@
       ]
     },
     "op_r_pm_cohort": {
-      "id": null,
+      "id": "op_r_pm_cohort",
       "title": "⚙️PM / Cohort",
       "type": "formula",
-      "action": "CREATE",
-      "notes": ""
+      "action": "CREATED",
+      "notes": "Phase 2, 21-Oct: formula written with update_column (create_column on 2025-04 silently drops formula text). Gate: TEST KINDAA 13349045463 = 26 ✓."
     },
     "op_r_ops_cohort": {
       "id": null,
@@ -1292,10 +1313,10 @@
     },
     "opp_ongoing_checkbox": {
       "id": "boolean_mm88cbqy",
-      "title": "Ongoing Course Support",
+      "title": "Ongoing Course Support (old)",
       "type": "checkbox",
-      "action": "KEEP",
-      "notes": "DECIDED 21-Oct: KEEP. Not read by formulas. Empty on all items.",
+      "action": "RENAMED",
+      "notes": "Phase 2, 21-Oct: kept, renamed '(old)'.",
       "pack_action": "DELETE",
       "live_title": "Ongoing Course Support",
       "live_type": "checkbox",
@@ -1305,10 +1326,10 @@
     },
     "opp_customer_mgmt_checkbox": {
       "id": "opp_customer_mgmt",
-      "title": "Customer Management",
+      "title": "Customer Management (old)",
       "type": "checkbox",
-      "action": "KEEP",
-      "notes": "DECIDED 21-Oct: KEEP. Not read by formulas.",
+      "action": "RENAMED",
+      "notes": "Phase 2, 21-Oct: kept, renamed '(old)'.",
       "pack_action": "(not in pack)",
       "live_title": "Customer Management",
       "live_type": "checkbox",
@@ -1318,10 +1339,10 @@
     },
     "opp_branding_level": {
       "id": "opp_branding_level",
-      "title": "Branding Level",
+      "title": "Branding Setup",
       "type": "status",
-      "action": "KEEP",
-      "notes": "DECIDED 21-Oct: KEEP. Not read by formulas (D2: Branding is single option via opp_branding_setup).",
+      "action": "REPURPOSED",
+      "notes": "Phase 2, 21-Oct: renamed -> 'Branding Setup'; + Not Sold (idx 2). OPEN: the number column the user asked for alongside it.",
       "pack_action": "(not in pack)",
       "live_title": "Branding Level",
       "live_type": "status",
