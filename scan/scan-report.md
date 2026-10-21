@@ -2,7 +2,7 @@
 
 **Workspace:** 13463480 (Elevation - CRM), account 183643 Elevation Academy · **Scan date:** 21 Oct 2026 · **Mode:** read-only (only GraphQL `query` calls; the helper scripts refuse any request containing `mutation`). Nothing in the account was changed.
 
-**Status:** the column plan in this report includes the decisions made in chat on 21 Oct (see "Decisions applied"). No execution phase (§6) has started.
+**Status:** the column plan in this report includes the decisions made in chat on 21 Oct (see "Decisions applied"). **Phase 1 is done:** ⚙️ Pricing Parameters board `18436459887` was created with 40 columns and item `13348993282` "v1 – Oct 2026" (Active, effective 2026-11-01). All 38 values were read back and match §2.1. Phases 2–9 haven't started.
 
 ### How the scan was done
 - **monday.com:** the monday MCP server **failed to connect** (proxy tunnel 403). All reads went through the session's proxy-authenticated monday GraphQL API (`api.monday.com/v2`, API-Version 2025-04), signed in as *Kindaa support* (user 111441380). All six boards were readable.
@@ -74,8 +74,8 @@ Counts are after the 21-Oct decisions. Opportunity CREATE includes the 38 `opm_*
 **Phase 1 (create the Pricing Parameters board): nothing blocks it** once this plan is approved. The board doesn't exist, and nothing depends on it yet.
 
 Open items for later phases (they don't block Phase 1):
-1. **Marketing hours (Phase 2–3):** with "Marketing = budget only", should the §2.1 Marketing & Branding Setup hours (`prm_mkt_*`, used in PM/OPS per cohort) still be created, and what drives them (`opp_mkt_level`?), or are they dropped? Until this is answered, the rates exclude Marketing.
-2. **Admission "No" (Phase 3):** the formula assumes the existing label "No" means the same as the new "Not Sold". Please confirm.
+1. **Marketing hours, decided 21 Oct:** the `prm_mkt_*` hours are created and driven by `opp_mkt_level` (High → High rates, Low → Low rates, empty → 0). The budget stays in `opp_mkt_budget`.
+2. **Admission "No", approved 21 Oct:** the existing "No" label is read the same as the new "Not Sold".
 3. **Make (Phases 2, 8, 9):** blueprints not checked. Before any delete or label change, search the scenarios for the IDs on the UI-check list. Two Opportunity webhooks (create_item; Deal Stage = Closed Won) are probably Make and are where M1/M3 will plug in.
 4. **Catalog data (Phase 4 test):** `cat_ls_level`, the hourly rate and Back office H are empty on all 34 products, so every line item will read "not ready" until Nofar fills them.
 5. **Cohorts `co_months` (Phase 8):** delete approved on condition. Count and back it up first.

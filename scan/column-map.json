@@ -18,295 +18,309 @@
       "opp_cohort_months": "Σ weeks, not months",
       "li_total_hours": "is the LS-hours mirror (of cat_ls_hours), NOT total training hours",
       "co_months": "Training MONTHS (to be replaced by weeks mirror)"
-    }
+    },
+    "phase_log": [
+      {
+        "phase": 1,
+        "date": "2026-10-21",
+        "result": "Pricing Parameters board 18436459887 + v1 item 13348993282 created and verified"
+      }
+    ]
   },
   "pricing_parameters": {
     "__board__": {
-      "id": null,
+      "id": "18436459887",
       "title": "⚙️ Pricing Parameters",
       "type": "board",
-      "action": "CREATE",
-      "notes": "No board with this name (or Cost Rates) exists in workspace 13463480."
+      "action": "CREATED",
+      "notes": "Created 21-Oct (Phase 1), public main board in workspace 13463480, group 'Versions' (id topics). Restrict editing to Nofar in the UI (D10/§3.1)."
     },
     "prm_status": {
-      "id": null,
+      "id": "prm_status",
       "title": "Status",
       "type": "status",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": "Active / Archived"
     },
     "prm_effective": {
-      "id": null,
+      "id": "prm_effective",
       "title": "Effective Date",
       "type": "date",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_setup_pm": {
-      "id": null,
-      "title": "prm_setup_pm",
+      "id": "prm_setup_pm",
+      "title": "Setup PM",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_setup_ops": {
-      "id": null,
-      "title": "prm_setup_ops",
+      "id": "prm_setup_ops",
+      "title": "Setup OPS",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_adm_lo_pm": {
-      "id": null,
-      "title": "prm_adm_lo_pm",
+      "id": "prm_adm_lo_pm",
+      "title": "Admission Low PM",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_adm_lo_ops": {
-      "id": null,
-      "title": "prm_adm_lo_ops",
+      "id": "prm_adm_lo_ops",
+      "title": "Admission Low OPS",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_adm_hi_pm": {
-      "id": null,
-      "title": "prm_adm_hi_pm",
+      "id": "prm_adm_hi_pm",
+      "title": "Admission High PM",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_adm_hi_ops": {
-      "id": null,
-      "title": "prm_adm_hi_ops",
+      "id": "prm_adm_hi_ops",
+      "title": "Admission High OPS",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_mkt_lo_pm": {
-      "id": null,
-      "title": "prm_mkt_lo_pm",
+      "id": "prm_mkt_lo_pm",
+      "title": "Marketing Low PM",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_mkt_lo_ops": {
-      "id": null,
-      "title": "prm_mkt_lo_ops",
+      "id": "prm_mkt_lo_ops",
+      "title": "Marketing Low OPS",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_mkt_hi_pm": {
-      "id": null,
-      "title": "prm_mkt_hi_pm",
+      "id": "prm_mkt_hi_pm",
+      "title": "Marketing High PM",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_mkt_hi_ops": {
-      "id": null,
-      "title": "prm_mkt_hi_ops",
+      "id": "prm_mkt_hi_ops",
+      "title": "Marketing High OPS",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_ong_lo_pm_m": {
-      "id": null,
-      "title": "prm_ong_lo_pm_m",
+      "id": "prm_ong_lo_pm_m",
+      "title": "Ongoing Low PM / Month",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_ong_lo_ops_m": {
-      "id": null,
-      "title": "prm_ong_lo_ops_m",
+      "id": "prm_ong_lo_ops_m",
+      "title": "Ongoing Low OPS / Month",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_ong_hi_pm_m": {
-      "id": null,
-      "title": "prm_ong_hi_pm_m",
+      "id": "prm_ong_hi_pm_m",
+      "title": "Ongoing High PM / Month",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_ong_hi_ops_m": {
-      "id": null,
-      "title": "prm_ong_hi_ops_m",
+      "id": "prm_ong_hi_ops_m",
+      "title": "Ongoing High OPS / Month",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_cm_lo_pm_m": {
-      "id": null,
-      "title": "prm_cm_lo_pm_m",
+      "id": "prm_cm_lo_pm_m",
+      "title": "Cust Mgmt Low PM / Month",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_cm_lo_ops_m": {
-      "id": null,
-      "title": "prm_cm_lo_ops_m",
+      "id": "prm_cm_lo_ops_m",
+      "title": "Cust Mgmt Low OPS / Month",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_cm_hi_pm_m": {
-      "id": null,
-      "title": "prm_cm_hi_pm_m",
+      "id": "prm_cm_hi_pm_m",
+      "title": "Cust Mgmt High PM / Month",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_cm_hi_ops_m": {
-      "id": null,
-      "title": "prm_cm_hi_ops_m",
+      "id": "prm_cm_hi_ops_m",
+      "title": "Cust Mgmt High OPS / Month",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_wk_per_month": {
-      "id": null,
-      "title": "prm_wk_per_month",
+      "id": "prm_wk_per_month",
+      "title": "Weeks per Month",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_ev_lo_pm": {
-      "id": null,
-      "title": "prm_ev_lo_pm",
+      "id": "prm_ev_lo_pm",
+      "title": "Event Low PM",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_ev_lo_ops": {
-      "id": null,
-      "title": "prm_ev_lo_ops",
+      "id": "prm_ev_lo_ops",
+      "title": "Event Low OPS",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_ev_hi_pm": {
-      "id": null,
-      "title": "prm_ev_hi_pm",
+      "id": "prm_ev_hi_pm",
+      "title": "Event High PM",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_ev_hi_ops": {
-      "id": null,
-      "title": "prm_ev_hi_ops",
+      "id": "prm_ev_hi_ops",
+      "title": "Event High OPS",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_car_adm": {
-      "id": null,
-      "title": "prm_car_adm",
+      "id": "prm_car_adm",
+      "title": "Career Admission",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_car_ws": {
-      "id": null,
-      "title": "prm_car_ws",
+      "id": "prm_car_ws",
+      "title": "Career Workshops",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_car_sup": {
-      "id": null,
-      "title": "prm_car_sup",
+      "id": "prm_car_sup",
+      "title": "Career Support / Cohort",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_car_wk": {
-      "id": null,
-      "title": "prm_car_wk",
+      "id": "prm_car_wk",
+      "title": "Career Support / Week",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_auto": {
-      "id": null,
-      "title": "prm_auto",
+      "id": "prm_auto",
+      "title": "Automation / Cohort",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_des_tpl": {
-      "id": null,
-      "title": "prm_des_tpl",
+      "id": "prm_des_tpl",
+      "title": "Design Templates / Cohort",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_des_brand": {
-      "id": null,
-      "title": "prm_des_brand",
+      "id": "prm_des_brand",
+      "title": "Design Branding",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_des_web_lo": {
-      "id": null,
-      "title": "prm_des_web_lo",
+      "id": "prm_des_web_lo",
+      "title": "Design Website Low",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_des_web_hi": {
-      "id": null,
-      "title": "prm_des_web_hi",
+      "id": "prm_des_web_hi",
+      "title": "Design Website High",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_des_adm": {
-      "id": null,
-      "title": "prm_des_adm",
+      "id": "prm_des_adm",
+      "title": "Design Admission Support",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_ls_per_cohort": {
-      "id": null,
-      "title": "prm_ls_per_cohort",
+      "id": "prm_ls_per_cohort",
+      "title": "LS / Cohort",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_dev_live_ls": {
-      "id": null,
-      "title": "prm_dev_live_ls",
+      "id": "prm_dev_live_ls",
+      "title": "Dev Live → Learning",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_dev_live_exp": {
-      "id": null,
-      "title": "prm_dev_live_exp",
+      "id": "prm_dev_live_exp",
+      "title": "Dev Live → Expert",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_dev_self_ls": {
-      "id": null,
-      "title": "prm_dev_self_ls",
+      "id": "prm_dev_self_ls",
+      "title": "Dev Self → Learning",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
     },
     "prm_dev_self_exp": {
-      "id": null,
-      "title": "prm_dev_self_exp",
+      "id": "prm_dev_self_exp",
+      "title": "Dev Self → Expert",
       "type": "numbers",
-      "action": "CREATE",
+      "action": "CREATED",
       "notes": ""
+    },
+    "v1_item": {
+      "id": "13348993282",
+      "title": "v1 – Oct 2026",
+      "type": "item",
+      "action": "CREATED",
+      "notes": "Status Active, Effective 2026-11-01. All 38 values read back = §2.1."
     }
   },
   "18390568735": {
@@ -588,7 +602,7 @@
       "title": "Screening/Admission?",
       "type": "status",
       "action": "REPURPOSE",
-      "notes": "DECIDED 21-Oct: add a NEW label 'Not Sold' (new index). Keep 'No' (idx 0) and 'Yes' (idx 1) unchanged; no merge, no data migration. Formula logic: Not Sold if this column = 'Not Sold' (assumed also 'No'); else High if opp_admission_level = High; else Low if opp_admission_level = Low, or if this column = 'Yes' with no level; else (both empty) Not Sold.",
+      "notes": "DECIDED 21-Oct: add a NEW label 'Not Sold' (new index). Keep 'No' (idx 0) and 'Yes' (idx 1) unchanged; no merge, no data migration. Formula logic: Not Sold if this column = 'Not Sold' (or 'No': approved 21-Oct); else High if opp_admission_level = High; else Low if opp_admission_level = Low, or if this column = 'Yes' with no level; else (both empty) Not Sold.",
       "pack_action": "REPURPOSE (Not Sold / Low Touch / High Touch)",
       "live_title": "Screening/Admission?",
       "live_type": "status",
@@ -654,7 +668,7 @@
       "title": "Marketing Level",
       "type": "status",
       "action": "KEEP",
-      "notes": "DECIDED 21-Oct: KEEP (not deleted). OPEN: whether Marketing setup hours (prm_mkt_*) still apply and read this level, or are dropped because Marketing = budget only.",
+      "notes": "DECIDED 21-Oct: KEEP. Drives Marketing & Branding setup hours (prm_mkt_*): High -> High rates, Low -> Low rates, empty -> 0 (not sold). Budget stays in opp_mkt_budget.",
       "pack_action": "DELETE after migration",
       "live_title": "Marketing Level",
       "live_type": "status",
