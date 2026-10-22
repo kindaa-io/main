@@ -1,0 +1,3484 @@
+{
+ "board": 18390568732,
+ "column": "prj_design_hours",
+ "settings": {
+  "id": "prj_design_hours",
+  "title": "Design Hours",
+  "type": "mirror",
+  "revision": "2f125c5e3bd43c95b56ace2a9f1ec358",
+  "settings": {
+   "relation_column": {
+    "board_relation_mm7y54c8": true
+   },
+   "displayed_linked_columns": [
+    {
+     "board_id": "18390568735",
+     "column_ids": [
+      "<opp_design_total>"
+     ]
+    }
+   ],
+   "function": "sum"
+  }
+ },
+ "rows": [
+  {
+   "item_id": "11493253126",
+   "name": "I4valley | NorthStar AI | Q3 | 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383322",
+   "name": "W2W",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383093",
+   "name": "TechTroop | Malam | MiluimAI | Q3 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383094",
+   "name": "SIL",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383096",
+   "name": "Negev Talent",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383097",
+   "name": "Bank Leumi / Leumi",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383098",
+   "name": "ItWorks",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383099",
+   "name": "Playtika",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497405591",
+   "name": "Pretech Tnufa | Rashi Foundation | Q3 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497405592",
+   "name": "TechTroop | Mizam Meshutaf |  Q3 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497405593",
+   "name": "JDC / Joint",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497405594",
+   "name": "Mil Wives Career Change",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497405595",
+   "name": "Monday.com",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497405596",
+   "name": "Bank Discount",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497405597",
+   "name": "College of Management / Colman",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497405598",
+   "name": "Maccabi",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497405599",
+   "name": "TechTroop | Aharai | Q1 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383317",
+   "name": "Food Tech",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383318",
+   "name": "Mission AI | Kinneret College | Q2 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383319",
+   "name": "MeGo",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383320",
+   "name": "Pagaya",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383321",
+   "name": "Philip Morris",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383323",
+   "name": "AWS Restart | Kudra | Q2 | 2024",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383324",
+   "name": "DigiBasta 360",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497374833",
+   "name": "Haimash | Released soldiers courses | Q1 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13274440277",
+   "name": "Haimash | Released soldiers courses | Q1 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13275608511",
+   "name": "Haimash | Released soldiers courses | Q1 2027",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497383316",
+   "name": "BASF",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497374834",
+   "name": "Kav Mashve",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497374835",
+   "name": "Place IL",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497417514",
+   "name": "PIP",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497417515",
+   "name": "SKE",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11497417516",
+   "name": "אקסיומה",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12148807278",
+   "name": "בשביל הצפון | Galil & Pais | Q4 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760800865",
+   "name": "Maaref | IIA | Q1 | 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760818697",
+   "name": "QuantumIL",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760790787",
+   "name": "Lev Academic Center",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760801277",
+   "name": "MDClone",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760763752",
+   "name": "Beer Sheva Municipality",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760764402",
+   "name": "Jerusalem Municipality",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760773389",
+   "name": "Keren Rashi",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760761777",
+   "name": "סמינר בית יעקב",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760780135",
+   "name": "בדרכה",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760779636",
+   "name": "סינרגיה",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760822199",
+   "name": "Bonim Atid",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760822440",
+   "name": "מפעל הפיס",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760822000",
+   "name": "Pretech Tveria | Rashi Foundation | Q1 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760828672",
+   "name": "Sapir College | ReBirth Academy | Q2 | 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760820977",
+   "name": "אלמנות ויתומים",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760855355",
+   "name": "שטראוס",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12760853154",
+   "name": "התאחדות הסטודנטים",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11493411345",
+   "name": "AcclHERate",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11493430984",
+   "name": "A-tech",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963584305",
+   "name": "Pretech 3 pilots | Rashi Foundation | Q3 2024",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963600949",
+   "name": "Pretech + CCNA | Rashi Foundation + Ofakim municipality | Q2 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963605082",
+   "name": "Pretech | Elfanar - Lotus | Q2 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963599499",
+   "name": "Discount - Product Management",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963610591",
+   "name": "Colman Semester B 2023",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963598074",
+   "name": "Colman - Semester B (24)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963582130",
+   "name": "Colman - Summer",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963597596",
+   "name": "Jewish Agency | Project Mangemnet Ibim (3) | Q1 | 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963584013",
+   "name": "Digital Marketing for IDF",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963599521",
+   "name": "Haimash/IDF - Digital Marketing (PPC & AI) - Cohort 3  סאב אייטם",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730557",
+   "name": "Start-Up Nation Central Ltd. - Excellenteam 2020",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828410",
+   "name": "EY - Python for Data Analyst [#1]",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828808",
+   "name": "EY - Python for Data Analysts [#2]",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730286",
+   "name": "EY - Data Analysis 101 [#1]",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963714522",
+   "name": "EY - Data Analysis 101 [#2]",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828395",
+   "name": "Wix - Data Analysis Course",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963722397",
+   "name": "Poalim Bank HR - Data Analysis",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755193",
+   "name": "Tech Factory 2020",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730777",
+   "name": "Semester A 2019-2020",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828830",
+   "name": "EY - PowerBI Workshop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963722746",
+   "name": "Bank Hapoalim Ltd. - Data driven decision making",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828461",
+   "name": "EY Israel - Data Analysis 101 [#4]",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828341",
+   "name": "EY Israel -Data Analysis 101 [#3]",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755382",
+   "name": "EY Israel Data Analysis 101 [#2]",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755162",
+   "name": "TASC Consulting & Capital - Power BI  Workshop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755297",
+   "name": "IDF (Arnon)- Design Thinking",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730717",
+   "name": "American Jewish Joint Distribution Committee - New Deal",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755299",
+   "name": "Colman - Semester B",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828346",
+   "name": "Novartis- Digital Marketing Short training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730787",
+   "name": "Google for SMB's (Corona)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737670",
+   "name": "Bezeq - Product Management",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745152",
+   "name": "Python - The Marker",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745153",
+   "name": "COLMAN- Semester A 2021",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963714589",
+   "name": "Novartis",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730951",
+   "name": "Excel Optimization- Loreal",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747533",
+   "name": "Auto1 SQL for Beginners",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737738",
+   "name": "APX Facebook - DDDM Workshop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963714604",
+   "name": "SoundCloud - Data (personal learning budget)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963714842",
+   "name": "TechFactory - Daroma-Tzafona (Oct 20)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747071",
+   "name": "Engel und Völkers - Spreadsheets (self paced)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737562",
+   "name": "Hello Fresh - DDDM",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737462",
+   "name": "Marley Spoon DDDM",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963714529",
+   "name": "DDDM Training for the Joint",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963714531",
+   "name": "TechFactory - ICL",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755415",
+   "name": "Philip Morris-Data Literacy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963722695",
+   "name": "Leumi- Data Literacy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737695",
+   "name": "TechFactory - Daroma-Tzafona (2021)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963714850",
+   "name": "Tech Factory 2021",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747539",
+   "name": "Colman- Semester B 2021",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737499",
+   "name": "Google SMB in Scale",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737700",
+   "name": "Wix- Design Thinking Workshop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737390",
+   "name": "Polyram - N21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730753",
+   "name": "Hargol FoodTech - N21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747148",
+   "name": "Electrotherm -N21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747043",
+   "name": "Dollar Shave Club - N21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730574",
+   "name": "Bitum Company - N21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730679",
+   "name": "Novartis - Digital Marketing 1:1",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828961",
+   "name": "Saatchi Budapest- Data Academy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828575",
+   "name": "Atidna 03 21 FS Bootcamp",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737292",
+   "name": "Hagor - חגור - N21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743078",
+   "name": "Kalkal - קלקל - N21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828375",
+   "name": "SUPHERB - סופהרב - June 21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730802",
+   "name": "UniRent - יונירנט N21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745102",
+   "name": "Marley Spoon - DDDM (culinary team)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730806",
+   "name": "Green Fingers - אצבעות ירוקות - N21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737576",
+   "name": "SoundCloud - Data trainings (personal budget part 2)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737604",
+   "name": "ShoppingIL- Mentorship",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747262",
+   "name": "ShoopingIL- UAE",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745107",
+   "name": "Novartis Europe - Digital Marketing",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747154",
+   "name": "BDR Group - New Deal",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730759",
+   "name": "Chaprak Technologies - New Deal",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747312",
+   "name": "Philip Morris Germany - Data Literacy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743084",
+   "name": "Mazars - Spreadsheets",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743016",
+   "name": "Alpha Omega Eng - New Deal",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747316",
+   "name": "Bank Hapoalim - Data literacy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963716814",
+   "name": "JDC- Data Literacy Digital Leaders Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963722783",
+   "name": "Bezeq - Data Literacy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747322",
+   "name": "BASF - Data Literacy Bootcamps",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963716796",
+   "name": "Maccabi- Data Literacy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963722784",
+   "name": "Deep Instinct  - Python Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737839",
+   "name": "DDDM workshops - JDC International",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963714875",
+   "name": "DDDM workshops - JDC  (completion)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828382",
+   "name": "Google - Extra charge for factories",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963714704",
+   "name": "Joblinge - Data Literacy & Storytelling",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828991",
+   "name": "ShoppingIL Community Lectures",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828717",
+   "name": "פקר פלדה תעשיות - June 21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828719",
+   "name": "adap.co.il - א.ד.ה.פ - June 21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963714861",
+   "name": "Google - ShoppingIL Academy Scale",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730846",
+   "name": "ADAMA - Agan (june 21)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963716915",
+   "name": "Polycad - June 21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755569",
+   "name": "Hashavshevet - Data Literacy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963716916",
+   "name": "ShoppingIL Academy - Evaluation and measurement",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745206",
+   "name": "Elephant - June 21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737651",
+   "name": "CPC - June 21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963722790",
+   "name": "Unidress - June 21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737654",
+   "name": "JDC (Haredi) - Data Analysis Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828663",
+   "name": "Aharon Yosef Zivud - June 21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747201",
+   "name": "Hofit חופית - June 21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755572",
+   "name": "EVR MOTORS - June 21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963730852",
+   "name": "Elspec - June 21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747586",
+   "name": "Offis Textile - June 21",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963714929",
+   "name": "ADAMA - Makteshim (june 21)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828866",
+   "name": "Atidna Cohort- 10/2021",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755500",
+   "name": "Nova - BI Workshop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963716908",
+   "name": "W2W (8200 Alumni) - Data Analysis Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755501",
+   "name": "Verbit Academy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828870",
+   "name": "Google Campus- Women Entrepreneur",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828684",
+   "name": "Bezeq - Data Viz. + Storytelling",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963716820",
+   "name": "Colman - Semester A - 21-22",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747257",
+   "name": "Bezeq - Data Viz. + Storytelling",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963722832",
+   "name": "Google TechFactory Mexico",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828821",
+   "name": "Maccabi - Upskill training for analysts",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828905",
+   "name": "AWS- Data Literacy Government Program",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738314",
+   "name": "Ness QA Automation Bootcamp",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743576",
+   "name": "Shopping Academy - Extra Cohort",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737866",
+   "name": "It Works- SWITCH for Academic Arabs",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829031",
+   "name": "Discount Bank - Data Literacy Workshops",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829032",
+   "name": "ShoppingIL Academy 2022 - Extra Cohort",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745218",
+   "name": "ShoppingIL Academy 2022 - Measurement & Evaluation",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755577",
+   "name": "Maccabi - Data & Technology cohort (2.0)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747505",
+   "name": "Marley Spoon - Data Academy Europe",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738397",
+   "name": "Monday U-Set Up",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743038",
+   "name": "BUYME - Data Literacy Workshops",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747764",
+   "name": "Joblinge - additional hours Vis & Storytelling",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829148",
+   "name": "BASF Power BI & Visualization/Storytelling for Analysts",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738431",
+   "name": "Leumi - Reskill for data analysts",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745224",
+   "name": "Itworks - Data analysis training for single mothers",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755315",
+   "name": "W2W - CSM Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747768",
+   "name": "Tchibo - Lecture",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743507",
+   "name": "Saatchi - Data Literacy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747769",
+   "name": "Google ShoppingIL Academy - Orthodox women Cohort",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829130",
+   "name": "Google- Woman Program (CS, Sales, Analyst)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745225",
+   "name": "APX - Data Literacy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745226",
+   "name": "Colman - Semester B 2022",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829366",
+   "name": "Playtika - Data Visualization & Storytelling Workshop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963828584",
+   "name": "Vimeo - Python Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745319",
+   "name": "Leumi - Data Training (Shift - No 2)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829251",
+   "name": "Aroundtown/GC - Visualisation&Storytelling and DDDM",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737886",
+   "name": "CyberArk - Fullstack Bootcamp",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747542",
+   "name": "IIA- matching to Google",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745321",
+   "name": "Phillip Morris Israel - Power BI Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755831",
+   "name": "Monday U- Feb Cohorts",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743336",
+   "name": "Playtika - Data Visualization & Storytelling Workshop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747607",
+   "name": "Cadets for civil service - Data Literacy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737761",
+   "name": "Monday U- Data Analysis",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738554",
+   "name": "Atidna FS 0322 Cohort",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745410",
+   "name": "JDC - Digital Transformation Leaders @Population Authority",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745195",
+   "name": "PMI - Power BI + Charts",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829007",
+   "name": "Bank Hapoalim - Upskill for Analysts",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829008",
+   "name": "Monday - Data Literacy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743527",
+   "name": "W2W - Recruitment Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963722907",
+   "name": "PMO - Product Thinking Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745244",
+   "name": "Monday U- Growth Academy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737707",
+   "name": "Monday U- R&D Academy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743238",
+   "name": "Bank Discount - Data Academy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755835",
+   "name": "Deloitte - Python Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743167",
+   "name": "PMO - Economic Council",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745415",
+   "name": "Playtika - Excel",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737627",
+   "name": "Atidna- Data Analyst",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755839",
+   "name": "Atidna- Recruitment",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738205",
+   "name": "Atidna- Sales",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745276",
+   "name": "Tchibo - Literacy Workshops",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747402",
+   "name": "Salesforce - Product Management Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745202",
+   "name": "Monday U- User Acquisition",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748183",
+   "name": "Monday U- CS US",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747637",
+   "name": "Monday U- IT",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737915",
+   "name": "Monday U- Startup Academy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743344",
+   "name": "Monday U- FinOps",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737918",
+   "name": "Monday U- Finance",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748214",
+   "name": "Monday U- Project Management",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745657",
+   "name": "Monday U- CISO",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743207",
+   "name": "Monday U- Sales (DE, FR)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738049",
+   "name": "Monday U- Content",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747771",
+   "name": "Pagaya - SQL",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829460",
+   "name": "AWS 1 day training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743412",
+   "name": "AWS 3 days training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745363",
+   "name": "Shopping IL Community Lectures - Google Merchant Center and shopping listings",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747465",
+   "name": "Monday U- Placement for CS, BD, HR",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755855",
+   "name": "Playtika - Read&Speak, Story & Vis, Design Thinking",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755732",
+   "name": "Discount - Data Modeling",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745448",
+   "name": "Playtika - Data Modeling Workshop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743213",
+   "name": "Playtika - Data Vis Workshop (Eco Academy)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755735",
+   "name": "ShoppingIL Academy 2022 - Measurement & Evaluation",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738622",
+   "name": "Marley Spoon - additional training hours visualisation",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737925",
+   "name": "ShoppingIL Academy - Extra Cohort",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743558",
+   "name": "ShoppingIL Academy - 2023 Budget",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745326",
+   "name": "JDC- Data Literacy Digital Leaders Training - Round 2",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743367",
+   "name": "Joint - Digital Israel & Labor Branch (mentor)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743396",
+   "name": "Tik Tok Academy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743397",
+   "name": "Rawabi - Full-Stack Bootcamp",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747692",
+   "name": "Pagaya - Python",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743563",
+   "name": "ItWorks - Data Analysis Oct",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737977",
+   "name": "Story&Vis - Leumi CDO",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745514",
+   "name": "Colman - Semester A 2023",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963737971",
+   "name": "Google UAE -Skill-Up Embark 3rd cohort",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738639",
+   "name": "Playtika - Story&Vis BA",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745891",
+   "name": "Pagaya - SQL FinOps round 1",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748464",
+   "name": "Playtika - July",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738057",
+   "name": "Playtika - Aug",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748257",
+   "name": "Leumi - Tableau",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748475",
+   "name": "IIA+Itworks - Data Analysis",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747931",
+   "name": "Place IL- Screening",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743649",
+   "name": "Playtika - Data Trainings Q4",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743570",
+   "name": "Excellenteam - Summer 2022",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738286",
+   "name": "AWS - Executives Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747936",
+   "name": "W2W - Data Analyst PBI 15 hr",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829260",
+   "name": "PMI - (PBI+Assessment)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747743",
+   "name": "TREX Group - Product Thinking",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829832",
+   "name": "IIA+ItWorks -Frontend Olim",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745902",
+   "name": "BMS - Digital Marketing",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743430",
+   "name": "Atidna Tech - Full Stack Bootcamp",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747748",
+   "name": "IIA - AWS Restart",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743474",
+   "name": "Atidna-Tech Scale + IIA - Oct Tender",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745522",
+   "name": "Pagaya Python - Dec 2022",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747968",
+   "name": "TikTok - Story+Vis",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756287",
+   "name": "TikTok - Rising Stars Germany",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829349",
+   "name": "ItWorks - Data Analysis 3 (1/23)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743594",
+   "name": "Google Start Budget Extension",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745485",
+   "name": "Place IL - Dashboards",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745525",
+   "name": "PMI - Power BI",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743741",
+   "name": "Discount - HTML Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829471",
+   "name": "Saatchi - Excel Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829513",
+   "name": "Data Training for digitalization leaders @National Insurance Institute",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746192",
+   "name": "Discount - 2023",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743744",
+   "name": "Itworks + IIA - Data Olim no 2",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756114",
+   "name": "Leumi - SQL Refreshment",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756211",
+   "name": "Leumi - Product Management",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744098",
+   "name": "Radware - Vis +Story workshops for developers",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747917",
+   "name": "BASF - Power BI Trainings (Feb 2023)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746198",
+   "name": "Place IL - 2nd Cohort",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963747804",
+   "name": "Joint+Labor",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829442",
+   "name": "Ness - Additional Placements",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743615",
+   "name": "Maccabi - Upskill training for data analysis",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738378",
+   "name": "BASF - Power BI Trainings (Sep 2023)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743759",
+   "name": "Yerucham- FS Bootcamp",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829605",
+   "name": "Joint+Labor - Data Leaders no 2",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756160",
+   "name": "Playtika - Excel for Eco",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744109",
+   "name": "Joint + Labor",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743628",
+   "name": "Itworks Data Olim 3 - March",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756259",
+   "name": "W2W - English Expansion (10 hr)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745942",
+   "name": "Yeroham - Pre pilot Research",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829671",
+   "name": "Playtika - Story Visu Bingo Blitz",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755935",
+   "name": "Max - Reskill",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963755937",
+   "name": "Joint - Excel",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748107",
+   "name": "Place IL - Additional payment",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744117",
+   "name": "Google Africa - Shopping/Accelherate",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829535",
+   "name": "AccelHERate - IIA Funding - May 23",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745701",
+   "name": "W2W Recruitment - Extension",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743679",
+   "name": "Or Yehuda - Tech Mapping",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745665",
+   "name": "Yotpo - Java Spring",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745669",
+   "name": "DruzeTech - Employers & Talent Mapping",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738546",
+   "name": "Labor +Joint(Axioma) - Power BI",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746134",
+   "name": "AppsFlyer - UA Academy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746135",
+   "name": "East Galil Mapping",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748110",
+   "name": "AgroTech Program for Ministry of Agriculture",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738414",
+   "name": "Playtika - Economy Excel",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748335",
+   "name": "Seminar Python Bootcamp (Israel Tik)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746136",
+   "name": "Assured Allies - Viso & Story/Presentation +",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745728",
+   "name": "Moon Active - SQL",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745953",
+   "name": "Achlav Lotan - Mediation fee - Part 1",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746137",
+   "name": "WeR1 - Digital Marketing Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756566",
+   "name": "Accelherate- Google Matching",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738107",
+   "name": "West Negev Mapping",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748507",
+   "name": "Joint - Data Literacy Tender 24'-26'",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748508",
+   "name": "Playtika - Design Thinking Slotomania",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748428",
+   "name": "Joint Ashalim - AI",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748429",
+   "name": "Yeruham - Intro to AI",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745613",
+   "name": "Appleseeds/Salesforce - CRM",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748311",
+   "name": "No code Training for IDF",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748495",
+   "name": "Food Tech Tender - Matching Needed Zurim",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745534",
+   "name": "Quantum Tender- Matching Needed",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743633",
+   "name": "Earnix - Presentation Plus for Developers - 2 workshops",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738744",
+   "name": "Israel Roads - No Code Workshop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756569",
+   "name": "Place IL - Cohort 3",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738747",
+   "name": "Outbrain - Visualization & Storytelling Workshop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745573",
+   "name": "MACCABI - Excel",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756221",
+   "name": "Axiom - PBI 1 Day",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748443",
+   "name": "Maccabi - Story+Visu",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748232",
+   "name": "Maccabi Critical Thinking",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748614",
+   "name": "Localize - Story Visu",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756428",
+   "name": "Joint Excel - #2",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738920",
+   "name": "IIA (44) - Bedouin Program",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745975",
+   "name": "Leumi - Product Management for All",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744152",
+   "name": "MEGO - 15 Hours R&D Workshops",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748697",
+   "name": "MeGo2 - React & Python Workshops",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743814",
+   "name": "Axiom - Webbinars",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748512",
+   "name": "Joint - DigiBasta War",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829782",
+   "name": "Tel Aviv Muni - Mapping emergency innovation initiatives",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748239",
+   "name": "Tel Aviv Muni - The urban Innovation Academy Setup",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748513",
+   "name": "Itworks Frontend 2nd round",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738719",
+   "name": "MAX - Reskill Remote Hours",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743857",
+   "name": "Pagaya - Python for Kids",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744184",
+   "name": "Joint & Ministry of Tourism - Online outreach workshops for guides",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744198",
+   "name": "Google - TF/SIL for War time",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748470",
+   "name": "Product Mng - Leumi Seniors",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738824",
+   "name": "Axioma - Expansion",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829988",
+   "name": "Appleseeds/SF/T4I - CRM Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829989",
+   "name": "Axiom - Visu Webinar",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748702",
+   "name": "MeGo - Full Stack Training + Project",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829693",
+   "name": "Playtika - Empl Upskill",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963830061",
+   "name": "Ministry of Labor - Python for beginners",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746291",
+   "name": "Axiom - Excel Refreshment",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738677",
+   "name": "Atufot - UI UX (south)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756338",
+   "name": "Food Tech - Zurim NGO Matching",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765104",
+   "name": "Axiom - Refreshmenth BI Remote",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745757",
+   "name": "MeGo - Java Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829612",
+   "name": "Hayozma South - Account Mng",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765107",
+   "name": "Place IL - 4th Cohort",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746088",
+   "name": "HaYozma - Data (Center)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756500",
+   "name": "AWS Restart matching - 1st cohort",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748631",
+   "name": "Leumi - Product Sessions",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829861",
+   "name": "Yeruham - Intro to AI",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829807",
+   "name": "Wolf Seminar - Personal Career interviews",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745916",
+   "name": "Max - Exercises",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756354",
+   "name": "Hayozma South- Marketing (Ofakim)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738949",
+   "name": "Beit Yaakov Seminar - Flutter Bootcamp",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829994",
+   "name": "Yair Meron - Tech Troop Set-UP",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829941",
+   "name": "Beyahad Fund - Food Techies - Matching",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748286",
+   "name": "Rashi Fund - Food Techies - Matching",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746370",
+   "name": "Amit - Pilot",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756391",
+   "name": "Playtika Extension - Java Unity",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765255",
+   "name": "FoodTechies - Danbe Foundation Matching",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748586",
+   "name": "Negev Talent - 2nd cohort - Sales Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748662",
+   "name": "Rashi - Pretech Marketing for Groups 2+3  סאב אייטם",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829945",
+   "name": "JDC & Sheba Hospital (ARC) - 1st Stage - Mapping",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744235",
+   "name": "Hayozma + Negev Talent - Tech Onboarding",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829997",
+   "name": "Halamas Extension",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744224",
+   "name": "East Negev Cluster - reducing gaps",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746067",
+   "name": "Pretech Pilot - Livuy  סאב אייטם",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829647",
+   "name": "AWS DeepRacer/Creative Hut Workshops",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743977",
+   "name": "Pretech | Rayan Beatzmi | Q3 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963779116",
+   "name": "IDF Widows & Orphans - Data Analyst",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746448",
+   "name": "BASF - Power BI Workshop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963779130",
+   "name": "AWS restart matching for cohort 2",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963830134",
+   "name": "Pretech | Rayan Alfanar (North) | Q3 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748815",
+   "name": "Place IL - 5th Cohort",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745979",
+   "name": "Joint Excel #3",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748742",
+   "name": "Sapir College - Data training in Economy degree",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746048",
+   "name": "Lev Institute - Livuy Graduates",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756748",
+   "name": "Colman - Semester A",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963830075",
+   "name": "Hizdamnut - SF Admin",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756548",
+   "name": "Monday - Excel Extension",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963830004",
+   "name": "Wolf Seminar -  Simulation Feedback",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744293",
+   "name": "WOO Extension - Q1 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746622",
+   "name": "JFNA Matching to Tech Troop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746244",
+   "name": "Merit spread-Tmura (Riskified) Neshota mil wives",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963830078",
+   "name": "Hayozma Lemerchak | Data Analyst BI | Q2 | 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748889",
+   "name": "Inbal - Power Skills Academy (Pilot Workshops)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745984",
+   "name": "WIX- Neshota mil wives",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765459",
+   "name": "Beyachad Fund - Food Techies Matching (2nd Cohort)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746623",
+   "name": "Tech Troop- Matching from Aharai",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963830006",
+   "name": "Merit spread- fiverr- Neshota mil wives",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744349",
+   "name": "Negev Talent Funding - Stef Foundation",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756713",
+   "name": "WOO (Bonim Atid) - Q2 2025 training plan",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744263",
+   "name": "ROI Nir's grant- Neshota",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744354",
+   "name": "Jewish Agency | Project Mangemnet Ibim (2) | Q2 | 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829883",
+   "name": "Bedarka Extension",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748878",
+   "name": "Pretech Tveria Extension  סאב אייטם",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744161",
+   "name": "Inbal - Data Literacy",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738854",
+   "name": "Tech troop- Eli Barkat",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738993",
+   "name": "Monday - Excel Extension #2",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738994",
+   "name": "Bank Hapoalim- Neshota north Reskill",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963749016",
+   "name": "Salesforce (Ascella) - Neshota",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963829889",
+   "name": "Negev Talent  | SMB | Q2 | 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765150",
+   "name": "Placement Service- Miluim IDF",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765163",
+   "name": "Tech Troop- The Day After Fund",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744277",
+   "name": "Lobby 100K | Finnance Workshops | Q2 | 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963738859",
+   "name": "DataRails-Techtroop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756547",
+   "name": "yotpo- Techtroop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963743772",
+   "name": "Wix-Techtroop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746658",
+   "name": "Atidna Matching to AWS Restart",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765138",
+   "name": "Dell foundation- Neshota",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746690",
+   "name": "Neshota- The day after fund- upskill 2025 q4",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963830173",
+   "name": "BASF 2026 - Power BI Workshop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746691",
+   "name": "TechTroop | schusterman-Beatzmi | Q3 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744359",
+   "name": "Bedarke - Extension Hours",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765485",
+   "name": "Tnufa/Ofek - Data Analyst",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744298",
+   "name": "Yerucham Hezdamnot Center - IT Training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963779162",
+   "name": "Tech Troop- Israeli Employment Service",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963745986",
+   "name": "Inbal - Power Skills Academy (4 Workshops)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963769075",
+   "name": "Colman - 1st 2025-2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963830280",
+   "name": "Lego Workshops | AWS | Q1 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748902",
+   "name": "AI Workshops for Miluim- Employment Service & Malam",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765280",
+   "name": "Pais - Opening & Final Events",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765211",
+   "name": "Pretech - Staff training Yokneam  סאב אייטם",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746474",
+   "name": "Discount - Extension",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746477",
+   "name": "Neshota-the day after2- Mil wives project- flex for 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765282",
+   "name": "Tnufa/Ofek - Info Systems",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765319",
+   "name": "WOO (Bonim Atid) - 2026 Expansion",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746444",
+   "name": "Growth Hakaveret-Techtroop",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748384",
+   "name": "Haimash tender - Digital Marketing (AI&PPC)  סאב אייטם",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765115",
+   "name": "Joint - EXCEL AI workshop for finance Dep.",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748829",
+   "name": "Tech Troop | The Paul Singer Foundation | Q1 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756819",
+   "name": "Beatzmi - 2 Neshota Workshops (AI +No Code)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756772",
+   "name": "Inbal - 4 Power Skills Workshops (3 Drizer + 1 Roy)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963769218",
+   "name": "Tech Troop- Employment Services JV",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765495",
+   "name": "Placement Service 1- Miluim IDF",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746582",
+   "name": "Negev Talent - Joint Matching for reservists - Cohort 2 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765405",
+   "name": "Inbal Workshops - 1 Drazer Workshop (10.3.26)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963748790",
+   "name": "255- Hostages families",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746584",
+   "name": "Pretech JLM | Rashi Foundation | Q3 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744426",
+   "name": "Colman - 2nd Semester 25-26",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765499",
+   "name": "Jewish Agency  | Project Management Ibim (4) | Q2 | 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746645",
+   "name": "Inabl Workshop - Quala (18.5.26)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963830036",
+   "name": "Inbal Workshops - 1 Drazer Workshop (19.4.26)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746585",
+   "name": "Inabl Workshop - Quala (12.3.26)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746418",
+   "name": "Strauss Retreat",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963830218",
+   "name": "Pretech Achva (ארצי) | Rashi Foundation | Q3 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963769089",
+   "name": "Inbal Workshops - 1 Drazer Workshop (25/5/26)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963830156",
+   "name": "ForsaTech 3.0 - Branding Process",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765511",
+   "name": "Beshvil HaZafon - Pais + Walla",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744413",
+   "name": "Pretech Ofakim - Marketing Ext  סאב אייטם",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963779204",
+   "name": "Pretech Negev Talent (ארצי) | Rashi Foundation | Q3 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756779",
+   "name": "Pretech - New Model Dev - סאב אייטם",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746406",
+   "name": "Jewish Agency | CCNA Karmiel | Q2 | 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963769096",
+   "name": "UJA Benin - Career Day",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756531",
+   "name": "WOO Extension - 2 Financial Workshops",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765257",
+   "name": "AI Upskill Workshops | CET (מט\"ח) | Q2 | 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746603",
+   "name": "Inbal | Data Accelerators | Q4 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963769097",
+   "name": "Jewish Agency | Data Analyst Raanana | Q2 | 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963746747",
+   "name": "I4Valley - AI for Developers",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963756928",
+   "name": "Inbal Workshops - Roi Ben Tolila Workshop (25/11/26)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744633",
+   "name": "Beshvil Hatzafon - Pais+Ruah HaGalil",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963744634",
+   "name": "Inbal Workshops - Drizer (29/6/26)",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "12963765520",
+   "name": "Jerusalem Municipality - 2020 training",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13125852307",
+   "name": "BeAtzmi | Pretech 5 groups | Q3 | 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13143386980",
+   "name": "Forsatech- Tech Trainings",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13147080429",
+   "name": "I4valley | Woman IIA | Q4 | 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13153694419",
+   "name": "AI Academy | Israeli employment service | Q4 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13230520774",
+   "name": "Momentum | Released soldiers workshops | Q4 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13237933650",
+   "name": "TechTroop | schusterman-Beatzmi (Extension) | Q4 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13258780939",
+   "name": "Histadrut Zionit | AI Tools | Q4 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13264671177",
+   "name": "TechTroop | Mizam Meshutaf (Extension) |  Q3 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13284682361",
+   "name": "Government Matching for DellFoundation- Israeli Employment Services",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13319918141",
+   "name": "Achva College | Vibe Coding | Q4 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13335097418",
+   "name": "AWS Restart | Atidna | Q2 | 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13345044218",
+   "name": "Jewish Agency | Project Mangemnet Ibim (1) | Q2 | 2024",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13345761660",
+   "name": "TechTroop | Shlavim+ Haimash | Q4 2025",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13345789793",
+   "name": "TechTroop | Shlavim+ Haimash | Q3 2026",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11493411347",
+   "name": "Appleseeds",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "11493402870",
+   "name": "AppsFlyer",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  }
+ ]
+}

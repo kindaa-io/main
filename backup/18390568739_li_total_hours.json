@@ -1,0 +1,47 @@
+{
+ "board": 18390568739,
+ "column": "li_total_hours",
+ "settings": {
+  "id": "li_total_hours",
+  "title": "NUMBERS Learning Service Hours",
+  "type": "mirror",
+  "revision": "4dd6b3a5673b6934811e39fd197f7efa",
+  "settings": {
+   "relation_column": {
+    "li_catalog_item": true
+   },
+   "displayed_column": {},
+   "displayed_linked_columns": [
+    {
+     "board_id": "18433874513",
+     "column_ids": [
+      "cat_ls_hours"
+     ]
+    }
+   ]
+  }
+ },
+ "rows": [
+  {
+   "item_id": "13349331448",
+   "name": ".",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13349455069",
+   "name": "TEST Line A",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  },
+  {
+   "item_id": "13349515700",
+   "name": "TEST Line B",
+   "text": null,
+   "value": null,
+   "display_value": ""
+  }
+ ]
+}
