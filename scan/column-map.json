@@ -64,6 +64,11 @@
         "phase": "8b",
         "date": "2026-10-22",
         "result": "Option A: lookup_mm88cm47 + li_total_hours deleted (backups), lookup_mm894g60 renamed 'Σ LS Hours (lines)'. Option B: 6 broken prj_* deleted (backups), recreated as prj_tot_pm/ops/learning/career/auto/design (Σ op_tot_*). Branding dropped from op_tot_design (test deal Design = 124)."
+      },
+      {
+        "phase": 9,
+        "date": "2026-10-26",
+        "result": "M3 extended in 7213714; M1/M2a/M2b created and active; all tested on test items; open Opportunities backfilled to v1"
       }
     ],
     "views": {
@@ -174,9 +179,57 @@
     },
     "open": [
       "Branding columns still exist but are no longer used: Opportunity opp_branding_level ('Branding Setup'), Pricing Parameters prm_des_brand, Opportunity mirror opm_des_brand. Delete? (awaiting user)",
-      "Make: eu2.make.com blocked by the environment network policy (CONNECT 403) as of 22-Oct; M1-M3 and the Make dependency check not done.",
-      "Test data to remove after review: Opportunity 13349045463 TEST KINDAA, line items 13349455069 / 13349515700."
-    ]
+      "Test data to remove after review: Opportunity 13349045463 TEST KINDAA, line items 13349455069 / 13349515700.",
+      "Readiness gate is OFF (scenario 7213714 module 61). Turn on after Nofar fills Catalog LS levels.",
+      "Cohort PM / OPS / Career (planned) mirrors read blank through the API (mirror of formula); confirm in the UI.",
+      "M2b overwrites copied line fields from the Catalog; while Catalog rate / BO / weeks are empty, changing a line's product clears them."
+    ],
+    "make": {
+      "zone": "eu1.make.com",
+      "team": 387027,
+      "folder": 381378,
+      "connection": 3107441,
+      "scenarios": {
+        "M3": {
+          "id": 7213714,
+          "change": "26-Oct, built on the 25-Oct version: GraphQL line-item query (60) + SetVariables (61, readiness_gate=off); project mapping (Participants, Vertical, Timeline, Placements, Program, PM; create missing labels); cohort branch (70 iterator → 71 repeater × Quantity → 72/73 create_item in group_mm2k46ga with Project / Opportunity / Source Line Item / Catalog links); Matching Needed filter added to route 1; gate-fail route 80/81 idle while the gate is off.",
+          "gate": "Set readiness_gate in module 61 to 'on' once the Catalog has LS levels and rates."
+        },
+        "M1": {
+          "id": 8189159,
+          "hook": 3980742,
+          "trigger": "Opportunity create_item",
+          "does": "link Active pricing version; Margin 40, Ongoing / Customer Mgmt Low when empty"
+        },
+        "M2a": {
+          "id": 8189111,
+          "hook": 3980717,
+          "trigger": "create_subitem on Opportunity",
+          "does": "link Parent Opportunity; Quantity 1 when empty; copy rate / weeks / LS base / expert / BO from Catalog where empty"
+        },
+        "M2b": {
+          "id": 8189131,
+          "hook": 3980729,
+          "trigger": "change_subitem_column_value, filtered to li_catalog_item",
+          "does": "overwrite rate / weeks / LS base / expert / BO from the new Catalog item"
+        }
+      },
+      "blueprints": "Before/after blueprints kept in the session scratchpad, not in this repo.",
+      "tests_2026-10-26": {
+        "M3": "SUCCESS: project 13384891797 + 4 cohorts with all links and mirrored values; archived; TEST KINDAA reset",
+        "M2a": "SUCCESS (test line 13384917176, archived)",
+        "M2b": "SUCCESS: other edits ignored, catalog change overwrote copied fields",
+        "M1": "SUCCESS (test opportunity 13384987487, archived)"
+      },
+      "backfill": {
+        "linked_to_v1": 30,
+        "open_unlinked_after": 0,
+        "files": [
+          "backup/backfill_op_prm_version_plan.json",
+          "backup/backfill_op_prm_version_result.json"
+        ]
+      }
+    }
   },
   "pricing_parameters": {
     "__board__": {
