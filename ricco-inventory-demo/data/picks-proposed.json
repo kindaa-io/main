@@ -1,0 +1,65 @@
+{
+  "status": "PROPOSED - awaiting Gate 1 approval by Omer. Do not use for writes until copied into id-map.json.",
+  "read_at": "2026-10-27",
+  "picks": {
+    "PRJ_A": {
+      "proposed": {"id": "12644564714", "name": "26024 Sal Fabbri - 10 Acheson", "status": "In Production",
+        "units": [
+          {"id": "12644682379", "name": "Kitchen", "project_type": "Paint", "status": "Working on it"},
+          {"id": "12644695770", "name": "Laundry Room", "project_type": "Paint", "status": "Working on it"},
+          {"id": "12644647142", "name": "Foyer", "project_type": "Paint", "status": "Working on it"},
+          {"id": "12644682219", "name": "Living Room", "project_type": "Paint", "status": "Working on it"},
+          {"id": "12644663611", "name": "Dining Room", "project_type": "Paint", "status": "Working on it"},
+          {"id": "12644663659", "name": "Pantry", "project_type": "Paint", "status": "Working on it"}]},
+      "alternative": {"id": "13047818114", "name": "51Degree Studio - 205 Champagne Dr", "status": "In Production",
+        "units": [
+          {"id": "13047776856", "name": "Bar Boxes", "project_type": null, "status": null},
+          {"id": "13047752679", "name": "Bar Curve", "project_type": null, "status": null}]}
+    },
+    "PRJ_A_UNIT_2": {
+      "proposed": {"id": "12644695770", "name": "Laundry Room", "project_type": "Paint", "status": "Working on it"},
+      "alternative": {"id": "12644647142", "name": "Foyer", "project_type": "Paint", "status": "Working on it"}
+    },
+    "PRJ_B": {
+      "proposed": {"id": "12188627230", "name": "Rivanti - Office & Shop", "status": "In Production",
+        "units": [
+          {"id": "12188559043", "name": "Wall Panel", "project_type": "Pre-finished", "status": "Done"},
+          {"id": "12188613616", "name": "Bar Unit", "project_type": "Paint", "status": "Done"},
+          {"id": "12188643502", "name": "Coffee Station", "project_type": "Paint", "status": "Done"},
+          {"id": "12365622920", "name": "Shop Tables", "project_type": "Pre-finished", "status": "Done"},
+          {"id": "13058981236", "name": "Door Styles", "project_type": "Paint", "status": "Working on it"},
+          {"id": "13058994957", "name": "Coffee Station", "project_type": "Paint", "status": "Working on it"},
+          {"id": "13067892148", "name": "Drawers", "project_type": null, "status": null}]},
+      "alternative": {"id": "12819366474", "name": "26028 IStudio - 53 Glengordon", "status": "In Design Process",
+        "units": [
+          {"id": "12819373947", "name": "Fridge Wall", "project_type": null, "status": null},
+          {"id": "12819384879", "name": "Stove Wall", "project_type": null, "status": null},
+          {"id": "12819363491", "name": "Island", "project_type": null, "status": null},
+          {"id": "12819383991", "name": "Coffee Station", "project_type": null, "status": null},
+          {"id": "12819372803", "name": "Powder Room", "project_type": null, "status": null}]}
+    },
+    "PRJ_B_UNIT_1": {
+      "proposed": {"id": "12188559043", "name": "Wall Panel", "project_type": "Pre-finished", "status": "Done"},
+      "alternative": {"id": "12365622920", "name": "Shop Tables", "project_type": "Pre-finished", "status": "Done"}
+    },
+    "PRJ_C": {
+      "proposed": {"id": "12738591802", "name": "26026 Menatwork - 139 Hamilton", "status": "In Production",
+        "units": [
+          {"id": "12882327932", "name": "Foyer", "project_type": "Paint", "status": "Working on it"},
+          {"id": "12882328030", "name": "Kitchen", "project_type": "Paint", "status": "Working on it"},
+          {"id": "12882317278", "name": "Pantry", "project_type": "Paint", "status": "Working on it"},
+          {"id": "12882323866", "name": "Mudroom", "project_type": "Paint", "status": "Working on it"}]},
+      "alternative": {"id": "13098285764", "name": "26030 Sara Leah - 46 Sir Constantine Drive", "status": "In Design Process",
+        "units": [
+          {"id": "13391934629", "name": "Wall Unit", "project_type": "Paint", "status": "Working on it"}]}
+    },
+    "PRJ_C_UNIT_1": {
+      "proposed": {"id": "12882328030", "name": "Kitchen", "project_type": "Paint", "status": "Working on it"},
+      "alternative": {"id": "12882327932", "name": "Foyer", "project_type": "Paint", "status": "Working on it"}
+    },
+    "SVC_JOB": {
+      "proposed": {"id": "13195142796", "name": "Amir Tile - Service", "group": "group_mm7rz40h Installation - Service Job", "status": null},
+      "alternative": {"id": "13195142206", "name": "Nila", "group": "group_mm7rz40h Installation - Service Job", "status": null}
+    }
+  }
+}
