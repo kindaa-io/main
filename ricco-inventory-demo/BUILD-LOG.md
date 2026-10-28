@@ -775,3 +775,5 @@ Phase 6b result:
 - Projects: **Material cost** `lookup_mm8jf52n` ← Requests `mat_cost` via `board_relation_mm8jqhv4`, sum (project-level requests); **Units material cost** `lookup_mm8jv6f4` ← Units `lookup_mm8jwamq` via `subtasks_mm3aqxk2`, sum; **Total material cost** `formula_mm8j1zwp` = `{lookup_mm8jf52n} + {lookup_mm8jv6f4}`.
 - **API read-back ✅** (every value now readable): Units Laundry Room 1,769 / Wall Panel 2,700 / Kitchen 3,880; Projects Sal Fabbri 2,573 + 1,769 = 4,342; Rivanti — + 2,700 = 2,700; Menatwork 5,148 + 3,880 = 9,028.
 - Sam's boards vs snapshot: only approved columns (+ Omer's `Dup. of Request status`, Omer's removal of the Stock Updates link). `snapshots/post-phase-6b.json`.
+
+Health check (read-only), 2026-10-28: §9.7 verification 0 mismatches; Projects Total material cost 4,342 / 2,700 / 9,028; PO-0003 PDF present. Sam's boards: one column not from the build, Units `⚙️Total material cost` `formula_mm8jwgmn` = `{lookup_mm8jwamq}`, created in the UI at 12:45 UTC by user 103186497 (activity log; 0 build writes). Recorded as Omer's.

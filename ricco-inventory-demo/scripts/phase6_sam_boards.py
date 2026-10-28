@@ -22,7 +22,8 @@ ALLOWED_NEW = {
                "lookup_mm8jtxhq",  # 'Dup. of Request status': created by Omer in the UI
                "formula_mm8j1zwp"},  # Total material cost (Phase 6b, Omer-approved)
     UNITS: {"board_relation_mm8j9wgg", "board_relation_mm8jxknn",
-            "board_relation_mm8j89fg"},  # 'link to Stock Updates': not ours; Omer said ignore
+            "board_relation_mm8j89fg",
+            "formula_mm8jwgmn"},  # '⚙️Total material cost': created by Omer in the UI 12:45 UTC  # 'link to Stock Updates': not ours; Omer said ignore
 }
 # Deleted in the UI by the Kindaa Support account on 2026-10-28 11:03 UTC (activity log), not by this
 # build; Omer: "ignore" the Stock Updates link.
