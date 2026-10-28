@@ -441,3 +441,39 @@ Items (left in place, listed for cleanup):
 - ZZ-TEST-Line B — `13404462767` (Request lines)
 
 Result (`data/zz-test-verification.json`): **all 13 formulas compute the expected value through the API.** Mirrors: 18 read correctly. Three more aren't readable directly but are proven by the formula on top of them: `Reserved` (API shows "4, 2"; `Available` = 11 proves 6), `PO Subtotal` (empty; `Total` = 78 proves 72), and `On hand` from the in/out mirrors. **Not readable by the API, UI check needed:** request line `On hand` (17) and `Available` (11), request `Material cost` (74), supplier `Total ordered` (78). All four are mirrors of a formula column.
+
+---
+
+## Omer's answers (chat, 2026-10-28) + Gate 2 "go"
+
+1. MR-6 (service job) is out of the sample data.
+2. No PO header `Projects` connect. #9 on Projects mirrors the PO lines through the `Project \ Unit` reflection.
+3. Extra subitems columns on Suppliers / Catalogue / Movements: ignore.
+4. Units `link to Stock Updates`: ignore.
+5. Run tests exactly as the spec authorizes: `ZZ-TEST-` items on the demo boards only. The test folder 21780014 and all its boards (including the two parked `ZZ-TEST-bootstrap` items) **were deleted by Omer**; they're removed from the write scope (`id-map.json` → `deleted_by_omer`). Nothing restored.
+6. Renaming the reflections on Sam's boards: approved.
+7. **Gate 2: "go".**
+
+---
+
+## Phase 6 — Columns on Sam's boards (Gate 2 approved) · 2026-10-28
+
+The connects already exist (built by Omer, D-06). This phase renames the 4 reflections and adds the 6 mirrors (#2, #3, #6, #7, #8, #9).
+
+| Timestamp (UTC) | Phase | Mutation | Target | Note | Result |
+|---|---|---|---|---|---|
+| — | 6 | *pre-check* | 18412939430 | Projects `link to Stock Updates` (`board_relation_mm6vdxt9`) is **gone**. Activity log: deleted 2026-10-28 11:03:29 UTC by user 103186497 in the UI, after a `board_disconnect` of Spot-nik "Stock Updates" at 11:03:22. Units `link to Stock Updates` (`board_relation_mm8j89fg`) deleted 11:03:15 the same way. `logs/write-log.jsonl` has **0** mutations on either board, so this was not the build. Accepted as baseline per Omer's "ignore" (answer 4); reported | STOP → resolved |
+| 2026-10-28T11:08:34Z | 6 | `change_column_title` | 18412939430 | rename 'link to Material Requests' -> 'Material Requests' | {"change_column_title": {"id": "board_relation_mm8jqhv4", "title": "Material Requests"}} |
+| 2026-10-28T11:08:35Z | 6 | `change_column_title` | 18412939439 | rename 'link to Material Requests' -> 'Material Requests' | {"change_column_title": {"id": "board_relation_mm8j9wgg", "title": "Material Requests"}} |
+| 2026-10-28T11:08:37Z | 6 | `change_column_title` | 18412939430 | rename 'link to Subitems of Purchase Orders' -> 'PO lines' | {"change_column_title": {"id": "board_relation_mm8jbv88", "title": "PO lines"}} |
+| 2026-10-28T11:08:38Z | 6 | `change_column_title` | 18412939439 | rename 'link to Subitems of Purchase Orders' -> 'PO lines' | {"change_column_title": {"id": "board_relation_mm8jxknn", "title": "PO lines"}} |
+| 2026-10-28T11:08:40Z | 6 | `create_column(mirror)` | 18412939439 | #2 Units Material cost <- Material Requests.Material cost (sum) | {"create_column": {"id": "lookup_mm8j6ayp", "title": "Material cost"}} |
+| 2026-10-28T11:08:41Z | 6 | `create_column(mirror)` | 18412939439 | #3 Units Request status <- Material Requests.Status (all statuses) | {"create_column": {"id": "lookup_mm8jz4rt", "title": "Request status"}} |
+| 2026-10-28T11:08:42Z | 6 | `create_column(mirror)` | 18412939430 | #6 Projects Material cost <- Material Requests.Material cost (sum) | {"create_column": {"id": "lookup_mm8jr37y", "title": "Material cost"}} |
+| 2026-10-28T11:08:43Z | 6 | `create_column(mirror)` | 18412939430 | #7 Projects Request status <- Material Requests.Status (all statuses) | {"create_column": {"id": "lookup_mm8j7963", "title": "Request status"}} |
+| 2026-10-28T11:08:44Z | 6 | `create_column(mirror)` | 18412939430 | #8 Projects Units material cost <- Units.Material cost (sum) | {"create_column": {"id": "lookup_mm8jvw8q", "title": "Units material cost"}} |
+| 2026-10-28T11:08:45Z | 6 | `create_column(mirror)` | 18412939430 | #9 Projects PO status <- PO lines.Line status (all statuses) | {"create_column": {"id": "lookup_mm8jn862", "title": "PO status"}} |
+
+Phase 6 result: 4 reflections renamed (Projects + Units: "Material Requests", "PO lines") and 6 mirrors created: Units #2 Material cost `lookup_mm8j6ayp`, #3 Request status `lookup_mm8jz4rt`; Projects #6 Material cost `lookup_mm8jr37y`, #7 Request status `lookup_mm8j7963`, #8 Units material cost `lookup_mm8jvw8q`, #9 PO status `lookup_mm8jn862` (← PO lines `Line status`, all statuses; no PO header `Projects` connect per Omer). Snapshot check: only approved columns differ (`snapshots/post-phase-6.json`).
+
+Note: other items already on the demo boards, not created by this build: `.` (Suppliers, Catalogue, Requests, POs, Request lines, PO lines), `2` (POs), `1` (Movements), `ZZ-TEST-Request (copy)` with 2 copied lines, `ZZ-TEST-PO (copy)`. Left untouched; none links to Sam's boards. They take Request # / PO # / Movement # numbers ahead of the DEMO items.

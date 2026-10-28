@@ -86,56 +86,8 @@
   },
   "items": {},
   "real_items_approval": "Omer replied 'continue' at Gate 1 (2026-10-28) without changes; proposed picks used. Reconfirm at Gate 2 before first use (Phase 6/7).",
-  "test_folder": {
-    "id": "21780014",
-    "name": "ZZ-TEST- Inventory Demo Tests"
-  },
-  "test_boards": {
-    "ZZ-TEST- autonumber A": {
-      "id": "18437453330"
-    },
-    "ZZ-TEST- autonumber B": {
-      "id": "18437453331"
-    },
-    "ZZ-TEST- bootstrap parking": {
-      "id": "18437453425"
-    },
-    "ZZ-TEST- agg catalogue": {
-      "id": "18437453723"
-    },
-    "ZZ-TEST- agg requests": {
-      "id": "18437453726"
-    },
-    "ZZ-TEST- agg supplier": {
-      "id": "18437453727"
-    },
-    "ZZ-TEST- agg movements": {
-      "id": "18437453734"
-    },
-    "ZZ-TEST- agg projects": {
-      "id": "18437453735"
-    },
-    "ZZ-TEST- agg request lines (subitems)": {
-      "id": "18437453790"
-    },
-    "ZZ-TEST- agg units (subitems)": {
-      "id": "18437453844"
-    }
-  },
   "dashboards": {},
   "zz_test_items": [
-    {
-      "name": "ZZ-TEST-bootstrap",
-      "id": "13404211573",
-      "created_on": "Material Requests",
-      "now_on": "ZZ-TEST- bootstrap parking"
-    },
-    {
-      "name": "ZZ-TEST-bootstrap",
-      "id": "13404234652",
-      "created_on": "Purchase Orders",
-      "now_on": "ZZ-TEST- bootstrap parking"
-    },
     {
       "name": "ZZ-TEST-Supplier",
       "id": "13404488723",
@@ -181,5 +133,60 @@
       "id": "13404462767",
       "board": "Request lines"
     }
-  ]
+  ],
+  "deleted_by_omer": {
+    "note": "Deleted by Omer 2026-10-28; removed from write scope",
+    "test_folder": {
+      "id": "21780014",
+      "name": "ZZ-TEST- Inventory Demo Tests"
+    },
+    "test_boards": {
+      "ZZ-TEST- autonumber A": {
+        "id": "18437453330"
+      },
+      "ZZ-TEST- autonumber B": {
+        "id": "18437453331"
+      },
+      "ZZ-TEST- bootstrap parking": {
+        "id": "18437453425"
+      },
+      "ZZ-TEST- agg catalogue": {
+        "id": "18437453723"
+      },
+      "ZZ-TEST- agg requests": {
+        "id": "18437453726"
+      },
+      "ZZ-TEST- agg supplier": {
+        "id": "18437453727"
+      },
+      "ZZ-TEST- agg movements": {
+        "id": "18437453734"
+      },
+      "ZZ-TEST- agg projects": {
+        "id": "18437453735"
+      },
+      "ZZ-TEST- agg request lines (subitems)": {
+        "id": "18437453790"
+      },
+      "ZZ-TEST- agg units (subitems)": {
+        "id": "18437453844"
+      }
+    },
+    "items": [
+      {
+        "name": "ZZ-TEST-bootstrap",
+        "id": "13404211573",
+        "created_on": "Material Requests",
+        "now_on": "ZZ-TEST- bootstrap parking"
+      },
+      {
+        "name": "ZZ-TEST-bootstrap",
+        "id": "13404234652",
+        "created_on": "Purchase Orders",
+        "now_on": "ZZ-TEST- bootstrap parking"
+      }
+    ]
+  },
+  "test_folder": null,
+  "test_boards": {}
 }

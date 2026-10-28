@@ -88,8 +88,9 @@ Column IDs: keep the full title → ID map per board in `data/column-map.json`, 
 | Materials Catalogue | ⚙️ Applied in / ⚙️ Applied out (reflections) | `board_relation_mm8jprtb` / `board_relation_mm8jqbay` |
 | Request lines | Product / Qty reserved / Decision / PO line | `product` / `qty_reserved` / `status` / `po_line` |
 | Stock Movements | Movement type / Qty / Status / ⚙️ Applied in → Product / ⚙️ Applied out → Product | `movement_type` / `qty` / `status` / `applied_in` / `applied_out` |
-| Projects (approved additions) | Material Requests / Purchase Orders / Material cost / Request status / Units material cost / PO status | TBD |
-| Units (approved additions) | Material Requests / Material cost / Request status | TBD |
+| Projects (approved additions) | Material Requests / PO lines (reflections of Omer's `Project \ Unit` connects) / Material cost / Request status / Units material cost / PO status (← PO lines `Line status`) | `board_relation_mm8jqhv4` / `board_relation_mm8jbv88` / `lookup_mm8jr37y` / `lookup_mm8j7963` / `lookup_mm8jvw8q` / `lookup_mm8jn862` |
+| Units (approved additions) | Material Requests / PO lines (reflections) / Material cost / Request status | `board_relation_mm8j9wgg` / `board_relation_mm8jxknn` / `lookup_mm8j6ayp` / `lookup_mm8jz4rt` |
+| Material Requests / PO lines | `Project \ Unit` (Omer, two-way → Units + Projects) | `board_relation_mm8j4n2b` / `board_relation_mm8jy91z` |
 
 Real-item picks (after Gate 1): `{{PRJ_A}}`, `{{PRJ_A_UNIT_2}}`, `{{PRJ_B}}`, `{{PRJ_B_UNIT_1}}`, `{{PRJ_C}}`, `{{PRJ_C_UNIT_1}}`, `{{SVC_JOB}}` → record name and ID here.
 
