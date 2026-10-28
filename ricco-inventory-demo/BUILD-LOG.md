@@ -745,3 +745,33 @@ Phase 8 widgets on dashboard 40200086: Requests by status 732648339, Open POs by
 ## Phase 10 — Handoff · 2026-10-28
 
 Final checks (read-only): Sam's boards differ from `snapshots/pre-build.json` only by the approved Phase 6 columns and Omer's own removal of the Spot-nik `link to Stock Updates` (Projects) ✅. Stock value of the demo items = 21,399.00 (the dashboard counter also includes `ZZ-TEST-Product` 170.00 → 21,569.00). Report: `HANDOFF.md`. **No further writes.**
+
+---
+
+## Phase 6b — Material cost rework (Omer: "do it", 2026-10-28)
+
+Problem: Units/Projects cost mirrors were mirrors of the request `Material cost` mirror (itself a mirror of the `Line cost` formula), which monday doesn't chain. Omer's design: keep the single-select `Project \ Unit` (`board_relation_mm8j4n2b`); a stored request **Material cost** (numbers); separate Projects mirrors for project-level and unit-level totals; a Projects formula summing both.
+State found before starting: Omer had deleted the three cost mirrors (Units `lookup_mm8j6ayp`, Projects `lookup_mm8jr37y`, `lookup_mm8jvw8q`); the request mirror pointed to a deleted `formula_mm8jeey6`; Projects has Omer's `Dup. of Request status` (`lookup_mm8jtxhq`), left as is.
+
+| Timestamp (UTC) | Phase | Mutation | Target | Note | Result |
+|---|---|---|---|---|---|
+| 2026-10-28T12:40:30Z | 6b | `update_column(mirror)` | 18437453027 | Requests: rename mirror → ⚙️ Material cost (calc), re-point to Line cost formula_mm8jjeek | ERROR: Column schema validation failed |
+| 2026-10-28T12:40:36Z | 6b | `update_column(mirror)` | 18437453027 | Requests: rename mirror → ⚙️ Material cost (calc), re-point to Line cost formula_mm8jjeek | {"update_column": {"id": "material_cost", "title": "⚙️ Material cost (calc)"}} |
+| 2026-10-28T12:40:38Z | 6b | `create_column(numbers)` | 18437453027 | Requests: stored Material cost (numbers, $). Full build: written by the process | {"create_column": {"id": "mat_cost", "title": "Material cost"}} |
+| 2026-10-28T12:40:39Z | 6b | `change_simple_column_value` | 18437453027 | ZZ-TEST-Request Material cost = 74.00 | {"change_simple_column_value": {"id": "13404448702"}} |
+| 2026-10-28T12:40:39Z | 6b | `change_simple_column_value` | 18437453027 | DEMO – Wall Panel – MR #2 Material cost = 2700.00 | {"change_simple_column_value": {"id": "13404789276"}} |
+| 2026-10-28T12:40:40Z | 6b | `change_simple_column_value` | 18437453027 | DEMO – 26026 Menatwork - 139 Hamilton – MR #5 Material cost = 5148.00 | {"change_simple_column_value": {"id": "13404804193"}} |
+| 2026-10-28T12:40:40Z | 6b | `change_simple_column_value` | 18437453027 | DEMO – 26024 Sal Fabbri - 10 Acheson – MR #1 Material cost = 2573.00 | {"change_simple_column_value": {"id": "13404814355"}} |
+| 2026-10-28T12:40:41Z | 6b | `change_simple_column_value` | 18437453027 | DEMO – Kitchen – MR #3 Material cost = 3880.00 | {"change_simple_column_value": {"id": "13404820470"}} |
+| 2026-10-28T12:40:42Z | 6b | `change_simple_column_value` | 18437453027 | DEMO – Laundry Room – MR #4 Material cost = 1769.00 | {"change_simple_column_value": {"id": "13404820832"}} |
+| 2026-10-28T12:40:43Z | 6b | `create_column(mirror)` | 18412939439 | Units: Material cost <- Material Requests.Material cost (stored), sum | {"create_column": {"id": "lookup_mm8jwamq", "title": "Material cost"}} |
+| 2026-10-28T12:40:44Z | 6b | `create_column(mirror)` | 18412939430 | Projects: Material cost (project-level requests) <- Material Requests.Material cost (stored), sum | {"create_column": {"id": "lookup_mm8jf52n", "title": "Material cost"}} |
+| 2026-10-28T12:40:45Z | 6b | `create_column(mirror)` | 18412939430 | Projects: Units material cost <- Units.Material cost, sum | {"create_column": {"id": "lookup_mm8jv6f4", "title": "Units material cost"}} |
+| 2026-10-28T12:40:47Z | 6b | `create_column(formula)` | 18412939430 | Projects: Total material cost = Material cost + Units material cost | {"create_column": {"id": "formula_mm8j1zwp", "title": "Total material cost"}} |
+
+Phase 6b result:
+- Material Requests: mirror `material_cost` renamed **⚙️ Material cost (calc)** and re-pointed to the live `Line cost` (`formula_mm8jjeek`); new numbers column **Material cost** `mat_cost` ($), filled MR-1 2,573 · MR-2 2,700 · MR-3 3,880 · MR-4 1,769 · MR-5 5,148 · ZZ-TEST-Request 74. Omer's items (`.`, the copy) left blank.
+- Units: **Material cost** `lookup_mm8jwamq` ← Requests `mat_cost` via `board_relation_mm8j9wgg`, sum.
+- Projects: **Material cost** `lookup_mm8jf52n` ← Requests `mat_cost` via `board_relation_mm8jqhv4`, sum (project-level requests); **Units material cost** `lookup_mm8jv6f4` ← Units `lookup_mm8jwamq` via `subtasks_mm3aqxk2`, sum; **Total material cost** `formula_mm8j1zwp` = `{lookup_mm8jf52n} + {lookup_mm8jv6f4}`.
+- **API read-back ✅** (every value now readable): Units Laundry Room 1,769 / Wall Panel 2,700 / Kitchen 3,880; Projects Sal Fabbri 2,573 + 1,769 = 4,342; Rivanti — + 2,700 = 2,700; Menatwork 5,148 + 3,880 = 9,028.
+- Sam's boards vs snapshot: only approved columns (+ Omer's `Dup. of Request status`, Omer's removal of the Stock Updates link). `snapshots/post-phase-6b.json`.

@@ -211,6 +211,10 @@
           "type": "mirror"
         },
         "Material cost": {
+          "id": "mat_cost",
+          "type": "numbers"
+        },
+        "⚙️ Material cost (calc)": {
           "id": "material_cost",
           "type": "mirror"
         },

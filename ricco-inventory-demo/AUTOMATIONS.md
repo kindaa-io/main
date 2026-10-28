@@ -140,6 +140,9 @@ The stock process runtime (Make, code or hybrid) is decided before the full buil
 | Status | Planned |
 | Change log | — |
 
+### Material cost on requests (D-09, 2026-10-28)
+Request **Material cost** (`mat_cost`) is a stored number, not a mirror: monday can't roll a mirror of a formula up to Units/Projects. Whatever runtime is chosen must **recompute it as Σ line `Line cost`** whenever a line's Qty requested, Qty issued, PO line or prices change (fits A03's post-apply step and A07/A10/A13). A17 must also check `Material cost` = `⚙️ Material cost (calc)` for every request. Units/Projects mirrors and the Projects **Total material cost** formula then update natively.
+
 ### A11 — Request readiness
 | Field | Value |
 |---|---|

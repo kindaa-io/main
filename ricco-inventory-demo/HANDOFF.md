@@ -26,13 +26,14 @@ Full title → column ID maps: `data/column-map.json`. Item IDs for every sample
 |---|---|---|---|
 | Projects | Material Requests (reflection) | `board_relation_mm8jqhv4` | Omer's `Project \ Unit` connect on Material Requests; renamed by the build |
 | Projects | PO lines (reflection) | `board_relation_mm8jbv88` | Omer's `Project \ Unit` connect on PO lines; renamed |
-| Projects | Material cost (mirror, sum) | `lookup_mm8jr37y` | Phase 6 |
+| Projects | Material cost (mirror of request stored cost, sum) | `lookup_mm8jf52n` | Phase 6b (D-09) |
 | Projects | Request status (mirror, all statuses) | `lookup_mm8j7963` | Phase 6 |
-| Projects | Units material cost (mirror of Units Material cost, sum) | `lookup_mm8jvw8q` | Phase 6 |
+| Projects | Units material cost (mirror of Units Material cost, sum) | `lookup_mm8jv6f4` | Phase 6b |
+| Projects | Total material cost (formula = Material cost + Units material cost) | `formula_mm8j1zwp` | Phase 6b |
 | Projects | PO status (mirror of PO lines' Line status) | `lookup_mm8jn862` | Phase 6 |
 | Units | Material Requests (reflection) | `board_relation_mm8j9wgg` | Omer's connect; renamed |
 | Units | PO lines (reflection) | `board_relation_mm8jxknn` | Omer's connect; renamed |
-| Units | Material cost (mirror, sum) | `lookup_mm8j6ayp` | Phase 6 |
+| Units | Material cost (mirror of request stored cost, sum) | `lookup_mm8jwamq` | Phase 6b |
 | Units | Request status (mirror, all statuses) | `lookup_mm8jz4rt` | Phase 6 |
 | Projects | ~~link to Stock Updates~~ `board_relation_mm6vdxt9` | — | **Deleted in the UI by the Kindaa Support account, 2026-10-28 11:03 UTC** (activity log), not by the build |
 
@@ -51,15 +52,13 @@ Real items linked by the sample data: Sal Fabbri `12644564714` / Laundry Room `1
 | Supplier Total ordered (6,800 / 235 / 1,185 / 552) | all match | derived: Σ PO Totals (the mirror isn't API-readable) |
 | Stock value (demo items) | 21,399.00 | API (formula) |
 
-**UI check still needed** (the API can't read mirrors of formulas or mirror chains):
-- Projects → Sal Fabbri: Material cost **2,573**, Units material cost **1,769**
-- Projects → Rivanti: Units material cost **2,700**
-- Projects → Menatwork 139 Hamilton: Material cost **5,148**, Units material cost **3,880**
-- Suppliers → Total ordered; Material Requests → Material cost; request lines → On hand / Available (display only)
+**Project costs (after the D-09 rework), read back through the API ✅:** Sal Fabbri 2,573 + 1,769 = **4,342** · Rivanti — + 2,700 = **2,700** · Menatwork 5,148 + 3,880 = **9,028**; Units Laundry Room 1,769, Wall Panel 2,700, Kitchen 3,880.
+
+**UI check still needed** (mirrors of formulas): Suppliers → Total ordered; ⚙️ Material cost (calc); request lines → On hand / Available (display only).
 
 ## 3. Deviations — `DEVIATIONS.md`
 
-D-01 API through the proxy-injected credential (approved) · D-02 repo subfolder · D-03 test boards (superseded; Omer deleted them) · D-04 bootstrap items (parked, then deleted with the test folder) · D-05 column positions · D-06 Omer's `Project \ Unit` connects replace `Unit / Project`, `Production Calendar job` and the PO line `Project` · D-07 no PO header `Projects`; #9 mirrors PO line status · D-08 MR-6 dropped.
+D-01 API through the proxy-injected credential (approved) · D-02 repo subfolder · D-03 test boards (superseded; Omer deleted them) · D-04 bootstrap items (parked, then deleted with the test folder) · D-05 column positions · D-06 Omer's `Project \ Unit` connects replace `Unit / Project`, `Production Calendar job` and the PO line `Project` · D-07 no PO header `Projects`; #9 mirrors PO line status · D-08 MR-6 dropped · D-09 request Material cost stored as a number; Units/Projects mirrors + Projects Total material cost formula.
 
 Also changed by Omer in the UI and kept: Request lines `Line cost` → `formula_mm8jjeek`, PO lines `Line total` → `formula_mm8j7946` (mirrors re-pointed); Catalogue `PO Line` + `Average Unit Price`; subitems columns on Suppliers / Catalogue / Stock Movements; `zz-unused` columns deleted.
 

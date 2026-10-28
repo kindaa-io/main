@@ -554,5 +554,12 @@
     "view_id": "288954194",
     "token": "40a69954f3e3be3ace6dc747077e3018",
     "board": "Stock Movements"
+  },
+  "material_cost_v2": {
+    "requests_stored": "mat_cost",
+    "units_mirror": "lookup_mm8jwamq",
+    "projects_mirror": "lookup_mm8jf52n",
+    "projects_units_mirror": "lookup_mm8jv6f4",
+    "projects_total_formula": "formula_mm8j1zwp"
   }
 }

@@ -18,7 +18,9 @@ RENAMES = [  # (board, column id, new title) — Omer approved renaming
 ]
 # Columns allowed to differ from snapshots/pre-build.json after this phase.
 ALLOWED_NEW = {
-    PROJECTS: {"board_relation_mm8jqhv4", "board_relation_mm8jbv88"},
+    PROJECTS: {"board_relation_mm8jqhv4", "board_relation_mm8jbv88",
+               "lookup_mm8jtxhq",  # 'Dup. of Request status': created by Omer in the UI
+               "formula_mm8j1zwp"},  # Total material cost (Phase 6b, Omer-approved)
     UNITS: {"board_relation_mm8j9wgg", "board_relation_mm8jxknn",
             "board_relation_mm8j89fg"},  # 'link to Stock Updates': not ours; Omer said ignore
 }
