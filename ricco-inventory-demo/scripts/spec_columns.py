@@ -113,7 +113,7 @@ BOARDS = {
         ("po_unit_price", "PO unit price", "mirror", 5, None),
         ("est_unit_price", "Est. unit price", "mirror", 5, None),
         ("qty_issued", "Qty issued", "numbers", 3, None),
-        ("line_cost", "Line cost", "formula", 5, None),
+        ("formula_mm8jjeek", "Line cost", "formula", 5, None),  # recreated by Omer
     ],
     "Purchase Orders": [
         ("po_no", "PO #", "auto_number", 2, {"prefix": "PO-000", "scope": "board", "order": "ascending"}),
@@ -145,7 +145,7 @@ BOARDS = {
         ("qty_ordered", "Qty ordered", "numbers", 3, None),
         ("packs", "Packs", "formula", 5, None),
         ("unit_price", "Unit price", "numbers", 3, USD),
-        ("line_total", "Line total", "formula", 5, None),
+        ("formula_mm8j7946", "Line total", "formula", 5, None),  # recreated by Omer
         ("qty_received", "Qty received", "numbers", 3, None),
         ("date0", "Received date", "date", 3, None),
         # Built by Omer in the UI (2026-10-28): two-way -> Units + Projects. Replaces the spec's
@@ -183,7 +183,7 @@ BOARDS = {
 
 # Default subitem columns repurposed (CLAUDE.md §6): Request lines status -> Decision;
 # PO lines status -> Line status, date0 -> Received date. Others renamed zz-unused.
-UNUSED_DEFAULTS = {"Request lines": {"person": "Owner", "date0": "Date"}, "PO lines": {}}  # PO lines Owner deleted by Omer
+UNUSED_DEFAULTS = {"Request lines": {}, "PO lines": {}}  # zz-unused columns deleted by Omer  # PO lines Owner deleted by Omer
 
 # Subitem boards hang off these parents.
 SUBITEM_BOARDS = {"Request lines": "Material Requests", "PO lines": "Purchase Orders"}

@@ -1,0 +1,761 @@
+{
+  "ts": "2026-10-28T11:16:22Z",
+  "rows": [
+    [
+      "Catalogue",
+      "P01",
+      "On hand",
+      120,
+      "120",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P01",
+      "Reserved",
+      84,
+      84.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P01",
+      "Available",
+      36,
+      "36",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P01",
+      "Stock state",
+      "Low",
+      "Low",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P02",
+      "On hand",
+      80,
+      "80",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P02",
+      "Reserved",
+      50,
+      50.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P02",
+      "Available",
+      30,
+      "30",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P02",
+      "Stock state",
+      "In",
+      "In",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P03",
+      "On hand",
+      38,
+      "38",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P03",
+      "Reserved",
+      20,
+      20.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P03",
+      "Available",
+      18,
+      "18",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P03",
+      "Stock state",
+      "In",
+      "In",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P04",
+      "On hand",
+      25,
+      "25",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P04",
+      "Reserved",
+      8,
+      8.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P04",
+      "Available",
+      17,
+      "17",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P04",
+      "Stock state",
+      "In",
+      "In",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P05",
+      "On hand",
+      1100,
+      "1100",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P05",
+      "Reserved",
+      300,
+      300.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P05",
+      "Available",
+      800,
+      "800",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P05",
+      "Stock state",
+      "In",
+      "In",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P06",
+      "On hand",
+      600,
+      "600",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P06",
+      "Reserved",
+      600,
+      600.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P06",
+      "Available",
+      0,
+      "0",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P06",
+      "Stock state",
+      "—",
+      "—",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P07",
+      "On hand",
+      340,
+      "340",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P07",
+      "Reserved",
+      70,
+      70.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P07",
+      "Available",
+      270,
+      "270",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P07",
+      "Stock state",
+      "In",
+      "In",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P08",
+      "On hand",
+      340,
+      "340",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P08",
+      "Reserved",
+      40,
+      40.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P08",
+      "Available",
+      300,
+      "300",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P08",
+      "Stock state",
+      "In",
+      "In",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P09",
+      "On hand",
+      50,
+      "50",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P09",
+      "Reserved",
+      24,
+      24.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P09",
+      "Available",
+      26,
+      "26",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P09",
+      "Stock state",
+      "Low",
+      "Low",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P10",
+      "On hand",
+      10,
+      "10",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P10",
+      "Reserved",
+      10,
+      10.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P10",
+      "Available",
+      0,
+      "0",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P10",
+      "Stock state",
+      "—",
+      "—",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P11",
+      "On hand",
+      50,
+      "50",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P11",
+      "Reserved",
+      30,
+      30.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P11",
+      "Available",
+      20,
+      "20",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P11",
+      "Stock state",
+      "—",
+      "—",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P12",
+      "On hand",
+      1850,
+      "1850",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P12",
+      "Reserved",
+      200,
+      200.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P12",
+      "Available",
+      1650,
+      "1650",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P12",
+      "Stock state",
+      "In",
+      "In",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P13",
+      "On hand",
+      16,
+      "16",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P13",
+      "Reserved",
+      16,
+      16.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P13",
+      "Available",
+      0,
+      "0",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P13",
+      "Stock state",
+      "Out",
+      "Out",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P14",
+      "On hand",
+      12,
+      "12",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P14",
+      "Reserved",
+      12,
+      12.0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P14",
+      "Available",
+      0,
+      "0",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P14",
+      "Stock state",
+      "Out",
+      "Out",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P15",
+      "On hand",
+      0,
+      "0",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P15",
+      "Reserved",
+      0,
+      0,
+      "derived: On hand − Available",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P15",
+      "Available",
+      0,
+      "0",
+      "API",
+      "OK"
+    ],
+    [
+      "Catalogue",
+      "P15",
+      "Stock state",
+      "—",
+      "—",
+      "API",
+      "OK"
+    ],
+    [
+      "Requests",
+      "MR-1",
+      "Material cost",
+      2573.0,
+      2573.0,
+      "derived: sum of line Line cost",
+      "OK"
+    ],
+    [
+      "Requests",
+      "MR-2",
+      "Material cost",
+      2700.0,
+      2700.0,
+      "derived: sum of line Line cost",
+      "OK"
+    ],
+    [
+      "Requests",
+      "MR-3",
+      "Material cost",
+      3880.0,
+      3880.0,
+      "derived: sum of line Line cost",
+      "OK"
+    ],
+    [
+      "Requests",
+      "MR-4",
+      "Material cost",
+      1769.0,
+      1769.0,
+      "derived: sum of line Line cost",
+      "OK"
+    ],
+    [
+      "Requests",
+      "MR-5",
+      "Material cost",
+      5148.0,
+      5148.0,
+      "derived: sum of line Line cost",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0001",
+      "Subtotal",
+      210,
+      210.0,
+      "derived: Total − Tax",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0001",
+      "Total",
+      235,
+      "235",
+      "API",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0001",
+      "Delivery state",
+      "",
+      "",
+      "API",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0002",
+      "Subtotal",
+      210,
+      210.0,
+      "derived: Total − Tax",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0002",
+      "Total",
+      225,
+      "225",
+      "API",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0002",
+      "Delivery state",
+      "",
+      "",
+      "API",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0003",
+      "Subtotal",
+      512,
+      512.0,
+      "derived: Total − Tax",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0003",
+      "Total",
+      552,
+      "552",
+      "API",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0003",
+      "Delivery state",
+      "Overdue",
+      "Overdue",
+      "API",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0004",
+      "Subtotal",
+      930,
+      930.0,
+      "derived: Total − Tax",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0004",
+      "Total",
+      960,
+      "960",
+      "API",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0004",
+      "Delivery state",
+      "",
+      "",
+      "API",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0005",
+      "Subtotal",
+      6800,
+      6800.0,
+      "derived: Total − Tax",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0005",
+      "Total",
+      6800,
+      "6800",
+      "API",
+      "OK"
+    ],
+    [
+      "POs",
+      "PO-0005",
+      "Delivery state",
+      "",
+      "",
+      "API",
+      "OK"
+    ],
+    [
+      "Suppliers",
+      "S1",
+      "Total ordered",
+      6800,
+      6800.0,
+      "derived: sum of its PO Totals",
+      "OK"
+    ],
+    [
+      "Suppliers",
+      "S2",
+      "Total ordered",
+      235,
+      235.0,
+      "derived: sum of its PO Totals",
+      "OK"
+    ],
+    [
+      "Suppliers",
+      "S3",
+      "Total ordered",
+      1185,
+      1185.0,
+      "derived: sum of its PO Totals",
+      "OK"
+    ],
+    [
+      "Suppliers",
+      "S4",
+      "Total ordered",
+      552,
+      552.0,
+      "derived: sum of its PO Totals",
+      "OK"
+    ]
+  ]
+}

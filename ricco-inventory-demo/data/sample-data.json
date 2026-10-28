@@ -1,0 +1,1175 @@
+{
+ "suppliers": {
+  "S1": [
+   "Pacific Panel Supply",
+   "Dana Whitfield",
+   "orders@pacificpanel.example",
+   "+15550102101",
+   "Net 30",
+   [
+    "Sheet Goods"
+   ]
+  ],
+  "S2": [
+   "Edge & Trim Distributors",
+   "Luis Romero",
+   "sales@edgetrim.example",
+   "+15550102202",
+   "Net 30",
+   [
+    "Edgeband"
+   ]
+  ],
+  "S3": [
+   "Hardware Source Co.",
+   "Priya Nair",
+   "orders@hardwaresource.example",
+   "+15550102303",
+   "Net 15",
+   [
+    "Hinges",
+    "Slides & Hardware",
+    "Accessories"
+   ]
+  ],
+  "S4": [
+   "Coastline Coatings",
+   "Mark Ellison",
+   "orders@coastlinecoatings.example",
+   "+15550102404",
+   "COD",
+   [
+    "Finish / Paint"
+   ]
+  ]
+ },
+ "products": {
+  "P01": [
+   "MDF 3/4\" 4x8 White Melamine",
+   "Sheet Goods",
+   "sheet",
+   "Stocked",
+   1,
+   "S1",
+   "PPS-MDF34-WM",
+   100,
+   68.0
+  ],
+  "P02": [
+   "MDF 3/4\" 4x8 Raw (Paint Grade)",
+   "Sheet Goods",
+   "sheet",
+   "Stocked",
+   1,
+   "S1",
+   "PPS-MDF34-RAW",
+   25,
+   52.0
+  ],
+  "P03": [
+   "Plywood 3/4\" 4x8 Maple Pre-finished",
+   "Sheet Goods",
+   "sheet",
+   "Stocked",
+   1,
+   "S1",
+   "PPS-PLY34-MPF",
+   15,
+   95.0
+  ],
+  "P04": [
+   "Plywood 1/4\" 4x8 Maple Pre-finished",
+   "Sheet Goods",
+   "sheet",
+   "Stocked",
+   1,
+   "S1",
+   "PPS-PLY14-MPF",
+   10,
+   38.0
+  ],
+  "P05": [
+   "Edgeband White PVC 22mm",
+   "Edgeband",
+   "ft",
+   "Stocked",
+   300,
+   "S2",
+   "ET-PVC22-WH",
+   600,
+   0.12
+  ],
+  "P06": [
+   "Edgeband Maple Wood 22mm",
+   "Edgeband",
+   "ft",
+   "Order-to-project",
+   300,
+   "S2",
+   "ET-WD22-MP",
+   0,
+   0.35
+  ],
+  "P07": [
+   "Hinge 110° Soft-close Full Overlay",
+   "Hinges",
+   "each",
+   "Stocked",
+   50,
+   "S3",
+   "HS-H110-FO",
+   200,
+   3.1
+  ],
+  "P08": [
+   "Hinge Mounting Plate 0mm",
+   "Hinges",
+   "each",
+   "Stocked",
+   50,
+   "S3",
+   "HS-MP0",
+   200,
+   0.9
+  ],
+  "P09": [
+   "Drawer Slide 21\" Undermount Soft-close",
+   "Slides & Hardware",
+   "pair",
+   "Stocked",
+   10,
+   "S3",
+   "HS-UM21-SC",
+   40,
+   24.5
+  ],
+  "P10": [
+   "Drawer Slide 18\" Undermount Soft-close",
+   "Slides & Hardware",
+   "pair",
+   "Order-to-project",
+   10,
+   "S3",
+   "HS-UM18-SC",
+   0,
+   22.0
+  ],
+  "P11": [
+   "Pull Handle 128mm Matte Black",
+   "Accessories",
+   "each",
+   "Order-to-project",
+   25,
+   "S3",
+   "HS-PH128-MB",
+   0,
+   4.2
+  ],
+  "P12": [
+   "Shelf Pin 5mm Nickel",
+   "Accessories",
+   "each",
+   "Stocked",
+   1000,
+   "S3",
+   "HS-SP5-NI",
+   500,
+   0.04
+  ],
+  "P13": [
+   "Primer White 1 gal",
+   "Finish / Paint",
+   "gallon",
+   "Stocked",
+   1,
+   "S4",
+   "CC-PRM-WH-1G",
+   10,
+   32.0
+  ],
+  "P14": [
+   "Pre-cat Lacquer Satin 1 gal",
+   "Finish / Paint",
+   "gallon",
+   "Stocked",
+   1,
+   "S4",
+   "CC-PCL-SAT-1G",
+   5,
+   48.0
+  ],
+  "P15": [
+   "Toe Kick 4\" Black Melamine 8ft",
+   null,
+   null,
+   "Order-to-project",
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ "requests": {
+  "MR-1": [
+   "PRJ_A",
+   "Closed",
+   "Closed & cancelled",
+   -28,
+   -20,
+   [],
+   "L5: 10 pairs used, 2 released back to stock.",
+   [
+    [
+     "P01",
+     30,
+     "Issued",
+     0,
+     0,
+     30,
+     null
+    ],
+    [
+     "P05",
+     400,
+     "Issued",
+     0,
+     0,
+     400,
+     null
+    ],
+    [
+     "P07",
+     60,
+     "Issued",
+     0,
+     0,
+     60,
+     null
+    ],
+    [
+     "P08",
+     60,
+     "Issued",
+     0,
+     0,
+     60,
+     null
+    ],
+    [
+     "P09",
+     12,
+     "Issued",
+     0,
+     0,
+     10,
+     null
+    ]
+   ]
+  ],
+  "MR-2": [
+   "PRJ_B_UNIT_1",
+   "Ready for Production",
+   "Active requests",
+   -14,
+   3,
+   [
+    "PO-0001",
+    "PO-0002"
+   ],
+   null,
+   [
+    [
+     "P03",
+     20,
+     "From Stock",
+     20,
+     0,
+     null,
+     null
+    ],
+    [
+     "P04",
+     8,
+     "From Stock",
+     8,
+     0,
+     null,
+     null
+    ],
+    [
+     "P06",
+     600,
+     "Received",
+     600,
+     600,
+     null,
+     "PO-0001/L1"
+    ],
+    [
+     "P07",
+     40,
+     "From Stock",
+     40,
+     0,
+     null,
+     null
+    ],
+    [
+     "P08",
+     40,
+     "From Stock",
+     40,
+     0,
+     null,
+     null
+    ],
+    [
+     "P11",
+     30,
+     "Received",
+     30,
+     30,
+     null,
+     "PO-0002/L1"
+    ]
+   ]
+  ],
+  "MR-3": [
+   "PRJ_C_UNIT_1",
+   "Waiting for Delivery",
+   "Active requests",
+   -10,
+   5,
+   [
+    "PO-0003",
+    "PO-0004"
+   ],
+   null,
+   [
+    [
+     "P02",
+     50,
+     "From Stock",
+     50,
+     0,
+     null,
+     null
+    ],
+    [
+     "P13",
+     20,
+     "Ordered",
+     16,
+     4,
+     null,
+     "PO-0003/L1"
+    ],
+    [
+     "P10",
+     16,
+     "Ordered",
+     10,
+     16,
+     null,
+     "PO-0004/L1"
+    ],
+    [
+     "P14",
+     6,
+     "From Stock",
+     6,
+     0,
+     null,
+     null
+    ]
+   ]
+  ],
+  "MR-4": [
+   "PRJ_A_UNIT_2",
+   "Issue Materials",
+   "Active requests",
+   -21,
+   -2,
+   [],
+   "Trigger for Issue Materials = production complete — TBD with Sam.",
+   [
+    [
+     "P01",
+     24,
+     "From Stock",
+     24,
+     0,
+     24,
+     null
+    ],
+    [
+     "P05",
+     300,
+     "From Stock",
+     300,
+     0,
+     300,
+     null
+    ],
+    [
+     "P12",
+     200,
+     "From Stock",
+     200,
+     0,
+     200,
+     null
+    ],
+    [
+     "P07",
+     30,
+     "From Stock",
+     30,
+     0,
+     30,
+     null
+    ]
+   ]
+  ],
+  "MR-5": [
+   "PRJ_C",
+   "In Review",
+   "Active requests",
+   -1,
+   14,
+   [],
+   "L2 product is new — purchaser to complete supplier/UoM/price before ordering.",
+   [
+    [
+     "P01",
+     60,
+     "From Stock",
+     60,
+     0,
+     null,
+     null
+    ],
+    [
+     "P15",
+     6,
+     "To Order",
+     0,
+     6,
+     null,
+     null
+    ],
+    [
+     "P09",
+     24,
+     "From Stock",
+     24,
+     0,
+     null,
+     null
+    ],
+    [
+     "P14",
+     10,
+     "Partial",
+     6,
+     4,
+     null,
+     null
+    ]
+   ]
+  ]
+ },
+ "pos": {
+  "PO-0001": [
+   "Received",
+   "Closed & cancelled",
+   "S2",
+   "PRJ_B",
+   -13,
+   -6,
+   -13,
+   25,
+   null
+  ],
+  "PO-0002": [
+   "Received",
+   "Closed & cancelled",
+   "S3",
+   "PRJ_B",
+   -13,
+   -5,
+   -13,
+   15,
+   null
+  ],
+  "PO-0003": [
+   "Sent",
+   "Open POs",
+   "S4",
+   "PRJ_C",
+   -9,
+   -2,
+   -9,
+   40,
+   null
+  ],
+  "PO-0004": [
+   "Partially Received",
+   "Open POs",
+   "S3",
+   "PRJ_C",
+   -9,
+   4,
+   -9,
+   30,
+   null
+  ],
+  "PO-0005": [
+   "Draft",
+   "Open POs",
+   "S1",
+   null,
+   null,
+   null,
+   null,
+   0,
+   "Replenishment — MDF white below minimum."
+  ]
+ },
+ "po_lines": {
+  "PO-0001/L1": [
+   "P06",
+   600,
+   0.35,
+   600,
+   -6,
+   "PRJ_B",
+   "Received",
+   "MR-2/L3"
+  ],
+  "PO-0002/L1": [
+   "P11",
+   50,
+   4.2,
+   50,
+   -5,
+   "PRJ_B",
+   "Received",
+   "MR-2/L6"
+  ],
+  "PO-0003/L1": [
+   "P13",
+   4,
+   32.0,
+   0,
+   null,
+   "PRJ_C",
+   "Open",
+   "MR-3/L2"
+  ],
+  "PO-0003/L2": [
+   "P13",
+   12,
+   32.0,
+   0,
+   null,
+   null,
+   "Open",
+   null
+  ],
+  "PO-0004/L1": [
+   "P10",
+   20,
+   22.0,
+   10,
+   -3,
+   "PRJ_C",
+   "Partially Received",
+   "MR-3/L3"
+  ],
+  "PO-0004/L2": [
+   "P09",
+   20,
+   24.5,
+   0,
+   null,
+   null,
+   "Open",
+   null
+  ],
+  "PO-0005/L1": [
+   "P01",
+   100,
+   68.0,
+   0,
+   null,
+   null,
+   "Open",
+   null
+  ]
+ },
+ "movements": [
+  [
+   "SM-01",
+   "Opening",
+   "P01",
+   150,
+   null,
+   null,
+   0,
+   150,
+   "in",
+   null,
+   null,
+   null,
+   -45,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-02",
+   "Opening",
+   "P02",
+   80,
+   null,
+   null,
+   0,
+   80,
+   "in",
+   null,
+   null,
+   null,
+   -45,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-03",
+   "Opening",
+   "P03",
+   40,
+   null,
+   null,
+   0,
+   40,
+   "in",
+   null,
+   null,
+   null,
+   -45,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-04",
+   "Opening",
+   "P04",
+   25,
+   null,
+   null,
+   0,
+   25,
+   "in",
+   null,
+   null,
+   null,
+   -45,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-05",
+   "Opening",
+   "P05",
+   1500,
+   null,
+   null,
+   0,
+   1500,
+   "in",
+   null,
+   null,
+   null,
+   -45,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-06",
+   "Opening",
+   "P07",
+   400,
+   null,
+   null,
+   0,
+   400,
+   "in",
+   null,
+   null,
+   null,
+   -45,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-07",
+   "Opening",
+   "P08",
+   400,
+   null,
+   null,
+   0,
+   400,
+   "in",
+   null,
+   null,
+   null,
+   -45,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-08",
+   "Opening",
+   "P09",
+   60,
+   null,
+   null,
+   0,
+   60,
+   "in",
+   null,
+   null,
+   null,
+   -45,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-09",
+   "Opening",
+   "P12",
+   2000,
+   null,
+   null,
+   0,
+   2000,
+   "in",
+   null,
+   null,
+   null,
+   -45,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-10",
+   "Opening",
+   "P13",
+   14,
+   null,
+   null,
+   0,
+   14,
+   "in",
+   null,
+   null,
+   null,
+   -45,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-11",
+   "Opening",
+   "P14",
+   12,
+   null,
+   null,
+   0,
+   12,
+   "in",
+   null,
+   null,
+   null,
+   -45,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-12",
+   "Issue to project",
+   "P01",
+   30,
+   null,
+   null,
+   150,
+   120,
+   "out",
+   "PRJ_A",
+   "MR-1/L1",
+   null,
+   -20,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-13",
+   "Issue to project",
+   "P05",
+   400,
+   null,
+   null,
+   1500,
+   1100,
+   "out",
+   "PRJ_A",
+   "MR-1/L2",
+   null,
+   -20,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-14",
+   "Issue to project",
+   "P07",
+   60,
+   null,
+   null,
+   400,
+   340,
+   "out",
+   "PRJ_A",
+   "MR-1/L3",
+   null,
+   -20,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-15",
+   "Issue to project",
+   "P08",
+   60,
+   null,
+   null,
+   400,
+   340,
+   "out",
+   "PRJ_A",
+   "MR-1/L4",
+   null,
+   -20,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-16",
+   "Issue to project",
+   "P09",
+   10,
+   null,
+   null,
+   60,
+   50,
+   "out",
+   "PRJ_A",
+   "MR-1/L5",
+   null,
+   -20,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-17",
+   "Manual in",
+   "P13",
+   2,
+   null,
+   "Return",
+   14,
+   16,
+   "in",
+   null,
+   null,
+   null,
+   -18,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-18",
+   "Manual out",
+   "P03",
+   2,
+   null,
+   "Damage/Scrap",
+   40,
+   38,
+   "out",
+   null,
+   null,
+   null,
+   -16,
+   "Applied",
+   "Water damage, 2 sheets.",
+   null
+  ],
+  [
+   "SM-19",
+   "Stock count",
+   "P12",
+   150,
+   1850,
+   null,
+   2000,
+   1850,
+   "out",
+   null,
+   null,
+   null,
+   -15,
+   "Applied",
+   "Quarterly count.",
+   null
+  ],
+  [
+   "SM-20",
+   "Receipt",
+   "P06",
+   600,
+   null,
+   null,
+   0,
+   600,
+   "in",
+   "PRJ_B_UNIT_1",
+   "MR-2/L3",
+   "PO-0001/L1",
+   -6,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-21",
+   "Receipt",
+   "P11",
+   50,
+   null,
+   null,
+   0,
+   50,
+   "in",
+   "PRJ_B_UNIT_1",
+   "MR-2/L6",
+   "PO-0002/L1",
+   -5,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-22",
+   "Receipt",
+   "P10",
+   10,
+   null,
+   null,
+   0,
+   10,
+   "in",
+   "PRJ_C_UNIT_1",
+   "MR-3/L3",
+   "PO-0004/L1",
+   -3,
+   "Applied",
+   null,
+   null
+  ],
+  [
+   "SM-23",
+   "Manual out",
+   "P01",
+   50,
+   null,
+   "Damage/Scrap",
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   -1,
+   "Rejected",
+   null,
+   "Exceeds Available (36). Reserved stock can't be taken manually."
+  ]
+ ],
+ "expected": {
+  "catalogue": {
+   "P01": [
+    120,
+    84,
+    36,
+    "Low"
+   ],
+   "P02": [
+    80,
+    50,
+    30,
+    "In"
+   ],
+   "P03": [
+    38,
+    20,
+    18,
+    "In"
+   ],
+   "P04": [
+    25,
+    8,
+    17,
+    "In"
+   ],
+   "P05": [
+    1100,
+    300,
+    800,
+    "In"
+   ],
+   "P06": [
+    600,
+    600,
+    0,
+    "—"
+   ],
+   "P07": [
+    340,
+    70,
+    270,
+    "In"
+   ],
+   "P08": [
+    340,
+    40,
+    300,
+    "In"
+   ],
+   "P09": [
+    50,
+    24,
+    26,
+    "Low"
+   ],
+   "P10": [
+    10,
+    10,
+    0,
+    "—"
+   ],
+   "P11": [
+    50,
+    30,
+    20,
+    "—"
+   ],
+   "P12": [
+    1850,
+    200,
+    1650,
+    "In"
+   ],
+   "P13": [
+    16,
+    16,
+    0,
+    "Out"
+   ],
+   "P14": [
+    12,
+    12,
+    0,
+    "Out"
+   ],
+   "P15": [
+    0,
+    0,
+    0,
+    "—"
+   ]
+  },
+  "material_cost": {
+   "MR-1": 2573.0,
+   "MR-2": 2700.0,
+   "MR-3": 3880.0,
+   "MR-4": 1769.0,
+   "MR-5": 5148.0
+  },
+  "po": {
+   "PO-0001": [
+    210,
+    235,
+    ""
+   ],
+   "PO-0002": [
+    210,
+    225,
+    ""
+   ],
+   "PO-0003": [
+    512,
+    552,
+    "Overdue"
+   ],
+   "PO-0004": [
+    930,
+    960,
+    ""
+   ],
+   "PO-0005": [
+    6800,
+    6800,
+    ""
+   ]
+  },
+  "supplier_total": {
+   "S1": 6800,
+   "S2": 235,
+   "S3": 1185,
+   "S4": 552
+  },
+  "projects": {
+   "PRJ_A": {
+    "material_cost": 2573.0,
+    "units_cost_includes": 1769.0
+   },
+   "PRJ_B": {
+    "units_cost_includes": 2700.0
+   },
+   "PRJ_C": {
+    "material_cost": 5148.0,
+    "units_cost_includes": 3880.0
+   }
+  }
+ }
+}

@@ -84,7 +84,336 @@
       "parent": "Purchase Orders"
     }
   },
-  "items": {},
+  "items": {
+    "S1": {
+      "id": "13404800797",
+      "board": "Suppliers"
+    },
+    "S2": {
+      "id": "13404820587",
+      "board": "Suppliers"
+    },
+    "S3": {
+      "id": "13404801234",
+      "board": "Suppliers"
+    },
+    "S4": {
+      "id": "13404789216",
+      "board": "Suppliers"
+    },
+    "P01": {
+      "id": "13404787600",
+      "board": "Materials Catalogue"
+    },
+    "P02": {
+      "id": "13404802173",
+      "board": "Materials Catalogue"
+    },
+    "P03": {
+      "id": "13404789225",
+      "board": "Materials Catalogue"
+    },
+    "P04": {
+      "id": "13404802367",
+      "board": "Materials Catalogue"
+    },
+    "P05": {
+      "id": "13404787828",
+      "board": "Materials Catalogue"
+    },
+    "P06": {
+      "id": "13404788889",
+      "board": "Materials Catalogue"
+    },
+    "P07": {
+      "id": "13404787481",
+      "board": "Materials Catalogue"
+    },
+    "P08": {
+      "id": "13404773801",
+      "board": "Materials Catalogue"
+    },
+    "P09": {
+      "id": "13404788016",
+      "board": "Materials Catalogue"
+    },
+    "P10": {
+      "id": "13404801284",
+      "board": "Materials Catalogue"
+    },
+    "P11": {
+      "id": "13404787944",
+      "board": "Materials Catalogue"
+    },
+    "P12": {
+      "id": "13404814282",
+      "board": "Materials Catalogue"
+    },
+    "P13": {
+      "id": "13404789247",
+      "board": "Materials Catalogue"
+    },
+    "P14": {
+      "id": "13404787906",
+      "board": "Materials Catalogue"
+    },
+    "P15": {
+      "id": "13404781668",
+      "board": "Materials Catalogue"
+    },
+    "SM-01": {
+      "id": "13404788032",
+      "board": "Stock Movements"
+    },
+    "SM-02": {
+      "id": "13404773704",
+      "board": "Stock Movements"
+    },
+    "SM-03": {
+      "id": "13404796058",
+      "board": "Stock Movements"
+    },
+    "SM-04": {
+      "id": "13404801242",
+      "board": "Stock Movements"
+    },
+    "SM-05": {
+      "id": "13404787840",
+      "board": "Stock Movements"
+    },
+    "SM-06": {
+      "id": "13404802630",
+      "board": "Stock Movements"
+    },
+    "SM-07": {
+      "id": "13404814342",
+      "board": "Stock Movements"
+    },
+    "SM-08": {
+      "id": "13404787117",
+      "board": "Stock Movements"
+    },
+    "SM-09": {
+      "id": "13404820615",
+      "board": "Stock Movements"
+    },
+    "SM-10": {
+      "id": "13404789256",
+      "board": "Stock Movements"
+    },
+    "SM-11": {
+      "id": "13404787814",
+      "board": "Stock Movements"
+    },
+    "SM-12": {
+      "id": "13404801274",
+      "board": "Stock Movements"
+    },
+    "SM-13": {
+      "id": "13404801366",
+      "board": "Stock Movements"
+    },
+    "SM-14": {
+      "id": "13404802266",
+      "board": "Stock Movements"
+    },
+    "SM-15": {
+      "id": "13404789593",
+      "board": "Stock Movements"
+    },
+    "SM-16": {
+      "id": "13404773988",
+      "board": "Stock Movements"
+    },
+    "SM-17": {
+      "id": "13404773909",
+      "board": "Stock Movements"
+    },
+    "SM-18": {
+      "id": "13404789269",
+      "board": "Stock Movements"
+    },
+    "SM-19": {
+      "id": "13404801179",
+      "board": "Stock Movements"
+    },
+    "SM-20": {
+      "id": "13404773914",
+      "board": "Stock Movements"
+    },
+    "SM-21": {
+      "id": "13404801190",
+      "board": "Stock Movements"
+    },
+    "SM-22": {
+      "id": "13404789272",
+      "board": "Stock Movements"
+    },
+    "SM-23": {
+      "id": "13404801385",
+      "board": "Stock Movements"
+    },
+    "MR-1": {
+      "id": "13404814355",
+      "board": "Material Requests"
+    },
+    "MR-2": {
+      "id": "13404789276",
+      "board": "Material Requests"
+    },
+    "MR-3": {
+      "id": "13404820470",
+      "board": "Material Requests"
+    },
+    "MR-4": {
+      "id": "13404820832",
+      "board": "Material Requests"
+    },
+    "MR-5": {
+      "id": "13404804193",
+      "board": "Material Requests"
+    },
+    "MR-1/L1": {
+      "id": "13404789597",
+      "board": "Request lines"
+    },
+    "MR-1/L2": {
+      "id": "13404802357",
+      "board": "Request lines"
+    },
+    "MR-1/L3": {
+      "id": "13404789325",
+      "board": "Request lines"
+    },
+    "MR-1/L4": {
+      "id": "13404789351",
+      "board": "Request lines"
+    },
+    "MR-1/L5": {
+      "id": "13404781174",
+      "board": "Request lines"
+    },
+    "MR-2/L1": {
+      "id": "13404789631",
+      "board": "Request lines"
+    },
+    "MR-2/L2": {
+      "id": "13404814383",
+      "board": "Request lines"
+    },
+    "MR-2/L3": {
+      "id": "13404801481",
+      "board": "Request lines"
+    },
+    "MR-2/L4": {
+      "id": "13404801503",
+      "board": "Request lines"
+    },
+    "MR-2/L5": {
+      "id": "13404802228",
+      "board": "Request lines"
+    },
+    "MR-2/L6": {
+      "id": "13404802463",
+      "board": "Request lines"
+    },
+    "MR-3/L1": {
+      "id": "13404804517",
+      "board": "Request lines"
+    },
+    "MR-3/L2": {
+      "id": "13404804574",
+      "board": "Request lines"
+    },
+    "MR-3/L3": {
+      "id": "13404802687",
+      "board": "Request lines"
+    },
+    "MR-3/L4": {
+      "id": "13404802430",
+      "board": "Request lines"
+    },
+    "MR-4/L1": {
+      "id": "13404802422",
+      "board": "Request lines"
+    },
+    "MR-4/L2": {
+      "id": "13404804704",
+      "board": "Request lines"
+    },
+    "MR-4/L3": {
+      "id": "13404804211",
+      "board": "Request lines"
+    },
+    "MR-4/L4": {
+      "id": "13404814489",
+      "board": "Request lines"
+    },
+    "MR-5/L1": {
+      "id": "13404804650",
+      "board": "Request lines"
+    },
+    "MR-5/L2": {
+      "id": "13404804732",
+      "board": "Request lines"
+    },
+    "MR-5/L3": {
+      "id": "13404789824",
+      "board": "Request lines"
+    },
+    "MR-5/L4": {
+      "id": "13404821362",
+      "board": "Request lines"
+    },
+    "PO-0001": {
+      "id": "13404801580",
+      "board": "Purchase Orders"
+    },
+    "PO-0002": {
+      "id": "13404804606",
+      "board": "Purchase Orders"
+    },
+    "PO-0003": {
+      "id": "13404804520",
+      "board": "Purchase Orders"
+    },
+    "PO-0004": {
+      "id": "13404816569",
+      "board": "Purchase Orders"
+    },
+    "PO-0005": {
+      "id": "13404814942",
+      "board": "Purchase Orders"
+    },
+    "PO-0001/L1": {
+      "id": "13404789926",
+      "board": "PO lines"
+    },
+    "PO-0002/L1": {
+      "id": "13404838305",
+      "board": "PO lines"
+    },
+    "PO-0003/L1": {
+      "id": "13404815139",
+      "board": "PO lines"
+    },
+    "PO-0003/L2": {
+      "id": "13404789930",
+      "board": "PO lines"
+    },
+    "PO-0004/L1": {
+      "id": "13404815173",
+      "board": "PO lines"
+    },
+    "PO-0004/L2": {
+      "id": "13404814960",
+      "board": "PO lines"
+    },
+    "PO-0005/L1": {
+      "id": "13404821784",
+      "board": "PO lines"
+    }
+  },
   "real_items_approval": "Omer replied 'continue' at Gate 1 (2026-10-28) without changes; proposed picks used. Reconfirm at Gate 2 before first use (Phase 6/7).",
   "dashboards": {},
   "zz_test_items": [
@@ -188,5 +517,11 @@
     ]
   },
   "test_folder": null,
-  "test_boards": {}
+  "test_boards": {},
+  "phase7_steps_done": [
+    "8",
+    "9",
+    "10",
+    "11"
+  ]
 }

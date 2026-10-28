@@ -477,3 +477,192 @@ The connects already exist (built by Omer, D-06). This phase renames the 4 refle
 Phase 6 result: 4 reflections renamed (Projects + Units: "Material Requests", "PO lines") and 6 mirrors created: Units #2 Material cost `lookup_mm8j6ayp`, #3 Request status `lookup_mm8jz4rt`; Projects #6 Material cost `lookup_mm8jr37y`, #7 Request status `lookup_mm8j7963`, #8 Units material cost `lookup_mm8jvw8q`, #9 PO status `lookup_mm8jn862` (← PO lines `Line status`, all statuses; no PO header `Projects` connect per Omer). Snapshot check: only approved columns differ (`snapshots/post-phase-6.json`).
 
 Note: other items already on the demo boards, not created by this build: `.` (Suppliers, Catalogue, Requests, POs, Request lines, PO lines), `2` (POs), `1` (Movements), `ZZ-TEST-Request (copy)` with 2 copied lines, `ZZ-TEST-PO (copy)`. Left untouched; none links to Sam's boards. They take Request # / PO # / Movement # numbers ahead of the DEMO items.
+
+---
+
+## Phase 7 — Sample data · 2026-10-28
+
+T = 2026-10-28. Loaded in spec order (§10 Phase 7), links by item ID only (`data/id-map.json` → `items`). MR-6 excluded (D-08); no PO header `Projects` (D-07); PO lines' project goes in `Project \ Unit`. Applied-at times set to 09:00.
+
+| Timestamp (UTC) | Phase | Mutation | Target | Note | Result |
+|---|---|---|---|---|---|
+| 2026-10-28T11:10:53Z | 7 | `create_item` | 18437453018 | S1 Pacific Panel Supply | {"create_item": {"id": "13404800797"}} |
+| 2026-10-28T11:10:54Z | 7 | `create_item` | 18437453018 | S2 Edge & Trim Distributors | {"create_item": {"id": "13404820587"}} |
+| 2026-10-28T11:10:54Z | 7 | `create_item` | 18437453018 | S3 Hardware Source Co. | {"create_item": {"id": "13404801234"}} |
+| 2026-10-28T11:10:55Z | 7 | `create_item` | 18437453018 | S4 Coastline Coatings | {"create_item": {"id": "13404789216"}} |
+| 2026-10-28T11:10:57Z | 7 | `create_item` | 18437453024 | P01 MDF 3/4" 4x8 White Melamine | {"create_item": {"id": "13404787600"}} |
+| 2026-10-28T11:10:59Z | 7 | `create_item` | 18437453024 | P02 MDF 3/4" 4x8 Raw (Paint Grade) | {"create_item": {"id": "13404802173"}} |
+| 2026-10-28T11:11:01Z | 7 | `create_item` | 18437453024 | P03 Plywood 3/4" 4x8 Maple Pre-finished | {"create_item": {"id": "13404789225"}} |
+| 2026-10-28T11:11:03Z | 7 | `create_item` | 18437453024 | P04 Plywood 1/4" 4x8 Maple Pre-finished | {"create_item": {"id": "13404802367"}} |
+| 2026-10-28T11:11:04Z | 7 | `create_item` | 18437453024 | P05 Edgeband White PVC 22mm | {"create_item": {"id": "13404787828"}} |
+| 2026-10-28T11:11:06Z | 7 | `create_item` | 18437453024 | P06 Edgeband Maple Wood 22mm | {"create_item": {"id": "13404788889"}} |
+| 2026-10-28T11:11:08Z | 7 | `create_item` | 18437453024 | P07 Hinge 110° Soft-close Full Overlay | {"create_item": {"id": "13404787481"}} |
+| 2026-10-28T11:11:10Z | 7 | `create_item` | 18437453024 | P08 Hinge Mounting Plate 0mm | {"create_item": {"id": "13404773801"}} |
+| 2026-10-28T11:11:11Z | 7 | `create_item` | 18437453024 | P09 Drawer Slide 21" Undermount Soft-close | {"create_item": {"id": "13404788016"}} |
+| 2026-10-28T11:11:14Z | 7 | `create_item` | 18437453024 | P10 Drawer Slide 18" Undermount Soft-close | {"create_item": {"id": "13404801284"}} |
+| 2026-10-28T11:11:16Z | 7 | `create_item` | 18437453024 | P11 Pull Handle 128mm Matte Black | {"create_item": {"id": "13404787944"}} |
+| 2026-10-28T11:11:18Z | 7 | `create_item` | 18437453024 | P12 Shelf Pin 5mm Nickel | {"create_item": {"id": "13404814282"}} |
+| 2026-10-28T11:11:20Z | 7 | `create_item` | 18437453024 | P13 Primer White 1 gal | {"create_item": {"id": "13404789247"}} |
+| 2026-10-28T11:11:21Z | 7 | `create_item` | 18437453024 | P14 Pre-cat Lacquer Satin 1 gal | {"create_item": {"id": "13404787906"}} |
+| 2026-10-28T11:11:22Z | 7 | `create_item` | 18437453024 | P15 Toe Kick 4" Black Melamine 8ft | {"create_item": {"id": "13404781668"}} |
+| 2026-10-28T11:11:23Z | 7 | `create_item` | 18437453030 | SM-01 Opening – MDF 3/4" 4x8 White Melamine | {"create_item": {"id": "13404788032"}} |
+| 2026-10-28T11:11:24Z | 7 | `create_item` | 18437453030 | SM-02 Opening – MDF 3/4" 4x8 Raw (Paint Grade) | {"create_item": {"id": "13404773704"}} |
+| 2026-10-28T11:11:25Z | 7 | `create_item` | 18437453030 | SM-03 Opening – Plywood 3/4" 4x8 Maple Pre-finished | {"create_item": {"id": "13404796058"}} |
+| 2026-10-28T11:11:26Z | 7 | `create_item` | 18437453030 | SM-04 Opening – Plywood 1/4" 4x8 Maple Pre-finished | {"create_item": {"id": "13404801242"}} |
+| 2026-10-28T11:11:26Z | 7 | `create_item` | 18437453030 | SM-05 Opening – Edgeband White PVC 22mm | {"create_item": {"id": "13404787840"}} |
+| 2026-10-28T11:11:27Z | 7 | `create_item` | 18437453030 | SM-06 Opening – Hinge 110° Soft-close Full Overlay | {"create_item": {"id": "13404802630"}} |
+| 2026-10-28T11:11:28Z | 7 | `create_item` | 18437453030 | SM-07 Opening – Hinge Mounting Plate 0mm | {"create_item": {"id": "13404814342"}} |
+| 2026-10-28T11:11:29Z | 7 | `create_item` | 18437453030 | SM-08 Opening – Drawer Slide 21" Undermount Soft-close | {"create_item": {"id": "13404787117"}} |
+| 2026-10-28T11:11:30Z | 7 | `create_item` | 18437453030 | SM-09 Opening – Shelf Pin 5mm Nickel | {"create_item": {"id": "13404820615"}} |
+| 2026-10-28T11:11:30Z | 7 | `create_item` | 18437453030 | SM-10 Opening – Primer White 1 gal | {"create_item": {"id": "13404789256"}} |
+| 2026-10-28T11:11:31Z | 7 | `create_item` | 18437453030 | SM-11 Opening – Pre-cat Lacquer Satin 1 gal | {"create_item": {"id": "13404787814"}} |
+| 2026-10-28T11:11:32Z | 7 | `create_item` | 18437453030 | SM-12 Issue to project – MDF 3/4" 4x8 White Melamine | {"create_item": {"id": "13404801274"}} |
+| 2026-10-28T11:11:33Z | 7 | `create_item` | 18437453030 | SM-13 Issue to project – Edgeband White PVC 22mm | {"create_item": {"id": "13404801366"}} |
+| 2026-10-28T11:11:34Z | 7 | `create_item` | 18437453030 | SM-14 Issue to project – Hinge 110° Soft-close Full Overlay | {"create_item": {"id": "13404802266"}} |
+| 2026-10-28T11:11:35Z | 7 | `create_item` | 18437453030 | SM-15 Issue to project – Hinge Mounting Plate 0mm | {"create_item": {"id": "13404789593"}} |
+| 2026-10-28T11:11:35Z | 7 | `create_item` | 18437453030 | SM-16 Issue to project – Drawer Slide 21" Undermount Soft-close | {"create_item": {"id": "13404773988"}} |
+| 2026-10-28T11:11:36Z | 7 | `create_item` | 18437453030 | SM-17 Manual in – Primer White 1 gal | {"create_item": {"id": "13404773909"}} |
+| 2026-10-28T11:11:37Z | 7 | `create_item` | 18437453030 | SM-18 Manual out – Plywood 3/4" 4x8 Maple Pre-finished | {"create_item": {"id": "13404789269"}} |
+| 2026-10-28T11:11:38Z | 7 | `create_item` | 18437453030 | SM-19 Stock count – Shelf Pin 5mm Nickel | {"create_item": {"id": "13404801179"}} |
+| 2026-10-28T11:11:39Z | 7 | `create_item` | 18437453030 | SM-20 Receipt – Edgeband Maple Wood 22mm | {"create_item": {"id": "13404773914"}} |
+| 2026-10-28T11:11:40Z | 7 | `create_item` | 18437453030 | SM-21 Receipt – Pull Handle 128mm Matte Black | {"create_item": {"id": "13404801190"}} |
+| 2026-10-28T11:11:40Z | 7 | `create_item` | 18437453030 | SM-22 Receipt – Drawer Slide 18" Undermount Soft-close | {"create_item": {"id": "13404789272"}} |
+| 2026-10-28T11:11:41Z | 7 | `create_item` | 18437453030 | SM-23 Manual out – MDF 3/4" 4x8 White Melamine | {"create_item": {"id": "13404801385"}} |
+| 2026-10-28T11:11:44Z | 7 | `create_item` | 18437453027 | MR-1 DEMO – 26024 Sal Fabbri - 10 Acheson – MR #1 | {"create_item": {"id": "13404814355"}} |
+| 2026-10-28T11:11:45Z | 7 | `create_item` | 18437453027 | MR-2 DEMO – Wall Panel – MR #2 | {"create_item": {"id": "13404789276"}} |
+| 2026-10-28T11:11:47Z | 7 | `create_item` | 18437453027 | MR-3 DEMO – Kitchen – MR #3 | {"create_item": {"id": "13404820470"}} |
+| 2026-10-28T11:11:49Z | 7 | `create_item` | 18437453027 | MR-4 DEMO – Laundry Room – MR #4 | {"create_item": {"id": "13404820832"}} |
+| 2026-10-28T11:11:51Z | 7 | `create_item` | 18437453027 | MR-5 DEMO – 26026 Menatwork - 139 Hamilton – MR #5 | {"create_item": {"id": "13404804193"}} |
+| 2026-10-28T11:11:54Z | 7 | `create_subitem` | 18437453027 | MR-1/L1 MDF 3/4" 4x8 White Melamine | {"create_subitem": {"id": "13404789597"}} |
+| 2026-10-28T11:11:57Z | 7 | `create_subitem` | 18437453027 | MR-1/L2 Edgeband White PVC 22mm | {"create_subitem": {"id": "13404802357"}} |
+| 2026-10-28T11:11:59Z | 7 | `create_subitem` | 18437453027 | MR-1/L3 Hinge 110° Soft-close Full Overlay | {"create_subitem": {"id": "13404789325"}} |
+| 2026-10-28T11:12:01Z | 7 | `create_subitem` | 18437453027 | MR-1/L4 Hinge Mounting Plate 0mm | {"create_subitem": {"id": "13404789351"}} |
+| 2026-10-28T11:12:04Z | 7 | `create_subitem` | 18437453027 | MR-1/L5 Drawer Slide 21" Undermount Soft-close | {"create_subitem": {"id": "13404781174"}} |
+| 2026-10-28T11:12:07Z | 7 | `create_subitem` | 18437453027 | MR-2/L1 Plywood 3/4" 4x8 Maple Pre-finished | {"create_subitem": {"id": "13404789631"}} |
+| 2026-10-28T11:12:09Z | 7 | `create_subitem` | 18437453027 | MR-2/L2 Plywood 1/4" 4x8 Maple Pre-finished | {"create_subitem": {"id": "13404814383"}} |
+| 2026-10-28T11:12:12Z | 7 | `create_subitem` | 18437453027 | MR-2/L3 Edgeband Maple Wood 22mm | {"create_subitem": {"id": "13404801481"}} |
+| 2026-10-28T11:12:14Z | 7 | `create_subitem` | 18437453027 | MR-2/L4 Hinge 110° Soft-close Full Overlay | {"create_subitem": {"id": "13404801503"}} |
+| 2026-10-28T11:12:17Z | 7 | `create_subitem` | 18437453027 | MR-2/L5 Hinge Mounting Plate 0mm | {"create_subitem": {"id": "13404802228"}} |
+| 2026-10-28T11:12:20Z | 7 | `create_subitem` | 18437453027 | MR-2/L6 Pull Handle 128mm Matte Black | {"create_subitem": {"id": "13404802463"}} |
+| 2026-10-28T11:12:22Z | 7 | `create_subitem` | 18437453027 | MR-3/L1 MDF 3/4" 4x8 Raw (Paint Grade) | {"create_subitem": {"id": "13404804517"}} |
+| 2026-10-28T11:12:25Z | 7 | `create_subitem` | 18437453027 | MR-3/L2 Primer White 1 gal | {"create_subitem": {"id": "13404804574"}} |
+| 2026-10-28T11:12:27Z | 7 | `create_subitem` | 18437453027 | MR-3/L3 Drawer Slide 18" Undermount Soft-close | {"create_subitem": {"id": "13404802687"}} |
+| 2026-10-28T11:12:30Z | 7 | `create_subitem` | 18437453027 | MR-3/L4 Pre-cat Lacquer Satin 1 gal | {"create_subitem": {"id": "13404802430"}} |
+| 2026-10-28T11:12:32Z | 7 | `create_subitem` | 18437453027 | MR-4/L1 MDF 3/4" 4x8 White Melamine | {"create_subitem": {"id": "13404802422"}} |
+| 2026-10-28T11:12:35Z | 7 | `create_subitem` | 18437453027 | MR-4/L2 Edgeband White PVC 22mm | {"create_subitem": {"id": "13404804704"}} |
+| 2026-10-28T11:12:37Z | 7 | `create_subitem` | 18437453027 | MR-4/L3 Shelf Pin 5mm Nickel | {"create_subitem": {"id": "13404804211"}} |
+| 2026-10-28T11:12:40Z | 7 | `create_subitem` | 18437453027 | MR-4/L4 Hinge 110° Soft-close Full Overlay | {"create_subitem": {"id": "13404814489"}} |
+| 2026-10-28T11:12:42Z | 7 | `create_subitem` | 18437453027 | MR-5/L1 MDF 3/4" 4x8 White Melamine | {"create_subitem": {"id": "13404804650"}} |
+| 2026-10-28T11:12:44Z | 7 | `create_subitem` | 18437453027 | MR-5/L2 Toe Kick 4" Black Melamine 8ft | {"create_subitem": {"id": "13404804732"}} |
+| 2026-10-28T11:12:47Z | 7 | `create_subitem` | 18437453027 | MR-5/L3 Drawer Slide 21" Undermount Soft-close | {"create_subitem": {"id": "13404789824"}} |
+| 2026-10-28T11:12:49Z | 7 | `create_subitem` | 18437453027 | MR-5/L4 Pre-cat Lacquer Satin 1 gal | {"create_subitem": {"id": "13404821362"}} |
+| 2026-10-28T11:12:51Z | 7 | `create_item` | 18437453028 | PO-0001 DEMO – PO-0001 – Edge & Trim Distributors | {"create_item": {"id": "13404801580"}} |
+| 2026-10-28T11:12:53Z | 7 | `create_item` | 18437453028 | PO-0002 DEMO – PO-0002 – Hardware Source Co. | {"create_item": {"id": "13404804606"}} |
+| 2026-10-28T11:12:55Z | 7 | `create_item` | 18437453028 | PO-0003 DEMO – PO-0003 – Coastline Coatings | {"create_item": {"id": "13404804520"}} |
+| 2026-10-28T11:12:56Z | 7 | `create_item` | 18437453028 | PO-0004 DEMO – PO-0004 – Hardware Source Co. | {"create_item": {"id": "13404816569"}} |
+| 2026-10-28T11:12:58Z | 7 | `create_item` | 18437453028 | PO-0005 DEMO – PO-0005 – Pacific Panel Supply | {"create_item": {"id": "13404814942"}} |
+| 2026-10-28T11:13:02Z | 7 | `create_subitem` | 18437453028 | PO-0001/L1 Edgeband Maple Wood 22mm | {"create_subitem": {"id": "13404789926"}} |
+| 2026-10-28T11:13:06Z | 7 | `create_subitem` | 18437453028 | PO-0002/L1 Pull Handle 128mm Matte Black | {"create_subitem": {"id": "13404838305"}} |
+| 2026-10-28T11:13:09Z | 7 | `create_subitem` | 18437453028 | PO-0003/L1 Primer White 1 gal | {"create_subitem": {"id": "13404815139"}} |
+| 2026-10-28T11:13:12Z | 7 | `create_subitem` | 18437453028 | PO-0003/L2 Primer White 1 gal | {"create_subitem": {"id": "13404789930"}} |
+| 2026-10-28T11:13:14Z | 7 | `create_subitem` | 18437453028 | PO-0004/L1 Drawer Slide 18" Undermount Soft-close | {"create_subitem": {"id": "13404815173"}} |
+| 2026-10-28T11:13:17Z | 7 | `create_subitem` | 18437453028 | PO-0004/L2 Drawer Slide 21" Undermount Soft-close | {"create_subitem": {"id": "13404814960"}} |
+| 2026-10-28T11:13:19Z | 7 | `create_subitem` | 18437453028 | PO-0005/L1 MDF 3/4" 4x8 White Melamine | {"create_subitem": {"id": "13404821784"}} |
+| 2026-10-28T11:13:22Z | 7 | `change_multiple_column_values` | 18437453414 | MR-2/L3 PO line → PO-0001/L1 | {"change_multiple_column_values": {"id": "13404801481"}} |
+| 2026-10-28T11:13:24Z | 7 | `change_multiple_column_values` | 18437453414 | MR-2/L6 PO line → PO-0002/L1 | {"change_multiple_column_values": {"id": "13404802463"}} |
+| 2026-10-28T11:13:26Z | 7 | `change_multiple_column_values` | 18437453414 | MR-3/L2 PO line → PO-0003/L1 | {"change_multiple_column_values": {"id": "13404804574"}} |
+| 2026-10-28T11:13:29Z | 7 | `change_multiple_column_values` | 18437453414 | MR-3/L3 PO line → PO-0004/L1 | {"change_multiple_column_values": {"id": "13404802687"}} |
+| 2026-10-28T11:13:31Z | 7 | `change_multiple_column_values` | 18437453027 | MR-2 Purchase Orders → PO-0001,PO-0002 | {"change_multiple_column_values": {"id": "13404789276"}} |
+| 2026-10-28T11:13:33Z | 7 | `change_multiple_column_values` | 18437453027 | MR-3 Purchase Orders → PO-0003,PO-0004 | {"change_multiple_column_values": {"id": "13404820470"}} |
+| 2026-10-28T11:13:35Z | 7 | `change_multiple_column_values` | 18437453030 | SM-01 links | {"change_multiple_column_values": {"id": "13404788032"}} |
+| 2026-10-28T11:13:37Z | 7 | `change_multiple_column_values` | 18437453030 | SM-02 links | {"change_multiple_column_values": {"id": "13404773704"}} |
+| 2026-10-28T11:13:40Z | 7 | `change_multiple_column_values` | 18437453030 | SM-03 links | {"change_multiple_column_values": {"id": "13404796058"}} |
+| 2026-10-28T11:13:42Z | 7 | `change_multiple_column_values` | 18437453030 | SM-04 links | {"change_multiple_column_values": {"id": "13404801242"}} |
+| 2026-10-28T11:13:45Z | 7 | `change_multiple_column_values` | 18437453030 | SM-05 links | {"change_multiple_column_values": {"id": "13404787840"}} |
+| 2026-10-28T11:13:47Z | 7 | `change_multiple_column_values` | 18437453030 | SM-06 links | {"change_multiple_column_values": {"id": "13404802630"}} |
+| 2026-10-28T11:13:49Z | 7 | `change_multiple_column_values` | 18437453030 | SM-07 links | {"change_multiple_column_values": {"id": "13404814342"}} |
+| 2026-10-28T11:13:52Z | 7 | `change_multiple_column_values` | 18437453030 | SM-08 links | {"change_multiple_column_values": {"id": "13404787117"}} |
+| 2026-10-28T11:13:54Z | 7 | `change_multiple_column_values` | 18437453030 | SM-09 links | {"change_multiple_column_values": {"id": "13404820615"}} |
+| 2026-10-28T11:13:56Z | 7 | `change_multiple_column_values` | 18437453030 | SM-10 links | {"change_multiple_column_values": {"id": "13404789256"}} |
+| 2026-10-28T11:13:59Z | 7 | `change_multiple_column_values` | 18437453030 | SM-11 links | {"change_multiple_column_values": {"id": "13404787814"}} |
+| 2026-10-28T11:14:02Z | 7 | `change_multiple_column_values` | 18437453030 | SM-12 links | {"change_multiple_column_values": {"id": "13404801274"}} |
+| 2026-10-28T11:14:05Z | 7 | `change_multiple_column_values` | 18437453030 | SM-13 links | {"change_multiple_column_values": {"id": "13404801366"}} |
+| 2026-10-28T11:14:08Z | 7 | `change_multiple_column_values` | 18437453030 | SM-14 links | {"change_multiple_column_values": {"id": "13404802266"}} |
+| 2026-10-28T11:14:11Z | 7 | `change_multiple_column_values` | 18437453030 | SM-15 links | {"change_multiple_column_values": {"id": "13404789593"}} |
+| 2026-10-28T11:14:15Z | 7 | `change_multiple_column_values` | 18437453030 | SM-16 links | {"change_multiple_column_values": {"id": "13404773988"}} |
+| 2026-10-28T11:14:17Z | 7 | `change_multiple_column_values` | 18437453030 | SM-17 links | {"change_multiple_column_values": {"id": "13404773909"}} |
+| 2026-10-28T11:14:19Z | 7 | `change_multiple_column_values` | 18437453030 | SM-18 links | {"change_multiple_column_values": {"id": "13404789269"}} |
+| 2026-10-28T11:14:21Z | 7 | `change_multiple_column_values` | 18437453030 | SM-19 links | {"change_multiple_column_values": {"id": "13404801179"}} |
+| 2026-10-28T11:14:24Z | 7 | `change_multiple_column_values` | 18437453030 | SM-20 links | {"change_multiple_column_values": {"id": "13404773914"}} |
+| 2026-10-28T11:14:27Z | 7 | `change_multiple_column_values` | 18437453030 | SM-21 links | {"change_multiple_column_values": {"id": "13404801190"}} |
+| 2026-10-28T11:14:30Z | 7 | `change_multiple_column_values` | 18437453030 | SM-22 links | {"change_multiple_column_values": {"id": "13404789272"}} |
+| 2026-10-28T11:14:32Z | 7 | `change_multiple_column_values` | 18437453030 | SM-23 links | {"change_multiple_column_values": {"id": "13404801385"}} |
+| 2026-10-28T11:14:32Z | 7 | `change_multiple_column_values` | 18437453027 | MR-1 Status Closed | {"change_multiple_column_values": {"id": "13404814355"}} |
+| 2026-10-28T11:14:33Z | 7 | `change_multiple_column_values` | 18437453414 | MR-1/L1 Decision Issued | {"change_multiple_column_values": {"id": "13404789597"}} |
+| 2026-10-28T11:14:34Z | 7 | `change_multiple_column_values` | 18437453414 | MR-1/L2 Decision Issued | {"change_multiple_column_values": {"id": "13404802357"}} |
+| 2026-10-28T11:14:35Z | 7 | `change_multiple_column_values` | 18437453414 | MR-1/L3 Decision Issued | {"change_multiple_column_values": {"id": "13404789325"}} |
+| 2026-10-28T11:14:36Z | 7 | `change_multiple_column_values` | 18437453414 | MR-1/L4 Decision Issued | {"change_multiple_column_values": {"id": "13404789351"}} |
+| 2026-10-28T11:14:37Z | 7 | `change_multiple_column_values` | 18437453414 | MR-1/L5 Decision Issued | {"change_multiple_column_values": {"id": "13404781174"}} |
+| 2026-10-28T11:14:38Z | 7 | `change_multiple_column_values` | 18437453027 | MR-2 Status Ready for Production | {"change_multiple_column_values": {"id": "13404789276"}} |
+| 2026-10-28T11:14:39Z | 7 | `change_multiple_column_values` | 18437453414 | MR-2/L1 Decision From Stock | {"change_multiple_column_values": {"id": "13404789631"}} |
+| 2026-10-28T11:14:40Z | 7 | `change_multiple_column_values` | 18437453414 | MR-2/L2 Decision From Stock | {"change_multiple_column_values": {"id": "13404814383"}} |
+| 2026-10-28T11:14:41Z | 7 | `change_multiple_column_values` | 18437453414 | MR-2/L3 Decision Received | {"change_multiple_column_values": {"id": "13404801481"}} |
+| 2026-10-28T11:14:41Z | 7 | `change_multiple_column_values` | 18437453414 | MR-2/L4 Decision From Stock | {"change_multiple_column_values": {"id": "13404801503"}} |
+| 2026-10-28T11:14:42Z | 7 | `change_multiple_column_values` | 18437453414 | MR-2/L5 Decision From Stock | {"change_multiple_column_values": {"id": "13404802228"}} |
+| 2026-10-28T11:14:43Z | 7 | `change_multiple_column_values` | 18437453414 | MR-2/L6 Decision Received | {"change_multiple_column_values": {"id": "13404802463"}} |
+| 2026-10-28T11:14:44Z | 7 | `change_multiple_column_values` | 18437453027 | MR-3 Status Waiting for Delivery | {"change_multiple_column_values": {"id": "13404820470"}} |
+| 2026-10-28T11:14:44Z | 7 | `change_multiple_column_values` | 18437453414 | MR-3/L1 Decision From Stock | {"change_multiple_column_values": {"id": "13404804517"}} |
+| 2026-10-28T11:14:45Z | 7 | `change_multiple_column_values` | 18437453414 | MR-3/L2 Decision Ordered | {"change_multiple_column_values": {"id": "13404804574"}} |
+| 2026-10-28T11:14:46Z | 7 | `change_multiple_column_values` | 18437453414 | MR-3/L3 Decision Ordered | {"change_multiple_column_values": {"id": "13404802687"}} |
+| 2026-10-28T11:14:47Z | 7 | `change_multiple_column_values` | 18437453414 | MR-3/L4 Decision From Stock | {"change_multiple_column_values": {"id": "13404802430"}} |
+| 2026-10-28T11:14:48Z | 7 | `change_multiple_column_values` | 18437453027 | MR-4 Status Issue Materials | {"change_multiple_column_values": {"id": "13404820832"}} |
+| 2026-10-28T11:14:49Z | 7 | `change_multiple_column_values` | 18437453414 | MR-4/L1 Decision From Stock | {"change_multiple_column_values": {"id": "13404802422"}} |
+| 2026-10-28T11:14:50Z | 7 | `change_multiple_column_values` | 18437453414 | MR-4/L2 Decision From Stock | {"change_multiple_column_values": {"id": "13404804704"}} |
+| 2026-10-28T11:14:50Z | 7 | `change_multiple_column_values` | 18437453414 | MR-4/L3 Decision From Stock | {"change_multiple_column_values": {"id": "13404804211"}} |
+| 2026-10-28T11:14:51Z | 7 | `change_multiple_column_values` | 18437453414 | MR-4/L4 Decision From Stock | {"change_multiple_column_values": {"id": "13404814489"}} |
+| 2026-10-28T11:14:52Z | 7 | `change_multiple_column_values` | 18437453027 | MR-5 Status In Review | {"change_multiple_column_values": {"id": "13404804193"}} |
+| 2026-10-28T11:14:53Z | 7 | `change_multiple_column_values` | 18437453414 | MR-5/L1 Decision From Stock | {"change_multiple_column_values": {"id": "13404804650"}} |
+| 2026-10-28T11:14:54Z | 7 | `change_multiple_column_values` | 18437453414 | MR-5/L2 Decision To Order | {"change_multiple_column_values": {"id": "13404804732"}} |
+| 2026-10-28T11:14:54Z | 7 | `change_multiple_column_values` | 18437453414 | MR-5/L3 Decision From Stock | {"change_multiple_column_values": {"id": "13404789824"}} |
+| 2026-10-28T11:14:55Z | 7 | `change_multiple_column_values` | 18437453414 | MR-5/L4 Decision Partial | {"change_multiple_column_values": {"id": "13404821362"}} |
+| 2026-10-28T11:14:56Z | 7 | `change_multiple_column_values` | 18437453028 | PO-0001 Status Received | {"change_multiple_column_values": {"id": "13404801580"}} |
+| 2026-10-28T11:14:56Z | 7 | `change_multiple_column_values` | 18437453028 | PO-0002 Status Received | {"change_multiple_column_values": {"id": "13404804606"}} |
+| 2026-10-28T11:14:57Z | 7 | `change_multiple_column_values` | 18437453028 | PO-0003 Status Sent | {"change_multiple_column_values": {"id": "13404804520"}} |
+| 2026-10-28T11:14:58Z | 7 | `change_multiple_column_values` | 18437453028 | PO-0004 Status Partially Received | {"change_multiple_column_values": {"id": "13404816569"}} |
+| 2026-10-28T11:14:58Z | 7 | `change_multiple_column_values` | 18437453028 | PO-0005 Status Draft | {"change_multiple_column_values": {"id": "13404814942"}} |
+| 2026-10-28T11:14:59Z | 7 | `change_multiple_column_values` | 18437453449 | PO-0001/L1 Line status Received | {"change_multiple_column_values": {"id": "13404789926"}} |
+| 2026-10-28T11:15:00Z | 7 | `change_multiple_column_values` | 18437453449 | PO-0002/L1 Line status Received | {"change_multiple_column_values": {"id": "13404838305"}} |
+| 2026-10-28T11:15:01Z | 7 | `change_multiple_column_values` | 18437453449 | PO-0003/L1 Line status Open | {"change_multiple_column_values": {"id": "13404815139"}} |
+| 2026-10-28T11:15:02Z | 7 | `change_multiple_column_values` | 18437453449 | PO-0003/L2 Line status Open | {"change_multiple_column_values": {"id": "13404789930"}} |
+| 2026-10-28T11:15:03Z | 7 | `change_multiple_column_values` | 18437453449 | PO-0004/L1 Line status Partially Received | {"change_multiple_column_values": {"id": "13404815173"}} |
+| 2026-10-28T11:15:04Z | 7 | `change_multiple_column_values` | 18437453449 | PO-0004/L2 Line status Open | {"change_multiple_column_values": {"id": "13404814960"}} |
+| 2026-10-28T11:15:05Z | 7 | `change_multiple_column_values` | 18437453449 | PO-0005/L1 Line status Open | {"change_multiple_column_values": {"id": "13404821784"}} |
+| 2026-10-28T11:15:06Z | 7 | `change_multiple_column_values` | 18437453030 | SM-01 Status Applied | {"change_multiple_column_values": {"id": "13404788032"}} |
+| 2026-10-28T11:15:07Z | 7 | `change_multiple_column_values` | 18437453030 | SM-02 Status Applied | {"change_multiple_column_values": {"id": "13404773704"}} |
+| 2026-10-28T11:15:07Z | 7 | `change_multiple_column_values` | 18437453030 | SM-03 Status Applied | {"change_multiple_column_values": {"id": "13404796058"}} |
+| 2026-10-28T11:15:08Z | 7 | `change_multiple_column_values` | 18437453030 | SM-04 Status Applied | {"change_multiple_column_values": {"id": "13404801242"}} |
+| 2026-10-28T11:15:09Z | 7 | `change_multiple_column_values` | 18437453030 | SM-05 Status Applied | {"change_multiple_column_values": {"id": "13404787840"}} |
+| 2026-10-28T11:15:10Z | 7 | `change_multiple_column_values` | 18437453030 | SM-06 Status Applied | {"change_multiple_column_values": {"id": "13404802630"}} |
+| 2026-10-28T11:15:10Z | 7 | `change_multiple_column_values` | 18437453030 | SM-07 Status Applied | {"change_multiple_column_values": {"id": "13404814342"}} |
+| 2026-10-28T11:15:11Z | 7 | `change_multiple_column_values` | 18437453030 | SM-08 Status Applied | {"change_multiple_column_values": {"id": "13404787117"}} |
+| 2026-10-28T11:15:12Z | 7 | `change_multiple_column_values` | 18437453030 | SM-09 Status Applied | {"change_multiple_column_values": {"id": "13404820615"}} |
+| 2026-10-28T11:15:13Z | 7 | `change_multiple_column_values` | 18437453030 | SM-10 Status Applied | {"change_multiple_column_values": {"id": "13404789256"}} |
+| 2026-10-28T11:15:13Z | 7 | `change_multiple_column_values` | 18437453030 | SM-11 Status Applied | {"change_multiple_column_values": {"id": "13404787814"}} |
+| 2026-10-28T11:15:14Z | 7 | `change_multiple_column_values` | 18437453030 | SM-12 Status Applied | {"change_multiple_column_values": {"id": "13404801274"}} |
+| 2026-10-28T11:15:15Z | 7 | `change_multiple_column_values` | 18437453030 | SM-13 Status Applied | {"change_multiple_column_values": {"id": "13404801366"}} |
+| 2026-10-28T11:15:15Z | 7 | `change_multiple_column_values` | 18437453030 | SM-14 Status Applied | {"change_multiple_column_values": {"id": "13404802266"}} |
+| 2026-10-28T11:15:17Z | 7 | `change_multiple_column_values` | 18437453030 | SM-15 Status Applied | {"change_multiple_column_values": {"id": "13404789593"}} |
+| 2026-10-28T11:15:18Z | 7 | `change_multiple_column_values` | 18437453030 | SM-16 Status Applied | {"change_multiple_column_values": {"id": "13404773988"}} |
+| 2026-10-28T11:15:18Z | 7 | `change_multiple_column_values` | 18437453030 | SM-17 Status Applied | {"change_multiple_column_values": {"id": "13404773909"}} |
+| 2026-10-28T11:15:19Z | 7 | `change_multiple_column_values` | 18437453030 | SM-18 Status Applied | {"change_multiple_column_values": {"id": "13404789269"}} |
+| 2026-10-28T11:15:20Z | 7 | `change_multiple_column_values` | 18437453030 | SM-19 Status Applied | {"change_multiple_column_values": {"id": "13404801179"}} |
+| 2026-10-28T11:15:20Z | 7 | `change_multiple_column_values` | 18437453030 | SM-20 Status Applied | {"change_multiple_column_values": {"id": "13404773914"}} |
+| 2026-10-28T11:15:21Z | 7 | `change_multiple_column_values` | 18437453030 | SM-21 Status Applied | {"change_multiple_column_values": {"id": "13404801190"}} |
+| 2026-10-28T11:15:22Z | 7 | `change_multiple_column_values` | 18437453030 | SM-22 Status Applied | {"change_multiple_column_values": {"id": "13404789272"}} |
+| 2026-10-28T11:15:23Z | 7 | `change_multiple_column_values` | 18437453030 | SM-23 Status Rejected | {"change_multiple_column_values": {"id": "13404801385"}} |
+
+Phase 7 result: 82 items/subitems created (4 suppliers, 15 products, 23 movements, 5 requests + 23 lines, 5 POs + 7 lines) in 174 writes, 0 errors. IDs in `data/id-map.json` → `items`.
+
+**§9.7 verification (`data/verification-phase7.json`): 89 checks, 0 mismatches** (MR-6 adjustment D-08: P04 Reserved 8 / Available 17, P07 Reserved 70 / Available 270). Read directly through the API: On hand, Available, Stock state, PO Total, Delivery state. Derived from readable formulas, because the API doesn't expose mirrors of formulas: Reserved (= On hand − Available), Material cost per request (= Σ line `Line cost`), PO Subtotal (= Total − Tax), Supplier Total ordered (= Σ its PO Totals). The Projects/Units mirrors (#2, #3, #6–#9) **can't be read through the API at all**, so they need a UI check: Sal Fabbri Material cost 2,573 and Units material cost 1,769; Rivanti Units material cost 2,700; Menatwork Material cost 5,148 and Units material cost 3,880.
+
+Found during Phase 7 (Omer's UI changes, picked up): Request lines `Line cost` recreated as `formula_mm8jjeek` and PO lines `Line total` as `formula_mm8j7946` (Material cost / Subtotal mirrors re-pointed by Omer); Request lines `zz-unused` columns deleted; Catalogue gained `PO Line` (`board_relation_mm8jw7xe`, two-way → PO lines) and `Average Unit Price` (`lookup_mm8jzj8x`, average of PO line Unit price). Not in the spec; left as is.

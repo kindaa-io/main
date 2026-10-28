@@ -81,6 +81,30 @@
           "id": "pack_size",
           "type": "numbers"
         },
+        "Available": {
+          "id": "available",
+          "type": "formula"
+        },
+        "Reserved": {
+          "id": "reserved",
+          "type": "mirror"
+        },
+        "On hand": {
+          "id": "on_hand",
+          "type": "formula"
+        },
+        "Average Unit Price": {
+          "id": "lookup_mm8jzj8x",
+          "type": "mirror"
+        },
+        "Last purchase price": {
+          "id": "last_price",
+          "type": "numbers"
+        },
+        "Minimum level": {
+          "id": "minimum_level",
+          "type": "numbers"
+        },
         "Default supplier": {
           "id": "default_supplier",
           "type": "board_relation"
@@ -93,14 +117,6 @@
           "id": "supplier_part",
           "type": "text"
         },
-        "Minimum level": {
-          "id": "minimum_level",
-          "type": "numbers"
-        },
-        "Last purchase price": {
-          "id": "last_price",
-          "type": "numbers"
-        },
         "Notes": {
           "id": "notes",
           "type": "long_text"
@@ -108,14 +124,6 @@
         "⚙️ Request lines": {
           "id": "board_relation_mm8jsje6",
           "type": "board_relation"
-        },
-        "Reserved": {
-          "id": "reserved",
-          "type": "mirror"
-        },
-        "Available": {
-          "id": "available",
-          "type": "formula"
         },
         "Stock state": {
           "id": "stock_state",
@@ -141,9 +149,9 @@
           "id": "out_total",
           "type": "mirror"
         },
-        "On hand": {
-          "id": "on_hand",
-          "type": "formula"
+        "PO Line": {
+          "id": "board_relation_mm8jw7xe",
+          "type": "board_relation"
         }
       }
     },
@@ -417,10 +425,6 @@
           "id": "supplier",
           "type": "mirror"
         },
-        "zz-unused – Owner": {
-          "id": "person",
-          "type": "people"
-        },
         "Decision": {
           "id": "status",
           "type": "status"
@@ -457,17 +461,13 @@
           "id": "est_unit_price",
           "type": "mirror"
         },
+        "Line cost": {
+          "id": "formula_mm8jjeek",
+          "type": "formula"
+        },
         "Qty issued": {
           "id": "qty_issued",
           "type": "numbers"
-        },
-        "Line cost": {
-          "id": "line_cost",
-          "type": "formula"
-        },
-        "zz-unused – Date": {
-          "id": "date0",
-          "type": "date"
         }
       }
     },
@@ -507,7 +507,7 @@
           "type": "numbers"
         },
         "Line total": {
-          "id": "line_total",
+          "id": "formula_mm8j7946",
           "type": "formula"
         },
         "Qty received": {
