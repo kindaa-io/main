@@ -40,7 +40,10 @@ Each entry: what, where, exact settings. **Status** is `Draft` (expected from th
 
 - **Hidden:** Unit / Project (never shown). Status defaults to **Pending** (set the column default or a hidden question with default Pending).
 
-## M4 — Dashboard widgets "by Supplier" · Draft (awaiting Omer's decision)
+## M4 — Dashboard widgets "by Supplier" · Partly built, needs a UI check
+**Phase 8 result:** widget 2 *Open POs by supplier* (732648364) and widget 4 *Spend by supplier* (732648385) were **accepted by the API** with X axis = PO `Supplier` (a connect column, which isn't in the documented group-by list). Widgets can't be read back, so **check in the UI** that they group by supplier; if not, set X axis = Supplier by hand. Widget 2 still needs its filter by hand (Status is not Received / Closed / Cancelled): dashboard widget filters can't be set through the API.
+
+### Original draft
 - **Why manual:** chart widgets created by the API can group the X axis only by status colour, group, person, board, name or date, not by a connect column (PO `Supplier`).
 - **Where:** dashboard *Procurement Overview (Demo)*.
 - **Widget 2, Open POs by supplier:** Chart (bar), source Purchase Orders, X axis = Supplier, Y = count of items, filter Status is not Received / Closed / Cancelled.

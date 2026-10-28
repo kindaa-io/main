@@ -77,8 +77,8 @@ You are building a **monday.com demo** for Kindaa's client Sam (Ricco Cabinetry)
 | Purchase Orders | 18437453028 |
 | Subitems of Purchase Orders (PO lines) | 18437453449 |
 | Stock Movements | 18437453030 |
-| Dashboard `Procurement Overview (Demo)` | TBD |
-| WorkForm `Manual stock update` | TBD |
+| Dashboard `Procurement Overview (Demo)` | 40200086 |
+| WorkForm `Manual stock update` | form view 288954194 on Stock Movements (token in `data/id-map.json` → `workform`) |
 
 Column IDs: keep the full title → ID map per board in `data/column-map.json`, and summarise the key ones here once created:
 
@@ -102,7 +102,7 @@ Real-item picks (after Gate 1): `{{PRJ_A}}`, `{{PRJ_A_UNIT_2}}`, `{{PRJ_B}}`, `{
 - `{{PRJ_C_UNIT_1}}`: Kitchen — `12882328030`
 - `{{SVC_JOB}}`: Amir Tile - Service — `13195142796`
 
-Test folder `ZZ-TEST- Inventory Demo Tests` (DEVIATIONS D-03): 21780014. Test boards are listed in `data/id-map.json` → `test_boards`.
+Test folder `ZZ-TEST- Inventory Demo Tests` (21780014) and its boards were deleted by Omer on 2026-10-28 (`data/id-map.json` → `deleted_by_omer`). Test items now live only on the demo boards (`zz_test_items`).
 
 ## 6. Default columns
 

@@ -418,7 +418,28 @@
   "dashboards": {
     "Procurement Overview (Demo)": {
       "id": "40200086",
-      "widgets": {}
+      "widgets": {
+        "w1": {
+          "id": "732648339",
+          "name": "Requests by status"
+        },
+        "w2": {
+          "id": "732648364",
+          "name": "Open POs by supplier"
+        },
+        "w4": {
+          "id": "732648385",
+          "name": "Spend by supplier"
+        },
+        "w5": {
+          "id": "732648406",
+          "name": "Material cost per project"
+        },
+        "w7": {
+          "id": "732648409",
+          "name": "Stock value"
+        }
+      }
     }
   },
   "zz_test_items": [

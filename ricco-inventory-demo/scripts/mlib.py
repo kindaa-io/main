@@ -156,3 +156,25 @@ def mutate(phase, op, target, query, variables=None, note="", allow_new_folder=F
     _log(phase, op, target, query, variables, resp, note)
     _track(resp)
     return resp
+
+
+def upload_file(phase, target_board, item_id, column_id, path, note=""):
+    """Multipart upload to /v2/file (add_file_to_column). Same write-scope guard and logging as mutate()."""
+    target_board = str(target_board)
+    if target_board in SAM_BOARDS or target_board not in allowed_targets():
+        raise StopBuild("refused: upload target %s is outside the write scope" % target_board)
+    query = ('mutation ($file: File!) { add_file_to_column(item_id: %s, column_id: "%s", file: $file) { id name } }'
+             % (int(item_id), column_id))
+    cmd = ["curl", "-sS", API_URL + "/file", "-H", "API-Version: " + API_VERSION,
+           "-F", "query=" + query, "-F", 'map={"pdf":"variables.file"}', "-F", "pdf=@" + path]
+    token = os.environ.get("MONDAY_API_TOKEN")
+    if token:
+        cmd[3:3] = ["-H", "Authorization: " + token]
+    out = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+    try:
+        resp = json.loads(out.stdout)
+    except ValueError:
+        resp = {"errors": [{"message": "non-JSON response: " + out.stdout[:300] + out.stderr[:300]}]}
+    _log(phase, "add_file_to_column", target_board, query, {"file": os.path.basename(path)}, resp, note)
+    _track(resp)
+    return resp

@@ -720,3 +720,28 @@ Phase 8 so far:
 - **Widgets: STOPPED.** Widgets 1, 2 and 4 failed with "Invalid settings … root: must be object" (my script sent `settings` as a JSON string), then widget 5 → **more than 3 consecutive API errors → STOP gate** (CLAUDE.md). No partial state: failed calls created nothing. Fix prepared locally (`scripts/phase8_dashboard.py` now sends an object); **not re-run, waiting for Omer's "go"**.
 
 Phase 9 (local only): `data/PO-0003-mock.pdf` generated (header, S4 supplier block, both lines with part #, packs, qty, unit price, line total; subtotal 512.00, tax/shipping 40.00, total 552.00; order and expected dates; diagonal watermark "SAMPLE LAYOUT – PENDING RICCO TEMPLATE"; no logo). **Not uploaded yet** (waiting for the same "go").
+
+### Phase 8 (resumed after Omer's "go", 2026-10-28)
+
+| Timestamp (UTC) | Phase | Mutation | Target | Note | Result |
+|---|---|---|---|---|---|
+| 2026-10-28T11:40:40Z | 8 | `create_widget` | 40200086 | Requests by status | {"create_widget": {"id": "732648339", "name": "Requests by status", "kind": "CHART"}} |
+| 2026-10-28T11:40:46Z | 8 | `create_widget` | 40200086 | Open POs by supplier | {"create_widget": {"id": "732648364", "name": "Open POs by supplier", "kind": "CHART"}} |
+| 2026-10-28T11:40:54Z | 8 | `create_widget` | 40200086 | Spend by supplier | {"create_widget": {"id": "732648385", "name": "Spend by supplier", "kind": "CHART"}} |
+| 2026-10-28T11:41:04Z | 8 | `create_widget` | 40200086 | Material cost per project | {"create_widget": {"id": "732648406", "name": "Material cost per project", "kind": "CHART"}} |
+| 2026-10-28T11:41:05Z | 8 | `create_widget` | 40200086 | Stock value | {"create_widget": {"id": "732648409", "name": "Stock value", "kind": "NUMBER"}} |
+| 2026-10-28T11:41:23Z | 9 | `add_file_to_column` | 18437453028 | PO-0003 mock PDF | {"add_file_to_column": {"id": "3347592452", "name": "PO-0003-mock.pdf"}} |
+
+Phase 8 widgets on dashboard 40200086: Requests by status 732648339, Open POs by supplier 732648364, Spend by supplier 732648385, Material cost per project 732648406, Stock value 732648409. Widgets 3 and 6 (tables with filters) → MANUAL-STEPS M8; the widget 2 filter → M4. The API accepted every widget; none can be read back, so check them in the UI.
+
+---
+
+## Phase 9 — Mock PO PDF · 2026-10-28
+
+`data/PO-0003-mock.pdf` (built by `scripts/phase9_mock_po_pdf.py`) uploaded to PO-0003 (`13404804520`) → `PO document`: asset 3347592452, read back ✅.
+
+---
+
+## Phase 10 — Handoff · 2026-10-28
+
+Final checks (read-only): Sam's boards differ from `snapshots/pre-build.json` only by the approved Phase 6 columns and Omer's own removal of the Spot-nik `link to Stock Updates` (Projects) ✅. Stock value of the demo items = 21,399.00 (the dashboard counter also includes `ZZ-TEST-Product` 170.00 → 21,569.00). Report: `HANDOFF.md`. **No further writes.**
