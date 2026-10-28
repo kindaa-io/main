@@ -666,3 +666,57 @@ Phase 7 result: 82 items/subitems created (4 suppliers, 15 products, 23 movement
 **§9.7 verification (`data/verification-phase7.json`): 89 checks, 0 mismatches** (MR-6 adjustment D-08: P04 Reserved 8 / Available 17, P07 Reserved 70 / Available 270). Read directly through the API: On hand, Available, Stock state, PO Total, Delivery state. Derived from readable formulas, because the API doesn't expose mirrors of formulas: Reserved (= On hand − Available), Material cost per request (= Σ line `Line cost`), PO Subtotal (= Total − Tax), Supplier Total ordered (= Σ its PO Totals). The Projects/Units mirrors (#2, #3, #6–#9) **can't be read through the API at all**, so they need a UI check: Sal Fabbri Material cost 2,573 and Units material cost 1,769; Rivanti Units material cost 2,700; Menatwork Material cost 5,148 and Units material cost 3,880.
 
 Found during Phase 7 (Omer's UI changes, picked up): Request lines `Line cost` recreated as `formula_mm8jjeek` and PO lines `Line total` as `formula_mm8j7946` (Material cost / Subtotal mirrors re-pointed by Omer); Request lines `zz-unused` columns deleted; Catalogue gained `PO Line` (`board_relation_mm8jw7xe`, two-way → PO lines) and `Average Unit Price` (`lookup_mm8jzj8x`, average of PO line Unit price). Not in the spec; left as is.
+
+---
+
+## Phase 8 — Views, WorkForm, dashboard · 2026-10-28
+
+The boards have no API-visible views; each board's default **Main Table** isn't exposed or configurable through the API. Spec "Main table" for Suppliers and Purchase Orders (all columns) = the default Main Table. Hiding ⚙️ columns on the Catalogue / Requests Main Table → MANUAL-STEPS M6.
+
+| Timestamp (UTC) | Phase | Mutation | Target | Note | Result |
+|---|---|---|---|---|---|
+| 2026-10-28T11:17:30Z | 8 | `create_view_table` | 18437453030 | Stock Movements: view Rejected & pending | {"create_view_table": {"id": "288954103", "name": "Rejected & pending"}} |
+| 2026-10-28T11:17:51Z | 8 | `create_view_table` | 18437453030 | Stock Movements: view Ledger | {"create_view_table": {"id": "288954126", "name": "Ledger"}} |
+| 2026-10-28T11:17:52Z | 8 | `create_view_table` | 18437453030 | Stock Movements: view By product | {"create_view_table": {"id": "288954129", "name": "By product"}} |
+| 2026-10-28T11:17:54Z | 8 | `create_view_table` | 18437453024 | Materials Catalogue: view Low & out | {"create_view_table": {"id": "288954133", "name": "Low & out"}} |
+| 2026-10-28T11:17:55Z | 8 | `create_view_table` | 18437453024 | Materials Catalogue: view Reserved vs available | ERROR: Internal server error |
+| 2026-10-28T11:17:56Z | 8 | `create_view_table` | 18437453028 | Purchase Orders: view By supplier | {"create_view_table": {"id": "288954135", "name": "By supplier"}} |
+| 2026-10-28T11:17:57Z | 8 | `create_view_table` | 18437453028 | Purchase Orders: view Overdue deliveries | {"create_view_table": {"id": "288954136", "name": "Overdue deliveries"}} |
+| 2026-10-28T11:18:10Z | 8 | `create_view_table` | 18437453024 | Materials Catalogue: view Reserved vs available | {"create_view_table": {"id": "288954147", "name": "Reserved vs available"}} |
+| 2026-10-28T11:18:32Z | 8 | `create_view(FORM)` | 18437453030 | Stock Movements: WorkForm view | {"create_view": {"id": "288954194", "name": "Manual stock update", "type": "FormBoardView", "view_specific_data_str": "{\"token\":\"40a69954f3e3be3ace6dc7470... |
+| 2026-10-28T11:19:39Z | 8 | `update_form` | 18437453030 | WorkForm title + description | {"update_form": {"title": "Manual stock update", "description": "Manual stock changes only. To take material for a job, use a material request. A manual out ... |
+| 2026-10-28T11:19:41Z | 8 | `update_form_question` | 18437453030 | form question name | {"update_form_question": {"id": "name", "title": "Name", "visible": false, "required": false}} |
+| 2026-10-28T11:19:42Z | 8 | `update_form_question` | 18437453030 | form question subtasks_mm8j76fe | {"update_form_question": {"id": "subtasks_mm8j76fe", "title": "Subitems", "visible": false, "required": false}} |
+| 2026-10-28T11:19:44Z | 8 | `update_form_question` | 18437453030 | form question product | {"update_form_question": {"id": "product", "title": "Product", "visible": false, "required": true}} |
+| 2026-10-28T11:19:45Z | 8 | `update_form_question` | 18437453030 | form question movement_type | {"update_form_question": {"id": "movement_type", "title": "Movement type", "visible": true, "required": true}} |
+| 2026-10-28T11:19:46Z | 8 | `update_form_question` | 18437453030 | form question qty | {"update_form_question": {"id": "qty", "title": "Quantity", "visible": true, "required": true}} |
+| 2026-10-28T11:19:48Z | 8 | `update_form_question` | 18437453030 | form question counted_qty | {"update_form_question": {"id": "counted_qty", "title": "Counted quantity", "visible": true, "required": true}} |
+| 2026-10-28T11:19:49Z | 8 | `update_form_question` | 18437453030 | form question reason | {"update_form_question": {"id": "reason", "title": "Reason", "visible": true, "required": true}} |
+| 2026-10-28T11:19:51Z | 8 | `update_form_question` | 18437453030 | form question note | {"update_form_question": {"id": "note", "title": "Note", "visible": true, "required": false}} |
+| 2026-10-28T11:19:52Z | 8 | `update_form_question` | 18437453030 | form question status | {"update_form_question": {"id": "status", "title": "Status", "visible": false, "required": false}} |
+| 2026-10-28T11:19:54Z | 8 | `update_form_question` | 18437453030 | form question rejection_reason | {"update_form_question": {"id": "rejection_reason", "title": "Rejection reason", "visible": false, "required": false}} |
+| 2026-10-28T11:19:55Z | 8 | `update_form_question` | 18437453030 | form question qty_before | {"update_form_question": {"id": "qty_before", "title": "Qty before", "visible": false, "required": false}} |
+| 2026-10-28T11:19:56Z | 8 | `update_form_question` | 18437453030 | form question qty_after | {"update_form_question": {"id": "qty_after", "title": "Qty after", "visible": false, "required": false}} |
+| 2026-10-28T11:19:58Z | 8 | `update_form_question` | 18437453030 | form question applied_at | {"update_form_question": {"id": "applied_at", "title": "Applied at", "visible": false, "required": false}} |
+| 2026-10-28T11:19:59Z | 8 | `update_form_question` | 18437453030 | form question applied_in | {"update_form_question": {"id": "applied_in", "title": "⚙️ Applied in → Product", "visible": false, "required": false}} |
+| 2026-10-28T11:20:01Z | 8 | `update_form_question` | 18437453030 | form question applied_out | {"update_form_question": {"id": "applied_out", "title": "⚙️ Applied out → Product", "visible": false, "required": false}} |
+| 2026-10-28T11:20:02Z | 8 | `update_form_question` | 18437453030 | form question unit_project | {"update_form_question": {"id": "unit_project", "title": "Unit / Project", "visible": false, "required": false}} |
+| 2026-10-28T11:20:04Z | 8 | `update_form_question` | 18437453030 | form question request_line | {"update_form_question": {"id": "request_line", "title": "Request line", "visible": false, "required": false}} |
+| 2026-10-28T11:20:05Z | 8 | `update_form_question` | 18437453030 | form question po_line | {"update_form_question": {"id": "po_line", "title": "PO line", "visible": false, "required": false}} |
+| 2026-10-28T11:20:08Z | 8 | `update_form_question` | 18437453030 | Movement type: only Manual in/out, Stock count | ERROR: Failed to patch board column. |
+| 2026-10-28T11:20:09Z | 8 | `update_form_question` | 18437453030 | Status hidden, default Pending | ERROR: "settings.defaultAnswer" is not allowed |
+| 2026-10-28T11:20:23Z | 8 | `update_form_question` | 18437453030 | form question product (retry) | {"update_form_question": {"id": "product", "title": "Product", "visible": false, "required": true}} |
+| 2026-10-28T11:20:37Z | 8 | `update_form` | 18437453030 | WorkForm description + movement-type line (labels can't be hidden via API) | {"update_form": {"description": "Manual stock changes only. To take material for a job, use a material request. A manual out or a count that would cut into s... |
+| 2026-10-28T11:21:10Z | 8 | `create_dashboard` | 21780002 | Procurement Overview (Demo) | {"create_dashboard": {"id": "40200086", "name": "Procurement Overview (Demo)"}} |
+| 2026-10-28T11:21:11Z | 8 | `create_widget` | 40200086 | Requests by status | ERROR: Invalid settings for widget type ChartOverviewSection: root: must be object |
+| 2026-10-28T11:21:11Z | 8 | `create_widget` | 40200086 | Open POs by supplier | ERROR: Invalid settings for widget type ChartOverviewSection: root: must be object |
+| 2026-10-28T11:21:11Z | 8 | `create_widget` | 40200086 | Spend by supplier | ERROR: Invalid settings for widget type ChartOverviewSection: root: must be object |
+| 2026-10-28T11:21:11Z | 8 | `create_widget` | 40200086 | Material cost per project | ERROR: Invalid settings for widget type ChartOverviewSection: root: must be object |
+
+Phase 8 so far:
+- **Views (API):** Stock Movements: *Rejected & pending* (288954103, filter Status ∈ {Pending, Rejected}), *Ledger* (288954126, sort Movement # ↑), *By product* (288954129, group by Product); Materials Catalogue: *Low & out* (288954133, filter Stock state ∈ {Low, Out}), *Reserved vs available* (288954147, 6 columns; sort refused → M7); Purchase Orders: *By supplier* (288954135, group by Supplier), *Overdue deliveries* (288954136, filter Delivery state = Overdue). ⚙️ columns hidden in every created view. Kanban views → M1, M2; default Main Tables → M6.
+- **WorkForm (API):** form view 288954194 on Stock Movements (token in `id-map.json`), configured per §7; Product visibility, Status default and label hiding → M3.
+- **Dashboard:** *Procurement Overview (Demo)* **40200086** created (PUBLIC, in the demo folder; sources: 5 demo boards + Projects as a read-only source for widget 5).
+- **Widgets: STOPPED.** Widgets 1, 2 and 4 failed with "Invalid settings … root: must be object" (my script sent `settings` as a JSON string), then widget 5 → **more than 3 consecutive API errors → STOP gate** (CLAUDE.md). No partial state: failed calls created nothing. Fix prepared locally (`scripts/phase8_dashboard.py` now sends an object); **not re-run, waiting for Omer's "go"**.
+
+Phase 9 (local only): `data/PO-0003-mock.pdf` generated (header, S4 supplier block, both lines with part #, packs, qty, unit price, line total; subtotal 512.00, tax/shipping 40.00, total 552.00; order and expected dates; diagonal watermark "SAMPLE LAYOUT – PENDING RICCO TEMPLATE"; no logo). **Not uploaded yet** (waiting for the same "go").

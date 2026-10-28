@@ -415,7 +415,12 @@
     }
   },
   "real_items_approval": "Omer replied 'continue' at Gate 1 (2026-10-28) without changes; proposed picks used. Reconfirm at Gate 2 before first use (Phase 6/7).",
-  "dashboards": {},
+  "dashboards": {
+    "Procurement Overview (Demo)": {
+      "id": "40200086",
+      "widgets": {}
+    }
+  },
   "zz_test_items": [
     {
       "name": "ZZ-TEST-Supplier",
@@ -523,5 +528,10 @@
     "9",
     "10",
     "11"
-  ]
+  ],
+  "workform": {
+    "view_id": "288954194",
+    "token": "40a69954f3e3be3ace6dc747077e3018",
+    "board": "Stock Movements"
+  }
 }
