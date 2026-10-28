@@ -402,3 +402,42 @@ Test folder 21780014 contents (all `ZZ-TEST-`, left in place for Omer's cleanup)
 - ZZ-TEST- agg units (subitems) — 18437453844
 
 **Status: STOP at Gate 2.** Waiting for Omer's "go" on the 9 columns on Projects/Units.
+| 2026-10-28T10:10:45Z | 5-verify | `create_item` | 18437453018 | ZZ-TEST-Supplier | {"create_item": {"id": "13404488723"}} |
+| 2026-10-28T10:10:48Z | 5-verify | `create_item` | 18437453024 | ZZ-TEST-Product | {"create_item": {"id": "13404488615"}} |
+| 2026-10-28T10:10:51Z | 5-verify | `create_item` | 18437453030 | ZZ-TEST-Opening in | {"create_item": {"id": "13404488795"}} |
+| 2026-10-28T10:10:54Z | 5-verify | `create_item` | 18437453030 | ZZ-TEST-Manual out | {"create_item": {"id": "13404494207"}} |
+| 2026-10-28T10:10:56Z | 5-verify | `create_item` | 18437453028 | ZZ-TEST-PO | {"create_item": {"id": "13404452029"}} |
+| 2026-10-28T10:10:59Z | 5-verify | `create_subitem` | 18437453028 | ZZ-TEST-PO line | {"create_subitem": {"id": "13404493210"}} |
+| 2026-10-28T10:11:01Z | 5-verify | `create_item` | 18437453027 | ZZ-TEST-Request | {"create_item": {"id": "13404448702"}} |
+| 2026-10-28T10:11:05Z | 5-verify | `create_subitem` | 18437453027 | ZZ-TEST-Line A | {"create_subitem": {"id": "13404451993"}} |
+| 2026-10-28T10:11:08Z | 5-verify | `create_subitem` | 18437453027 | ZZ-TEST-Line B | {"create_subitem": {"id": "13404462767"}} |
+
+
+---
+
+## Omer's feedback after Gate 2 report (chat, 2026-10-28)
+
+- Test boards were not wanted: **test items go only on the new structure boards.** The `ZZ-TEST-` folder/boards stay in place (no deletes, rule 5) for Omer's cleanup; no more are created. DEVIATIONS D-03 superseded.
+- Omer changed the demo boards in the UI. Read back by API:
+  - Material Requests: `Production Calendar job` (`pc_job`) **deleted**; new **`Project \ Unit`** `board_relation_mm8j4n2b`: two-way, single, → Units 18412939439 + Projects 18412939430. Reflections: Projects `board_relation_mm8jqhv4` "link to Material Requests", Units `board_relation_mm8j9wgg` "link to Material Requests".
+  - PO lines: `Project` (one-way) and `zz-unused – Owner` **deleted**; new **`Project \ Unit`** `board_relation_mm8jy91z`: two-way → Units + Projects (multi not set). Reflections: Projects `board_relation_mm8jbv88`, Units `board_relation_mm8jxknn` "link to Subitems of Purchase Orders".
+  - Subitems columns added on Suppliers (`subtasks_mm8jb027` → 18437456750), Materials Catalogue (`subtasks_mm8jprg3` → 18437456753), Stock Movements (`subtasks_mm8j76fe` → 18437457028). Empty, default columns only. **Asked Omer whether intended.**
+  - Units also has a new **`link to Stock Updates`** `board_relation_mm8j89fg` (two-way → Spot-nik Stock Updates 18427258261). Not created by this build; **reported to Omer**, untouched.
+- `scripts/spec_columns.py` and `data/column-map.json` updated to the new structure.
+
+### ZZ-TEST- verification data on the demo boards
+
+Items (left in place, listed for cleanup):
+- ZZ-TEST-bootstrap — `13404211573` (ZZ-TEST- bootstrap parking)
+- ZZ-TEST-bootstrap — `13404234652` (ZZ-TEST- bootstrap parking)
+- ZZ-TEST-Supplier — `13404488723` (Suppliers)
+- ZZ-TEST-Product — `13404488615` (Materials Catalogue)
+- ZZ-TEST-Opening in — `13404488795` (Stock Movements)
+- ZZ-TEST-Manual out — `13404494207` (Stock Movements)
+- ZZ-TEST-PO — `13404452029` (Purchase Orders)
+- ZZ-TEST-PO line — `13404493210` (PO lines)
+- ZZ-TEST-Request — `13404448702` (Material Requests)
+- ZZ-TEST-Line A — `13404451993` (Request lines)
+- ZZ-TEST-Line B — `13404462767` (Request lines)
+
+Result (`data/zz-test-verification.json`): **all 13 formulas compute the expected value through the API.** Mirrors: 18 read correctly. Three more aren't readable directly but are proven by the formula on top of them: `Reserved` (API shows "4, 2"; `Available` = 11 proves 6), `PO Subtotal` (empty; `Total` = 78 proves 72), and `On hand` from the in/out mirrors. **Not readable by the API, UI check needed:** request line `On hand` (17) and `Available` (11), request `Material cost` (74), supplier `Total ordered` (78). All four are mirrors of a formula column.

@@ -1,0 +1,320 @@
+{
+  "ts": "2026-10-28T10:11:29Z",
+  "rows": [
+    [
+      "Materials Catalogue",
+      "ZZ-TEST-Product",
+      "Supplier email",
+      "supplier_email",
+      "test@zz-test.example",
+      "test@zz-test.example",
+      true
+    ],
+    [
+      "Materials Catalogue",
+      "ZZ-TEST-Product",
+      "⚙️ In total",
+      "in_total",
+      "20",
+      "20",
+      true
+    ],
+    [
+      "Materials Catalogue",
+      "ZZ-TEST-Product",
+      "⚙️ Out total",
+      "out_total",
+      "3",
+      "3",
+      true
+    ],
+    [
+      "Materials Catalogue",
+      "ZZ-TEST-Product",
+      "On hand",
+      "on_hand",
+      "17",
+      "17",
+      true
+    ],
+    [
+      "Materials Catalogue",
+      "ZZ-TEST-Product",
+      "Reserved",
+      "reserved",
+      "6",
+      "4, 2",
+      false
+    ],
+    [
+      "Materials Catalogue",
+      "ZZ-TEST-Product",
+      "Available",
+      "available",
+      "11",
+      "11",
+      true
+    ],
+    [
+      "Materials Catalogue",
+      "ZZ-TEST-Product",
+      "Stock state",
+      "stock_state",
+      "Low",
+      "Low",
+      true
+    ],
+    [
+      "Materials Catalogue",
+      "ZZ-TEST-Product",
+      "Stock value",
+      "stock_value",
+      "170",
+      "170",
+      true
+    ],
+    [
+      "Request lines",
+      "ZZ-TEST-Line A",
+      "UoM",
+      "uom",
+      "each",
+      "each",
+      true
+    ],
+    [
+      "Request lines",
+      "ZZ-TEST-Line A",
+      "On hand",
+      "on_hand",
+      "17",
+      "",
+      false
+    ],
+    [
+      "Request lines",
+      "ZZ-TEST-Line A",
+      "Available",
+      "available",
+      "11",
+      "",
+      false
+    ],
+    [
+      "Request lines",
+      "ZZ-TEST-Line A",
+      "Supplier",
+      "supplier",
+      "ZZ-TEST-Supplier",
+      "ZZ-TEST-Supplier",
+      true
+    ],
+    [
+      "Request lines",
+      "ZZ-TEST-Line A",
+      "Qty outstanding",
+      "qty_outstanding",
+      "2",
+      "2",
+      true
+    ],
+    [
+      "Request lines",
+      "ZZ-TEST-Line A",
+      "Qty ordered",
+      "qty_ordered",
+      "8",
+      "8",
+      true
+    ],
+    [
+      "Request lines",
+      "ZZ-TEST-Line A",
+      "Qty received",
+      "qty_received",
+      "0",
+      "0",
+      true
+    ],
+    [
+      "Request lines",
+      "ZZ-TEST-Line A",
+      "PO unit price",
+      "po_unit_price",
+      "9",
+      "9",
+      true
+    ],
+    [
+      "Request lines",
+      "ZZ-TEST-Line A",
+      "Est. unit price",
+      "est_unit_price",
+      "10",
+      "10",
+      true
+    ],
+    [
+      "Request lines",
+      "ZZ-TEST-Line A",
+      "Line cost",
+      "line_cost",
+      "54",
+      "54",
+      true
+    ],
+    [
+      "Request lines",
+      "ZZ-TEST-Line B",
+      "Qty outstanding",
+      "qty_outstanding",
+      "0",
+      "0",
+      true
+    ],
+    [
+      "Request lines",
+      "ZZ-TEST-Line B",
+      "Line cost",
+      "line_cost",
+      "20",
+      "20",
+      true
+    ],
+    [
+      "Material Requests",
+      "ZZ-TEST-Request",
+      "PO status",
+      "po_status",
+      "Sent",
+      "Sent",
+      true
+    ],
+    [
+      "Material Requests",
+      "ZZ-TEST-Request",
+      "Material cost",
+      "material_cost",
+      "74",
+      "",
+      false
+    ],
+    [
+      "PO lines",
+      "ZZ-TEST-PO line",
+      "UoM",
+      "uom",
+      "each",
+      "each",
+      true
+    ],
+    [
+      "PO lines",
+      "ZZ-TEST-PO line",
+      "Pack size",
+      "pack_size",
+      "4",
+      "4",
+      true
+    ],
+    [
+      "PO lines",
+      "ZZ-TEST-PO line",
+      "Supplier Part #",
+      "supplier_part",
+      "ZZ-PART",
+      "ZZ-PART",
+      true
+    ],
+    [
+      "PO lines",
+      "ZZ-TEST-PO line",
+      "Packs",
+      "packs",
+      "2",
+      "2",
+      true
+    ],
+    [
+      "PO lines",
+      "ZZ-TEST-PO line",
+      "Line total",
+      "line_total",
+      "72",
+      "72",
+      true
+    ],
+    [
+      "Purchase Orders",
+      "ZZ-TEST-PO",
+      "Supplier email",
+      "supplier_email",
+      "test@zz-test.example",
+      "test@zz-test.example",
+      true
+    ],
+    [
+      "Purchase Orders",
+      "ZZ-TEST-PO",
+      "Contact",
+      "contact",
+      "ZZ test contact",
+      "ZZ test contact",
+      true
+    ],
+    [
+      "Purchase Orders",
+      "ZZ-TEST-PO",
+      "Subtotal",
+      "subtotal",
+      "72",
+      "",
+      false
+    ],
+    [
+      "Purchase Orders",
+      "ZZ-TEST-PO",
+      "Total",
+      "total",
+      "78",
+      "78",
+      true
+    ],
+    [
+      "Purchase Orders",
+      "ZZ-TEST-PO",
+      "Delivery state",
+      "delivery_state",
+      "Overdue",
+      "Overdue",
+      true
+    ],
+    [
+      "Suppliers",
+      "ZZ-TEST-Supplier",
+      "Total ordered",
+      "total_ordered",
+      "78",
+      "",
+      false
+    ],
+    [
+      "Suppliers",
+      "ZZ-TEST-Supplier",
+      "Open POs",
+      "open_pos",
+      "Sent",
+      "Sent",
+      true
+    ],
+    [
+      "Stock Movements",
+      "ZZ-TEST-Opening in",
+      "UoM",
+      "uom",
+      "each",
+      "each",
+      true
+    ]
+  ]
+}

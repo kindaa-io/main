@@ -79,8 +79,9 @@ BOARDS = {
             ("Issue Materials", "dark orange"), ("Issuing", "yellow"), ("Closed", "green", True),
             ("On Hold", "red"), ("Cancelled", "dark grey"))),
         ("materials_complete", "✅ Materials complete", "checkbox", 2, None),
-        ("unit_project", "Unit / Project", "board_relation", 6, None),
-        ("pc_job", "Production Calendar job", "board_relation", 4, None),
+        # Built by Omer in the UI (2026-10-28): two-way, single, -> Units + Projects. Replaces
+        # the spec's "Unit / Project" (Phase 6) and "Production Calendar job" (deleted).
+        ("board_relation_mm8j4n2b", "Project \\ Unit", "board_relation", 4, None),
         ("programmer", "Programmer", "people", 2, None),
         ("purchaser", "Purchaser", "people", 2, None),
         ("inventory_owner", "Inventory owner", "people", 2, None),
@@ -147,7 +148,9 @@ BOARDS = {
         ("line_total", "Line total", "formula", 5, None),
         ("qty_received", "Qty received", "numbers", 3, None),
         ("date0", "Received date", "date", 3, None),
-        ("project", "Project", "board_relation", 4, None),
+        # Built by Omer in the UI (2026-10-28): two-way -> Units + Projects. Replaces the spec's
+        # one-way "Project" (deleted).
+        ("board_relation_mm8jy91z", "Project \\ Unit", "board_relation", 4, None),
         (None, "Request line", "reflection", 4, {"from": ("Request lines", "po_line")}),
         ("status", "Line status", "status", 3, status(
             ("Open", "grey"), ("Partially Received", "orange"), ("Received", "green", True),
@@ -180,7 +183,7 @@ BOARDS = {
 
 # Default subitem columns repurposed (CLAUDE.md §6): Request lines status -> Decision;
 # PO lines status -> Line status, date0 -> Received date. Others renamed zz-unused.
-UNUSED_DEFAULTS = {"Request lines": {"person": "Owner", "date0": "Date"}, "PO lines": {"person": "Owner"}}
+UNUSED_DEFAULTS = {"Request lines": {"person": "Owner", "date0": "Date"}, "PO lines": {}}  # PO lines Owner deleted by Omer
 
 # Subitem boards hang off these parents.
 SUBITEM_BOARDS = {"Request lines": "Material Requests", "PO lines": "Purchase Orders"}

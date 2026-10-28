@@ -8,6 +8,10 @@
           "id": "name",
           "type": "name"
         },
+        "Subitems": {
+          "id": "subtasks_mm8jb027",
+          "type": "subtasks"
+        },
         "Contact person": {
           "id": "contact_person",
           "type": "text"
@@ -56,6 +60,10 @@
         "Name": {
           "id": "name",
           "type": "name"
+        },
+        "Subitems": {
+          "id": "subtasks_mm8jprg3",
+          "type": "subtasks"
         },
         "Category": {
           "id": "category",
@@ -158,8 +166,8 @@
           "id": "materials_complete",
           "type": "checkbox"
         },
-        "Production Calendar job": {
-          "id": "pc_job",
+        "Project \\ Unit": {
+          "id": "board_relation_mm8j4n2b",
           "type": "board_relation"
         },
         "Programmer": {
@@ -295,6 +303,10 @@
         "Name": {
           "id": "name",
           "type": "name"
+        },
+        "Subitems": {
+          "id": "subtasks_mm8j76fe",
+          "type": "subtasks"
         },
         "Movement #": {
           "id": "movement_no",
@@ -502,10 +514,6 @@
           "id": "qty_received",
           "type": "numbers"
         },
-        "zz-unused – Owner": {
-          "id": "person",
-          "type": "people"
-        },
         "Line status": {
           "id": "status",
           "type": "status"
@@ -514,8 +522,8 @@
           "id": "date0",
           "type": "date"
         },
-        "Project": {
-          "id": "project",
+        "Project \\ Unit": {
+          "id": "board_relation_mm8jy91z",
           "type": "board_relation"
         },
         "Request line": {

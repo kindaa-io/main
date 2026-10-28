@@ -135,6 +135,51 @@
       "id": "13404234652",
       "created_on": "Purchase Orders",
       "now_on": "ZZ-TEST- bootstrap parking"
+    },
+    {
+      "name": "ZZ-TEST-Supplier",
+      "id": "13404488723",
+      "board": "Suppliers"
+    },
+    {
+      "name": "ZZ-TEST-Product",
+      "id": "13404488615",
+      "board": "Materials Catalogue"
+    },
+    {
+      "name": "ZZ-TEST-Opening in",
+      "id": "13404488795",
+      "board": "Stock Movements"
+    },
+    {
+      "name": "ZZ-TEST-Manual out",
+      "id": "13404494207",
+      "board": "Stock Movements"
+    },
+    {
+      "name": "ZZ-TEST-PO",
+      "id": "13404452029",
+      "board": "Purchase Orders"
+    },
+    {
+      "name": "ZZ-TEST-PO line",
+      "id": "13404493210",
+      "board": "PO lines"
+    },
+    {
+      "name": "ZZ-TEST-Request",
+      "id": "13404448702",
+      "board": "Material Requests"
+    },
+    {
+      "name": "ZZ-TEST-Line A",
+      "id": "13404451993",
+      "board": "Request lines"
+    },
+    {
+      "name": "ZZ-TEST-Line B",
+      "id": "13404462767",
+      "board": "Request lines"
     }
   ]
 }
