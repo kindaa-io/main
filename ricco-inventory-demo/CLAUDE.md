@@ -69,14 +69,14 @@ You are building a **monday.com demo** for Kindaa's client Sam (Ricco Cabinetry)
 
 | Object | ID |
 |---|---|
-| Folder `Inventory & Procurement (Demo)` | TBD |
-| Suppliers | TBD |
-| Materials Catalogue | TBD |
-| Material Requests | TBD |
-| Subitems of Material Requests (request lines) | TBD |
-| Purchase Orders | TBD |
-| Subitems of Purchase Orders (PO lines) | TBD |
-| Stock Movements | TBD |
+| Folder `Inventory & Procurement (Demo)` | 21780002 |
+| Suppliers | 18437453018 |
+| Materials Catalogue | 18437453024 |
+| Material Requests | 18437453027 |
+| Subitems of Material Requests (request lines) | 18437453414 |
+| Purchase Orders | 18437453028 |
+| Subitems of Purchase Orders (PO lines) | 18437453449 |
+| Stock Movements | 18437453030 |
 | Dashboard `Procurement Overview (Demo)` | TBD |
 | WorkForm `Manual stock update` | TBD |
 
@@ -84,14 +84,24 @@ Column IDs: keep the full title → ID map per board in `data/column-map.json`, 
 
 | Board | Column | ID |
 |---|---|---|
-| Materials Catalogue | On hand / Reserved / Available / Stock state | TBD |
-| Materials Catalogue | ⚙️ Applied in / ⚙️ Applied out (reflections) | TBD |
-| Request lines | Product / Qty reserved / Decision / PO line | TBD |
-| Stock Movements | Movement type / Qty / Status / ⚙️ Applied in → Product / ⚙️ Applied out → Product | TBD |
+| Materials Catalogue | On hand / Reserved / Available / Stock state | `on_hand` / `reserved` / `available` / `stock_state` |
+| Materials Catalogue | ⚙️ Applied in / ⚙️ Applied out (reflections) | `board_relation_mm8jprtb` / `board_relation_mm8jqbay` |
+| Request lines | Product / Qty reserved / Decision / PO line | `product` / `qty_reserved` / `status` / `po_line` |
+| Stock Movements | Movement type / Qty / Status / ⚙️ Applied in → Product / ⚙️ Applied out → Product | `movement_type` / `qty` / `status` / `applied_in` / `applied_out` |
 | Projects (approved additions) | Material Requests / Purchase Orders / Material cost / Request status / Units material cost / PO status | TBD |
 | Units (approved additions) | Material Requests / Material cost / Request status | TBD |
 
 Real-item picks (after Gate 1): `{{PRJ_A}}`, `{{PRJ_A_UNIT_2}}`, `{{PRJ_B}}`, `{{PRJ_B_UNIT_1}}`, `{{PRJ_C}}`, `{{PRJ_C_UNIT_1}}`, `{{SVC_JOB}}` → record name and ID here.
+
+- `{{PRJ_A}}`: 26024 Sal Fabbri - 10 Acheson — `12644564714`
+- `{{PRJ_A_UNIT_2}}`: Laundry Room — `12644695770`
+- `{{PRJ_B}}`: Rivanti - Office & Shop — `12188627230`
+- `{{PRJ_B_UNIT_1}}`: Wall Panel — `12188559043`
+- `{{PRJ_C}}`: 26026 Menatwork - 139 Hamilton — `12738591802`
+- `{{PRJ_C_UNIT_1}}`: Kitchen — `12882328030`
+- `{{SVC_JOB}}`: Amir Tile - Service — `13195142796`
+
+Test folder `ZZ-TEST- Inventory Demo Tests` (DEVIATIONS D-03): 21780014. Test boards are listed in `data/id-map.json` → `test_boards`.
 
 ## 6. Default columns
 

@@ -1,7 +1,140 @@
 {
-    "_note": "Approved IDs only. Filled after Gate 1 / as objects are created.",
-    "real_items": {},
-    "folder": null,
-    "boards": {},
-    "items": {}
+  "_note": "Approved IDs only. Filled after Gate 1 / as objects are created.",
+  "real_items": {
+    "PRJ_A": {
+      "id": "12644564714",
+      "name": "26024 Sal Fabbri - 10 Acheson"
+    },
+    "PRJ_A_UNIT_2": {
+      "id": "12644695770",
+      "name": "Laundry Room"
+    },
+    "PRJ_B": {
+      "id": "12188627230",
+      "name": "Rivanti - Office & Shop"
+    },
+    "PRJ_B_UNIT_1": {
+      "id": "12188559043",
+      "name": "Wall Panel"
+    },
+    "PRJ_C": {
+      "id": "12738591802",
+      "name": "26026 Menatwork - 139 Hamilton"
+    },
+    "PRJ_C_UNIT_1": {
+      "id": "12882328030",
+      "name": "Kitchen"
+    },
+    "SVC_JOB": {
+      "id": "13195142796",
+      "name": "Amir Tile - Service"
+    }
+  },
+  "folder": {
+    "id": "21780002",
+    "name": "Inventory & Procurement (Demo)"
+  },
+  "boards": {
+    "Suppliers": {
+      "id": "18437453018",
+      "groups": {
+        "Suppliers": "topics"
+      }
+    },
+    "Materials Catalogue": {
+      "id": "18437453024",
+      "groups": {
+        "🆕 New – needs review": "topics",
+        "Sheet Goods": "group_mm8jdb5g",
+        "Edgeband": "group_mm8jgwxy",
+        "Hinges": "group_mm8jdrvk",
+        "Slides & Hardware": "group_mm8jvr8z",
+        "Accessories": "group_mm8jt5n5",
+        "Finish / Paint": "group_mm8j3aar"
+      }
+    },
+    "Material Requests": {
+      "id": "18437453027",
+      "groups": {
+        "Active requests": "topics",
+        "Closed & cancelled": "group_mm8jt77n"
+      },
+      "subitems_column": "subtasks_mm8jad4w"
+    },
+    "Purchase Orders": {
+      "id": "18437453028",
+      "groups": {
+        "Open POs": "topics",
+        "Closed & cancelled": "group_mm8jgqsc"
+      },
+      "subitems_column": "subtasks_mm8js7cm"
+    },
+    "Stock Movements": {
+      "id": "18437453030",
+      "groups": {
+        "Ledger": "topics"
+      }
+    },
+    "Request lines": {
+      "id": "18437453414",
+      "parent": "Material Requests"
+    },
+    "PO lines": {
+      "id": "18437453449",
+      "parent": "Purchase Orders"
+    }
+  },
+  "items": {},
+  "real_items_approval": "Omer replied 'continue' at Gate 1 (2026-10-28) without changes; proposed picks used. Reconfirm at Gate 2 before first use (Phase 6/7).",
+  "test_folder": {
+    "id": "21780014",
+    "name": "ZZ-TEST- Inventory Demo Tests"
+  },
+  "test_boards": {
+    "ZZ-TEST- autonumber A": {
+      "id": "18437453330"
+    },
+    "ZZ-TEST- autonumber B": {
+      "id": "18437453331"
+    },
+    "ZZ-TEST- bootstrap parking": {
+      "id": "18437453425"
+    },
+    "ZZ-TEST- agg catalogue": {
+      "id": "18437453723"
+    },
+    "ZZ-TEST- agg requests": {
+      "id": "18437453726"
+    },
+    "ZZ-TEST- agg supplier": {
+      "id": "18437453727"
+    },
+    "ZZ-TEST- agg movements": {
+      "id": "18437453734"
+    },
+    "ZZ-TEST- agg projects": {
+      "id": "18437453735"
+    },
+    "ZZ-TEST- agg request lines (subitems)": {
+      "id": "18437453790"
+    },
+    "ZZ-TEST- agg units (subitems)": {
+      "id": "18437453844"
+    }
+  },
+  "dashboards": {},
+  "zz_test_items": [
+    {
+      "name": "ZZ-TEST-bootstrap",
+      "id": "13404211573",
+      "created_on": "Material Requests",
+      "now_on": "ZZ-TEST- bootstrap parking"
+    },
+    {
+      "name": "ZZ-TEST-bootstrap",
+      "id": "13404234652",
+      "created_on": "Purchase Orders",
+      "now_on": "ZZ-TEST- bootstrap parking"
+    }
+  ]
 }

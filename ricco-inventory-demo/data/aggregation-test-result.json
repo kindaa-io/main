@@ -1,0 +1,63 @@
+{
+  "ts": "2026-10-28T09:30:16Z",
+  "got": {
+    "line1.est": "10",
+    "line1.lc": "30",
+    "line2.lc": "20",
+    "request.cost": "",
+    "request.total": "55",
+    "supplier.ordered": "",
+    "catalogue.on_hand": "5",
+    "unit.ucost": "",
+    "project.units_cost": ""
+  },
+  "raw": {
+    "line1": {
+      "person": "",
+      "status": null,
+      "date0": "",
+      "qty": "3",
+      "product": null,
+      "est": "10",
+      "lc": "30"
+    },
+    "line2": {
+      "person": "",
+      "status": null,
+      "date0": "",
+      "qty": "2",
+      "product": null,
+      "est": "10",
+      "lc": "20"
+    },
+    "request": {
+      "subtasks_mm8j4be5": null,
+      "cost": "",
+      "tax": "5",
+      "total": "55"
+    },
+    "supplier": {
+      "conn": null,
+      "ordered": ""
+    },
+    "catalogue": {
+      "price": "10",
+      "board_relation_mm8jzyf9": null,
+      "board_relation_mm8j7vg8": null,
+      "in_total": "7",
+      "out_total": "2",
+      "on_hand": "5"
+    },
+    "unit": {
+      "person": "",
+      "status": null,
+      "date0": "",
+      "mr": null,
+      "ucost": ""
+    },
+    "project": {
+      "subtasks_mm8j8cdv": null,
+      "units_cost": ""
+    }
+  }
+}

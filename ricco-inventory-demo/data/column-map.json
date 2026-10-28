@@ -1,4 +1,528 @@
 {
-    "_note": "title -> column id per board. Filled from Phase 2 onwards.",
-    "boards": {}
+  "_note": "title -> column id per board. Filled from Phase 2 onwards.",
+  "boards": {
+    "Suppliers": {
+      "board_id": "18437453018",
+      "columns": {
+        "Name": {
+          "id": "name",
+          "type": "name"
+        },
+        "Contact person": {
+          "id": "contact_person",
+          "type": "text"
+        },
+        "Email": {
+          "id": "email",
+          "type": "email"
+        },
+        "Phone": {
+          "id": "phone",
+          "type": "phone"
+        },
+        "Payment terms": {
+          "id": "payment_terms",
+          "type": "text"
+        },
+        "Categories supplied": {
+          "id": "categories",
+          "type": "dropdown"
+        },
+        "Active": {
+          "id": "active",
+          "type": "status"
+        },
+        "Products": {
+          "id": "board_relation_mm8jpkj0",
+          "type": "board_relation"
+        },
+        "Purchase Orders": {
+          "id": "board_relation_mm8jymv7",
+          "type": "board_relation"
+        },
+        "Total ordered": {
+          "id": "total_ordered",
+          "type": "mirror"
+        },
+        "Open POs": {
+          "id": "open_pos",
+          "type": "mirror"
+        }
+      }
+    },
+    "Materials Catalogue": {
+      "board_id": "18437453024",
+      "columns": {
+        "Name": {
+          "id": "name",
+          "type": "name"
+        },
+        "Category": {
+          "id": "category",
+          "type": "status"
+        },
+        "Stock type": {
+          "id": "stock_type",
+          "type": "status"
+        },
+        "UoM": {
+          "id": "uom",
+          "type": "dropdown"
+        },
+        "Pack size": {
+          "id": "pack_size",
+          "type": "numbers"
+        },
+        "Default supplier": {
+          "id": "default_supplier",
+          "type": "board_relation"
+        },
+        "Supplier email": {
+          "id": "supplier_email",
+          "type": "mirror"
+        },
+        "Supplier Part #": {
+          "id": "supplier_part",
+          "type": "text"
+        },
+        "Minimum level": {
+          "id": "minimum_level",
+          "type": "numbers"
+        },
+        "Last purchase price": {
+          "id": "last_price",
+          "type": "numbers"
+        },
+        "Notes": {
+          "id": "notes",
+          "type": "long_text"
+        },
+        "⚙️ Request lines": {
+          "id": "board_relation_mm8jsje6",
+          "type": "board_relation"
+        },
+        "Reserved": {
+          "id": "reserved",
+          "type": "mirror"
+        },
+        "Available": {
+          "id": "available",
+          "type": "formula"
+        },
+        "Stock state": {
+          "id": "stock_state",
+          "type": "formula"
+        },
+        "Stock value": {
+          "id": "stock_value",
+          "type": "formula"
+        },
+        "⚙️ Applied in": {
+          "id": "board_relation_mm8jprtb",
+          "type": "board_relation"
+        },
+        "⚙️ Applied out": {
+          "id": "board_relation_mm8jqbay",
+          "type": "board_relation"
+        },
+        "⚙️ In total": {
+          "id": "in_total",
+          "type": "mirror"
+        },
+        "⚙️ Out total": {
+          "id": "out_total",
+          "type": "mirror"
+        },
+        "On hand": {
+          "id": "on_hand",
+          "type": "formula"
+        }
+      }
+    },
+    "Material Requests": {
+      "board_id": "18437453027",
+      "columns": {
+        "Name": {
+          "id": "name",
+          "type": "name"
+        },
+        "Request #": {
+          "id": "request_no",
+          "type": "auto_number"
+        },
+        "Status": {
+          "id": "status",
+          "type": "status"
+        },
+        "✅ Materials complete": {
+          "id": "materials_complete",
+          "type": "checkbox"
+        },
+        "Production Calendar job": {
+          "id": "pc_job",
+          "type": "board_relation"
+        },
+        "Programmer": {
+          "id": "programmer",
+          "type": "people"
+        },
+        "Purchaser": {
+          "id": "purchaser",
+          "type": "people"
+        },
+        "Inventory owner": {
+          "id": "inventory_owner",
+          "type": "people"
+        },
+        "Needed by": {
+          "id": "needed_by",
+          "type": "date"
+        },
+        "Submitted on": {
+          "id": "submitted_on",
+          "type": "date"
+        },
+        "Source file": {
+          "id": "source_file",
+          "type": "file"
+        },
+        "Purchase Orders": {
+          "id": "purchase_orders",
+          "type": "board_relation"
+        },
+        "PO status": {
+          "id": "po_status",
+          "type": "mirror"
+        },
+        "Material cost": {
+          "id": "material_cost",
+          "type": "mirror"
+        },
+        "Notes": {
+          "id": "notes",
+          "type": "long_text"
+        },
+        "Subitems": {
+          "id": "subtasks_mm8jad4w",
+          "type": "subtasks"
+        }
+      }
+    },
+    "Purchase Orders": {
+      "board_id": "18437453028",
+      "columns": {
+        "Name": {
+          "id": "name",
+          "type": "name"
+        },
+        "PO #": {
+          "id": "po_no",
+          "type": "auto_number"
+        },
+        "Status": {
+          "id": "status",
+          "type": "status"
+        },
+        "Supplier": {
+          "id": "supplier",
+          "type": "board_relation"
+        },
+        "Supplier email": {
+          "id": "supplier_email",
+          "type": "mirror"
+        },
+        "Contact": {
+          "id": "contact",
+          "type": "mirror"
+        },
+        "Purchaser": {
+          "id": "purchaser",
+          "type": "people"
+        },
+        "Approved by": {
+          "id": "approved_by",
+          "type": "people"
+        },
+        "Order date": {
+          "id": "order_date",
+          "type": "date"
+        },
+        "Expected delivery": {
+          "id": "expected_delivery",
+          "type": "date"
+        },
+        "Sent date": {
+          "id": "sent_date",
+          "type": "date"
+        },
+        "PO document": {
+          "id": "po_document",
+          "type": "file"
+        },
+        "Subtotal": {
+          "id": "subtotal",
+          "type": "mirror"
+        },
+        "Tax / Shipping": {
+          "id": "tax_shipping",
+          "type": "numbers"
+        },
+        "Total": {
+          "id": "total",
+          "type": "formula"
+        },
+        "Delivery state": {
+          "id": "delivery_state",
+          "type": "formula"
+        },
+        "Notes to supplier": {
+          "id": "notes_to_supplier",
+          "type": "long_text"
+        },
+        "Subitems": {
+          "id": "subtasks_mm8js7cm",
+          "type": "subtasks"
+        },
+        "Material Requests": {
+          "id": "board_relation_mm8jvqxq",
+          "type": "board_relation"
+        }
+      }
+    },
+    "Stock Movements": {
+      "board_id": "18437453030",
+      "columns": {
+        "Name": {
+          "id": "name",
+          "type": "name"
+        },
+        "Movement #": {
+          "id": "movement_no",
+          "type": "auto_number"
+        },
+        "Product": {
+          "id": "product",
+          "type": "board_relation"
+        },
+        "UoM": {
+          "id": "uom",
+          "type": "mirror"
+        },
+        "Movement type": {
+          "id": "movement_type",
+          "type": "status"
+        },
+        "Qty": {
+          "id": "qty",
+          "type": "numbers"
+        },
+        "Counted qty": {
+          "id": "counted_qty",
+          "type": "numbers"
+        },
+        "Reason": {
+          "id": "reason",
+          "type": "dropdown"
+        },
+        "Note": {
+          "id": "note",
+          "type": "long_text"
+        },
+        "Status": {
+          "id": "status",
+          "type": "status"
+        },
+        "Rejection reason": {
+          "id": "rejection_reason",
+          "type": "text"
+        },
+        "Qty before": {
+          "id": "qty_before",
+          "type": "numbers"
+        },
+        "Qty after": {
+          "id": "qty_after",
+          "type": "numbers"
+        },
+        "Applied at": {
+          "id": "applied_at",
+          "type": "date"
+        },
+        "⚙️ Applied in → Product": {
+          "id": "applied_in",
+          "type": "board_relation"
+        },
+        "⚙️ Applied out → Product": {
+          "id": "applied_out",
+          "type": "board_relation"
+        },
+        "Unit / Project": {
+          "id": "unit_project",
+          "type": "board_relation"
+        },
+        "Request line": {
+          "id": "request_line",
+          "type": "board_relation"
+        },
+        "PO line": {
+          "id": "po_line",
+          "type": "board_relation"
+        },
+        "Created by": {
+          "id": "created_by",
+          "type": "creation_log"
+        }
+      }
+    },
+    "Request lines": {
+      "board_id": "18437453414",
+      "columns": {
+        "Name": {
+          "id": "name",
+          "type": "name"
+        },
+        "Product": {
+          "id": "product",
+          "type": "board_relation"
+        },
+        "Qty requested": {
+          "id": "qty_requested",
+          "type": "numbers"
+        },
+        "UoM": {
+          "id": "uom",
+          "type": "mirror"
+        },
+        "On hand": {
+          "id": "on_hand",
+          "type": "mirror"
+        },
+        "Available": {
+          "id": "available",
+          "type": "mirror"
+        },
+        "Supplier": {
+          "id": "supplier",
+          "type": "mirror"
+        },
+        "zz-unused – Owner": {
+          "id": "person",
+          "type": "people"
+        },
+        "Decision": {
+          "id": "status",
+          "type": "status"
+        },
+        "Qty reserved": {
+          "id": "qty_reserved",
+          "type": "numbers"
+        },
+        "Qty to order": {
+          "id": "qty_to_order",
+          "type": "numbers"
+        },
+        "Qty outstanding": {
+          "id": "qty_outstanding",
+          "type": "formula"
+        },
+        "PO line": {
+          "id": "po_line",
+          "type": "board_relation"
+        },
+        "Qty ordered": {
+          "id": "qty_ordered",
+          "type": "mirror"
+        },
+        "Qty received": {
+          "id": "qty_received",
+          "type": "mirror"
+        },
+        "PO unit price": {
+          "id": "po_unit_price",
+          "type": "mirror"
+        },
+        "Est. unit price": {
+          "id": "est_unit_price",
+          "type": "mirror"
+        },
+        "Qty issued": {
+          "id": "qty_issued",
+          "type": "numbers"
+        },
+        "Line cost": {
+          "id": "line_cost",
+          "type": "formula"
+        },
+        "zz-unused – Date": {
+          "id": "date0",
+          "type": "date"
+        }
+      }
+    },
+    "PO lines": {
+      "board_id": "18437453449",
+      "columns": {
+        "Name": {
+          "id": "name",
+          "type": "name"
+        },
+        "Product": {
+          "id": "product",
+          "type": "board_relation"
+        },
+        "UoM": {
+          "id": "uom",
+          "type": "mirror"
+        },
+        "Pack size": {
+          "id": "pack_size",
+          "type": "mirror"
+        },
+        "Supplier Part #": {
+          "id": "supplier_part",
+          "type": "mirror"
+        },
+        "Qty ordered": {
+          "id": "qty_ordered",
+          "type": "numbers"
+        },
+        "Packs": {
+          "id": "packs",
+          "type": "formula"
+        },
+        "Unit price": {
+          "id": "unit_price",
+          "type": "numbers"
+        },
+        "Line total": {
+          "id": "line_total",
+          "type": "formula"
+        },
+        "Qty received": {
+          "id": "qty_received",
+          "type": "numbers"
+        },
+        "zz-unused – Owner": {
+          "id": "person",
+          "type": "people"
+        },
+        "Line status": {
+          "id": "status",
+          "type": "status"
+        },
+        "Received date": {
+          "id": "date0",
+          "type": "date"
+        },
+        "Project": {
+          "id": "project",
+          "type": "board_relation"
+        },
+        "Request line": {
+          "id": "board_relation_mm8jf34y",
+          "type": "board_relation"
+        }
+      }
+    }
+  }
 }

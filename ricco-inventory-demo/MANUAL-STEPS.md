@@ -38,6 +38,7 @@ Each entry: what, where, exact settings. **Status** is `Draft` (expected from th
 - **Where:** dashboard *Procurement Overview (Demo)*.
 - **Widget 2, Open POs by supplier:** Chart (bar), source Purchase Orders, X axis = Supplier, Y = count of items, filter Status is not Received / Closed / Cancelled.
 - **Widget 4, Spend by supplier:** Chart (bar), source Purchase Orders, X axis = Supplier, Y = sum of Total.
+- Omer (Gate 1): try to build the charts through the API first (Phase 8). Also found: `create_widget(filter)` *"works only in board views"*, so dashboard widget filters (widgets 2, 3, 6) may need setting by hand too.
 
-## M5 — Switch connect to two-way · Placeholder
-Used only if Phase 4 or 6 finds the API can't create a connect as two-way (spec §10 Phase 4.5). One entry per affected column: board, column, "Create a reflection column on the connected board" ON, expected reflection title.
+## M5 — Switch connect to two-way · Not needed
+Phase 4 confirmed the API creates two-way and multi-board connects. Kept for Phase 6 in case Sam's boards behave differently. Used only if Phase 4 or 6 finds the API can't create a connect as two-way (spec §10 Phase 4.5). One entry per affected column: board, column, "Create a reflection column on the connected board" ON, expected reflection title.
