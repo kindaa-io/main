@@ -106,6 +106,9 @@ The stock process runtime (Make, code or hybrid) is decided before the full buil
 | Status | Planned |
 | Change log | — |
 
+### Supplier override per request line (Omer, 2026-11-02)
+Planned for the full build, as shown in the client video: request lines get a **Supplier** the purchaser can change, defaulting to the product's default supplier. A07 groups lines by this chosen supplier, not by the catalogue default. Today the line's `Supplier` is a read-only mirror of the default supplier, so this needs a new connect column on request lines (→ Suppliers) plus a default-fill step on submit.
+
 ### A08 — PO approval → PDF
 | Field | Value |
 |---|---|
