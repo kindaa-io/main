@@ -9,6 +9,14 @@ When an automation is built:
 
 The stock process runtime (Make, code or hybrid) is decided before the full build. One rule holds whichever runtime is chosen: **every stock-changing operation goes through A03**, one item at a time.
 
+**Runtime decision (Omer, 2026-11-02): everything starts in Make.** Nobody on the team maintains code, so code would depend on Claude Code alone. Move a piece to code only if Make operations rise sharply or a real technical limit appears (see "Move-to-code triggers" below). To keep that move cheap:
+- A03 is **one** Make scenario with sequential processing ON. Every other scenario hands it an operation (a Pending Stock Movement or a webhook) and never writes stock fields itself. Moving later then means replacing that one scenario; the boards and the hand-off stay the same.
+- A03 skips any movement already Applied, so a re-run never double-counts.
+- A17 (nightly integrity check) runs from day 1 as the safety net.
+- Each scenario's blueprint is exported to this repo after every change, so there is version history.
+
+**Move-to-code triggers:** Make operations climbing toward the plan limit; A03 runs hitting Make's execution-time limit, or its queue backing up; A17 finding drift more than once that traces to the scenario; or logic that no longer fits routers and iterators (e.g. a supplier override plus pack rounding plus merging lines into Draft POs all at once).
+
 **Status values:** `Planned` · `Blocked – TBD with Sam` · `In build` · `Active` · `Paused` · `Retired`
 
 **Runtime values:** `Native monday automation` · `Make (scenario ID)` · `Code (path)` · `Fillout` · `TBD`
@@ -20,7 +28,7 @@ The stock process runtime (Make, code or hybrid) is decided before the full buil
 | ID | Name | Trigger | Runtime | Status |
 |---|---|---|---|---|
 | A01 | Material request form | Fillout submission | Fillout | Planned |
-| A03 | **Stock process** (single queue) | Operations from A04, A10, A13, A14, A15 | TBD (Make sequential / code) | Planned |
+| A03 | **Stock process** (single queue) | Operations from A04, A10, A13, A14, A15 | Make (one scenario, sequential) | Planned |
 | A04 | Auto-reserve on submit | Request created by the form (Status = Submitted) | TBD (enqueues to A03) | Planned |
 | A06 | New product intake | Item created in Catalogue group 🆕 New – needs review | Native / TBD | Planned |
 | A07 | PO builder | Request → Ordering | TBD | Planned |
