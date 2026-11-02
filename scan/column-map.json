@@ -69,6 +69,11 @@
         "phase": 9,
         "date": "2026-10-26",
         "result": "M3 extended in 7213714; M1/M2a/M2b created and active; all tested on test items; open Opportunities backfilled to v1"
+      },
+      {
+        "phase": "9b",
+        "date": "2026-11-02",
+        "result": "Scenario #05 keeps a single Active pricing version"
       }
     ],
     "views": {
@@ -212,6 +217,13 @@
           "hook": 3980729,
           "trigger": "change_subitem_column_value, filtered to li_catalog_item",
           "does": "overwrite rate / weeks / LS base / expert / BO from the new Catalog item"
+        },
+        "M5": {
+          "id": 8326233,
+          "hook": 4024431,
+          "trigger": "Pricing Parameters prm_status changed",
+          "does": "when a version is set Active, every other Active version is set to Archived",
+          "test_2026-11-02": "SUCCESS both ways (copy Active -> v1 Archived; v1 Active -> copy Archived). Item 'test' 13441112751, Active before the test, was archived by the first run. Test copy 13441128594 left on the board (Archived)."
         }
       },
       "blueprints": "Before/after blueprints kept in the session scratchpad, not in this repo.",
