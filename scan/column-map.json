@@ -9,7 +9,8 @@
       "18433874513": "Catalog",
       "18403700733": "Cohorts",
       "18390568732": "Projects",
-      "18390568736": "Accounts"
+      "18390568736": "Accounts",
+      "18438593326": "🔒 Team & Rates"
     },
     "make_dependents": "NOT CHECKED (Make MCP not connected; Make API returned 401)",
     "conventions": {
@@ -74,6 +75,11 @@
         "phase": "9b",
         "date": "2026-11-02",
         "result": "Scenario #05 keeps a single Active pricing version"
+      },
+      {
+        "phase": "10a",
+        "date": "2026-11-05",
+        "result": "Team & Rates board, Opportunity rate link + 7 mirrors, COGS/Price List/Discount/Final Price, #06, M1 extension, rates backfill (30 open opps)"
       }
     ],
     "views": {
@@ -92,7 +98,8 @@
       "18390568732": {
         "new columns": "287770648",
         "modified columns": "287770664"
-      }
+      },
+      "note_2026-11-05": "Opportunity 'new columns'/'modified columns' (287762127/287762146) and Projects (287770648/287770664) views were deleted by someone; client added '*Sales – Pricing*' 288545346 and 'Tests of *Sales – Pricing*' 288544473."
     },
     "api_notes": [
       "create_column 2025-04: board_relation and mirror not supported -> use 2025-10",
@@ -180,7 +187,8 @@
       "line_items": [
         "13349455069 TEST Line A",
         "13349515700 TEST Line B"
-      ]
+      ],
+      "opportunity_rates": "13472048386 TEST KINDAA RATES (CM High, Total Project Weeks 8, mkt 1000, CD live 10, learning manual 5, discount 500)"
     },
     "open": [
       "Branding columns still exist but are no longer used: Opportunity opp_branding_level ('Branding Setup'), Pricing Parameters prm_des_brand, Opportunity mirror opm_des_brand. Delete? (awaiting user)",
@@ -204,7 +212,8 @@
           "id": 8189159,
           "hook": 3980742,
           "trigger": "Opportunity create_item",
-          "does": "link Active pricing version; Margin 40, Ongoing / Customer Mgmt Low when empty"
+          "does": "link Active pricing version; Margin 40, Ongoing / Customer Mgmt Low when empty",
+          "change_2026-11-05": "Module 2 also reads op_rts_version + Active rates version (alias rates:); module 3 filter = pricing OR rates found; sets op_rts_version. Tested on TEST KINDAA RATES 13472048386. Backup backup/make/8189159_blueprint_before_rates.json"
         },
         "M2a": {
           "id": 8189111,
@@ -224,6 +233,11 @@
           "trigger": "Pricing Parameters prm_status changed",
           "does": "when a version is set Active, every other Active version is set to Archived",
           "test_2026-11-02": "SUCCESS both ways (copy Active -> v1 Archived; v1 Active -> copy Archived). Item 'test' 13441112751, Active before the test, was archived by the first run. Test copy 13441128594 left on the board (Archived)."
+        },
+        "M6": {
+          "id": 8387801,
+          "hook": 4044139,
+          "change": "5-Nov: copy of #05 for Team & Rates rts_status; tested (test version → Active archived v1, v1 → Active archived test)."
         }
       },
       "blueprints": "Before/after blueprints kept in the session scratchpad, not in this repo.",
@@ -1020,10 +1034,10 @@
     },
     "op_cm_weeks": {
       "id": "op_cm_weeks",
-      "title": "Customer Mgmt Weeks",
+      "title": "Total Project Weeks",
       "type": "numbers",
       "action": "CREATED",
-      "notes": "Phase 2, 21-Oct",
+      "notes": "Renamed by user 5-Nov (was Customer Mgmt Weeks). Option A: Customer Mgmt hours = monthly CM rate ÷ Weeks per Month × Total Project Weeks.",
       "pack_action": "CREATE (pending Q1)"
     },
     "op_margin": {
@@ -1611,6 +1625,90 @@
       "via": [
         "subitems"
       ]
+    },
+    "op_rts_version": {
+      "id": "op_rts_version",
+      "title": "⚙️Rates Version",
+      "type": "board_relation",
+      "action": "CREATED",
+      "notes": "→ Team & Rates 18438593326; set by #02 M1 on creation; open opps backfilled 5-Nov (backup/backfill_op_rts_version_*.json)"
+    },
+    "opr_pm": {
+      "id": "opr_pm",
+      "title": "⚙️PM Rate / Hour",
+      "type": "mirror",
+      "action": "CREATED",
+      "notes": "mirror of rts_pm via op_rts_version"
+    },
+    "opr_ops": {
+      "id": "opr_ops",
+      "title": "⚙️OPS Rate / Hour",
+      "type": "mirror",
+      "action": "CREATED",
+      "notes": "mirror of rts_ops via op_rts_version"
+    },
+    "opr_learning": {
+      "id": "opr_learning",
+      "title": "⚙️Learning Rate / Hour",
+      "type": "mirror",
+      "action": "CREATED",
+      "notes": "mirror of rts_learning via op_rts_version"
+    },
+    "opr_expert": {
+      "id": "opr_expert",
+      "title": "⚙️Expert (Instructor) Rate / Hour",
+      "type": "mirror",
+      "action": "CREATED",
+      "notes": "mirror of rts_expert via op_rts_version"
+    },
+    "opr_career": {
+      "id": "opr_career",
+      "title": "⚙️Career Rate / Hour",
+      "type": "mirror",
+      "action": "CREATED",
+      "notes": "mirror of rts_career via op_rts_version"
+    },
+    "opr_auto": {
+      "id": "opr_auto",
+      "title": "⚙️Automation Rate / Hour",
+      "type": "mirror",
+      "action": "CREATED",
+      "notes": "mirror of rts_auto via op_rts_version"
+    },
+    "opr_design": {
+      "id": "opr_design",
+      "title": "⚙️Design Rate / Hour",
+      "type": "mirror",
+      "action": "CREATED",
+      "notes": "mirror of rts_design via op_rts_version"
+    },
+    "op_cogs": {
+      "id": "op_cogs",
+      "title": "COGS (ILS)",
+      "type": "formula",
+      "action": "CREATED",
+      "notes": "Σ op_tot_pm/ops/learning/expert/career/auto/design × opr_* + opp_mkt_budget. Verified 5-Nov: 11178.57 on test."
+    },
+    "op_price_list": {
+      "id": "op_price_list",
+      "title": "Price List (ILS)",
+      "type": "formula",
+      "action": "CREATED",
+      "notes": "{op_cogs} * (1 + {opp_margin}) — % number reads as fraction (40% = 0.4). Markup ×1.4 confirmed by client 5-Nov."
+    },
+    "op_discount": {
+      "id": "op_discount",
+      "title": "Discount (ILS)",
+      "type": "numbers",
+      "action": "CREATED",
+      "notes": "fixed amount, not %"
+    },
+    "op_final_price": {
+      "id": "op_final_price",
+      "title": "Final Price (ILS)",
+      "type": "formula",
+      "action": "CREATED",
+      "notes": "{op_price_list} - {op_discount}"
     }
   },
   "18390568739": {
@@ -2845,6 +2943,78 @@
       "via": [
         "board_relation_mm7y54c8"
       ]
+    }
+  },
+  "team_rates": {
+    "__board__": {
+      "id": "18438593326",
+      "title": "🔒 Team & Rates",
+      "type": "board",
+      "action": "CREATED",
+      "notes": "Created 5-Nov, PRIVATE, workspace 13463480, owners Kindaa support (111441380) + Nofar (27155026). Group 'Versions' (topics). Item v1 – Nov 2026 13472018138 (Active, rates empty for Nofar to fill). Make connection 3107441 runs as Nofar's monday user and can read it (probed 5-Nov)."
+    },
+    "rts_status": {
+      "id": "rts_status",
+      "title": "Status",
+      "type": "status",
+      "action": "CREATED",
+      "notes": "Archived idx0 / Active idx1; #06 keeps one Active"
+    },
+    "rts_effective": {
+      "id": "rts_effective",
+      "title": "Effective Date",
+      "type": "date",
+      "action": "CREATED",
+      "notes": ""
+    },
+    "rts_pm": {
+      "id": "rts_pm",
+      "title": "PM Rate / Hour",
+      "type": "numbers",
+      "action": "CREATED",
+      "notes": "₪ per hour (cost)"
+    },
+    "rts_ops": {
+      "id": "rts_ops",
+      "title": "OPS Rate / Hour",
+      "type": "numbers",
+      "action": "CREATED",
+      "notes": "₪ per hour (cost)"
+    },
+    "rts_learning": {
+      "id": "rts_learning",
+      "title": "Learning Rate / Hour",
+      "type": "numbers",
+      "action": "CREATED",
+      "notes": "₪ per hour (cost)"
+    },
+    "rts_expert": {
+      "id": "rts_expert",
+      "title": "Expert (Instructor) Rate / Hour",
+      "type": "numbers",
+      "action": "CREATED",
+      "notes": "₪ per hour (cost)"
+    },
+    "rts_career": {
+      "id": "rts_career",
+      "title": "Career Rate / Hour",
+      "type": "numbers",
+      "action": "CREATED",
+      "notes": "₪ per hour (cost)"
+    },
+    "rts_auto": {
+      "id": "rts_auto",
+      "title": "Automation Rate / Hour",
+      "type": "numbers",
+      "action": "CREATED",
+      "notes": "₪ per hour (cost)"
+    },
+    "rts_design": {
+      "id": "rts_design",
+      "title": "Design Rate / Hour",
+      "type": "numbers",
+      "action": "CREATED",
+      "notes": "₪ per hour (cost)"
     }
   }
 }
