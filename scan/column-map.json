@@ -80,6 +80,11 @@
         "phase": "10a",
         "date": "2026-11-05",
         "result": "Team & Rates board, Opportunity rate link + 7 mirrors, COGS/Price List/Discount/Final Price, #06, M1 extension, rates backfill (30 open opps)"
+      },
+      {
+        "phase": "10b",
+        "date": "2026-11-05",
+        "result": "🔒 line-item fields + M2a/M2b; CM Not Sold removed; OLD manual fields hidden; Projects COGS/Price List/weeks/training hours; M3 mapping. E2E tested on TEST KINDAA RATES -> project 13472214323 + cohort 13472214381."
       }
     ],
     "views": {
@@ -99,7 +104,8 @@
         "new columns": "287770648",
         "modified columns": "287770664"
       },
-      "note_2026-11-05": "Opportunity 'new columns'/'modified columns' (287762127/287762146) and Projects (287770648/287770664) views were deleted by someone; client added '*Sales – Pricing*' 288545346 and 'Tests of *Sales – Pricing*' 288544473."
+      "note_2026-11-05": "Opportunity 'new columns'/'modified columns' (287762127/287762146) and Projects (287770648/287770664) views were deleted by someone; client added '*Sales – Pricing*' 288545346 and 'Tests of *Sales – Pricing*' 288544473.",
+      "note_hidden_2026-11-05": "OLD columns hidden in table views By Deal Stage 242518952 and Projects PM 284488055 (already hidden in the others). Before-settings: backup/view_settings_before_p10.json. Main table / non-table views cannot be changed by API."
     },
     "api_notes": [
       "create_column 2025-04: board_relation and mirror not supported -> use 2025-10",
@@ -188,7 +194,8 @@
         "13349455069 TEST Line A",
         "13349515700 TEST Line B"
       ],
-      "opportunity_rates": "13472048386 TEST KINDAA RATES (CM High, Total Project Weeks 8, mkt 1000, CD live 10, learning manual 5, discount 500)"
+      "opportunity_rates": "13472048386 TEST KINDAA RATES (CM High, Total Project Weeks 8, mkt 1000, CD live 10, learning manual 5, discount 500)",
+      "p10_e2e": "Opportunity 13472048386 (Closed Won), line 13472175964, project 13472214323, cohort 13472214381 — kept for UI check"
     },
     "open": [
       "Branding columns still exist but are no longer used: Opportunity opp_branding_level ('Branding Setup'), Pricing Parameters prm_des_brand, Opportunity mirror opm_des_brand. Delete? (awaiting user)",
@@ -206,7 +213,8 @@
         "M3": {
           "id": 7213714,
           "change": "26-Oct, built on the 25-Oct version: GraphQL line-item query (60) + SetVariables (61, readiness_gate=off); project mapping (Participants, Vertical, Timeline, Placements, Program, PM; create missing labels); cohort branch (70 iterator → 71 repeater × Quantity → 72/73 create_item in group_mm2k46ga with Project / Opportunity / Source Line Item / Catalog links); Matching Needed filter added to route 1; gate-fail route 80/81 idle while the gate is off.",
-          "gate": "Set readiness_gate in module 61 to 'on' once the Catalog has LS levels and rates."
+          "gate": "Set readiness_gate in module 61 to 'on' once the Catalog has LS levels and rates.",
+          "change_2026-11-05": "Module 46: removed text_mkydp0n (OLD participants) and color_mm6tjy7q (Placements); added prj_weeks <- op_cm_weeks; timeline to = start + weeks×7 days. Backup backup/make/7213714_blueprint_before_p10.json"
         },
         "M1": {
           "id": 8189159,
@@ -219,13 +227,15 @@
           "id": 8189111,
           "hook": 3980717,
           "trigger": "create_subitem on Opportunity",
-          "does": "link Parent Opportunity; Quantity 1 when empty; copy rate / weeks / LS base / expert / BO from Catalog where empty"
+          "does": "link Parent Opportunity; Quantity 1 when empty; copy rate / weeks / LS base / expert / BO from Catalog where empty",
+          "change_2026-11-05": "Also copies li_lsl/li_live_h/li_self_h/li_trn_c/li_cstatus/li_vert from Catalog when empty. Backup backup/make/8189111_blueprint_before_p10.json"
         },
         "M2b": {
           "id": 8189131,
           "hook": 3980729,
           "trigger": "change_subitem_column_value, filtered to li_catalog_item",
-          "does": "overwrite rate / weeks / LS base / expert / BO from the new Catalog item"
+          "does": "overwrite rate / weeks / LS base / expert / BO from the new Catalog item",
+          "change_2026-11-05": "Also overwrites the six 🔒 fields on Catalog change. Backup backup/make/8189131_blueprint_before_p10.json"
         },
         "M5": {
           "id": 8326233,
@@ -1119,10 +1129,10 @@
     },
     "opp_cohorts": {
       "id": "opp_cohorts",
-      "title": "Number of Cohorts",
+      "title": "Expected number of cohorts",
       "type": "mirror",
       "action": "KEEP",
-      "notes": "Σ li_qty via subitems",
+      "notes": "Σ li_qty via subitems | 5-Nov rename; Σ li_qty.",
       "live_title": "Number of Cohorts",
       "live_type": "mirror",
       "nonempty": 1,
@@ -1164,7 +1174,7 @@
       "title": "Verticals",
       "type": "mirror",
       "action": "KEEP",
-      "notes": "",
+      "notes": "5-Nov: re-pointed from li_vertical to li_vert (read by #01 M3 module 60).",
       "live_title": "Verticals",
       "live_type": "mirror",
       "nonempty": 1,
@@ -1181,10 +1191,10 @@
     },
     "opp_expert_hours": {
       "id": "opp_expert_hours",
-      "title": "Total Expert Hours",
+      "title": "Σ Expert Hours (lines)",
       "type": "mirror",
       "action": "REPURPOSE",
-      "notes": "Currently Σ li_expert_hours, which is itself a MIRROR (old version, to be deleted). Must be re-pointed to the new li_expert Number column before the old mirror is deleted.",
+      "notes": "Currently Σ li_expert_hours, which is itself a MIRROR (old version, to be deleted). Must be re-pointed to the new li_expert Number column before the old mirror is deleted. | 5-Nov rename (was duplicate title Total Expert Hours).",
       "pack_action": "KEEP",
       "live_title": "Total Expert Hours",
       "live_type": "mirror",
@@ -1202,10 +1212,10 @@
     },
     "opp_participants": {
       "id": "opp_participants",
-      "title": "Total Participants",
+      "title": "Overall number of participants",
       "type": "mirror",
       "action": "REPURPOSE",
-      "notes": "Currently Σ li_participants -> re-point to li_part_t.",
+      "notes": "Currently Σ li_participants -> re-point to li_part_t. | 5-Nov rename; Σ li_part_t.",
       "live_title": "Total Participants",
       "live_type": "mirror",
       "nonempty": 0,
@@ -1392,10 +1402,10 @@
     },
     "op_sum_trn": {
       "id": null,
-      "title": "Σ line TRN total",
+      "title": "Expected number of training hours (overall)",
       "type": "mirror",
       "action": "CREATE",
-      "notes": ""
+      "notes": "5-Nov rename; Σ li_trn_t."
     },
     "op_ev_pm": {
       "id": null,
@@ -1416,14 +1426,14 @@
       "title": "op_cm_pm",
       "type": "formula",
       "action": "CREATE",
-      "notes": ""
+      "notes": "5-Nov: IF(High, hi, lo) / wk_per_month * op_cm_weeks (Total Project Weeks)."
     },
     "op_cm_ops": {
       "id": null,
       "title": "op_cm_ops",
       "type": "formula",
       "action": "CREATE",
-      "notes": ""
+      "notes": "5-Nov: IF(High, hi, lo) / wk_per_month * op_cm_weeks (Total Project Weeks)."
     },
     "op_tot_pm": {
       "id": null,
@@ -1709,6 +1719,43 @@
       "type": "formula",
       "action": "CREATED",
       "notes": "{op_price_list} - {op_discount}"
+    },
+    "color_mm88m6bm": {
+      "id": "color_mm88m6bm",
+      "title": "Customer Mgmt",
+      "notes": "5-Nov: 'Not Sold' label removed (no items used it); only Low/High.",
+      "action": "MODIFIED"
+    },
+    "numeric_mm66xkfx": {
+      "id": "numeric_mm66xkfx",
+      "title": "OLD Approx. overall number of participants",
+      "notes": "5-Nov: manual, kept with history (166 filled); hidden in table views; replaced by opp_participants.",
+      "action": "MODIFIED"
+    },
+    "numeric_mm6kk1kf": {
+      "id": "numeric_mm6kk1kf",
+      "title": "OLD Expected number of cohorts",
+      "notes": "5-Nov: manual (141 filled); hidden; replaced by opp_cohorts.",
+      "action": "MODIFIED"
+    },
+    "numeric_mm66zj7": {
+      "id": "numeric_mm66zj7",
+      "title": "OLD Expected number of training hours (overall)",
+      "notes": "5-Nov: manual (140 filled); hidden; replaced by op_sum_trn.",
+      "action": "MODIFIED"
+    },
+    "numeric_mm7xtxtm": {
+      "id": "numeric_mm7xtxtm",
+      "title": "OLD Project duration (Months)",
+      "notes": "5-Nov: empty everywhere; hidden; M3 timeline now uses op_cm_weeks.",
+      "action": "MODIFIED"
+    },
+    "op_n_trn": {
+      "id": "op_n_trn",
+      "title": "⚙️# Training Hours",
+      "type": "formula",
+      "action": "CREATED",
+      "notes": "{op_sum_trn}; wrapper so Projects can mirror it (prj_trn)."
     }
   },
   "18390568739": {
@@ -1839,8 +1886,8 @@
       "id": "li_ls_level",
       "title": "Learning Services Level",
       "type": "mirror",
-      "action": "KEEP",
-      "notes": "Mirror of cat_ls_level. Catalog value is empty for all 34 products.",
+      "action": "DELETED 2026-11-05",
+      "notes": "replaced by li_lsl",
       "live_title": "Learning Services Level",
       "live_type": "mirror",
       "nonempty": 0,
@@ -1899,8 +1946,8 @@
       "id": "li_vertical",
       "title": "Vertical",
       "type": "mirror",
-      "action": "KEEP",
-      "notes": "",
+      "action": "DELETED 2026-11-05",
+      "notes": "replaced by li_vert",
       "live_title": "Vertical",
       "live_type": "mirror",
       "nonempty": 1,
@@ -1921,8 +1968,8 @@
       "id": "li_content_status",
       "title": "Content Status",
       "type": "mirror",
-      "action": "KEEP",
-      "notes": "",
+      "action": "DELETED 2026-11-05",
+      "notes": "replaced by li_cstatus",
       "live_title": "Content Status",
       "live_type": "mirror",
       "nonempty": 1,
@@ -2097,21 +2144,21 @@
       "title": "Total Live Hours",
       "type": "formula",
       "action": "CREATE",
-      "notes": ""
+      "notes": "5-Nov: {li_live_h} * {li_qty}"
     },
     "li_self_t": {
       "id": null,
       "title": "Total Self Hours",
       "type": "formula",
       "action": "CREATE",
-      "notes": ""
+      "notes": "5-Nov: {li_self_h} * {li_qty}"
     },
     "li_trn_t": {
       "id": null,
       "title": "Total Training Hours",
       "type": "formula",
       "action": "CREATE",
-      "notes": ""
+      "notes": "5-Nov: {li_trn_c} * {li_qty}"
     },
     "li_bo_t": {
       "id": null,
@@ -2221,7 +2268,7 @@
       "title": "Line Item Check",
       "type": "formula",
       "action": "UPDATE",
-      "notes": "APPROVED 21-Oct: update together with li_ready. Its 'Missing: …' text feeds M3's owner notification.",
+      "notes": "APPROVED 21-Oct: update together with li_ready. Its 'Missing: …' text feeds M3's owner notification. | 5-Nov: {li_ls_level} -> {li_lsl}",
       "pack_action": "(not in pack)",
       "live_title": "Line Item Check",
       "live_type": "formula",
@@ -2346,6 +2393,60 @@
         "Opportunity:lookup_mm893200 (COGS, mirror)"
       ],
       "formula": "0"
+    },
+    "li_lsl": {
+      "id": "li_lsl",
+      "title": "🔒 Learning Services Level",
+      "type": "status",
+      "action": "CREATED",
+      "notes": "5-Nov: editable copy of Catalog cat_ls_level, filled by #03 M2a (when empty) / #04 M2b (overwrite on Catalog change). Replaces deleted mirror li_ls_level (backup/18390568739_li_ls_level.json)."
+    },
+    "li_live_h": {
+      "id": "li_live_h",
+      "title": "🔒 Live Training Hours",
+      "type": "numbers",
+      "action": "CREATED",
+      "notes": "5-Nov: editable copy of Catalog numeric_mm7tv0sp, filled by #03 M2a (when empty) / #04 M2b (overwrite on Catalog change). Replaces deleted mirror li_live_hours (backup/18390568739_li_live_hours.json)."
+    },
+    "li_live_hours": {
+      "action": "DELETED 2026-11-05",
+      "notes": "replaced by li_live_h"
+    },
+    "li_self_h": {
+      "id": "li_self_h",
+      "title": "🔒 Self Training Hours",
+      "type": "numbers",
+      "action": "CREATED",
+      "notes": "5-Nov: editable copy of Catalog numeric_mm7t38zg, filled by #03 M2a (when empty) / #04 M2b (overwrite on Catalog change). Replaces deleted mirror li_self_hours (backup/18390568739_li_self_hours.json)."
+    },
+    "li_self_hours": {
+      "action": "DELETED 2026-11-05",
+      "notes": "replaced by li_self_h"
+    },
+    "li_trn_c": {
+      "id": "li_trn_c",
+      "title": "🔒 Total Training Hours / Cohort",
+      "type": "numbers",
+      "action": "CREATED",
+      "notes": "5-Nov: editable copy of Catalog numeric_mm7thk2x, filled by #03 M2a (when empty) / #04 M2b (overwrite on Catalog change). Replaces deleted mirror li_trn_cohort (backup/18390568739_li_trn_cohort.json)."
+    },
+    "li_trn_cohort": {
+      "action": "DELETED 2026-11-05",
+      "notes": "replaced by li_trn_c"
+    },
+    "li_cstatus": {
+      "id": "li_cstatus",
+      "title": "🔒 Content Status",
+      "type": "status",
+      "action": "CREATED",
+      "notes": "5-Nov: editable copy of Catalog color_mm7tdr8h, filled by #03 M2a (when empty) / #04 M2b (overwrite on Catalog change). Replaces deleted mirror li_content_status (backup/18390568739_li_content_status.json)."
+    },
+    "li_vert": {
+      "id": "li_vert",
+      "title": "🔒 Vertical",
+      "type": "status",
+      "action": "CREATED",
+      "notes": "5-Nov: editable copy of Catalog color_mm7tmzwg, filled by #03 M2a (when empty) / #04 M2b (overwrite on Catalog change). Replaces deleted mirror li_vertical (backup/18390568739_li_vertical.json)."
     }
   },
   "18433874513": {
@@ -2794,7 +2895,7 @@
       "title": "Price List (₪)",
       "type": "mirror",
       "action": "LEAVE",
-      "notes": "Broken: displays a non-existent Opportunity column. Leave until Nofar's Opportunity Price List / COGS columns exist, then re-point.",
+      "notes": "5-Nov: re-pointed from placeholder to op_price_list (sum).",
       "pack_action": "re-point after Nofar builds Price List / COGS",
       "live_title": "Price List (₪)",
       "live_type": "mirror",
@@ -2814,22 +2915,8 @@
       "id": "prj_cogs",
       "title": "COGS (₪)",
       "type": "mirror",
-      "action": "LEAVE",
-      "notes": "Broken: displays a non-existent Opportunity column. Leave until Nofar's Opportunity Price List / COGS columns exist, then re-point.",
-      "pack_action": "re-point after Nofar builds Price List / COGS",
-      "live_title": "COGS (₪)",
-      "live_type": "mirror",
-      "nonempty": 0,
-      "real_nonempty": 0,
-      "dependents": [],
-      "mirror_of": {
-        "18390568735": [
-          "<opp_cogs_total>"
-        ]
-      },
-      "via": [
-        "board_relation_mm7y54c8"
-      ]
+      "action": "DELETED 2026-11-05",
+      "notes": "placeholder source; API refused re-point; empty; replaced by prj_cogs_ils (backup/18390568732_prj_cogs.json)."
     },
     "prj_contract_value": {
       "id": "prj_deal_amount",
@@ -2943,6 +3030,37 @@
       "via": [
         "board_relation_mm7y54c8"
       ]
+    },
+    "text_mkydp0n": {
+      "id": "text_mkydp0n",
+      "title": "OLD # of Participants (Planned)",
+      "notes": "5-Nov: 141 filled, kept; hidden; M3 no longer writes it; use lookup_mm88t3m5."
+    },
+    "text_mm1cs1k0": {
+      "id": "text_mm1cs1k0",
+      "title": "OLD # of participants",
+      "notes": "5-Nov: 4 filled, kept; hidden."
+    },
+    "prj_weeks": {
+      "id": "prj_weeks",
+      "title": "Project Duration (Weeks)",
+      "type": "numbers",
+      "action": "CREATED",
+      "notes": "written by #01 M3 from Opportunity op_cm_weeks."
+    },
+    "prj_trn": {
+      "id": "prj_trn",
+      "title": "Expected Training Hours",
+      "type": "mirror",
+      "action": "CREATED",
+      "notes": "Σ Opportunity op_n_trn."
+    },
+    "prj_cogs_ils": {
+      "id": "prj_cogs_ils",
+      "title": "COGS (₪)",
+      "type": "mirror",
+      "action": "CREATED",
+      "notes": "Σ Opportunity op_cogs."
     }
   },
   "team_rates": {
