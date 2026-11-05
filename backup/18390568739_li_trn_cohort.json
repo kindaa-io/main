@@ -1,0 +1,58 @@
+{
+ "board": 18390568739,
+ "column": "li_trn_cohort",
+ "settings": {
+  "id": "li_trn_cohort",
+  "title": "Total Training Hours / Cohort",
+  "type": "mirror",
+  "revision": "6b5ffdcdbd3be1dc0fa89d22aae9f366",
+  "settings": {
+   "relation_column": {
+    "li_catalog_item": true
+   },
+   "displayed_linked_columns": [
+    {
+     "board_id": "18433874513",
+     "column_ids": [
+      "numeric_mm7thk2x"
+     ]
+    }
+   ]
+  },
+  "description": "Mirror of Catalog 'Total Hours (Live & Self)'."
+ },
+ "rows": [
+  {
+   "item_id": "13356419796",
+   "name": "סיכום פגישה",
+   "text": null,
+   "value": null,
+   "display_value": "40",
+   "linked_item_ids": null
+  },
+  {
+   "item_id": "13441592428",
+   "name": "1",
+   "text": null,
+   "value": null,
+   "display_value": "40",
+   "linked_item_ids": null
+  },
+  {
+   "item_id": "13441966492",
+   "name": "2",
+   "text": null,
+   "value": null,
+   "display_value": "140",
+   "linked_item_ids": null
+  },
+  {
+   "item_id": "13472175964",
+   "name": "TEST line (Kindaa)",
+   "text": null,
+   "value": null,
+   "display_value": "40",
+   "linked_item_ids": null
+  }
+ ]
+}

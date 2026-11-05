@@ -1,0 +1,58 @@
+{
+ "board": 18390568739,
+ "column": "li_live_hours",
+ "settings": {
+  "id": "li_live_hours",
+  "title": "Live Training Hours",
+  "type": "mirror",
+  "revision": "f656faecce54f663203edd394e1c98b2",
+  "settings": {
+   "relation_column": {
+    "li_catalog_item": true
+   },
+   "displayed_linked_columns": [
+    {
+     "board_id": "18433874513",
+     "column_ids": [
+      "numeric_mm7tv0sp"
+     ]
+    }
+   ]
+  },
+  "description": null
+ },
+ "rows": [
+  {
+   "item_id": "13356419796",
+   "name": "סיכום פגישה",
+   "text": null,
+   "value": null,
+   "display_value": "30",
+   "linked_item_ids": null
+  },
+  {
+   "item_id": "13441592428",
+   "name": "1",
+   "text": null,
+   "value": null,
+   "display_value": "30",
+   "linked_item_ids": null
+  },
+  {
+   "item_id": "13441966492",
+   "name": "2",
+   "text": null,
+   "value": null,
+   "display_value": "140.0",
+   "linked_item_ids": null
+  },
+  {
+   "item_id": "13472175964",
+   "name": "TEST line (Kindaa)",
+   "text": null,
+   "value": null,
+   "display_value": "30",
+   "linked_item_ids": null
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "board": 18390568739,
+ "column": "li_content_status",
+ "settings": {
+  "id": "li_content_status",
+  "title": "Content Status",
+  "type": "mirror",
+  "revision": "9d6a8becc57e1dc98636d232a5f47fb0",
+  "settings": {
+   "relation_column": {
+    "li_catalog_item": true
+   },
+   "displayed_linked_columns": [
+    {
+     "board_id": "18433874513",
+     "column_ids": [
+      "color_mm7tdr8h"
+     ]
+    }
+   ]
+  },
+  "description": null
+ },
+ "rows": [
+  {
+   "item_id": "13356419796",
+   "name": "סיכום פגישה",
+   "text": null,
+   "value": null,
+   "display_value": "Up to date",
+   "linked_item_ids": null
+  },
+  {
+   "item_id": "13441592428",
+   "name": "1",
+   "text": null,
+   "value": null,
+   "display_value": "Up to date",
+   "linked_item_ids": null
+  },
+  {
+   "item_id": "13441966492",
+   "name": "2",
+   "text": null,
+   "value": null,
+   "display_value": "Up to date",
+   "linked_item_ids": null
+  },
+  {
+   "item_id": "13472175964",
+   "name": "TEST line (Kindaa)",
+   "text": null,
+   "value": null,
+   "display_value": "Up to date",
+   "linked_item_ids": null
+  }
+ ]
+}

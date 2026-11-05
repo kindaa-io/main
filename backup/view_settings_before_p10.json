@@ -1,0 +1,3193 @@
+{
+ "242518952": {
+  "group_by": {
+   "conditions": [
+    {
+     "columnId": "color_mkyzchms",
+     "config": {
+      "sortSettings": {
+       "direction": "ASC"
+      }
+     }
+    }
+   ]
+  },
+  "columns": {
+   "column_properties": [
+    {
+     "column_id": "date_mm6622ss",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm661xe0",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6m7p7q",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm6r4cx7",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm88m6bm",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm886byb",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm88cm47",
+     "visible": false
+    },
+    {
+     "column_id": "boolean_mm88cbqy",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm885xtx",
+     "visible": false
+    }
+   ],
+   "subitems_column_properties": [],
+   "column_order": [
+    "name",
+    "board_relation_mm1b747v",
+    "board_relation_mkyzhq87",
+    "multiple_person_mkyzs737",
+    "color_mkyzchms",
+    "color_mkyd5d32",
+    "dropdown_mm63v6v9",
+    "deal_value",
+    "numeric_mkyzbg30",
+    "numeric_mkyzc1vb",
+    "deal_close_probability",
+    "dropdown_mm63zmnf",
+    "deal_close_date",
+    "numeric_mkyzv514",
+    "numeric_mkyz8mxm",
+    "color_mkyzgxkn",
+    "color_mkyz7ezk",
+    "custom_mkrmrgz6",
+    "date_mkyzhd3y",
+    "date__1",
+    "date_mkyzvjr",
+    "date_mkyznczk",
+    "color_mm1b9xkn",
+    "text_mm1bwxs2",
+    "text_mm1jxpxa",
+    "text_mm1jse3v",
+    "text_mm1jn6xc",
+    "text_mm1jrspy",
+    "text_mm1jqb76",
+    "text_mm1jderw",
+    "text_mm1jp4ka",
+    "dropdown_mm63rk93",
+    "text_mm1js226",
+    "text_mm1j3h22",
+    "text_mm1jwwsm",
+    "text_mm1jf35d",
+    "text_mm1j24z4",
+    "text_mm1jf71d",
+    "text_mm1jxr64",
+    "text_mm1jjpjd",
+    "text_mm1jkawf",
+    "text_mm1j1305",
+    "text_mm1jrs1k",
+    "text_mm1j2wx2",
+    "text_mm1j3wsg",
+    "text_mm1jagka",
+    "text_mm1jr7bk",
+    "text_mm1jam0p",
+    "text_mm1jxdqj",
+    "text_mm1j33d9",
+    "text_mm1j5kac",
+    "text_mm1jgay4",
+    "text_mm1jd9xj",
+    "text_mm1jkknb",
+    "text_mm1jgh7f",
+    "text_mm1j6pf0",
+    "text_mm1jr59x",
+    "text_mm1jpaah",
+    "text_mm1jnm59",
+    "text_mm1jd8v5",
+    "text_mm1jrt0f",
+    "text_mm1j1cw2",
+    "text_mm1jpr26",
+    "text_mm1jw7qz",
+    "text_mm1jrswy",
+    "text_mm1j2shf",
+    "text_mm1jc90m",
+    "custom_mknwwj0z",
+    "text_mkyzryqw",
+    "text_mm1jf2fj",
+    "text_mm1jqa09",
+    "text_mm1jz7vh",
+    "text_mm1j4cbc",
+    "text_mm1jgfp2",
+    "text_mm1jgb51",
+    "long_text_mm63bw68",
+    "text_mm63fga5",
+    "long_text_mm63vzep",
+    "board_relation_mkydsrf1",
+    "board_relation_mm1gqact",
+    "board_relation_mkyzs8r0",
+    "subitems",
+    "dropdown_mkyz6xpy",
+    "dropdown_mkyzq81d",
+    "dropdown_mkyzm255",
+    "text_mm1jwydx",
+    "multiple_person_mkyzb12h",
+    "deal_owner",
+    "date_mkyzavat",
+    "date_mkyzbn51",
+    "date_mkyze11k",
+    "pulse_id_mm1bq39n",
+    "color_mkyzaj4r",
+    "numeric_mkyz811b",
+    "text_mkyzna51",
+    "text_mkyzmsn0",
+    "text_mkyzdajx",
+    "text_mkyzw9tv",
+    "text_mkyz5xw2",
+    "text_mkyz1fgy",
+    "text_mkyzscat",
+    "text_mkyzdw2d",
+    "text_mkyz69p9",
+    "text_mkyz6fb2",
+    "text_mkyz8vjp",
+    "text_mkyz25az",
+    "text_mkyzxee2",
+    "text_mkyzfwcz",
+    "text_mkyzbq6n",
+    "text_mkyz66j4",
+    "text_mkyzyb7d",
+    "text_mkyzrxs0",
+    "text_mkyz5qgj",
+    "text_mkyzzcm",
+    "date_mkyzy99h",
+    "date_mkyzgf8",
+    "date_mkyzs8r6",
+    "date_mkyza16q",
+    "date_mkyzgz55",
+    "date_mkyz3sxh",
+    "date_mkyzgh06",
+    "date_mkyza7sw",
+    "date_mkyze38k",
+    "date_mkyze9zd",
+    "date_mkyz50r3",
+    "date_mkyz6cq8",
+    "date_mkyzst0p",
+    "date_mkyzqk3r",
+    "date_mkyzjh9k",
+    "date_mkyz7fk7",
+    "date_mkyzmmpx",
+    "date_mkyzmeax",
+    "date_mkyz5dnq",
+    "date_mkyzrfjj",
+    "date_mkyzt94p",
+    "date_mkyzjsvq",
+    "date_mkyzdq65",
+    "date_mkyz73cn",
+    "date_mkyz874f",
+    "date_mkyz5hec",
+    "date_mkyzwyn2",
+    "date_mkyzzea6",
+    "date_mkyzqax1",
+    "date_mkyzbwhn",
+    "date_mkyz6jqy",
+    "date_mkyzp4x7",
+    "date_mkyz3vw",
+    "date_mkyz4v44",
+    "date_mkyzvdke",
+    "date_mkyzmrcf",
+    "date_mkyz70nf",
+    "date_mkyzryqt",
+    "date_mkyzbj4g",
+    "date_mkyz1s2s",
+    "date_mkyzjhw6",
+    "date_mkyzmad8",
+    "date_mkyz8ebw",
+    "date_mkyz4ymf",
+    "date_mkyzfyzd",
+    "date_mkyz9yk5",
+    "date_mkyzreb1",
+    "date_mkyzs6v7",
+    "date_mkyz7ayw",
+    "date_mkyzw8e2",
+    "date_mkyznckk",
+    "date_mkyzgvf",
+    "date_mkyzhf8x",
+    "numeric_mkyzn3p0",
+    "deal_forecast_value",
+    "text_mkyzcww0",
+    "text_mkyzzw27",
+    "text_mkyz50s5",
+    "text_mkyzpcrx",
+    "text_mkyz8xaj",
+    "text_mkyzwy9h",
+    "text_mkyzfge9",
+    "text_mkyzbn5r",
+    "text_mkyzv942",
+    "text_mkyzdnk7",
+    "text_mkyzmmsj",
+    "text_mkyzyk6y",
+    "text_mkyzfy4n",
+    "text_mkyzt3mx",
+    "text_mkyzdesc",
+    "text_mkyzedsq",
+    "text_mkyzk6z",
+    "text_mkyzrj5p",
+    "text_mkyzx10j",
+    "text_mkyz53ph",
+    "text_mkyz6sd7",
+    "text_mkyz2mdk",
+    "text_mkyzqh0e",
+    "text_mkyzbsx3",
+    "text_mkyzdbjr",
+    "text_mkyzjwy3",
+    "text_mkyz6t6e",
+    "text_mkyz5jsv",
+    "text_mkyzfddp",
+    "text_mkyzd6k6",
+    "text_mkyz6eyp",
+    "text_mkyzyyrb",
+    "dropdown_mkyzv1vf",
+    "dropdown_mkyzsqmv",
+    "dropdown_mkyzxkcp",
+    "date_mkyzttjp",
+    "numeric_mkyzmtyp",
+    "numeric_mkyzbxm2",
+    "numeric_mkyzb58j",
+    "numeric_mkyzq0vd",
+    "text_mkyzme67",
+    "numeric_mkyz3enq",
+    "board_relation_mkyzfg00",
+    "board_relation_mkyzygq5",
+    "text_mkyze3fa",
+    "deal_account",
+    "deal_contact",
+    "text_mm1b2c70",
+    "text_mm1bbh6m",
+    "text_mm1b66hq",
+    "text_mm1bcgm6",
+    "text_mm1b18y5",
+    "text_mm1by3sw",
+    "text_mm1b16y5",
+    "text_mm1btvv8",
+    "text_mm1bz7t9",
+    "text_mm1bzdk9",
+    "text_mm1br1rj",
+    "numeric_mm63862w",
+    "text_mm1behpj",
+    "text_mm1b4fqz",
+    "text_mm1b54sg",
+    "text_mm1b9vx7",
+    "text_mm1bye9v",
+    "text_mm63860h",
+    "color_mm63ds5d",
+    "numeric_mm63ezdz",
+    "text_mm632whq",
+    "numeric_mm63tggg",
+    "text_mm63hj4y"
+   ]
+  }
+ },
+ "285808029": {
+  "group_by": {
+   "conditions": [
+    {
+     "columnId": "multiple_person_mkyzs737"
+    }
+   ],
+   "hideEmptyGroups": true
+  },
+  "columns": {
+   "column_properties": [
+    {
+     "column_id": "subitems",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6rjta6",
+     "visible": false
+    },
+    {
+     "column_id": "color_mkyd5d32",
+     "visible": false
+    },
+    {
+     "column_id": "boolean_mm6qkfvk",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6cacm6",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm66d80a",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm63v6v9",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm1b747v",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm66ybeg",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm6ds2pw",
+     "visible": false
+    },
+    {
+     "column_id": "date_mkyzvjr",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6m9g2p",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6697sr",
+     "visible": false
+    },
+    {
+     "column_id": "long_text_mm69w6tq",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jf2fj",
+     "visible": false
+    },
+    {
+     "column_id": "link_mm664x3p",
+     "visible": false
+    },
+    {
+     "column_id": "link_mm6kgma8",
+     "visible": false
+    },
+    {
+     "column_id": "file_mm66qc04",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm6ge3xc",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66r5r8",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm66fs1h",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66d12n",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j24z4",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mkyz8mxm",
+     "visible": false
+    },
+    {
+     "column_id": "deal_close_probability",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm665sx7",
+     "visible": false
+    },
+    {
+     "column_id": "long_text_mm66y9zh",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm1b9xkn",
+     "visible": false
+    },
+    {
+     "column_id": "file_mm668ew2",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jderw",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm663pkq",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm669n5d",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j1305",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm66xkfx",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6kk1kf",
+     "visible": false
+    },
+    {
+     "column_id": "timerange_mm66c6q6",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jgay4",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm7yfjxw",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm7xtxtm",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm66zj7",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66nae7",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66m9w1",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j5kac",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66x1zh",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66j07v",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6kd4k9",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66x3y2",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66cssh",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66v3pr",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6tx1t1",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6kkv3f",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm66n56h",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6t3pr0",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jw7qz",
+     "visible": false
+    },
+    {
+     "column_id": "long_text_mm66c3wg",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j2shf",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm6929h0",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm69tx34",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm696k1x",
+     "visible": false
+    },
+    {
+     "column_id": "multiple_person_mm66jz8e",
+     "visible": false
+    },
+    {
+     "column_id": "multiple_person_mm66vf",
+     "visible": false
+    },
+    {
+     "column_id": "date_mkyzavat",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mkydsrf1",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6ms3fd",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm1gqact",
+     "visible": false
+    },
+    {
+     "column_id": "pulse_updated_mm664maq",
+     "visible": false
+    },
+    {
+     "column_id": "custom_mkrmrgz6",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g3f6j",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g35jh",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g7652",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6gyr4q",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g6ntg",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6mh3bh",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6m7p7q",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm6db97w",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm6gqa7x",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm6jeh2w",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm6mnd66",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6rd6v2",
+     "visible": false
+    },
+    {
+     "column_id": "deal_contact",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6re20f",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81zd7j",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81z8ms",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81efv6",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81sqw6",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8167c0",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81pgwd",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81qcrj",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81ga1h",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81gvtt",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81bt9z",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm814stx",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81yh6w",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81x93h",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81tn7a",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81rswk",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm813z4",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81zcp3",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm88m6bm",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm886byb",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm88cm47",
+     "visible": false
+    },
+    {
+     "column_id": "boolean_mm88cbqy",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm885xtx",
+     "visible": false
+    }
+   ],
+   "column_order": [
+    "name",
+    "multiple_person_mkyzs737",
+    "color_mkyzchms",
+    "deal_value",
+    "color_mm6gsmdt",
+    "numeric_mm817h9j",
+    "date_mm816c6c",
+    "date_mkyzbn51",
+    "formula_mm81zhjc",
+    "formula_mm8178tp",
+    "formula_mm81x88q",
+    "formula_mm814cfs",
+    "formula_mm81pedz",
+    "formula_mm81f6ry"
+   ]
+  }
+ },
+ "285808039": {
+  "columns": {
+   "column_properties": [
+    {
+     "column_id": "subitems",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6rjta6",
+     "visible": false
+    },
+    {
+     "column_id": "color_mkyd5d32",
+     "visible": false
+    },
+    {
+     "column_id": "boolean_mm6qkfvk",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6cacm6",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm66d80a",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm63v6v9",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm1b747v",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm66ybeg",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm6ds2pw",
+     "visible": false
+    },
+    {
+     "column_id": "date_mkyzvjr",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6m9g2p",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6697sr",
+     "visible": false
+    },
+    {
+     "column_id": "long_text_mm69w6tq",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jf2fj",
+     "visible": false
+    },
+    {
+     "column_id": "link_mm664x3p",
+     "visible": false
+    },
+    {
+     "column_id": "link_mm6kgma8",
+     "visible": false
+    },
+    {
+     "column_id": "file_mm66qc04",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm6ge3xc",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66r5r8",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm66fs1h",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66d12n",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j24z4",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mkyz8mxm",
+     "visible": false
+    },
+    {
+     "column_id": "deal_close_probability",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm665sx7",
+     "visible": false
+    },
+    {
+     "column_id": "long_text_mm66y9zh",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm1b9xkn",
+     "visible": false
+    },
+    {
+     "column_id": "file_mm668ew2",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jderw",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm663pkq",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm669n5d",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j1305",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm66xkfx",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6kk1kf",
+     "visible": false
+    },
+    {
+     "column_id": "timerange_mm66c6q6",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jgay4",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm7yfjxw",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm7xtxtm",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm66zj7",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66nae7",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66m9w1",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j5kac",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66x1zh",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66j07v",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6kd4k9",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66x3y2",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66cssh",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66v3pr",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6tx1t1",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6kkv3f",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm66n56h",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6t3pr0",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jw7qz",
+     "visible": false
+    },
+    {
+     "column_id": "long_text_mm66c3wg",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j2shf",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm6929h0",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm69tx34",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm696k1x",
+     "visible": false
+    },
+    {
+     "column_id": "multiple_person_mm66jz8e",
+     "visible": false
+    },
+    {
+     "column_id": "multiple_person_mm66vf",
+     "visible": false
+    },
+    {
+     "column_id": "date_mkyzbn51",
+     "visible": false
+    },
+    {
+     "column_id": "date_mkyzavat",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mkydsrf1",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6ms3fd",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm1gqact",
+     "visible": false
+    },
+    {
+     "column_id": "pulse_updated_mm664maq",
+     "visible": false
+    },
+    {
+     "column_id": "custom_mkrmrgz6",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g3f6j",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g35jh",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g7652",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6gyr4q",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g6ntg",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6mh3bh",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6m7p7q",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm6db97w",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm6gqa7x",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm6jeh2w",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm6mnd66",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6rd6v2",
+     "visible": false
+    },
+    {
+     "column_id": "deal_contact",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6re20f",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm816c6c",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81zd7j",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81z8ms",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81efv6",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81sqw6",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8167c0",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81zhjc",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8178tp",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81x88q",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm814cfs",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81pedz",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81f6ry",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81pgwd",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81qcrj",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81ga1h",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81gvtt",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81bt9z",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm814stx",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81yh6w",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81x93h",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81tn7a",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81rswk",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm813z4",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81zcp3",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm88m6bm",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm886byb",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm88cm47",
+     "visible": false
+    },
+    {
+     "column_id": "boolean_mm88cbqy",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm885xtx",
+     "visible": false
+    }
+   ],
+   "column_order": [
+    "name",
+    "multiple_person_mkyzs737",
+    "color_mkyzchms",
+    "color_mm6gsmdt",
+    "deal_value",
+    "numeric_mm817h9j"
+   ]
+  }
+ },
+ "288544473": {
+  "columns": {
+   "column_properties": [
+    {
+     "column_id": "opp_li_count",
+     "visible": false
+    },
+    {
+     "column_id": "multiple_person_mkyzs737",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6rjta6",
+     "visible": false
+    },
+    {
+     "column_id": "color_mkyd5d32",
+     "visible": false
+    },
+    {
+     "column_id": "boolean_mm6qkfvk",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6cacm6",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm66d80a",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm63v6v9",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm1b747v",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm66ybeg",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm6ds2pw",
+     "visible": false
+    },
+    {
+     "column_id": "date_mkyzvjr",
+     "visible": false
+    },
+    {
+     "column_id": "deal_value",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6m9g2p",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6gsmdt",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6697sr",
+     "visible": false
+    },
+    {
+     "column_id": "long_text_mm69w6tq",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jf2fj",
+     "visible": false
+    },
+    {
+     "column_id": "link_mm664x3p",
+     "visible": false
+    },
+    {
+     "column_id": "link_mm6kgma8",
+     "visible": false
+    },
+    {
+     "column_id": "file_mm66qc04",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm6ge3xc",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66r5r8",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm66fs1h",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mkyz8mxm",
+     "visible": false
+    },
+    {
+     "column_id": "deal_close_probability",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm665sx7",
+     "visible": false
+    },
+    {
+     "column_id": "long_text_mm66y9zh",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm1b9xkn",
+     "visible": false
+    },
+    {
+     "column_id": "file_mm668ew2",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jderw",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm663pkq",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm669n5d",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j1305",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm66xkfx",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6kk1kf",
+     "visible": false
+    },
+    {
+     "column_id": "timerange_mm66c6q6",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jgay4",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm7yfjxw",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm7xtxtm",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm66zj7",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66nae7",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66m9w1",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j5kac",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66x1zh",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66j07v",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6kd4k9",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66v3pr",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6tx1t1",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6kkv3f",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm66n56h",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6t3pr0",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jw7qz",
+     "visible": false
+    },
+    {
+     "column_id": "long_text_mm66c3wg",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j2shf",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm6929h0",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm69tx34",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm696k1x",
+     "visible": false
+    },
+    {
+     "column_id": "multiple_person_mm66jz8e",
+     "visible": false
+    },
+    {
+     "column_id": "multiple_person_mm66vf",
+     "visible": false
+    },
+    {
+     "column_id": "date_mkyzbn51",
+     "visible": false
+    },
+    {
+     "column_id": "date_mkyzavat",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mkydsrf1",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6ms3fd",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm1gqact",
+     "visible": false
+    },
+    {
+     "column_id": "pulse_updated_mm664maq",
+     "visible": false
+    },
+    {
+     "column_id": "custom_mkrmrgz6",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g3f6j",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g35jh",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g7652",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6gyr4q",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g6ntg",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6mh3bh",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6m7p7q",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm6db97w",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm6gqa7x",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm6jeh2w",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm6mnd66",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6rd6v2",
+     "visible": false
+    },
+    {
+     "column_id": "deal_contact",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6re20f",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm817h9j",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81zd7j",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81z8ms",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81efv6",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81sqw6",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8167c0",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81zhjc",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8178tp",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81x88q",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm814cfs",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81pedz",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81f6ry",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81pgwd",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81qcrj",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81ga1h",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81gvtt",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81bt9z",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm814stx",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81yh6w",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81x93h",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81tn7a",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81rswk",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm813z4",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81zcp3",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm832296",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83k8b5",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83yeej",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm837df5",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8321h5",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83p93r",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83ate0",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83esbd",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83ndz",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83cfm6",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83f9br",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83qb6n",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83qdd6",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm834d5g",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83ec6y",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8342za",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83e8qn",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83t4jq",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83x54t",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm837by",
+     "visible": false
+    },
+    {
+     "column_id": "opp_li_ready",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm88m5jj",
+     "visible": false
+    }
+   ],
+   "subitems_column_properties": [
+    {
+     "column_id": "li_line_count",
+     "visible": false
+    },
+    {
+     "column_id": "li_ls_hours_calc",
+     "visible": false
+    },
+    {
+     "column_id": "li_expert_calc",
+     "visible": false
+    },
+    {
+     "column_id": "li_vertical_txt",
+     "visible": false
+    }
+   ],
+   "column_order": [
+    "name",
+    "color_mkyzchms",
+    "formula_mm884cg8",
+    "color_mm66cssh",
+    "op_website",
+    "opp_admission_level",
+    "color_mm88m6bm",
+    "color_mm886byb",
+    "color_mm66x3y2",
+    "opp_branding_level",
+    "opp_mkt_level",
+    "opp_mkt_budget",
+    "opp_branding_setup",
+    "boolean_mm88cbqy",
+    "opp_event_level",
+    "opp_events",
+    "opp_support_level",
+    "opp_cd_self_hours",
+    "opp_cd_live_hours",
+    "color_mm885xtx",
+    "opp_customer_mgmt",
+    "opp_learning_manual",
+    "opp_margin",
+    "opp_li_confirmed",
+    "color_mm8830n1",
+    "opp_cohorts",
+    "lookup_mm88cm47",
+    "opp_participants",
+    "opp_cohort_months",
+    "opp_ls_hours",
+    "opp_expert_hours",
+    "lookup_mm89667w",
+    "lookup_mm89s51s",
+    "lookup_mm894g60",
+    "lookup_mm89k0tq",
+    "subitems",
+    "multiple_person_mkyzs737",
+    "formula_mm6rjta6",
+    "color_mkyd5d32",
+    "boolean_mm6qkfvk",
+    "dropdown_mm6cacm6",
+    "date_mm66d80a",
+    "dropdown_mm63v6v9",
+    "board_relation_mm1b747v",
+    "lookup_mm66ybeg",
+    "lookup_mm6ds2pw",
+    "date_mkyzvjr",
+    "deal_value",
+    "formula_mm6m9g2p",
+    "color_mm6gsmdt",
+    "color_mm6697sr",
+    "long_text_mm69w6tq",
+    "text_mm1jf2fj",
+    "link_mm664x3p",
+    "link_mm6kgma8",
+    "file_mm66qc04",
+    "lookup_mm6ge3xc",
+    "dropdown_mm66r5r8",
+    "text_mm66fs1h",
+    "numeric_mkyz8mxm",
+    "deal_close_probability",
+    "color_mm665sx7",
+    "long_text_mm66y9zh",
+    "color_mm1b9xkn",
+    "file_mm668ew2",
+    "text_mm1jderw",
+    "color_mm663pkq",
+    "color_mm669n5d",
+    "text_mm1j1305",
+    "numeric_mm66xkfx",
+    "numeric_mm6kk1kf",
+    "timerange_mm66c6q6",
+    "text_mm1jgay4",
+    "date_mm7yfjxw",
+    "numeric_mm7xtxtm",
+    "numeric_mm66zj7",
+    "color_mm66nae7",
+    "color_mm66m9w1",
+    "text_mm1j5kac",
+    "dropdown_mm66x1zh",
+    "dropdown_mm66j07v",
+    "dropdown_mm6kd4k9",
+    "color_mm66v3pr",
+    "color_mm6tx1t1",
+    "numeric_mm6kkv3f",
+    "numeric_mm66n56h",
+    "color_mm6t3pr0",
+    "text_mm1jw7qz",
+    "long_text_mm66c3wg",
+    "text_mm1j2shf",
+    "board_relation_mm6929h0",
+    "lookup_mm69tx34",
+    "lookup_mm696k1x",
+    "multiple_person_mm66jz8e",
+    "multiple_person_mm66vf",
+    "date_mkyzbn51",
+    "date_mkyzavat",
+    "board_relation_mkydsrf1",
+    "color_mm6ms3fd",
+    "board_relation_mm1gqact",
+    "pulse_updated_mm664maq",
+    "custom_mkrmrgz6",
+    "numeric_mm6g3f6j",
+    "numeric_mm6g35jh",
+    "numeric_mm6g7652",
+    "numeric_mm6gyr4q",
+    "numeric_mm6g6ntg",
+    "formula_mm6mh3bh",
+    "formula_mm6m7p7q",
+    "date_mm6db97w",
+    "text_mm6gqa7x",
+    "text_mm6jeh2w",
+    "text_mm6mnd66",
+    "color_mm6rd6v2",
+    "deal_contact",
+    "dropdown_mm6re20f",
+    "numeric_mm817h9j",
+    "formula_mm81zd7j",
+    "formula_mm81z8ms",
+    "formula_mm81efv6",
+    "formula_mm81sqw6",
+    "formula_mm8167c0",
+    "formula_mm81zhjc",
+    "formula_mm8178tp",
+    "formula_mm81x88q",
+    "formula_mm814cfs",
+    "formula_mm81pedz",
+    "formula_mm81f6ry",
+    "formula_mm81pgwd",
+    "formula_mm81qcrj",
+    "formula_mm81ga1h",
+    "formula_mm81gvtt",
+    "formula_mm81bt9z",
+    "formula_mm814stx",
+    "formula_mm81yh6w",
+    "formula_mm81x93h",
+    "formula_mm81tn7a",
+    "formula_mm81rswk",
+    "formula_mm813z4",
+    "formula_mm81zcp3",
+    "formula_mm832296",
+    "formula_mm83k8b5",
+    "formula_mm83yeej",
+    "formula_mm837df5",
+    "formula_mm8321h5",
+    "formula_mm83p93r",
+    "formula_mm83ate0",
+    "formula_mm83esbd",
+    "formula_mm83ndz",
+    "formula_mm83cfm6",
+    "formula_mm83f9br",
+    "formula_mm83qb6n",
+    "formula_mm83qdd6",
+    "formula_mm834d5g",
+    "formula_mm83ec6y",
+    "formula_mm8342za",
+    "formula_mm83e8qn",
+    "formula_mm83t4jq",
+    "formula_mm83x54t",
+    "formula_mm837by",
+    "opp_li_ready",
+    "board_relation_mm88m5jj",
+    "lookup_mm89ydqn",
+    "lookup_mm89qv7b",
+    "lookup_mm896pxy",
+    "lookup_mm893200",
+    "opp_verticals",
+    "text_mm88x4s7",
+    "short_textq6oy0o42",
+    "formula_mm8bhjrw",
+    "formula_mm8byp30",
+    "formula_mm8bgj3x",
+    "op_cm_weeks",
+    "op_prm_version",
+    "opm_setup_pm",
+    "opm_setup_ops",
+    "opm_adm_lo_pm",
+    "opm_adm_lo_ops",
+    "opm_adm_hi_pm",
+    "opm_adm_hi_ops",
+    "opm_mkt_lo_pm",
+    "opm_mkt_lo_ops",
+    "opm_mkt_hi_pm",
+    "opm_mkt_hi_ops",
+    "opm_ong_lo_pm_m",
+    "opm_ong_lo_ops_m",
+    "opm_ong_hi_pm_m",
+    "opm_ong_hi_ops_m",
+    "opm_cm_lo_pm_m",
+    "opm_cm_lo_ops_m",
+    "opm_cm_hi_pm_m",
+    "opm_cm_hi_ops_m",
+    "opm_wk_per_month",
+    "opm_ev_lo_pm",
+    "opm_ev_lo_ops",
+    "opm_ev_hi_pm",
+    "opm_ev_hi_ops",
+    "opm_car_adm",
+    "opm_car_ws",
+    "opm_car_sup",
+    "opm_car_wk",
+    "opm_auto",
+    "opm_des_tpl",
+    "opm_des_brand",
+    "opm_des_web_lo",
+    "opm_des_web_hi",
+    "opm_des_adm",
+    "opm_ls_per_cohort",
+    "opm_dev_live_ls",
+    "opm_dev_live_exp",
+    "opm_dev_self_ls",
+    "opm_dev_self_exp",
+    "op_r_pm_cohort",
+    "op_r_ops_cohort",
+    "op_r_pm_week",
+    "op_r_ops_week",
+    "op_r_car_cohort",
+    "op_r_car_week",
+    "op_r_auto_cohort",
+    "op_r_des_cohort",
+    "op_r_ls_per_cohort",
+    "op_sum_bo",
+    "op_sum_live",
+    "op_sum_self",
+    "op_sum_trn",
+    "op_li_count",
+    "op_ev_pm",
+    "op_ev_ops",
+    "op_cm_pm",
+    "op_cm_ops",
+    "op_tot_pm",
+    "op_tot_ops",
+    "op_tot_learning",
+    "op_tot_expert",
+    "op_tot_career",
+    "op_tot_auto",
+    "op_tot_design",
+    "op_n_cohorts",
+    "op_n_participants"
+   ]
+  }
+ },
+ "288545346": {
+  "group_by": {
+   "conditions": [],
+   "hideEmptyGroups": false
+  },
+  "columns": {
+   "column_properties": [
+    {
+     "column_id": "opp_li_count",
+     "visible": false
+    },
+    {
+     "column_id": "multiple_person_mkyzs737",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6rjta6",
+     "visible": false
+    },
+    {
+     "column_id": "color_mkyd5d32",
+     "visible": false
+    },
+    {
+     "column_id": "boolean_mm6qkfvk",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6cacm6",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm66d80a",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm63v6v9",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm1b747v",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm66ybeg",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm6ds2pw",
+     "visible": false
+    },
+    {
+     "column_id": "date_mkyzvjr",
+     "visible": false
+    },
+    {
+     "column_id": "deal_value",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6m9g2p",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6gsmdt",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6697sr",
+     "visible": false
+    },
+    {
+     "column_id": "long_text_mm69w6tq",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jf2fj",
+     "visible": false
+    },
+    {
+     "column_id": "link_mm664x3p",
+     "visible": false
+    },
+    {
+     "column_id": "link_mm6kgma8",
+     "visible": false
+    },
+    {
+     "column_id": "file_mm66qc04",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm6ge3xc",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66r5r8",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm66fs1h",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mkyz8mxm",
+     "visible": false
+    },
+    {
+     "column_id": "deal_close_probability",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm665sx7",
+     "visible": false
+    },
+    {
+     "column_id": "long_text_mm66y9zh",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm1b9xkn",
+     "visible": false
+    },
+    {
+     "column_id": "file_mm668ew2",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jderw",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm663pkq",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm669n5d",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j1305",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm66xkfx",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6kk1kf",
+     "visible": false
+    },
+    {
+     "column_id": "timerange_mm66c6q6",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jgay4",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm7yfjxw",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm7xtxtm",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm66zj7",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66nae7",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66m9w1",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j5kac",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66x1zh",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm66j07v",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6kd4k9",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm66v3pr",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6tx1t1",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6kkv3f",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm66n56h",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6t3pr0",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1jw7qz",
+     "visible": false
+    },
+    {
+     "column_id": "long_text_mm66c3wg",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1j2shf",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm6929h0",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm69tx34",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm696k1x",
+     "visible": false
+    },
+    {
+     "column_id": "multiple_person_mm66jz8e",
+     "visible": false
+    },
+    {
+     "column_id": "multiple_person_mm66vf",
+     "visible": false
+    },
+    {
+     "column_id": "date_mkyzbn51",
+     "visible": false
+    },
+    {
+     "column_id": "date_mkyzavat",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mkydsrf1",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6ms3fd",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm1gqact",
+     "visible": false
+    },
+    {
+     "column_id": "pulse_updated_mm664maq",
+     "visible": false
+    },
+    {
+     "column_id": "custom_mkrmrgz6",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g3f6j",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g35jh",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g7652",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6gyr4q",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm6g6ntg",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6mh3bh",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm6m7p7q",
+     "visible": false
+    },
+    {
+     "column_id": "date_mm6db97w",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm6gqa7x",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm6jeh2w",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm6mnd66",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm6rd6v2",
+     "visible": false
+    },
+    {
+     "column_id": "deal_contact",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6re20f",
+     "visible": false
+    },
+    {
+     "column_id": "numeric_mm817h9j",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81zd7j",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81z8ms",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81efv6",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81sqw6",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8167c0",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81zhjc",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8178tp",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81x88q",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm814cfs",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81pedz",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81f6ry",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81pgwd",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81qcrj",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81ga1h",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81gvtt",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81bt9z",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm814stx",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81yh6w",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81x93h",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81tn7a",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81rswk",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm813z4",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm81zcp3",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm832296",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83k8b5",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83yeej",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm837df5",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8321h5",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83p93r",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83ate0",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83esbd",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83ndz",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83cfm6",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83f9br",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83qb6n",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83qdd6",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm834d5g",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83ec6y",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8342za",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83e8qn",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83t4jq",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm83x54t",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm837by",
+     "visible": false
+    },
+    {
+     "column_id": "opp_li_ready",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm88m5jj",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm88x4s7",
+     "visible": false
+    },
+    {
+     "column_id": "op_prm_version",
+     "visible": false
+    },
+    {
+     "column_id": "opm_setup_pm",
+     "visible": false
+    },
+    {
+     "column_id": "opm_setup_ops",
+     "visible": false
+    },
+    {
+     "column_id": "opm_adm_lo_pm",
+     "visible": false
+    },
+    {
+     "column_id": "opm_adm_lo_ops",
+     "visible": false
+    },
+    {
+     "column_id": "opm_adm_hi_pm",
+     "visible": false
+    },
+    {
+     "column_id": "opm_adm_hi_ops",
+     "visible": false
+    },
+    {
+     "column_id": "opm_mkt_lo_pm",
+     "visible": false
+    },
+    {
+     "column_id": "opm_mkt_lo_ops",
+     "visible": false
+    },
+    {
+     "column_id": "opm_mkt_hi_pm",
+     "visible": false
+    },
+    {
+     "column_id": "opm_mkt_hi_ops",
+     "visible": false
+    },
+    {
+     "column_id": "opm_ong_lo_pm_m",
+     "visible": false
+    },
+    {
+     "column_id": "opm_ong_lo_ops_m",
+     "visible": false
+    },
+    {
+     "column_id": "opm_ong_hi_pm_m",
+     "visible": false
+    },
+    {
+     "column_id": "opm_ong_hi_ops_m",
+     "visible": false
+    },
+    {
+     "column_id": "opm_cm_lo_ops_m",
+     "visible": false
+    },
+    {
+     "column_id": "opm_cm_lo_pm_m",
+     "visible": false
+    },
+    {
+     "column_id": "opm_cm_hi_ops_m",
+     "visible": false
+    },
+    {
+     "column_id": "opm_cm_hi_pm_m",
+     "visible": false
+    },
+    {
+     "column_id": "opm_wk_per_month",
+     "visible": false
+    },
+    {
+     "column_id": "opm_ev_lo_pm",
+     "visible": false
+    },
+    {
+     "column_id": "opm_ev_lo_ops",
+     "visible": false
+    },
+    {
+     "column_id": "opm_ev_hi_pm",
+     "visible": false
+    },
+    {
+     "column_id": "opm_ev_hi_ops",
+     "visible": false
+    },
+    {
+     "column_id": "opm_car_adm",
+     "visible": false
+    },
+    {
+     "column_id": "opm_car_ws",
+     "visible": false
+    },
+    {
+     "column_id": "opm_car_sup",
+     "visible": false
+    },
+    {
+     "column_id": "opm_car_wk",
+     "visible": false
+    },
+    {
+     "column_id": "opm_auto",
+     "visible": false
+    },
+    {
+     "column_id": "opm_des_tpl",
+     "visible": false
+    },
+    {
+     "column_id": "opm_des_brand",
+     "visible": false
+    },
+    {
+     "column_id": "opm_des_web_lo",
+     "visible": false
+    },
+    {
+     "column_id": "opm_des_web_hi",
+     "visible": false
+    },
+    {
+     "column_id": "opm_des_adm",
+     "visible": false
+    },
+    {
+     "column_id": "opm_ls_per_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "opm_dev_live_ls",
+     "visible": false
+    },
+    {
+     "column_id": "opm_dev_live_exp",
+     "visible": false
+    },
+    {
+     "column_id": "opm_dev_self_ls",
+     "visible": false
+    },
+    {
+     "column_id": "opm_dev_self_exp",
+     "visible": false
+    },
+    {
+     "column_id": "op_r_pm_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "op_r_ops_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "op_r_pm_week",
+     "visible": false
+    },
+    {
+     "column_id": "op_r_ops_week",
+     "visible": false
+    },
+    {
+     "column_id": "op_r_car_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "op_r_car_week",
+     "visible": false
+    },
+    {
+     "column_id": "op_r_auto_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "op_r_des_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "op_r_ls_per_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "op_li_count",
+     "visible": false
+    },
+    {
+     "column_id": "op_ev_pm",
+     "visible": false
+    },
+    {
+     "column_id": "op_ev_ops",
+     "visible": false
+    },
+    {
+     "column_id": "op_cm_pm",
+     "visible": false
+    },
+    {
+     "column_id": "op_cm_ops",
+     "visible": false
+    },
+    {
+     "column_id": "op_n_cohorts",
+     "visible": false
+    },
+    {
+     "column_id": "op_n_participants",
+     "visible": false
+    },
+    {
+     "column_id": "short_textq6oy0o42",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8bhjrw",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8byp30",
+     "visible": false
+    },
+    {
+     "column_id": "formula_mm8bgj3x",
+     "visible": false
+    },
+    {
+     "column_id": "connect_boardsjf9cld",
+     "visible": false
+    }
+   ],
+   "subitems_column_properties": [
+    {
+     "column_id": "li_line_count",
+     "visible": false
+    },
+    {
+     "column_id": "li_ls_hours_calc",
+     "visible": false
+    },
+    {
+     "column_id": "li_expert_calc",
+     "visible": false
+    },
+    {
+     "column_id": "li_vertical_txt",
+     "visible": false
+    },
+    {
+     "column_id": "li_ready",
+     "visible": false
+    },
+    {
+     "column_id": "li_parent_opp",
+     "visible": false
+    },
+    {
+     "column_id": "li_r_pm_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "li_r_ops_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "li_r_pm_week",
+     "visible": false
+    },
+    {
+     "column_id": "li_r_ops_week",
+     "visible": false
+    },
+    {
+     "column_id": "li_r_car_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "li_r_car_week",
+     "visible": false
+    },
+    {
+     "column_id": "li_r_auto_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "li_r_des_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "li_r_ls_per_cohort",
+     "visible": false
+    },
+    {
+     "column_id": "li_one",
+     "visible": false
+    }
+   ],
+   "column_order": [
+    "name",
+    "color_mkyzchms",
+    "formula_mm884cg8",
+    "color_mm66cssh",
+    "op_website",
+    "opp_admission_level",
+    "color_mm88m6bm",
+    "color_mm886byb",
+    "color_mm66x3y2",
+    "opp_branding_level",
+    "opp_mkt_level",
+    "opp_mkt_budget",
+    "opp_branding_setup",
+    "boolean_mm88cbqy",
+    "opp_event_level",
+    "opp_events",
+    "opp_support_level",
+    "opp_cd_self_hours",
+    "op_cm_weeks",
+    "opp_cd_live_hours",
+    "color_mm885xtx",
+    "opp_customer_mgmt",
+    "opp_learning_manual",
+    "opp_li_confirmed",
+    "color_mm8830n1",
+    "op_n_trn",
+    "opp_cohorts",
+    "lookup_mm88cm47",
+    "opp_participants",
+    "opp_cohort_months",
+    "opp_ls_hours",
+    "opp_expert_hours",
+    "lookup_mm89667w",
+    "lookup_mm89s51s",
+    "lookup_mm894g60",
+    "lookup_mm89k0tq",
+    "subitems",
+    "multiple_person_mkyzs737",
+    "formula_mm6rjta6",
+    "color_mkyd5d32",
+    "boolean_mm6qkfvk",
+    "dropdown_mm6cacm6",
+    "date_mm66d80a",
+    "dropdown_mm63v6v9",
+    "board_relation_mm1b747v",
+    "lookup_mm66ybeg",
+    "lookup_mm6ds2pw",
+    "date_mkyzvjr",
+    "deal_value",
+    "formula_mm6m9g2p",
+    "color_mm6gsmdt",
+    "color_mm6697sr",
+    "long_text_mm69w6tq",
+    "text_mm1jf2fj",
+    "link_mm664x3p",
+    "link_mm6kgma8",
+    "file_mm66qc04",
+    "lookup_mm6ge3xc",
+    "dropdown_mm66r5r8",
+    "text_mm66fs1h",
+    "numeric_mkyz8mxm",
+    "deal_close_probability",
+    "color_mm665sx7",
+    "long_text_mm66y9zh",
+    "color_mm1b9xkn",
+    "file_mm668ew2",
+    "text_mm1jderw",
+    "color_mm663pkq",
+    "color_mm669n5d",
+    "text_mm1j1305",
+    "numeric_mm66xkfx",
+    "numeric_mm6kk1kf",
+    "timerange_mm66c6q6",
+    "text_mm1jgay4",
+    "date_mm7yfjxw",
+    "numeric_mm7xtxtm",
+    "numeric_mm66zj7",
+    "color_mm66nae7",
+    "color_mm66m9w1",
+    "text_mm1j5kac",
+    "dropdown_mm66x1zh",
+    "dropdown_mm66j07v",
+    "dropdown_mm6kd4k9",
+    "color_mm66v3pr",
+    "color_mm6tx1t1",
+    "numeric_mm6kkv3f",
+    "numeric_mm66n56h",
+    "color_mm6t3pr0",
+    "text_mm1jw7qz",
+    "long_text_mm66c3wg",
+    "text_mm1j2shf",
+    "board_relation_mm6929h0",
+    "lookup_mm69tx34",
+    "lookup_mm696k1x",
+    "multiple_person_mm66jz8e",
+    "multiple_person_mm66vf",
+    "date_mkyzbn51",
+    "date_mkyzavat",
+    "board_relation_mkydsrf1",
+    "color_mm6ms3fd",
+    "board_relation_mm1gqact",
+    "pulse_updated_mm664maq",
+    "custom_mkrmrgz6",
+    "numeric_mm6g3f6j",
+    "numeric_mm6g35jh",
+    "numeric_mm6g7652",
+    "numeric_mm6gyr4q",
+    "numeric_mm6g6ntg",
+    "formula_mm6mh3bh",
+    "formula_mm6m7p7q",
+    "date_mm6db97w",
+    "text_mm6gqa7x",
+    "text_mm6jeh2w",
+    "text_mm6mnd66",
+    "color_mm6rd6v2",
+    "deal_contact",
+    "dropdown_mm6re20f",
+    "numeric_mm817h9j",
+    "formula_mm81zd7j",
+    "formula_mm81z8ms",
+    "formula_mm81efv6",
+    "formula_mm81sqw6",
+    "formula_mm8167c0",
+    "formula_mm81zhjc",
+    "formula_mm8178tp",
+    "formula_mm81x88q",
+    "formula_mm814cfs",
+    "formula_mm81pedz",
+    "formula_mm81f6ry",
+    "formula_mm81pgwd",
+    "formula_mm81qcrj",
+    "formula_mm81ga1h",
+    "formula_mm81gvtt",
+    "formula_mm81bt9z",
+    "formula_mm814stx",
+    "formula_mm81yh6w",
+    "formula_mm81x93h",
+    "formula_mm81tn7a",
+    "formula_mm81rswk",
+    "formula_mm813z4",
+    "formula_mm81zcp3",
+    "formula_mm832296",
+    "formula_mm83k8b5",
+    "formula_mm83yeej",
+    "formula_mm837df5",
+    "formula_mm8321h5",
+    "formula_mm83p93r",
+    "formula_mm83ate0",
+    "formula_mm83esbd",
+    "formula_mm83ndz",
+    "formula_mm83cfm6",
+    "formula_mm83f9br",
+    "formula_mm83qb6n",
+    "formula_mm83qdd6",
+    "formula_mm834d5g",
+    "formula_mm83ec6y",
+    "formula_mm8342za",
+    "formula_mm83e8qn",
+    "formula_mm83t4jq",
+    "formula_mm83x54t",
+    "formula_mm837by",
+    "opp_li_ready",
+    "board_relation_mm88m5jj",
+    "lookup_mm89ydqn",
+    "lookup_mm89qv7b",
+    "lookup_mm896pxy",
+    "lookup_mm893200",
+    "opp_verticals",
+    "text_mm88x4s7",
+    "short_textq6oy0o42",
+    "formula_mm8bhjrw",
+    "formula_mm8byp30",
+    "formula_mm8bgj3x",
+    "op_prm_version",
+    "opm_setup_pm",
+    "opm_setup_ops",
+    "opm_adm_lo_pm",
+    "opm_adm_lo_ops",
+    "opm_adm_hi_pm",
+    "opm_adm_hi_ops",
+    "opm_mkt_lo_pm",
+    "opm_mkt_lo_ops",
+    "opm_mkt_hi_pm",
+    "opm_mkt_hi_ops",
+    "opm_ong_lo_pm_m",
+    "opm_ong_lo_ops_m",
+    "opm_ong_hi_pm_m",
+    "opm_ong_hi_ops_m",
+    "opm_cm_lo_pm_m",
+    "opm_cm_lo_ops_m",
+    "opm_cm_hi_pm_m",
+    "opm_cm_hi_ops_m",
+    "opm_wk_per_month",
+    "opm_ev_lo_pm",
+    "opm_ev_lo_ops",
+    "opm_ev_hi_pm",
+    "opm_ev_hi_ops",
+    "opm_car_adm",
+    "opm_car_ws",
+    "opm_car_sup",
+    "opm_car_wk",
+    "opm_auto",
+    "opm_des_tpl",
+    "opm_des_brand",
+    "opm_des_web_lo",
+    "opm_des_web_hi",
+    "opm_des_adm",
+    "opm_ls_per_cohort",
+    "opm_dev_live_ls",
+    "opm_dev_live_exp",
+    "opm_dev_self_ls",
+    "opm_dev_self_exp",
+    "op_r_pm_cohort",
+    "op_r_ops_cohort",
+    "op_r_pm_week",
+    "op_r_ops_week",
+    "op_r_car_cohort",
+    "op_r_car_week",
+    "op_r_auto_cohort",
+    "op_r_des_cohort",
+    "op_r_ls_per_cohort",
+    "op_sum_bo",
+    "op_sum_live",
+    "op_sum_self",
+    "op_sum_trn",
+    "op_li_count",
+    "op_ev_pm",
+    "op_ev_ops",
+    "op_cm_pm",
+    "op_cm_ops",
+    "op_tot_pm",
+    "op_tot_ops",
+    "op_tot_learning",
+    "op_tot_expert",
+    "op_tot_career",
+    "op_tot_auto",
+    "op_tot_design",
+    "op_n_cohorts",
+    "op_n_participants",
+    "connect_boardsjf9cld",
+    "op_rts_version",
+    "opr_pm",
+    "opr_ops",
+    "opr_learning",
+    "opr_expert",
+    "opr_career",
+    "opr_auto",
+    "opr_design",
+    "op_cogs",
+    "op_price_list",
+    "opp_margin",
+    "op_discount",
+    "op_final_price"
+   ]
+  }
+ },
+ "284488055": {
+  "columns": {
+   "column_properties": [
+    {
+     "column_id": "project_timeline",
+     "visible": false
+    },
+    {
+     "column_id": "dropdown_mm6tvd4w",
+     "visible": false
+    },
+    {
+     "column_id": "text_mkydk6rb",
+     "visible": false
+    },
+    {
+     "column_id": "text_mkyd6jq6",
+     "visible": false
+    },
+    {
+     "column_id": "text_mkyd4djq",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1cfpfb",
+     "visible": false
+    },
+    {
+     "column_id": "text_mm1c3xzy",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm6tqhqy",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm7v48kj",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm6jq90h",
+     "visible": false
+    },
+    {
+     "column_id": "pulse_log_mm7eepcv",
+     "visible": false
+    },
+    {
+     "column_id": "color_mm7y3bn9",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm8825n1",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm88t3m5",
+     "visible": false
+    },
+    {
+     "column_id": "prj_mkt_budget",
+     "visible": false
+    },
+    {
+     "column_id": "prj_margin",
+     "visible": false
+    },
+    {
+     "column_id": "prj_cogs",
+     "visible": false
+    },
+    {
+     "column_id": "prj_pricelist",
+     "visible": false
+    },
+    {
+     "column_id": "prj_deal_amount",
+     "visible": false
+    },
+    {
+     "column_id": "prj_design_hours",
+     "visible": false
+    },
+    {
+     "column_id": "prj_auto_hours",
+     "visible": false
+    },
+    {
+     "column_id": "prj_learning_hours",
+     "visible": false
+    },
+    {
+     "column_id": "prj_career_hours",
+     "visible": false
+    },
+    {
+     "column_id": "pulse_updated_mm7yd5k8",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm8gvvh",
+     "visible": false
+    },
+    {
+     "column_id": "lookup_mm82bs7e",
+     "visible": false
+    },
+    {
+     "column_id": "prj_expert",
+     "visible": false
+    },
+    {
+     "column_id": "prj_tot_learning",
+     "visible": false
+    },
+    {
+     "column_id": "prj_tot_career",
+     "visible": false
+    },
+    {
+     "column_id": "prj_tot_auto",
+     "visible": false
+    },
+    {
+     "column_id": "prj_tot_design",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm8fjcnp",
+     "visible": false
+    },
+    {
+     "column_id": "board_relation_mm8gvt7p",
+     "visible": false
+    }
+   ],
+   "subitems_column_properties": []
+  }
+ }
+}

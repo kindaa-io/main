@@ -1,0 +1,58 @@
+{
+ "board": 18390568739,
+ "column": "li_ls_level",
+ "settings": {
+  "id": "li_ls_level",
+  "title": "Learning Services Level",
+  "type": "mirror",
+  "revision": "1e25958cce6432cebaeb2fc734d8b174",
+  "settings": {
+   "relation_column": {
+    "li_catalog_item": true
+   },
+   "displayed_linked_columns": [
+    {
+     "board_id": "18433874513",
+     "column_ids": [
+      "cat_ls_level"
+     ]
+    }
+   ]
+  },
+  "description": null
+ },
+ "rows": [
+  {
+   "item_id": "13356419796",
+   "name": "סיכום פגישה",
+   "text": null,
+   "value": null,
+   "display_value": "High",
+   "linked_item_ids": null
+  },
+  {
+   "item_id": "13441592428",
+   "name": "1",
+   "text": null,
+   "value": null,
+   "display_value": "High",
+   "linked_item_ids": null
+  },
+  {
+   "item_id": "13441966492",
+   "name": "2",
+   "text": null,
+   "value": null,
+   "display_value": "Low",
+   "linked_item_ids": null
+  },
+  {
+   "item_id": "13472175964",
+   "name": "TEST line (Kindaa)",
+   "text": null,
+   "value": null,
+   "display_value": "High",
+   "linked_item_ids": null
+  }
+ ]
+}
